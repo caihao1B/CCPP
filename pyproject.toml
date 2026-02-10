@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fieldplan-offline"
+version = "0.1.0"
+description = "Offline coverage planning (square grid + clustering/TSP + segment export) for ROS2/Nav2 FollowPath."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "shapely>=2.0",
+  "networkx>=3.0",
+  "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+ml = ["scikit-learn>=1.3"]
+metis = ["pymetis>=2023.1"]
+
+[project.scripts]
+fieldplan-plan-grid = "fieldplan_offline.cli.plan_grid:main"
+fieldplan-plan-boustrophedon = "fieldplan_offline.cli.plan_boustrophedon:main"
+fieldplan-visualize-plan = "fieldplan_offline.cli.visualize_plan:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
