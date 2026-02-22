@@ -24,6 +24,7 @@ src/fieldplan_offline/models/graph_square.py
 src/fieldplan_offline/models/grid_square.py
 src/fieldplan_offline/planners/__init__.py
 src/fieldplan_offline/planners/baseline_astar_greedy.py
+src/fieldplan_offline/planners/boustrophedon_bcd.py
 src/fieldplan_offline/planners/boustrophedon_continuous.py
 src/fieldplan_offline/planners/clu_tsp.py
 src/fieldplan_offline/planners/clustering.py
@@ -35,5 +36,6 @@ src/fieldplan_offline/postprocess/__init__.py
 src/fieldplan_offline/postprocess/downsample.py
 src/fieldplan_offline/postprocess/headings.py
 src/fieldplan_offline/postprocess/metrics.py
+src/fieldplan_offline/postprocess/plan_postprocess.py
 src/fieldplan_offline/postprocess/segment.py
 tests/test_imports.py
