@@ -23,6 +23,7 @@ class BaseGrid:
         cell_size: float,
         min_area_ratio: float = 0.2,
         keep_blocked: bool = True,
+        prune_isolated: bool = True,
     ):
         self.field = field
         self.obstacles = obstacles
@@ -33,7 +34,8 @@ class BaseGrid:
         self._obs_tree = STRtree(obstacles) if obstacles else None
         self.cells: List[Cell] = []
         self._build()
-        self._prune_isolated()
+        if prune_isolated:
+            self._prune_isolated()
 
     def _is_free(self, poly: Polygon) -> bool:
         if not self.field.intersects(poly):
@@ -96,5 +98,6 @@ def build_square_grid(
     cell_size: float = 3.0,
     min_area_ratio: float = 0.2,
     keep_blocked: bool = True,
+    prune_isolated: bool = True,
 ) -> SquareGrid:
-    return SquareGrid(field, obstacles, cell_size, min_area_ratio, keep_blocked)
+    return SquareGrid(field, obstacles, cell_size, min_area_ratio, keep_blocked, prune_isolated)

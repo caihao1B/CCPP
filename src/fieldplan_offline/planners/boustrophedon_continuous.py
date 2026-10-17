@@ -43,6 +43,10 @@ def compute_boustrophedon_segments(
       - generate parallel lines, intersect with free space
       - output polyline segments (each a list of (x,y)) in boustrophedon order
     """
+    if not math.isfinite(swath_spacing) or swath_spacing <= 0:
+        raise ValueError("swath_spacing must be positive and finite")
+    if not math.isfinite(margin) or margin < 0:
+        raise ValueError("margin must be nonnegative and finite")
     if sweep_angle_deg is None:
         sweep_angle_deg = _long_axis_angle(field)
 
