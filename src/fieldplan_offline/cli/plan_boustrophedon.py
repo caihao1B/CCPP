@@ -4,12 +4,16 @@ import argparse
 import math
 from pathlib import Path
 
+from shapely.ops import unary_union
+
+from fieldplan_offline.io.path_safety import NoSafePathError, covers_segment, validate_path
+
 from fieldplan_offline.export.export_path_csv import save_flat_path_csv
 from fieldplan_offline.export.export_plan_json import save_plan
 from fieldplan_offline.export.plan_schema import Plan, Segment
 from fieldplan_offline.io.geojson_loader import load_field_geojson
 from fieldplan_offline.io.validate_geom import make_valid_polygons
-from fieldplan_offline.planners.boustrophedon_bcd import plan_boustrophedon_bcd
+from fieldplan_offline.planners.boustrophedon_bcd import build_grid_connector, plan_boustrophedon_bcd
 from fieldplan_offline.planners.boustrophedon_continuous import compute_boustrophedon_segments
 from fieldplan_offline.postprocess.headings import xy_to_poses
 
@@ -26,7 +30,7 @@ def _straight_connector(a, b, step: float) -> list[tuple[float, float]]:
     return [(ax + (bx - ax) * i / (n - 1), ay + (by - ay) * i / (n - 1)) for i in range(n)]
 
 
-def main():
+def _main():
     ap = argparse.ArgumentParser("Generate plan.json using boustrophedon coverage planners")
     ap.add_argument("--geojson", type=Path, required=True)
 
@@ -46,13 +50,14 @@ def main():
     )
 
     # continuous connectors
-    ap.add_argument("--connect", choices=["straight", "none"], default="straight")
+    ap.add_argument("--connect", choices=["straight", "none"], default="straight",
+                    help="straight: checked straight line, A* if blocked; none: separate rows")
     ap.add_argument("--turn_step", type=float, default=1.0)
 
     # BCD options
     ap.add_argument("--order", choices=["dfs", "tsp"], default="dfs", help="Cell traversal order for BCD")
     ap.add_argument("--sweep_angle", type=float, default=None, help="Override sweep angle (deg)")
-    ap.add_argument("--connect_cell", type=float, default=None, help="Connector grid cell size (m)")
+    ap.add_argument("--connect_cell", type=float, default=None, help="Connector grid cell size for either method (m)")
     ap.add_argument("--connect_step", type=float, default=None, help="Sampling step for internal connector densify (m)")
     ap.add_argument("--crit_tol", type=float, default=None, help="Critical x quantization tol (m)")
     ap.add_argument("--slab_min_width", type=float, default=None, help="Minimum slab width (m)")
@@ -73,12 +78,19 @@ def main():
             obstacles,
             swath_spacing=args.spacing,
             margin=args.margin,
+            sweep_angle_deg=args.sweep_angle,
             sample_step=args.step,
         )
 
+        row_segs = [pts for pts in row_segs if len(pts) >= 2]
+        if not row_segs:
+            raise NoSafePathError("No coverage rows in free space")
+        field_m = field.buffer(-args.margin) if args.margin else field
+        obstacles_m = [o.buffer(args.margin) if args.margin else o for o in obstacles]
+        free = field_m.difference(unary_union(obstacles_m)) if obstacles_m else field_m
+        connector = None  # Build the existing BCD A* graph only if needed.
         for i, pts in enumerate(row_segs):
-            if len(pts) < 2:
-                continue
+            validate_path(free, pts, context=f"continuous row {i}")
 
             segments.append(
                 Segment(
@@ -94,8 +106,20 @@ def main():
 
             if args.connect == "straight" and i < len(row_segs) - 1:
                 a = pts[-1]
-                b = row_segs[i + 1][0] if row_segs[i + 1] else a
-                conn = _straight_connector(a, b, step=args.turn_step)
+                b = row_segs[i + 1][0]
+                if covers_segment(free, a, b):
+                    conn = _straight_connector(a, b, step=args.turn_step)
+                else:
+                    if connector is None:
+                        cell_size = args.connect_cell if args.connect_cell is not None else max(0.2, min(0.5, args.spacing * 0.5))
+                        connector = build_grid_connector(field_m, obstacles_m, cell_size=cell_size)
+                    route = connector.shortest_path_xy(a, b)
+                    # Densify each edge separately: retain every A* corner.
+                    conn = []
+                    for u, v in zip(route, route[1:]):
+                        conn.extend(_straight_connector(u, v, step=args.turn_step)[:-1])
+                    conn.append(route[-1])
+                validate_path(free, conn, context=f"continuous connection {i} -> {i + 1}")
                 if len(conn) >= 2:
                     segments.append(
                         Segment(
@@ -109,7 +133,10 @@ def main():
                     )
                     sid += 1
 
-        plan_meta = {"planner": "boustrophedon_continuous", "spacing": args.spacing, "margin": args.margin, **meta}
+        if args.connect != "none":
+            validate_path(free, [(p.x, p.y) for s in segments for p in s.poses], context="continuous plan")
+        plan_meta = {"planner": "boustrophedon_continuous", "spacing": args.spacing,
+                     "margin": args.margin, "connect": args.connect, **meta}
 
     else:
         seg_specs, extra = plan_boustrophedon_bcd(
@@ -161,6 +188,13 @@ def main():
     if args.out_csv:
         save_flat_path_csv(plan, args.out_csv)
         print(f"[ok] wrote {args.out_csv}")
+
+
+def main():
+    try:
+        _main()
+    except NoSafePathError as exc:
+        raise SystemExit(f"Planning failed: {exc}") from exc
 
 
 if __name__ == "__main__":

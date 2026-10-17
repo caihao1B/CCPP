@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field as dataclass_field
 from typing import Any, Dict, List, Optional, Tuple
 
 import math
@@ -10,6 +10,11 @@ import numpy as np
 from shapely import affinity
 from shapely.geometry import GeometryCollection, LineString, MultiPolygon, Point, Polygon, box
 from shapely.ops import unary_union
+from shapely.prepared import prep
+
+from fieldplan_offline.io.path_safety import (
+    GEOMETRY_TOL, NoSafePathError, covers_segment as _covers_segment, validate_path,
+)
 
 from fieldplan_offline.models.graph_square import build_cell_graph
 from fieldplan_offline.models.grid_square import build_square_grid
@@ -41,28 +46,46 @@ class GridConnector:
     centers: np.ndarray
     free_r: Polygon | MultiPolygon
 
+    _attachments: dict = dataclass_field(default_factory=dict, init=False, repr=False)
+
+    def __post_init__(self):
+        self._allowed = prep(self.free_r.buffer(GEOMETRY_TOL))
+
     def nearest_node(self, pt: Tuple[float, float]) -> int:
+        """Nearest *visible* node; never silently discard an exact endpoint."""
+        pt = tuple(pt)
+        if pt in self._attachments:
+            return self._attachments[pt]
+        if not self._allowed.covers(Point(pt)):
+            raise NoSafePathError(f"Connector endpoint outside free space: {pt}")
         p = np.asarray(pt, dtype=float)
         d2 = np.sum((self.centers - p[None, :]) ** 2, axis=1)
-        return int(self.ids[int(np.argmin(d2))])
+        for idx in np.argsort(d2):
+            node = int(self.ids[idx])
+            center = self.node_center[node]
+            edge = Point(pt) if pt == center else LineString([pt, center])
+            if self._allowed.covers(edge):
+                self._attachments[pt] = node
+                return node
+        raise NoSafePathError(f"No visible connector grid node from {pt}; refine cell_size.")
 
     def shortest_path_nodes(self, a: Tuple[float, float], b: Tuple[float, float]) -> List[int]:
         s = self.nearest_node(a)
         g = self.nearest_node(b)
 
         def h(u: int, v: int) -> float:
-            ax, ay = self.node_center[u]
-            bx, by = self.node_center[v]
-            return math.hypot(ax - bx, ay - by)
+            return math.dist(self.node_center[u], self.node_center[v])
 
         try:
-            return nx.astar_path(self.graph, s, g, heuristic=h, weight=None)
-        except Exception:
-            return nx.shortest_path(self.graph, s, g)
+            return nx.astar_path(self.graph, s, g, heuristic=h, weight="weight")
+        except (nx.NetworkXNoPath, nx.NodeNotFound) as exc:
+            raise NoSafePathError(
+                f"No safe grid connection: {a} -> {b}; check connectivity or refine cell_size."
+            ) from exc
 
     def shortest_path_length(self, a: Tuple[float, float], b: Tuple[float, float]) -> float:
-        nodes = self.shortest_path_nodes(a, b)
-        return float(max(0, len(nodes) - 1))
+        pts = self.shortest_path_xy(a, b)
+        return sum(math.dist(u, v) for u, v in zip(pts, pts[1:]))
 
     def shortest_path_xy(
         self,
@@ -70,23 +93,19 @@ class GridConnector:
         b: Tuple[float, float],
         *,
         include_endpoints: bool = True,
-        tol: float = 1e-6,
+        tol: float = GEOMETRY_TOL,
     ) -> List[Tuple[float, float]]:
+        # Preserve the old grid-only option, but full connections prefer safe straight lines.
+        if include_endpoints and _covers_segment(self.free_r, a, b, tol=tol):
+            return [a] if a == b else [a, b]
         nodes = self.shortest_path_nodes(a, b)
         pts = [self.node_center[n] for n in nodes]
-        if not pts:
-            return [a, b] if include_endpoints else []
-
-        # Optionally add exact endpoints if they can be safely connected
         if include_endpoints:
-            first = pts[0]
-            last = pts[-1]
-            if _covers_segment(self.free_r, a, first, tol=tol):
-                pts = [a] + pts
-            if _covers_segment(self.free_r, last, b, tol=tol):
-                pts = pts + [b]
-
-        return _dedup_consecutive(pts)
+            pts = [a] + pts + [b]
+        # Preserve exact endpoints, including very short connections.
+        pts = _dedup_consecutive(pts, eps=0.0)
+        validate_path(self.free_r, pts, context=f"connector {a} -> {b}")
+        return pts
 
 
 # =============================================================================
@@ -150,12 +169,6 @@ def _collect_critical_x(free_r: Polygon | MultiPolygon, *, tol: float) -> List[f
     if not xs:
         return []
     return sorted({_quantize(x, tol) for x in xs})
-
-
-def _covers_segment(poly: Polygon | MultiPolygon, a: Tuple[float, float], b: Tuple[float, float], *, tol: float) -> bool:
-    """True if the segment [a,b] is covered by poly (inside or on boundary)."""
-    seg = LineString([a, b])
-    return poly.buffer(tol).covers(seg)
 
 
 def _dedup_consecutive(pts: List[Tuple[float, float]], *, eps: float = 1e-9) -> List[Tuple[float, float]]:
@@ -399,7 +412,7 @@ def cover_cell_boustrophedon(
     Between consecutive swaths, we try:
       1) simple in-cell connector (guaranteed inside if it passes coverage test),
       2) grid-based connector (A* on free-space grid),
-      3) fallback straight connector.
+      3) explicit failure if neither connection is safe.
 
     Returns a single polyline (list of xy).
     """
@@ -467,7 +480,7 @@ def cover_cell_boustrophedon(
             elif connector is not None:
                 conn_pts = connector.shortest_path_xy(path[-1], start_pt, include_endpoints=True, tol=tol)
             else:
-                conn_pts = [path[-1], start_pt]
+                raise NoSafePathError(f"No safe in-cell connection: {path[-1]} -> {start_pt}")
 
             # densify connector
             if len(conn_pts) >= 2 and connector_step and connector_step > 0:
@@ -488,7 +501,10 @@ def cover_cell_boustrophedon(
         prev_end_is_top = end_is_top
         direction_up = not direction_up
 
-    return _dedup_consecutive(path)
+    path = _dedup_consecutive(path, eps=0.0)
+    if path:
+        validate_path(connector.free_r if connector else cell_poly_r, path, context="cell coverage")
+    return path
 
 
 # =============================================================================
@@ -509,39 +525,37 @@ def build_grid_connector(
     - we additionally require the cell center to be inside free-space, so path vertices
       (centers) won't drift outside field boundary in concave boundaries.
     """
+    if not math.isfinite(cell_size) or cell_size <= 0:
+        raise ValueError("connector cell_size must be positive and finite")
     grid = build_square_grid(
         field_r,
         obstacles_r,
         cell_size=cell_size,
         min_area_ratio=min_area_ratio,
         keep_blocked=True,
+        prune_isolated=False,
     )
 
     free_r = field_r
     if obstacles_r:
         free_r = field_r.difference(unary_union(obstacles_r))
 
-    # Filter: require center inside free space
-    buf = max(1e-9, cell_size * 1e-4)
+    # Check centers AND complete graph edges (concave boundaries can cut an edge
+    # even when both centers lie inside). Keep all components for honest failures.
+    allowed = prep(free_r.buffer(GEOMETRY_TOL))
     for c in grid.cells:
-        if c.walkable and (not free_r.buffer(buf).covers(Point(c.center))):
+        if c.walkable and not allowed.covers(Point(c.center)):
             c.walkable = False
-
-    # Build graph and keep only the largest connected component
     G = build_cell_graph(grid)
-    if G.number_of_nodes() == 0:
-        raise RuntimeError("No walkable cells in connector grid (check margin/cell_size).")
-
-    main = max(nx.connected_components(G), key=len)
-    for c in grid.cells:
-        if c.walkable and c.cell_number not in main:
-            c.walkable = False
-
-    G = build_cell_graph(grid)
-    node_center: Dict[int, Tuple[float, float]] = {}
-    for c in grid.cells:
-        if c.walkable and c.cell_number in G:
-            node_center[c.cell_number] = (float(c.center[0]), float(c.center[1]))
+    node_center = {c.cell_number: (float(c.center[0]), float(c.center[1]))
+                   for c in grid.cells if c.walkable and c.cell_number in G}
+    for u, v in list(G.edges):
+        if not allowed.covers(LineString([node_center[u], node_center[v]])):
+            G.remove_edge(u, v)
+        else:
+            G[u][v]["weight"] = math.dist(node_center[u], node_center[v])
+    if not node_center:
+        raise NoSafePathError("No walkable connector grid nodes; check margin/cell_size.")
 
     ids = np.array(list(node_center.keys()), dtype=int)
     centers = np.array(list(node_center.values()), dtype=float)
@@ -579,6 +593,10 @@ def plan_boustrophedon_bcd(
       segments: list of dict {kind: "row"/"turn", points: [(x,y)...], meta: {...}}
       meta: planner-level metadata
     """
+    if not math.isfinite(swath_spacing) or swath_spacing <= 0:
+        raise ValueError("swath_spacing must be positive and finite")
+    if not math.isfinite(margin) or margin < 0:
+        raise ValueError("margin must be nonnegative and finite")
     if sweep_angle_deg is None:
         sweep_angle_deg = _long_axis_angle(field)
 
@@ -659,8 +677,15 @@ def plan_boustrophedon_bcd(
 
         # choose orientation to reduce connection cost
         if prev_end is not None:
-            cost_fwd = connector.shortest_path_length(prev_end, path[0])
-            cost_rev = connector.shortest_path_length(prev_end, path[-1])
+            def connection_cost(endpoint):
+                try:
+                    return connector.shortest_path_length(prev_end, endpoint)
+                except NoSafePathError:
+                    return math.inf
+            cost_fwd = connection_cost(path[0])
+            cost_rev = connection_cost(path[-1])
+            if math.isinf(cost_fwd) and math.isinf(cost_rev):
+                raise NoSafePathError(f"No safe connection from cell {prev_cid} to cell {cid}")
             if cost_rev + 1e-9 < cost_fwd:
                 path = list(reversed(path))
 
@@ -698,6 +723,10 @@ def plan_boustrophedon_bcd(
     for s in segments_r:
         pts = [rot_back(p) for p in s["points"]]
         segments_out.append({"kind": s["kind"], "points": pts, "meta": s.get("meta", {})})
+
+    # Flattening also checks every seam that a JSON/CSV consumer will traverse.
+    if segments_out:
+        validate_path(free, [p for s in segments_out for p in s["points"]], context="BCD plan")
 
     meta: Dict[str, Any] = {
         "planner": "boustrophedon_bcd",
