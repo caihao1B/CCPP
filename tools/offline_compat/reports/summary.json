@@ -1,0 +1,968 @@
+{
+  "simulation_tested": false,
+  "python": "3.12.14",
+  "dependencies": {
+    "shapely": "2.1.2",
+    "PyYAML": "6.0.3",
+    "Pillow": "11.3.0",
+    "numpy": "2.3.5"
+  },
+  "provenance": {
+    "ccpp_main": "c59ef20dc986fa8df50837ca34361a2dbb4a0b09",
+    "ccpp_pr1": "8fa580bb53ed14bce4b87422ac38b569650fcb61",
+    "ros2_main": "f523316be5e83863b27a52507708648a1d752a1f",
+    "plan_io_sha256": "15ad34b4ac85e3bd1a482fe3a75629f86e72b6e3079125a1a7cc2838327637e0",
+    "profile_sha256": "c26d10bc7031dca770c3e9d97f10b2aa82737deba1472b34c30fba3375ec4d4c",
+    "executor_node_sha256": "5e93c74c14073797588d737b1939330dd55d5a781e55a516654ab827876ae218",
+    "bt_supervisor_sha256": "f4ae8e1a2ed63eec44f82ce58aecaef7acd57d914f8b85980373b75ae7f966c6"
+  },
+  "results": {
+    "safe": {
+      "status": "OFFLINE_PASS",
+      "exit_code": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/a8981bc7d9e4/CCPP/tools/offline_compat/validate.py",
+        "--plan",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/safe.json",
+        "--source-geojson",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/field.geojson",
+        "--target-geojson",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/field.geojson",
+        "--map-yaml",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/map.yaml",
+        "--manifest",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/safe.manifest.json",
+        "--out",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/safe"
+      ],
+      "input_hashes": {
+        "plan": "33f55be19954ce8d25bb2305882cf6e45733163cb51b68de29e1c12e8425b7dd",
+        "source_geojson": "a7ebc44354dfe0ea8aca7ec3af9fc2ee524488340520de4e12d30338d2da04d3",
+        "target_geojson": "a7ebc44354dfe0ea8aca7ec3af9fc2ee524488340520de4e12d30338d2da04d3",
+        "map_yaml": "40ef19662584eb996e5ce132a45ce71a2d5dafa4dc71e3c814edc01837d08a7d",
+        "manifest": "1cf833e7596c40899fec4361010c1ede5c003657f89f0da5749a00b65d8b1832"
+      },
+      "before": {
+        "segment_count": 1,
+        "kinds": {
+          "row": 1
+        },
+        "pose_count": 3,
+        "path_length_m": 2.0,
+        "seam_length_m": 0,
+        "bounds": [
+          1.0,
+          1.0,
+          3.0,
+          1.0
+        ],
+        "discontinuous_seams": 0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "after": {
+        "segment_count": 1,
+        "kinds": {
+          "row": 1
+        },
+        "pose_count": 3,
+        "path_length_m": 2.0,
+        "seam_length_m": 0,
+        "bounds": [
+          1.0,
+          1.0,
+          3.0,
+          1.0
+        ],
+        "discontinuous_seams": 0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "delta": {
+        "segments": 0,
+        "poses": 0,
+        "internal_length_m": 0.0,
+        "total_length_including_seams_m": 0.0
+      },
+      "findings": []
+    },
+    "short_turn": {
+      "status": "BLOCKED",
+      "exit_code": 1,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/a8981bc7d9e4/CCPP/tools/offline_compat/validate.py",
+        "--plan",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/short_turn.json",
+        "--source-geojson",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/field.geojson",
+        "--target-geojson",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/field.geojson",
+        "--map-yaml",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/map.yaml",
+        "--manifest",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/short_turn.manifest.json",
+        "--out",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/short_turn"
+      ],
+      "input_hashes": {
+        "plan": "cc25c7d782c0e64aaf05f14cf97facbd16c9ad6f10f095ab58ffbe7e88f2eb22",
+        "source_geojson": "a7ebc44354dfe0ea8aca7ec3af9fc2ee524488340520de4e12d30338d2da04d3",
+        "target_geojson": "a7ebc44354dfe0ea8aca7ec3af9fc2ee524488340520de4e12d30338d2da04d3",
+        "map_yaml": "40ef19662584eb996e5ce132a45ce71a2d5dafa4dc71e3c814edc01837d08a7d",
+        "manifest": "604a699a0cfa90d96a69affa79e913274950bbf66ea6c6c0a9f20eaf45b6dd8b"
+      },
+      "before": {
+        "segment_count": 3,
+        "kinds": {
+          "row": 2,
+          "turn": 1
+        },
+        "pose_count": 9,
+        "path_length_m": 4.5,
+        "seam_length_m": 0.0,
+        "bounds": [
+          1.0,
+          1.0,
+          3.0,
+          1.5
+        ],
+        "discontinuous_seams": 0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "after": {
+        "segment_count": 2,
+        "kinds": {
+          "row": 2
+        },
+        "pose_count": 8,
+        "path_length_m": 4.5,
+        "seam_length_m": 0.0,
+        "bounds": [
+          1.0,
+          1.0,
+          3.0,
+          1.5
+        ],
+        "discontinuous_seams": 0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "delta": {
+        "segments": -1,
+        "poses": -1,
+        "internal_length_m": 0.0,
+        "total_length_including_seams_m": 0.0
+      },
+      "findings": [
+        {
+          "code": "KIND_SEMANTICS_LOST",
+          "origin": "executor_merge",
+          "blocks_import": true,
+          "count": 1
+        },
+        {
+          "code": "LENGTH_METADATA_MISMATCH",
+          "origin": "executor_merge",
+          "blocks_import": true,
+          "count": 1
+        }
+      ]
+    },
+    "short_turn_merge_off": {
+      "status": "OFFLINE_PASS",
+      "exit_code": 0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/a8981bc7d9e4/CCPP/tools/offline_compat/validate.py",
+        "--plan",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/short_turn.json",
+        "--source-geojson",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/field.geojson",
+        "--target-geojson",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/field.geojson",
+        "--map-yaml",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/map.yaml",
+        "--manifest",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/short_turn.manifest.json",
+        "--merge",
+        "off",
+        "--out",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/short_turn_merge_off"
+      ],
+      "input_hashes": {
+        "plan": "cc25c7d782c0e64aaf05f14cf97facbd16c9ad6f10f095ab58ffbe7e88f2eb22",
+        "source_geojson": "a7ebc44354dfe0ea8aca7ec3af9fc2ee524488340520de4e12d30338d2da04d3",
+        "target_geojson": "a7ebc44354dfe0ea8aca7ec3af9fc2ee524488340520de4e12d30338d2da04d3",
+        "map_yaml": "40ef19662584eb996e5ce132a45ce71a2d5dafa4dc71e3c814edc01837d08a7d",
+        "manifest": "604a699a0cfa90d96a69affa79e913274950bbf66ea6c6c0a9f20eaf45b6dd8b"
+      },
+      "before": {
+        "segment_count": 3,
+        "kinds": {
+          "row": 2,
+          "turn": 1
+        },
+        "pose_count": 9,
+        "path_length_m": 4.5,
+        "seam_length_m": 0.0,
+        "bounds": [
+          1.0,
+          1.0,
+          3.0,
+          1.5
+        ],
+        "discontinuous_seams": 0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "after": {
+        "segment_count": 3,
+        "kinds": {
+          "row": 2,
+          "turn": 1
+        },
+        "pose_count": 9,
+        "path_length_m": 4.5,
+        "seam_length_m": 0.0,
+        "bounds": [
+          1.0,
+          1.0,
+          3.0,
+          1.5
+        ],
+        "discontinuous_seams": 0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "delta": {
+        "segments": 0,
+        "poses": 0,
+        "internal_length_m": 0.0,
+        "total_length_including_seams_m": 0.0
+      },
+      "findings": []
+    },
+    "gap": {
+      "status": "BLOCKED",
+      "exit_code": 1,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/a8981bc7d9e4/CCPP/tools/offline_compat/validate.py",
+        "--plan",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/gap.json",
+        "--source-geojson",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/field.geojson",
+        "--target-geojson",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/field.geojson",
+        "--map-yaml",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/map.yaml",
+        "--manifest",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/gap.manifest.json",
+        "--out",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/gap"
+      ],
+      "input_hashes": {
+        "plan": "d2b0bbd00d80908b5b4cd479efb4c92e4b8959c6c55f6962910a5c98091765a5",
+        "source_geojson": "a7ebc44354dfe0ea8aca7ec3af9fc2ee524488340520de4e12d30338d2da04d3",
+        "target_geojson": "a7ebc44354dfe0ea8aca7ec3af9fc2ee524488340520de4e12d30338d2da04d3",
+        "map_yaml": "40ef19662584eb996e5ce132a45ce71a2d5dafa4dc71e3c814edc01837d08a7d",
+        "manifest": "c5b3ec86c1608cafcfacfaba28bc90cd3cfdc81828b6678c5485cf2aace39787"
+      },
+      "before": {
+        "segment_count": 3,
+        "kinds": {
+          "row": 2,
+          "turn": 1
+        },
+        "pose_count": 9,
+        "path_length_m": 4.5,
+        "seam_length_m": 2.0,
+        "bounds": [
+          1.0,
+          1.0,
+          4.0,
+          1.5
+        ],
+        "discontinuous_seams": 2,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "after": {
+        "segment_count": 2,
+        "kinds": {
+          "row": 2
+        },
+        "pose_count": 9,
+        "path_length_m": 5.5,
+        "seam_length_m": 1.0,
+        "bounds": [
+          1.0,
+          1.0,
+          4.0,
+          1.5
+        ],
+        "discontinuous_seams": 1,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "delta": {
+        "segments": -1,
+        "poses": 0,
+        "internal_length_m": 1.0,
+        "total_length_including_seams_m": 0.0
+      },
+      "findings": [
+        {
+          "code": "INPUT_SEAM_GAP",
+          "origin": "original_plan",
+          "blocks_import": true,
+          "count": 2
+        },
+        {
+          "code": "KIND_SEMANTICS_LOST",
+          "origin": "executor_merge",
+          "blocks_import": true,
+          "count": 1
+        },
+        {
+          "code": "SEAM_PROMOTED_TO_INTERNAL_EDGE",
+          "origin": "executor_merge",
+          "blocks_import": true,
+          "count": 1
+        },
+        {
+          "code": "LENGTH_METADATA_MISMATCH",
+          "origin": "executor_merge",
+          "blocks_import": true,
+          "count": 1
+        }
+      ]
+    },
+    "orientation": {
+      "status": "BLOCKED",
+      "exit_code": 1,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/a8981bc7d9e4/CCPP/tools/offline_compat/validate.py",
+        "--plan",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/orientation.json",
+        "--source-geojson",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/field.geojson",
+        "--target-geojson",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/field.geojson",
+        "--map-yaml",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/map.yaml",
+        "--manifest",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/orientation.manifest.json",
+        "--out",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/orientation"
+      ],
+      "input_hashes": {
+        "plan": "d42a38c9f810cf3e35e3605375ca0187da467aad13a2d44ff284ab67925a243c",
+        "source_geojson": "a7ebc44354dfe0ea8aca7ec3af9fc2ee524488340520de4e12d30338d2da04d3",
+        "target_geojson": "a7ebc44354dfe0ea8aca7ec3af9fc2ee524488340520de4e12d30338d2da04d3",
+        "map_yaml": "40ef19662584eb996e5ce132a45ce71a2d5dafa4dc71e3c814edc01837d08a7d",
+        "manifest": "c400b8d15ca12622a550ce43b6b5495d96f61fe82cf2fd79cffc49c013e5045f"
+      },
+      "before": {
+        "segment_count": 3,
+        "kinds": {
+          "row": 2,
+          "turn": 1
+        },
+        "pose_count": 9,
+        "path_length_m": 4.5,
+        "seam_length_m": 0.0,
+        "bounds": [
+          1.0,
+          1.0,
+          3.0,
+          1.5
+        ],
+        "discontinuous_seams": 0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "after": {
+        "segment_count": 2,
+        "kinds": {
+          "row": 2
+        },
+        "pose_count": 8,
+        "path_length_m": 4.5,
+        "seam_length_m": 0.0,
+        "bounds": [
+          1.0,
+          1.0,
+          3.0,
+          1.5
+        ],
+        "discontinuous_seams": 0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "delta": {
+        "segments": -1,
+        "poses": -1,
+        "internal_length_m": 0.0,
+        "total_length_including_seams_m": 0.0
+      },
+      "findings": [
+        {
+          "code": "KIND_SEMANTICS_LOST",
+          "origin": "executor_merge",
+          "blocks_import": true,
+          "count": 1
+        },
+        {
+          "code": "JUNCTION_ORIENTATION_DROPPED",
+          "origin": "executor_merge",
+          "blocks_import": true,
+          "count": 1
+        },
+        {
+          "code": "LENGTH_METADATA_MISMATCH",
+          "origin": "executor_merge",
+          "blocks_import": true,
+          "count": 1
+        }
+      ]
+    },
+    "stale_length": {
+      "status": "BLOCKED",
+      "exit_code": 1,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/a8981bc7d9e4/CCPP/tools/offline_compat/validate.py",
+        "--plan",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/stale_length.json",
+        "--source-geojson",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/field.geojson",
+        "--target-geojson",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/field.geojson",
+        "--map-yaml",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/map.yaml",
+        "--manifest",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/stale_length.manifest.json",
+        "--out",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/stale_length"
+      ],
+      "input_hashes": {
+        "plan": "06a00ddb1146d017009cba0c5982d5eec59278ebd44f073d6b1d9bf83b28cb2e",
+        "source_geojson": "a7ebc44354dfe0ea8aca7ec3af9fc2ee524488340520de4e12d30338d2da04d3",
+        "target_geojson": "a7ebc44354dfe0ea8aca7ec3af9fc2ee524488340520de4e12d30338d2da04d3",
+        "map_yaml": "40ef19662584eb996e5ce132a45ce71a2d5dafa4dc71e3c814edc01837d08a7d",
+        "manifest": "7a301fc70a75e6519420a3dde0a34c33e6a1d6ebe953daaf75d95e60553a80c1"
+      },
+      "before": {
+        "segment_count": 3,
+        "kinds": {
+          "row": 2,
+          "turn": 1
+        },
+        "pose_count": 9,
+        "path_length_m": 4.5,
+        "seam_length_m": 0.0,
+        "bounds": [
+          1.0,
+          1.0,
+          3.0,
+          1.5
+        ],
+        "discontinuous_seams": 0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "after": {
+        "segment_count": 3,
+        "kinds": {
+          "row": 2,
+          "turn": 1
+        },
+        "pose_count": 9,
+        "path_length_m": 4.5,
+        "seam_length_m": 0.0,
+        "bounds": [
+          1.0,
+          1.0,
+          3.0,
+          1.5
+        ],
+        "discontinuous_seams": 0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "delta": {
+        "segments": 0,
+        "poses": 0,
+        "internal_length_m": 0.0,
+        "total_length_including_seams_m": 0.0
+      },
+      "findings": [
+        {
+          "code": "LENGTH_METADATA_MISMATCH",
+          "origin": "original_plan",
+          "blocks_import": true,
+          "count": 1
+        }
+      ]
+    },
+    "near_duplicate": {
+      "status": "BLOCKED",
+      "exit_code": 1,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/a8981bc7d9e4/CCPP/tools/offline_compat/validate.py",
+        "--plan",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/near_duplicate.json",
+        "--source-geojson",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/field.geojson",
+        "--target-geojson",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/field.geojson",
+        "--map-yaml",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/map.yaml",
+        "--manifest",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/near_duplicate.manifest.json",
+        "--out",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/near_duplicate"
+      ],
+      "input_hashes": {
+        "plan": "a881d1be2359d30484fb01319b4ab95bf4fb18528a92346a45ba6145ec7dfe41",
+        "source_geojson": "a7ebc44354dfe0ea8aca7ec3af9fc2ee524488340520de4e12d30338d2da04d3",
+        "target_geojson": "a7ebc44354dfe0ea8aca7ec3af9fc2ee524488340520de4e12d30338d2da04d3",
+        "map_yaml": "40ef19662584eb996e5ce132a45ce71a2d5dafa4dc71e3c814edc01837d08a7d",
+        "manifest": "bd00708c90ba7064df4155ef85801d2b6778bbb779aa51253d1168ebf8eb3a03"
+      },
+      "before": {
+        "segment_count": 3,
+        "kinds": {
+          "row": 2,
+          "turn": 1
+        },
+        "pose_count": 9,
+        "path_length_m": 4.5,
+        "seam_length_m": 1.000000082740371e-09,
+        "bounds": [
+          1.0,
+          1.0,
+          3.000000001,
+          1.5
+        ],
+        "discontinuous_seams": 0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "after": {
+        "segment_count": 2,
+        "kinds": {
+          "row": 2
+        },
+        "pose_count": 9,
+        "path_length_m": 4.500000001,
+        "seam_length_m": 0.0,
+        "bounds": [
+          1.0,
+          1.0,
+          3.000000001,
+          1.5
+        ],
+        "discontinuous_seams": 0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 1
+      },
+      "delta": {
+        "segments": -1,
+        "poses": 0,
+        "internal_length_m": 1.000000082740371e-09,
+        "total_length_including_seams_m": 0.0
+      },
+      "findings": [
+        {
+          "code": "KIND_SEMANTICS_LOST",
+          "origin": "executor_merge",
+          "blocks_import": true,
+          "count": 1
+        },
+        {
+          "code": "NEAR_DUPLICATE_JUNCTION_RETAINED",
+          "origin": "executor_merge",
+          "blocks_import": false,
+          "count": 1
+        },
+        {
+          "code": "LENGTH_METADATA_MISMATCH",
+          "origin": "executor_merge",
+          "blocks_import": true,
+          "count": 1
+        }
+      ]
+    },
+    "historical_merge_on": {
+      "status": "BLOCKED",
+      "exit_code": 1,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/a8981bc7d9e4/CCPP/tools/offline_compat/validate.py",
+        "--plan",
+        "plan_boustrophedon.json",
+        "--profile",
+        "../ROS2_BT-/profiles/executor_e1_static.yaml",
+        "--ros-plan-io",
+        "../ROS2_BT-/src/coverage_manager/coverage_manager/plan_io.py",
+        "--source-geojson",
+        "field.geojson",
+        "--target-geojson",
+        "../ROS2_BT-/datasets/raw/maps_30/geojson/low_01_5p0m_scatter.geojson",
+        "--map-yaml",
+        "../ROS2_BT-/e1_assets/maps/low_01_5p0m_scatter.yaml",
+        "--merge",
+        "on",
+        "--out",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/historical_merge_on"
+      ],
+      "input_hashes": {
+        "plan": "77dec291992f92430eac4222417d6713cd75485bec0903ea46f51e03126c985b",
+        "profile": "c26d10bc7031dca770c3e9d97f10b2aa82737deba1472b34c30fba3375ec4d4c",
+        "ros_plan_io": "15ad34b4ac85e3bd1a482fe3a75629f86e72b6e3079125a1a7cc2838327637e0",
+        "source_geojson": "7bbd62bd4a54e80c27f3d09478bcd4ccf7f548c446bc3c0a791232573607cb6e",
+        "target_geojson": "690ae93c40febb9b64efec0c9ce856162196e1e6935bbb07ed7b8da0c0e5462b",
+        "map_yaml": "b896654e2821a77001e726e99834d0276dc7703ee6b74cd513aa2478f15b5b5d"
+      },
+      "before": {
+        "segment_count": 101,
+        "kinds": {
+          "row": 51,
+          "turn": 50
+        },
+        "pose_count": 1737,
+        "path_length_m": 1633.7700962091383,
+        "seam_length_m": 0.0,
+        "bounds": [
+          1.8250000000000028,
+          5.175000000000001,
+          38.175,
+          28.175
+        ],
+        "discontinuous_seams": 0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "after": {
+        "segment_count": 83,
+        "kinds": {
+          "row": 45,
+          "turn": 38
+        },
+        "pose_count": 1719,
+        "path_length_m": 1633.7700962091383,
+        "seam_length_m": 0.0,
+        "bounds": [
+          1.8250000000000028,
+          5.175000000000001,
+          38.175,
+          28.175
+        ],
+        "discontinuous_seams": 0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "delta": {
+        "segments": -18,
+        "poses": -18,
+        "internal_length_m": 0.0,
+        "total_length_including_seams_m": 0.0
+      },
+      "findings": [
+        {
+          "code": "KIND_SEMANTICS_LOST",
+          "origin": "executor_merge",
+          "blocks_import": true,
+          "count": 15
+        },
+        {
+          "code": "JUNCTION_ORIENTATION_DROPPED",
+          "origin": "executor_merge",
+          "blocks_import": true,
+          "count": 5
+        },
+        {
+          "code": "LENGTH_METADATA_MISMATCH",
+          "origin": "executor_merge",
+          "blocks_import": true,
+          "count": 14
+        },
+        {
+          "code": "SOURCE_GEOMETRY_UNSAFE",
+          "origin": "original_plan",
+          "blocks_import": true,
+          "count": 62
+        },
+        {
+          "code": "TARGET_GEOMETRY_UNSAFE",
+          "origin": "map_admission",
+          "blocks_import": true,
+          "count": 1718
+        },
+        {
+          "code": "MAP_GEOMETRY_MISMATCH",
+          "origin": "map_admission",
+          "blocks_import": true,
+          "count": 1
+        },
+        {
+          "code": "RASTER_PATH_UNSAFE_OR_OUT_OF_BOUNDS",
+          "origin": "map_admission",
+          "blocks_import": true,
+          "count": 1718
+        },
+        {
+          "code": "COORDINATE_EVIDENCE_REQUIRED",
+          "origin": "map_admission",
+          "blocks_import": true,
+          "count": 1
+        }
+      ]
+    },
+    "historical_merge_off": {
+      "status": "BLOCKED",
+      "exit_code": 1,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/a8981bc7d9e4/CCPP/tools/offline_compat/validate.py",
+        "--plan",
+        "plan_boustrophedon.json",
+        "--profile",
+        "../ROS2_BT-/profiles/executor_e1_static.yaml",
+        "--ros-plan-io",
+        "../ROS2_BT-/src/coverage_manager/coverage_manager/plan_io.py",
+        "--source-geojson",
+        "field.geojson",
+        "--target-geojson",
+        "../ROS2_BT-/datasets/raw/maps_30/geojson/low_01_5p0m_scatter.geojson",
+        "--map-yaml",
+        "../ROS2_BT-/e1_assets/maps/low_01_5p0m_scatter.yaml",
+        "--merge",
+        "off",
+        "--out",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/historical_merge_off"
+      ],
+      "input_hashes": {
+        "plan": "77dec291992f92430eac4222417d6713cd75485bec0903ea46f51e03126c985b",
+        "profile": "c26d10bc7031dca770c3e9d97f10b2aa82737deba1472b34c30fba3375ec4d4c",
+        "ros_plan_io": "15ad34b4ac85e3bd1a482fe3a75629f86e72b6e3079125a1a7cc2838327637e0",
+        "source_geojson": "7bbd62bd4a54e80c27f3d09478bcd4ccf7f548c446bc3c0a791232573607cb6e",
+        "target_geojson": "690ae93c40febb9b64efec0c9ce856162196e1e6935bbb07ed7b8da0c0e5462b",
+        "map_yaml": "b896654e2821a77001e726e99834d0276dc7703ee6b74cd513aa2478f15b5b5d"
+      },
+      "before": {
+        "segment_count": 101,
+        "kinds": {
+          "row": 51,
+          "turn": 50
+        },
+        "pose_count": 1737,
+        "path_length_m": 1633.7700962091383,
+        "seam_length_m": 0.0,
+        "bounds": [
+          1.8250000000000028,
+          5.175000000000001,
+          38.175,
+          28.175
+        ],
+        "discontinuous_seams": 0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "after": {
+        "segment_count": 101,
+        "kinds": {
+          "row": 51,
+          "turn": 50
+        },
+        "pose_count": 1737,
+        "path_length_m": 1633.7700962091383,
+        "seam_length_m": 0.0,
+        "bounds": [
+          1.8250000000000028,
+          5.175000000000001,
+          38.175,
+          28.175
+        ],
+        "discontinuous_seams": 0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "delta": {
+        "segments": 0,
+        "poses": 0,
+        "internal_length_m": 0.0,
+        "total_length_including_seams_m": 0.0
+      },
+      "findings": [
+        {
+          "code": "SOURCE_GEOMETRY_UNSAFE",
+          "origin": "original_plan",
+          "blocks_import": true,
+          "count": 62
+        },
+        {
+          "code": "TARGET_GEOMETRY_UNSAFE",
+          "origin": "map_admission",
+          "blocks_import": true,
+          "count": 1736
+        },
+        {
+          "code": "MAP_GEOMETRY_MISMATCH",
+          "origin": "map_admission",
+          "blocks_import": true,
+          "count": 1
+        },
+        {
+          "code": "RASTER_PATH_UNSAFE_OR_OUT_OF_BOUNDS",
+          "origin": "map_admission",
+          "blocks_import": true,
+          "count": 1736
+        },
+        {
+          "code": "COORDINATE_EVIDENCE_REQUIRED",
+          "origin": "map_admission",
+          "blocks_import": true,
+          "count": 1
+        }
+      ]
+    },
+    "pr1_bcd_to_e1": {
+      "status": "BLOCKED",
+      "exit_code": 1,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/a8981bc7d9e4/CCPP/tools/offline_compat/validate.py",
+        "--plan",
+        "../pr1_bcd_generated.json",
+        "--profile",
+        "../ROS2_BT-/profiles/executor_e1_static.yaml",
+        "--ros-plan-io",
+        "../ROS2_BT-/src/coverage_manager/coverage_manager/plan_io.py",
+        "--source-geojson",
+        "field.geojson",
+        "--target-geojson",
+        "../ROS2_BT-/datasets/raw/maps_30/geojson/low_01_5p0m_scatter.geojson",
+        "--map-yaml",
+        "../ROS2_BT-/e1_assets/maps/low_01_5p0m_scatter.yaml",
+        "--out",
+        "/workspace/scratch/a8981bc7d9e4/compat_results_final/pr1_bcd_to_e1"
+      ],
+      "input_hashes": {
+        "plan": "15730b49821b2dee0bfc6417143ca4135155053394a6d2fa03d94c5df21af2a3",
+        "profile": "c26d10bc7031dca770c3e9d97f10b2aa82737deba1472b34c30fba3375ec4d4c",
+        "ros_plan_io": "15ad34b4ac85e3bd1a482fe3a75629f86e72b6e3079125a1a7cc2838327637e0",
+        "source_geojson": "7bbd62bd4a54e80c27f3d09478bcd4ccf7f548c446bc3c0a791232573607cb6e",
+        "target_geojson": "690ae93c40febb9b64efec0c9ce856162196e1e6935bbb07ed7b8da0c0e5462b",
+        "map_yaml": "b896654e2821a77001e726e99834d0276dc7703ee6b74cd513aa2478f15b5b5d"
+      },
+      "before": {
+        "segment_count": 3337,
+        "kinds": {
+          "row": 1669,
+          "turn": 1668
+        },
+        "pose_count": 31377,
+        "path_length_m": 20914.120608274265,
+        "seam_length_m": 0.0,
+        "bounds": [
+          1.8251,
+          4.825,
+          37.59310000000001,
+          28.175
+        ],
+        "discontinuous_seams": 0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "after": {
+        "segment_count": 1899,
+        "kinds": {
+          "row": 1490,
+          "turn": 409
+        },
+        "pose_count": 29939,
+        "path_length_m": 20914.120608274265,
+        "seam_length_m": 0.0,
+        "bounds": [
+          1.8251,
+          4.825,
+          37.59310000000001,
+          28.175
+        ],
+        "discontinuous_seams": 0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      "delta": {
+        "segments": -1438,
+        "poses": -1438,
+        "internal_length_m": 0.0,
+        "total_length_including_seams_m": 0.0
+      },
+      "findings": [
+        {
+          "code": "OVERSIZED_INPUT_EDGE",
+          "origin": "original_plan",
+          "blocks_import": true,
+          "count": 14
+        },
+        {
+          "code": "SEGMENT_TOO_LONG",
+          "origin": "original_plan",
+          "blocks_import": true,
+          "count": 1
+        },
+        {
+          "code": "KIND_SEMANTICS_LOST",
+          "origin": "executor_merge",
+          "blocks_import": true,
+          "count": 1296
+        },
+        {
+          "code": "JUNCTION_ORIENTATION_DROPPED",
+          "origin": "executor_merge",
+          "blocks_import": true,
+          "count": 1438
+        },
+        {
+          "code": "LENGTH_METADATA_MISMATCH",
+          "origin": "executor_merge",
+          "blocks_import": true,
+          "count": 1164
+        },
+        {
+          "code": "TARGET_GEOMETRY_UNSAFE",
+          "origin": "map_admission",
+          "blocks_import": true,
+          "count": 29877
+        },
+        {
+          "code": "MAP_GEOMETRY_MISMATCH",
+          "origin": "map_admission",
+          "blocks_import": true,
+          "count": 1
+        },
+        {
+          "code": "RASTER_PATH_UNSAFE_OR_OUT_OF_BOUNDS",
+          "origin": "map_admission",
+          "blocks_import": true,
+          "count": 29875
+        },
+        {
+          "code": "COORDINATE_EVIDENCE_REQUIRED",
+          "origin": "map_admission",
+          "blocks_import": true,
+          "count": 1
+        }
+      ]
+    }
+  }
+}

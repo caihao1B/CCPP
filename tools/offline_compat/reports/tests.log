@@ -1,0 +1,40 @@
+test_bad_yaml_resolution (test_compat.MapTests.test_bad_yaml_resolution) ... ok
+test_clearance_not_only_centerline (test_compat.MapTests.test_clearance_not_only_centerline) ... ok
+test_cli_exit_codes_and_read_only (test_compat.MapTests.test_cli_exit_codes_and_read_only) ... ok
+test_manifest_hash_tamper_blocks (test_compat.MapTests.test_manifest_hash_tamper_blocks) ... ok
+test_matching_map_and_manifest_pass (test_compat.MapTests.test_matching_map_and_manifest_pass) ... ok
+test_mid_edge_obstacle_not_only_endpoints (test_compat.MapTests.test_mid_edge_obstacle_not_only_endpoints) ... ok
+test_missing_manifest_blocks (test_compat.MapTests.test_missing_manifest_blocks) ... ok
+test_negate (test_compat.MapTests.test_negate) ... ok
+test_no_map_information_blocks (test_compat.MapTests.test_no_map_information_blocks) ... ok
+test_out_of_bounds (test_compat.MapTests.test_out_of_bounds) ... ok
+test_rotated_map_origin (test_compat.MapTests.test_rotated_map_origin) ... ok
+test_same_frame_and_bounds_different_obstacles_rejected (test_compat.MapTests.test_same_frame_and_bounds_different_obstacles_rejected) ... ok
+test_translation_is_rejected (test_compat.MapTests.test_translation_is_rejected) ... ok
+test_units_degrees_rejected (test_compat.MapTests.test_units_degrees_rejected) ... ok
+test_unknown_cells_block (test_compat.MapTests.test_unknown_cells_block) ... ok
+test_upstream_drift_rejected (test_compat.MapTests.test_upstream_drift_rejected) ... ok
+test_disabled_merge (test_compat.MergeTests.test_disabled_merge) ... ok
+test_equal_xy_drops_different_orientation (test_compat.MergeTests.test_equal_xy_drops_different_orientation) ... ok
+test_existing_duplicates_attributed_to_input (test_compat.MergeTests.test_existing_duplicates_attributed_to_input) ... ok
+test_first_short_kept (test_compat.MergeTests.test_first_short_kept) ... ok
+test_gap_is_original_then_promoted (test_compat.MergeTests.test_gap_is_original_then_promoted) ... ok
+test_long_two_point_segment_merges (test_compat.MergeTests.test_long_two_point_segment_merges) ... ok
+test_near_equal_not_deduplicated (test_compat.MergeTests.test_near_equal_not_deduplicated) ... ok
+test_negative_quaternion_equivalent (test_compat.MergeTests.test_negative_quaternion_equivalent) ... ok
+test_randomized_trace_matches_legacy_and_conserves_geometric_route (test_compat.MergeTests.test_randomized_trace_matches_legacy_and_conserves_geometric_route) ... ok
+test_short_turn_counts_and_length_bug (test_compat.MergeTests.test_short_turn_counts_and_length_bug) ... ok
+test_singleton_trace_keeps_actual_surviving_orientation (test_compat.MergeTests.test_singleton_trace_keeps_actual_surviving_orientation) ... ok
+test_source_is_not_mutated (test_compat.MergeTests.test_source_is_not_mutated) ... ok
+test_stale_length_controls_decision (test_compat.MergeTests.test_stale_length_controls_decision) ... ok
+test_strict_threshold_and_min_poses (test_compat.MergeTests.test_strict_threshold_and_min_poses) ... ok
+test_transition_references_require_review (test_compat.MergeTests.test_transition_references_require_review) ... ok
+test_user_merged_from_does_not_forge_mapping (test_compat.MergeTests.test_user_merged_from_does_not_forge_mapping) ... ok
+test_valid_length_metadata_avoids_double_count (test_compat.MergeTests.test_valid_length_metadata_avoids_double_count) ... ok
+test_invalid_schema_table (test_compat.SchemaTests.test_invalid_schema_table) ... ok
+test_yaw_only_is_supported_but_visible (test_compat.SchemaTests.test_yaw_only_is_supported_but_visible) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 2.447s
+
+OK
