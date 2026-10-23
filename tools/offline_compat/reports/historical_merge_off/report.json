@@ -1,0 +1,5619 @@
+{
+  "report_version": 1,
+  "scope": "offline_coverage_executor_preprocessing_only",
+  "simulation_tested": false,
+  "options": {
+    "merge_enabled": false,
+    "length_threshold_m": 2.0,
+    "min_poses": 3,
+    "join_tolerance_m": 1e-06,
+    "duplicate_tolerance_m": 1e-06,
+    "max_edge_m": 2.0,
+    "max_segment_m": 100.0,
+    "clearance_m": 0.0
+  },
+  "before": {
+    "segment_count": 101,
+    "kinds": {
+      "row": 51,
+      "turn": 50
+    },
+    "pose_count": 1737,
+    "path_length_m": 1633.7700962091383,
+    "seam_length_m": 0.0,
+    "bounds": [
+      1.8250000000000028,
+      5.175000000000001,
+      38.175,
+      28.175
+    ],
+    "discontinuous_seams": 0,
+    "duplicate_edges": 0,
+    "near_duplicate_edges": 0,
+    "segments": [
+      {
+        "index": 0,
+        "id": "seg_0000",
+        "kind": "row",
+        "poses": 37,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 1.0097222222222229,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 1,
+        "id": "seg_0001",
+        "kind": "turn",
+        "poses": 2,
+        "length_m": 1.0,
+        "declared_length_m": null,
+        "max_edge_m": 1.0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 2,
+        "id": "seg_0002",
+        "kind": "row",
+        "poses": 37,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 1.0097222222222229,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 3,
+        "id": "seg_0003",
+        "kind": "turn",
+        "poses": 10,
+        "length_m": 8.464940032609084,
+        "declared_length_m": null,
+        "max_edge_m": 0.9405488925121215,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 4,
+        "id": "seg_0004",
+        "kind": "row",
+        "poses": 9,
+        "length_m": 8.405665336882493,
+        "declared_length_m": null,
+        "max_edge_m": 1.0507081671103151,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 5,
+        "id": "seg_0005",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 0.9824324324324323,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 6,
+        "id": "seg_0006",
+        "kind": "row",
+        "poses": 26,
+        "length_m": 25.844909265982018,
+        "declared_length_m": null,
+        "max_edge_m": 1.033796370639287,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 7,
+        "id": "seg_0007",
+        "kind": "turn",
+        "poses": 27,
+        "length_m": 25.86424820030235,
+        "declared_length_m": null,
+        "max_edge_m": 0.9947787769347087,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 8,
+        "id": "seg_0008",
+        "kind": "row",
+        "poses": 25,
+        "length_m": 24.345412992687297,
+        "declared_length_m": null,
+        "max_edge_m": 1.0143922080286423,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 9,
+        "id": "seg_0009",
+        "kind": "turn",
+        "poses": 6,
+        "length_m": 4.593090379471533,
+        "declared_length_m": null,
+        "max_edge_m": 0.9186180758943081,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 10,
+        "id": "seg_0010",
+        "kind": "row",
+        "poses": 2,
+        "length_m": 0.7529323313842049,
+        "declared_length_m": null,
+        "max_edge_m": 0.7529323313842049,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 11,
+        "id": "seg_0011",
+        "kind": "turn",
+        "poses": 3,
+        "length_m": 1.0485427834220573,
+        "declared_length_m": null,
+        "max_edge_m": 0.5242713917110287,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 12,
+        "id": "seg_0012",
+        "kind": "row",
+        "poses": 6,
+        "length_m": 5.610021513034901,
+        "declared_length_m": null,
+        "max_edge_m": 1.1220043026069817,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 13,
+        "id": "seg_0013",
+        "kind": "turn",
+        "poses": 7,
+        "length_m": 5.95974926196981,
+        "declared_length_m": null,
+        "max_edge_m": 0.9932915436616352,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 14,
+        "id": "seg_0014",
+        "kind": "row",
+        "poses": 6,
+        "length_m": 5.875254144762565,
+        "declared_length_m": null,
+        "max_edge_m": 1.1750508289525143,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 15,
+        "id": "seg_0015",
+        "kind": "turn",
+        "poses": 9,
+        "length_m": 7.515751400180868,
+        "declared_length_m": null,
+        "max_edge_m": 0.9394689250226094,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 16,
+        "id": "seg_0016",
+        "kind": "row",
+        "poses": 2,
+        "length_m": 1.1224197354515795,
+        "declared_length_m": null,
+        "max_edge_m": 1.1224197354515795,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 17,
+        "id": "seg_0017",
+        "kind": "turn",
+        "poses": 31,
+        "length_m": 29.956668335270706,
+        "declared_length_m": null,
+        "max_edge_m": 0.9985556111756964,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 18,
+        "id": "seg_0018",
+        "kind": "row",
+        "poses": 25,
+        "length_m": 24.566520954058227,
+        "declared_length_m": null,
+        "max_edge_m": 1.0236050397524323,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 19,
+        "id": "seg_0019",
+        "kind": "turn",
+        "poses": 26,
+        "length_m": 24.586865432303124,
+        "declared_length_m": null,
+        "max_edge_m": 0.9834746172921274,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 20,
+        "id": "seg_0020",
+        "kind": "row",
+        "poses": 22,
+        "length_m": 21.38499800352764,
+        "declared_length_m": null,
+        "max_edge_m": 1.0183332382632244,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 21,
+        "id": "seg_0021",
+        "kind": "turn",
+        "poses": 2,
+        "length_m": 0.30468770009193946,
+        "declared_length_m": null,
+        "max_edge_m": 0.30468770009193946,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 22,
+        "id": "seg_0022",
+        "kind": "row",
+        "poses": 4,
+        "length_m": 3.551068569315561,
+        "declared_length_m": null,
+        "max_edge_m": 1.183689523105187,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 23,
+        "id": "seg_0023",
+        "kind": "turn",
+        "poses": 5,
+        "length_m": 3.598268040085049,
+        "declared_length_m": null,
+        "max_edge_m": 0.8995670100212632,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 24,
+        "id": "seg_0024",
+        "kind": "row",
+        "poses": 8,
+        "length_m": 7.510977686979803,
+        "declared_length_m": null,
+        "max_edge_m": 1.0729968124256892,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 25,
+        "id": "seg_0025",
+        "kind": "turn",
+        "poses": 16,
+        "length_m": 14.13336891687568,
+        "declared_length_m": null,
+        "max_edge_m": 0.9422245944583807,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 26,
+        "id": "seg_0026",
+        "kind": "row",
+        "poses": 15,
+        "length_m": 14.097947259814372,
+        "declared_length_m": null,
+        "max_edge_m": 1.006996232843889,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 27,
+        "id": "seg_0027",
+        "kind": "turn",
+        "poses": 33,
+        "length_m": 31.390962617629,
+        "declared_length_m": null,
+        "max_edge_m": 0.9809675818009111,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 28,
+        "id": "seg_0028",
+        "kind": "row",
+        "poses": 16,
+        "length_m": 15.863593584590603,
+        "declared_length_m": null,
+        "max_edge_m": 1.0575729056393754,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 29,
+        "id": "seg_0029",
+        "kind": "turn",
+        "poses": 22,
+        "length_m": 20.822630966961597,
+        "declared_length_m": null,
+        "max_edge_m": 0.991553855569606,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 30,
+        "id": "seg_0030",
+        "kind": "row",
+        "poses": 4,
+        "length_m": 3.6241897606288376,
+        "declared_length_m": null,
+        "max_edge_m": 1.2080632535429459,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 31,
+        "id": "seg_0031",
+        "kind": "turn",
+        "poses": 5,
+        "length_m": 3.7596211805242974,
+        "declared_length_m": null,
+        "max_edge_m": 0.9399052951310743,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 32,
+        "id": "seg_0032",
+        "kind": "row",
+        "poses": 2,
+        "length_m": 1.6142383987135034,
+        "declared_length_m": null,
+        "max_edge_m": 1.6142383987135034,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 33,
+        "id": "seg_0033",
+        "kind": "turn",
+        "poses": 3,
+        "length_m": 1.0152797662577768,
+        "declared_length_m": null,
+        "max_edge_m": 0.5076398831288884,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 34,
+        "id": "seg_0034",
+        "kind": "row",
+        "poses": 13,
+        "length_m": 12.818250891443999,
+        "declared_length_m": null,
+        "max_edge_m": 1.068187574287002,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 35,
+        "id": "seg_0035",
+        "kind": "turn",
+        "poses": 2,
+        "length_m": 0.9362354005627935,
+        "declared_length_m": null,
+        "max_edge_m": 0.9362354005627935,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 36,
+        "id": "seg_0036",
+        "kind": "row",
+        "poses": 12,
+        "length_m": 11.320904628298106,
+        "declared_length_m": null,
+        "max_edge_m": 1.0291731480271018,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 37,
+        "id": "seg_0037",
+        "kind": "turn",
+        "poses": 4,
+        "length_m": 2.43833765299847,
+        "declared_length_m": null,
+        "max_edge_m": 0.8127792176661579,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 38,
+        "id": "seg_0038",
+        "kind": "row",
+        "poses": 7,
+        "length_m": 6.206753261725346,
+        "declared_length_m": null,
+        "max_edge_m": 1.0344588769542256,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 39,
+        "id": "seg_0039",
+        "kind": "turn",
+        "poses": 4,
+        "length_m": 2.103873060250325,
+        "declared_length_m": null,
+        "max_edge_m": 0.7012910200834428,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 40,
+        "id": "seg_0040",
+        "kind": "row",
+        "poses": 2,
+        "length_m": 1.8510218404025025,
+        "declared_length_m": null,
+        "max_edge_m": 1.8510218404025025,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 41,
+        "id": "seg_0041",
+        "kind": "turn",
+        "poses": 8,
+        "length_m": 6.398377604050076,
+        "declared_length_m": null,
+        "max_edge_m": 0.9140539434357251,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 42,
+        "id": "seg_0042",
+        "kind": "row",
+        "poses": 4,
+        "length_m": 3.5008809953921727,
+        "declared_length_m": null,
+        "max_edge_m": 1.166960331797391,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 43,
+        "id": "seg_0043",
+        "kind": "turn",
+        "poses": 16,
+        "length_m": 14.398086538555098,
+        "declared_length_m": null,
+        "max_edge_m": 0.9598724359036765,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 44,
+        "id": "seg_0044",
+        "kind": "row",
+        "poses": 9,
+        "length_m": 8.458867890164456,
+        "declared_length_m": null,
+        "max_edge_m": 1.0573584862705587,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 45,
+        "id": "seg_0045",
+        "kind": "turn",
+        "poses": 13,
+        "length_m": 11.198686445074216,
+        "declared_length_m": null,
+        "max_edge_m": 0.9332238704228537,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 46,
+        "id": "seg_0046",
+        "kind": "row",
+        "poses": 2,
+        "length_m": 1.187167118049608,
+        "declared_length_m": null,
+        "max_edge_m": 1.187167118049608,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 47,
+        "id": "seg_0047",
+        "kind": "turn",
+        "poses": 19,
+        "length_m": 17.50176541592684,
+        "declared_length_m": null,
+        "max_edge_m": 0.9723203008848245,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 48,
+        "id": "seg_0048",
+        "kind": "row",
+        "poses": 16,
+        "length_m": 15.517175215516119,
+        "declared_length_m": null,
+        "max_edge_m": 1.034478347701075,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 49,
+        "id": "seg_0049",
+        "kind": "turn",
+        "poses": 17,
+        "length_m": 15.549364188577867,
+        "declared_length_m": null,
+        "max_edge_m": 0.9718352617861218,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 50,
+        "id": "seg_0050",
+        "kind": "row",
+        "poses": 17,
+        "length_m": 16.079358160499844,
+        "declared_length_m": null,
+        "max_edge_m": 1.0049598850312407,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 51,
+        "id": "seg_0051",
+        "kind": "turn",
+        "poses": 3,
+        "length_m": 1.2339360874454748,
+        "declared_length_m": null,
+        "max_edge_m": 0.6169680437227392,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 52,
+        "id": "seg_0052",
+        "kind": "row",
+        "poses": 11,
+        "length_m": 10.068515921844224,
+        "declared_length_m": null,
+        "max_edge_m": 1.0068515921844252,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 53,
+        "id": "seg_0053",
+        "kind": "turn",
+        "poses": 4,
+        "length_m": 2.378187883835647,
+        "declared_length_m": null,
+        "max_edge_m": 0.7927292946118829,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 54,
+        "id": "seg_0054",
+        "kind": "row",
+        "poses": 3,
+        "length_m": 2.744490710141349,
+        "declared_length_m": null,
+        "max_edge_m": 1.3722453550706746,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 55,
+        "id": "seg_0055",
+        "kind": "turn",
+        "poses": 2,
+        "length_m": 0.912778587125068,
+        "declared_length_m": null,
+        "max_edge_m": 0.912778587125068,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 56,
+        "id": "seg_0056",
+        "kind": "row",
+        "poses": 3,
+        "length_m": 2.932732649108388,
+        "declared_length_m": null,
+        "max_edge_m": 1.466366324554194,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 57,
+        "id": "seg_0057",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.36375255663254,
+        "declared_length_m": null,
+        "max_edge_m": 0.9828041231522309,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 58,
+        "id": "seg_0058",
+        "kind": "row",
+        "poses": 37,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 1.0097222222222229,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 59,
+        "id": "seg_0059",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.36375255663254,
+        "declared_length_m": null,
+        "max_edge_m": 0.9828041231522309,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 60,
+        "id": "seg_0060",
+        "kind": "row",
+        "poses": 12,
+        "length_m": 11.374074121472166,
+        "declared_length_m": null,
+        "max_edge_m": 1.0340067383156537,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 61,
+        "id": "seg_0061",
+        "kind": "turn",
+        "poses": 2,
+        "length_m": 0.7321282295881986,
+        "declared_length_m": null,
+        "max_edge_m": 0.7321282295881986,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 62,
+        "id": "seg_0062",
+        "kind": "row",
+        "poses": 2,
+        "length_m": 0.8533427474414914,
+        "declared_length_m": null,
+        "max_edge_m": 0.8533427474414914,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 63,
+        "id": "seg_0063",
+        "kind": "turn",
+        "poses": 3,
+        "length_m": 1.4177262006240987,
+        "declared_length_m": null,
+        "max_edge_m": 0.7088631003120511,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 64,
+        "id": "seg_0064",
+        "kind": "row",
+        "poses": 22,
+        "length_m": 21.97272870087404,
+        "declared_length_m": null,
+        "max_edge_m": 1.0463204143273401,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 65,
+        "id": "seg_0065",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.36375255663254,
+        "declared_length_m": null,
+        "max_edge_m": 0.9828041231522309,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 66,
+        "id": "seg_0066",
+        "kind": "row",
+        "poses": 37,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 1.0097222222222229,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 67,
+        "id": "seg_0067",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.363752556632534,
+        "declared_length_m": null,
+        "max_edge_m": 0.9828041231522309,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 68,
+        "id": "seg_0068",
+        "kind": "row",
+        "poses": 37,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 1.0097222222222229,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 69,
+        "id": "seg_0069",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.363752556632534,
+        "declared_length_m": null,
+        "max_edge_m": 0.9828041231522309,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 70,
+        "id": "seg_0070",
+        "kind": "row",
+        "poses": 37,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 1.0097222222222229,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 71,
+        "id": "seg_0071",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.363752556632534,
+        "declared_length_m": null,
+        "max_edge_m": 0.9828041231522309,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 72,
+        "id": "seg_0072",
+        "kind": "row",
+        "poses": 37,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 1.0097222222222229,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 73,
+        "id": "seg_0073",
+        "kind": "turn",
+        "poses": 23,
+        "length_m": 21.868151938298883,
+        "declared_length_m": null,
+        "max_edge_m": 0.9940069062863146,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 74,
+        "id": "seg_0074",
+        "kind": "row",
+        "poses": 22,
+        "length_m": 21.845275672248338,
+        "declared_length_m": null,
+        "max_edge_m": 1.040251222488024,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 75,
+        "id": "seg_0075",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 0.9824324324324323,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 76,
+        "id": "seg_0076",
+        "kind": "row",
+        "poses": 14,
+        "length_m": 13.050417779236593,
+        "declared_length_m": null,
+        "max_edge_m": 1.0038782907105102,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 77,
+        "id": "seg_0077",
+        "kind": "turn",
+        "poses": 15,
+        "length_m": 13.088674654548281,
+        "declared_length_m": null,
+        "max_edge_m": 0.9349053324677358,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 78,
+        "id": "seg_0078",
+        "kind": "row",
+        "poses": 33,
+        "length_m": 32.05567952721268,
+        "declared_length_m": null,
+        "max_edge_m": 1.0017399852253988,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 79,
+        "id": "seg_0079",
+        "kind": "turn",
+        "poses": 2,
+        "length_m": 0.7960611825012265,
+        "declared_length_m": null,
+        "max_edge_m": 0.7960611825012265,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 80,
+        "id": "seg_0080",
+        "kind": "row",
+        "poses": 4,
+        "length_m": 3.498259290286086,
+        "declared_length_m": null,
+        "max_edge_m": 1.166086430095362,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 81,
+        "id": "seg_0081",
+        "kind": "turn",
+        "poses": 5,
+        "length_m": 3.5288377823094237,
+        "declared_length_m": null,
+        "max_edge_m": 0.8822094455773559,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 82,
+        "id": "seg_0082",
+        "kind": "row",
+        "poses": 4,
+        "length_m": 3.3841832240371517,
+        "declared_length_m": null,
+        "max_edge_m": 1.128061074679053,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 83,
+        "id": "seg_0083",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 0.9824324324324323,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 84,
+        "id": "seg_0084",
+        "kind": "row",
+        "poses": 32,
+        "length_m": 31.941603460963748,
+        "declared_length_m": null,
+        "max_edge_m": 1.0303743051923817,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 85,
+        "id": "seg_0085",
+        "kind": "turn",
+        "poses": 33,
+        "length_m": 31.957253193249457,
+        "declared_length_m": null,
+        "max_edge_m": 0.9986641622890515,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 86,
+        "id": "seg_0086",
+        "kind": "row",
+        "poses": 4,
+        "length_m": 3.427314465704356,
+        "declared_length_m": null,
+        "max_edge_m": 1.1424381552347853,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 87,
+        "id": "seg_0087",
+        "kind": "turn",
+        "poses": 3,
+        "length_m": 1.263195821478135,
+        "declared_length_m": null,
+        "max_edge_m": 0.6315979107390675,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 88,
+        "id": "seg_0088",
+        "kind": "row",
+        "poses": 32,
+        "length_m": 31.659489712817503,
+        "declared_length_m": null,
+        "max_edge_m": 1.021273861703797,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 89,
+        "id": "seg_0089",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.363752556632534,
+        "declared_length_m": null,
+        "max_edge_m": 0.9828041231522309,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 90,
+        "id": "seg_0090",
+        "kind": "row",
+        "poses": 37,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 1.0097222222222229,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 91,
+        "id": "seg_0091",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.363752556632534,
+        "declared_length_m": null,
+        "max_edge_m": 0.9828041231522309,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 92,
+        "id": "seg_0092",
+        "kind": "row",
+        "poses": 37,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 1.0097222222222229,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 93,
+        "id": "seg_0093",
+        "kind": "turn",
+        "poses": 25,
+        "length_m": 23.260157805415812,
+        "declared_length_m": null,
+        "max_edge_m": 0.9691732418923292,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 94,
+        "id": "seg_0094",
+        "kind": "row",
+        "poses": 24,
+        "length_m": 23.23865187855884,
+        "declared_length_m": null,
+        "max_edge_m": 1.0103761686329946,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 95,
+        "id": "seg_0095",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 0.9824324324324323,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 96,
+        "id": "seg_0096",
+        "kind": "row",
+        "poses": 11,
+        "length_m": 10.890239686752828,
+        "declared_length_m": null,
+        "max_edge_m": 1.089023968675285,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 97,
+        "id": "seg_0097",
+        "kind": "turn",
+        "poses": 12,
+        "length_m": 10.936055981702287,
+        "declared_length_m": null,
+        "max_edge_m": 0.9941869074274831,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 98,
+        "id": "seg_0098",
+        "kind": "row",
+        "poses": 12,
+        "length_m": 11.770896793805704,
+        "declared_length_m": null,
+        "max_edge_m": 1.0700815267096146,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 99,
+        "id": "seg_0099",
+        "kind": "turn",
+        "poses": 3,
+        "length_m": 1.2346513527357388,
+        "declared_length_m": null,
+        "max_edge_m": 0.6173256763678694,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 100,
+        "id": "seg_0100",
+        "kind": "row",
+        "poses": 24,
+        "length_m": 23.34445185345855,
+        "declared_length_m": null,
+        "max_edge_m": 1.0149761675416826,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      }
+    ],
+    "seams": [
+      {
+        "from_id": "seg_0000",
+        "to_id": "seg_0001",
+        "gap_m": 0.0,
+        "yaw_change_rad": 1.5707963267948968
+      },
+      {
+        "from_id": "seg_0001",
+        "to_id": "seg_0002",
+        "gap_m": 0.0,
+        "yaw_change_rad": 1.5707963267948968
+      },
+      {
+        "from_id": "seg_0002",
+        "to_id": "seg_0003",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.0231818108627952
+      },
+      {
+        "from_id": "seg_0003",
+        "to_id": "seg_0004",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.0231818108627952
+      },
+      {
+        "from_id": "seg_0004",
+        "to_id": "seg_0005",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0005",
+        "to_id": "seg_0006",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0006",
+        "to_id": "seg_0007",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.102919605635944
+      },
+      {
+        "from_id": "seg_0007",
+        "to_id": "seg_0008",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1029196056359445
+      },
+      {
+        "from_id": "seg_0008",
+        "to_id": "seg_0009",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0009",
+        "to_id": "seg_0010",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0010",
+        "to_id": "seg_0011",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0011",
+        "to_id": "seg_0012",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0012",
+        "to_id": "seg_0013",
+        "gap_m": 0.0,
+        "yaw_change_rad": 2.9730028695373494
+      },
+      {
+        "from_id": "seg_0013",
+        "to_id": "seg_0014",
+        "gap_m": 0.0,
+        "yaw_change_rad": 2.9730028695373494
+      },
+      {
+        "from_id": "seg_0014",
+        "to_id": "seg_0015",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0015",
+        "to_id": "seg_0016",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0016",
+        "to_id": "seg_0017",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0017",
+        "to_id": "seg_0018",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0018",
+        "to_id": "seg_0019",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1009093093961217
+      },
+      {
+        "from_id": "seg_0019",
+        "to_id": "seg_0020",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1009093093961217
+      },
+      {
+        "from_id": "seg_0020",
+        "to_id": "seg_0021",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0021",
+        "to_id": "seg_0022",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0022",
+        "to_id": "seg_0023",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0023",
+        "to_id": "seg_0024",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0024",
+        "to_id": "seg_0025",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.0707789460707837
+      },
+      {
+        "from_id": "seg_0025",
+        "to_id": "seg_0026",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.0707789460707837
+      },
+      {
+        "from_id": "seg_0026",
+        "to_id": "seg_0027",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0027",
+        "to_id": "seg_0028",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0028",
+        "to_id": "seg_0029",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0029",
+        "to_id": "seg_0030",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0030",
+        "to_id": "seg_0031",
+        "gap_m": 0.0,
+        "yaw_change_rad": 2.8723678502044376
+      },
+      {
+        "from_id": "seg_0031",
+        "to_id": "seg_0032",
+        "gap_m": 0.0,
+        "yaw_change_rad": 2.8723678502044376
+      },
+      {
+        "from_id": "seg_0032",
+        "to_id": "seg_0033",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0033",
+        "to_id": "seg_0034",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0034",
+        "to_id": "seg_0035",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0035",
+        "to_id": "seg_0036",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0036",
+        "to_id": "seg_0037",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0037",
+        "to_id": "seg_0038",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0038",
+        "to_id": "seg_0039",
+        "gap_m": 0.0,
+        "yaw_change_rad": 2.6462719363015115
+      },
+      {
+        "from_id": "seg_0039",
+        "to_id": "seg_0040",
+        "gap_m": 0.0,
+        "yaw_change_rad": 2.6462719363015115
+      },
+      {
+        "from_id": "seg_0040",
+        "to_id": "seg_0041",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0041",
+        "to_id": "seg_0042",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0042",
+        "to_id": "seg_0043",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0043",
+        "to_id": "seg_0044",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0044",
+        "to_id": "seg_0045",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0045",
+        "to_id": "seg_0046",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0046",
+        "to_id": "seg_0047",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0047",
+        "to_id": "seg_0048",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0048",
+        "to_id": "seg_0049",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.077236928293895
+      },
+      {
+        "from_id": "seg_0049",
+        "to_id": "seg_0050",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.077236928293895
+      },
+      {
+        "from_id": "seg_0050",
+        "to_id": "seg_0051",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0051",
+        "to_id": "seg_0052",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0052",
+        "to_id": "seg_0053",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0053",
+        "to_id": "seg_0054",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0054",
+        "to_id": "seg_0055",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0055",
+        "to_id": "seg_0056",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0056",
+        "to_id": "seg_0057",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677724
+      },
+      {
+        "from_id": "seg_0057",
+        "to_id": "seg_0058",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677724
+      },
+      {
+        "from_id": "seg_0058",
+        "to_id": "seg_0059",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677724
+      },
+      {
+        "from_id": "seg_0059",
+        "to_id": "seg_0060",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677724
+      },
+      {
+        "from_id": "seg_0060",
+        "to_id": "seg_0061",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0061",
+        "to_id": "seg_0062",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0062",
+        "to_id": "seg_0063",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0063",
+        "to_id": "seg_0064",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0064",
+        "to_id": "seg_0065",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677724
+      },
+      {
+        "from_id": "seg_0065",
+        "to_id": "seg_0066",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677724
+      },
+      {
+        "from_id": "seg_0066",
+        "to_id": "seg_0067",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677724
+      },
+      {
+        "from_id": "seg_0067",
+        "to_id": "seg_0068",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677746
+      },
+      {
+        "from_id": "seg_0068",
+        "to_id": "seg_0069",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677746
+      },
+      {
+        "from_id": "seg_0069",
+        "to_id": "seg_0070",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677746
+      },
+      {
+        "from_id": "seg_0070",
+        "to_id": "seg_0071",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677746
+      },
+      {
+        "from_id": "seg_0071",
+        "to_id": "seg_0072",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677746
+      },
+      {
+        "from_id": "seg_0072",
+        "to_id": "seg_0073",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.095848100109435
+      },
+      {
+        "from_id": "seg_0073",
+        "to_id": "seg_0074",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.095848100109435
+      },
+      {
+        "from_id": "seg_0074",
+        "to_id": "seg_0075",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0075",
+        "to_id": "seg_0076",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0076",
+        "to_id": "seg_0077",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.065116198436147
+      },
+      {
+        "from_id": "seg_0077",
+        "to_id": "seg_0078",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.065116198436147
+      },
+      {
+        "from_id": "seg_0078",
+        "to_id": "seg_0079",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0079",
+        "to_id": "seg_0080",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0080",
+        "to_id": "seg_0081",
+        "gap_m": 0.0,
+        "yaw_change_rad": 2.8542765000903247
+      },
+      {
+        "from_id": "seg_0081",
+        "to_id": "seg_0082",
+        "gap_m": 0.0,
+        "yaw_change_rad": 2.8542765000903247
+      },
+      {
+        "from_id": "seg_0082",
+        "to_id": "seg_0083",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0083",
+        "to_id": "seg_0084",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0084",
+        "to_id": "seg_0085",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1102957438699432
+      },
+      {
+        "from_id": "seg_0085",
+        "to_id": "seg_0086",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1102957438699432
+      },
+      {
+        "from_id": "seg_0086",
+        "to_id": "seg_0087",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0087",
+        "to_id": "seg_0088",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0088",
+        "to_id": "seg_0089",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677746
+      },
+      {
+        "from_id": "seg_0089",
+        "to_id": "seg_0090",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677746
+      },
+      {
+        "from_id": "seg_0090",
+        "to_id": "seg_0091",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677746
+      },
+      {
+        "from_id": "seg_0091",
+        "to_id": "seg_0092",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677733
+      },
+      {
+        "from_id": "seg_0092",
+        "to_id": "seg_0093",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.0985874291005326
+      },
+      {
+        "from_id": "seg_0093",
+        "to_id": "seg_0094",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.0985874291005326
+      },
+      {
+        "from_id": "seg_0094",
+        "to_id": "seg_0095",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0095",
+        "to_id": "seg_0096",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0096",
+        "to_id": "seg_0097",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.0500240993860808
+      },
+      {
+        "from_id": "seg_0097",
+        "to_id": "seg_0098",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.0500240993860808
+      },
+      {
+        "from_id": "seg_0098",
+        "to_id": "seg_0099",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0099",
+        "to_id": "seg_0100",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      }
+    ]
+  },
+  "after": {
+    "segment_count": 101,
+    "kinds": {
+      "row": 51,
+      "turn": 50
+    },
+    "pose_count": 1737,
+    "path_length_m": 1633.7700962091383,
+    "seam_length_m": 0.0,
+    "bounds": [
+      1.8250000000000028,
+      5.175000000000001,
+      38.175,
+      28.175
+    ],
+    "discontinuous_seams": 0,
+    "duplicate_edges": 0,
+    "near_duplicate_edges": 0,
+    "segments": [
+      {
+        "index": 0,
+        "id": "seg_0000",
+        "kind": "row",
+        "poses": 37,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 1.0097222222222229,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 1,
+        "id": "seg_0001",
+        "kind": "turn",
+        "poses": 2,
+        "length_m": 1.0,
+        "declared_length_m": null,
+        "max_edge_m": 1.0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 2,
+        "id": "seg_0002",
+        "kind": "row",
+        "poses": 37,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 1.0097222222222229,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 3,
+        "id": "seg_0003",
+        "kind": "turn",
+        "poses": 10,
+        "length_m": 8.464940032609084,
+        "declared_length_m": null,
+        "max_edge_m": 0.9405488925121215,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 4,
+        "id": "seg_0004",
+        "kind": "row",
+        "poses": 9,
+        "length_m": 8.405665336882493,
+        "declared_length_m": null,
+        "max_edge_m": 1.0507081671103151,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 5,
+        "id": "seg_0005",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 0.9824324324324323,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 6,
+        "id": "seg_0006",
+        "kind": "row",
+        "poses": 26,
+        "length_m": 25.844909265982018,
+        "declared_length_m": null,
+        "max_edge_m": 1.033796370639287,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 7,
+        "id": "seg_0007",
+        "kind": "turn",
+        "poses": 27,
+        "length_m": 25.86424820030235,
+        "declared_length_m": null,
+        "max_edge_m": 0.9947787769347087,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 8,
+        "id": "seg_0008",
+        "kind": "row",
+        "poses": 25,
+        "length_m": 24.345412992687297,
+        "declared_length_m": null,
+        "max_edge_m": 1.0143922080286423,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 9,
+        "id": "seg_0009",
+        "kind": "turn",
+        "poses": 6,
+        "length_m": 4.593090379471533,
+        "declared_length_m": null,
+        "max_edge_m": 0.9186180758943081,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 10,
+        "id": "seg_0010",
+        "kind": "row",
+        "poses": 2,
+        "length_m": 0.7529323313842049,
+        "declared_length_m": null,
+        "max_edge_m": 0.7529323313842049,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 11,
+        "id": "seg_0011",
+        "kind": "turn",
+        "poses": 3,
+        "length_m": 1.0485427834220573,
+        "declared_length_m": null,
+        "max_edge_m": 0.5242713917110287,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 12,
+        "id": "seg_0012",
+        "kind": "row",
+        "poses": 6,
+        "length_m": 5.610021513034901,
+        "declared_length_m": null,
+        "max_edge_m": 1.1220043026069817,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 13,
+        "id": "seg_0013",
+        "kind": "turn",
+        "poses": 7,
+        "length_m": 5.95974926196981,
+        "declared_length_m": null,
+        "max_edge_m": 0.9932915436616352,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 14,
+        "id": "seg_0014",
+        "kind": "row",
+        "poses": 6,
+        "length_m": 5.875254144762565,
+        "declared_length_m": null,
+        "max_edge_m": 1.1750508289525143,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 15,
+        "id": "seg_0015",
+        "kind": "turn",
+        "poses": 9,
+        "length_m": 7.515751400180868,
+        "declared_length_m": null,
+        "max_edge_m": 0.9394689250226094,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 16,
+        "id": "seg_0016",
+        "kind": "row",
+        "poses": 2,
+        "length_m": 1.1224197354515795,
+        "declared_length_m": null,
+        "max_edge_m": 1.1224197354515795,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 17,
+        "id": "seg_0017",
+        "kind": "turn",
+        "poses": 31,
+        "length_m": 29.956668335270706,
+        "declared_length_m": null,
+        "max_edge_m": 0.9985556111756964,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 18,
+        "id": "seg_0018",
+        "kind": "row",
+        "poses": 25,
+        "length_m": 24.566520954058227,
+        "declared_length_m": null,
+        "max_edge_m": 1.0236050397524323,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 19,
+        "id": "seg_0019",
+        "kind": "turn",
+        "poses": 26,
+        "length_m": 24.586865432303124,
+        "declared_length_m": null,
+        "max_edge_m": 0.9834746172921274,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 20,
+        "id": "seg_0020",
+        "kind": "row",
+        "poses": 22,
+        "length_m": 21.38499800352764,
+        "declared_length_m": null,
+        "max_edge_m": 1.0183332382632244,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 21,
+        "id": "seg_0021",
+        "kind": "turn",
+        "poses": 2,
+        "length_m": 0.30468770009193946,
+        "declared_length_m": null,
+        "max_edge_m": 0.30468770009193946,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 22,
+        "id": "seg_0022",
+        "kind": "row",
+        "poses": 4,
+        "length_m": 3.551068569315561,
+        "declared_length_m": null,
+        "max_edge_m": 1.183689523105187,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 23,
+        "id": "seg_0023",
+        "kind": "turn",
+        "poses": 5,
+        "length_m": 3.598268040085049,
+        "declared_length_m": null,
+        "max_edge_m": 0.8995670100212632,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 24,
+        "id": "seg_0024",
+        "kind": "row",
+        "poses": 8,
+        "length_m": 7.510977686979803,
+        "declared_length_m": null,
+        "max_edge_m": 1.0729968124256892,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 25,
+        "id": "seg_0025",
+        "kind": "turn",
+        "poses": 16,
+        "length_m": 14.13336891687568,
+        "declared_length_m": null,
+        "max_edge_m": 0.9422245944583807,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 26,
+        "id": "seg_0026",
+        "kind": "row",
+        "poses": 15,
+        "length_m": 14.097947259814372,
+        "declared_length_m": null,
+        "max_edge_m": 1.006996232843889,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 27,
+        "id": "seg_0027",
+        "kind": "turn",
+        "poses": 33,
+        "length_m": 31.390962617629,
+        "declared_length_m": null,
+        "max_edge_m": 0.9809675818009111,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 28,
+        "id": "seg_0028",
+        "kind": "row",
+        "poses": 16,
+        "length_m": 15.863593584590603,
+        "declared_length_m": null,
+        "max_edge_m": 1.0575729056393754,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 29,
+        "id": "seg_0029",
+        "kind": "turn",
+        "poses": 22,
+        "length_m": 20.822630966961597,
+        "declared_length_m": null,
+        "max_edge_m": 0.991553855569606,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 30,
+        "id": "seg_0030",
+        "kind": "row",
+        "poses": 4,
+        "length_m": 3.6241897606288376,
+        "declared_length_m": null,
+        "max_edge_m": 1.2080632535429459,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 31,
+        "id": "seg_0031",
+        "kind": "turn",
+        "poses": 5,
+        "length_m": 3.7596211805242974,
+        "declared_length_m": null,
+        "max_edge_m": 0.9399052951310743,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 32,
+        "id": "seg_0032",
+        "kind": "row",
+        "poses": 2,
+        "length_m": 1.6142383987135034,
+        "declared_length_m": null,
+        "max_edge_m": 1.6142383987135034,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 33,
+        "id": "seg_0033",
+        "kind": "turn",
+        "poses": 3,
+        "length_m": 1.0152797662577768,
+        "declared_length_m": null,
+        "max_edge_m": 0.5076398831288884,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 34,
+        "id": "seg_0034",
+        "kind": "row",
+        "poses": 13,
+        "length_m": 12.818250891443999,
+        "declared_length_m": null,
+        "max_edge_m": 1.068187574287002,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 35,
+        "id": "seg_0035",
+        "kind": "turn",
+        "poses": 2,
+        "length_m": 0.9362354005627935,
+        "declared_length_m": null,
+        "max_edge_m": 0.9362354005627935,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 36,
+        "id": "seg_0036",
+        "kind": "row",
+        "poses": 12,
+        "length_m": 11.320904628298106,
+        "declared_length_m": null,
+        "max_edge_m": 1.0291731480271018,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 37,
+        "id": "seg_0037",
+        "kind": "turn",
+        "poses": 4,
+        "length_m": 2.43833765299847,
+        "declared_length_m": null,
+        "max_edge_m": 0.8127792176661579,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 38,
+        "id": "seg_0038",
+        "kind": "row",
+        "poses": 7,
+        "length_m": 6.206753261725346,
+        "declared_length_m": null,
+        "max_edge_m": 1.0344588769542256,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 39,
+        "id": "seg_0039",
+        "kind": "turn",
+        "poses": 4,
+        "length_m": 2.103873060250325,
+        "declared_length_m": null,
+        "max_edge_m": 0.7012910200834428,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 40,
+        "id": "seg_0040",
+        "kind": "row",
+        "poses": 2,
+        "length_m": 1.8510218404025025,
+        "declared_length_m": null,
+        "max_edge_m": 1.8510218404025025,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 41,
+        "id": "seg_0041",
+        "kind": "turn",
+        "poses": 8,
+        "length_m": 6.398377604050076,
+        "declared_length_m": null,
+        "max_edge_m": 0.9140539434357251,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 42,
+        "id": "seg_0042",
+        "kind": "row",
+        "poses": 4,
+        "length_m": 3.5008809953921727,
+        "declared_length_m": null,
+        "max_edge_m": 1.166960331797391,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 43,
+        "id": "seg_0043",
+        "kind": "turn",
+        "poses": 16,
+        "length_m": 14.398086538555098,
+        "declared_length_m": null,
+        "max_edge_m": 0.9598724359036765,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 44,
+        "id": "seg_0044",
+        "kind": "row",
+        "poses": 9,
+        "length_m": 8.458867890164456,
+        "declared_length_m": null,
+        "max_edge_m": 1.0573584862705587,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 45,
+        "id": "seg_0045",
+        "kind": "turn",
+        "poses": 13,
+        "length_m": 11.198686445074216,
+        "declared_length_m": null,
+        "max_edge_m": 0.9332238704228537,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 46,
+        "id": "seg_0046",
+        "kind": "row",
+        "poses": 2,
+        "length_m": 1.187167118049608,
+        "declared_length_m": null,
+        "max_edge_m": 1.187167118049608,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 47,
+        "id": "seg_0047",
+        "kind": "turn",
+        "poses": 19,
+        "length_m": 17.50176541592684,
+        "declared_length_m": null,
+        "max_edge_m": 0.9723203008848245,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 48,
+        "id": "seg_0048",
+        "kind": "row",
+        "poses": 16,
+        "length_m": 15.517175215516119,
+        "declared_length_m": null,
+        "max_edge_m": 1.034478347701075,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 49,
+        "id": "seg_0049",
+        "kind": "turn",
+        "poses": 17,
+        "length_m": 15.549364188577867,
+        "declared_length_m": null,
+        "max_edge_m": 0.9718352617861218,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 50,
+        "id": "seg_0050",
+        "kind": "row",
+        "poses": 17,
+        "length_m": 16.079358160499844,
+        "declared_length_m": null,
+        "max_edge_m": 1.0049598850312407,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 51,
+        "id": "seg_0051",
+        "kind": "turn",
+        "poses": 3,
+        "length_m": 1.2339360874454748,
+        "declared_length_m": null,
+        "max_edge_m": 0.6169680437227392,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 52,
+        "id": "seg_0052",
+        "kind": "row",
+        "poses": 11,
+        "length_m": 10.068515921844224,
+        "declared_length_m": null,
+        "max_edge_m": 1.0068515921844252,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 53,
+        "id": "seg_0053",
+        "kind": "turn",
+        "poses": 4,
+        "length_m": 2.378187883835647,
+        "declared_length_m": null,
+        "max_edge_m": 0.7927292946118829,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 54,
+        "id": "seg_0054",
+        "kind": "row",
+        "poses": 3,
+        "length_m": 2.744490710141349,
+        "declared_length_m": null,
+        "max_edge_m": 1.3722453550706746,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 55,
+        "id": "seg_0055",
+        "kind": "turn",
+        "poses": 2,
+        "length_m": 0.912778587125068,
+        "declared_length_m": null,
+        "max_edge_m": 0.912778587125068,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 56,
+        "id": "seg_0056",
+        "kind": "row",
+        "poses": 3,
+        "length_m": 2.932732649108388,
+        "declared_length_m": null,
+        "max_edge_m": 1.466366324554194,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 57,
+        "id": "seg_0057",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.36375255663254,
+        "declared_length_m": null,
+        "max_edge_m": 0.9828041231522309,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 58,
+        "id": "seg_0058",
+        "kind": "row",
+        "poses": 37,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 1.0097222222222229,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 59,
+        "id": "seg_0059",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.36375255663254,
+        "declared_length_m": null,
+        "max_edge_m": 0.9828041231522309,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 60,
+        "id": "seg_0060",
+        "kind": "row",
+        "poses": 12,
+        "length_m": 11.374074121472166,
+        "declared_length_m": null,
+        "max_edge_m": 1.0340067383156537,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 61,
+        "id": "seg_0061",
+        "kind": "turn",
+        "poses": 2,
+        "length_m": 0.7321282295881986,
+        "declared_length_m": null,
+        "max_edge_m": 0.7321282295881986,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 62,
+        "id": "seg_0062",
+        "kind": "row",
+        "poses": 2,
+        "length_m": 0.8533427474414914,
+        "declared_length_m": null,
+        "max_edge_m": 0.8533427474414914,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 63,
+        "id": "seg_0063",
+        "kind": "turn",
+        "poses": 3,
+        "length_m": 1.4177262006240987,
+        "declared_length_m": null,
+        "max_edge_m": 0.7088631003120511,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 64,
+        "id": "seg_0064",
+        "kind": "row",
+        "poses": 22,
+        "length_m": 21.97272870087404,
+        "declared_length_m": null,
+        "max_edge_m": 1.0463204143273401,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 65,
+        "id": "seg_0065",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.36375255663254,
+        "declared_length_m": null,
+        "max_edge_m": 0.9828041231522309,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 66,
+        "id": "seg_0066",
+        "kind": "row",
+        "poses": 37,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 1.0097222222222229,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 67,
+        "id": "seg_0067",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.363752556632534,
+        "declared_length_m": null,
+        "max_edge_m": 0.9828041231522309,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 68,
+        "id": "seg_0068",
+        "kind": "row",
+        "poses": 37,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 1.0097222222222229,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 69,
+        "id": "seg_0069",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.363752556632534,
+        "declared_length_m": null,
+        "max_edge_m": 0.9828041231522309,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 70,
+        "id": "seg_0070",
+        "kind": "row",
+        "poses": 37,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 1.0097222222222229,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 71,
+        "id": "seg_0071",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.363752556632534,
+        "declared_length_m": null,
+        "max_edge_m": 0.9828041231522309,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 72,
+        "id": "seg_0072",
+        "kind": "row",
+        "poses": 37,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 1.0097222222222229,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 73,
+        "id": "seg_0073",
+        "kind": "turn",
+        "poses": 23,
+        "length_m": 21.868151938298883,
+        "declared_length_m": null,
+        "max_edge_m": 0.9940069062863146,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 74,
+        "id": "seg_0074",
+        "kind": "row",
+        "poses": 22,
+        "length_m": 21.845275672248338,
+        "declared_length_m": null,
+        "max_edge_m": 1.040251222488024,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 75,
+        "id": "seg_0075",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 0.9824324324324323,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 76,
+        "id": "seg_0076",
+        "kind": "row",
+        "poses": 14,
+        "length_m": 13.050417779236593,
+        "declared_length_m": null,
+        "max_edge_m": 1.0038782907105102,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 77,
+        "id": "seg_0077",
+        "kind": "turn",
+        "poses": 15,
+        "length_m": 13.088674654548281,
+        "declared_length_m": null,
+        "max_edge_m": 0.9349053324677358,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 78,
+        "id": "seg_0078",
+        "kind": "row",
+        "poses": 33,
+        "length_m": 32.05567952721268,
+        "declared_length_m": null,
+        "max_edge_m": 1.0017399852253988,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 79,
+        "id": "seg_0079",
+        "kind": "turn",
+        "poses": 2,
+        "length_m": 0.7960611825012265,
+        "declared_length_m": null,
+        "max_edge_m": 0.7960611825012265,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 80,
+        "id": "seg_0080",
+        "kind": "row",
+        "poses": 4,
+        "length_m": 3.498259290286086,
+        "declared_length_m": null,
+        "max_edge_m": 1.166086430095362,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 81,
+        "id": "seg_0081",
+        "kind": "turn",
+        "poses": 5,
+        "length_m": 3.5288377823094237,
+        "declared_length_m": null,
+        "max_edge_m": 0.8822094455773559,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 82,
+        "id": "seg_0082",
+        "kind": "row",
+        "poses": 4,
+        "length_m": 3.3841832240371517,
+        "declared_length_m": null,
+        "max_edge_m": 1.128061074679053,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 83,
+        "id": "seg_0083",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 0.9824324324324323,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 84,
+        "id": "seg_0084",
+        "kind": "row",
+        "poses": 32,
+        "length_m": 31.941603460963748,
+        "declared_length_m": null,
+        "max_edge_m": 1.0303743051923817,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 85,
+        "id": "seg_0085",
+        "kind": "turn",
+        "poses": 33,
+        "length_m": 31.957253193249457,
+        "declared_length_m": null,
+        "max_edge_m": 0.9986641622890515,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 86,
+        "id": "seg_0086",
+        "kind": "row",
+        "poses": 4,
+        "length_m": 3.427314465704356,
+        "declared_length_m": null,
+        "max_edge_m": 1.1424381552347853,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 87,
+        "id": "seg_0087",
+        "kind": "turn",
+        "poses": 3,
+        "length_m": 1.263195821478135,
+        "declared_length_m": null,
+        "max_edge_m": 0.6315979107390675,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 88,
+        "id": "seg_0088",
+        "kind": "row",
+        "poses": 32,
+        "length_m": 31.659489712817503,
+        "declared_length_m": null,
+        "max_edge_m": 1.021273861703797,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 89,
+        "id": "seg_0089",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.363752556632534,
+        "declared_length_m": null,
+        "max_edge_m": 0.9828041231522309,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 90,
+        "id": "seg_0090",
+        "kind": "row",
+        "poses": 37,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 1.0097222222222229,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 91,
+        "id": "seg_0091",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.363752556632534,
+        "declared_length_m": null,
+        "max_edge_m": 0.9828041231522309,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 92,
+        "id": "seg_0092",
+        "kind": "row",
+        "poses": 37,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 1.0097222222222229,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 93,
+        "id": "seg_0093",
+        "kind": "turn",
+        "poses": 25,
+        "length_m": 23.260157805415812,
+        "declared_length_m": null,
+        "max_edge_m": 0.9691732418923292,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 94,
+        "id": "seg_0094",
+        "kind": "row",
+        "poses": 24,
+        "length_m": 23.23865187855884,
+        "declared_length_m": null,
+        "max_edge_m": 1.0103761686329946,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 95,
+        "id": "seg_0095",
+        "kind": "turn",
+        "poses": 38,
+        "length_m": 36.349999999999994,
+        "declared_length_m": null,
+        "max_edge_m": 0.9824324324324323,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 96,
+        "id": "seg_0096",
+        "kind": "row",
+        "poses": 11,
+        "length_m": 10.890239686752828,
+        "declared_length_m": null,
+        "max_edge_m": 1.089023968675285,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 97,
+        "id": "seg_0097",
+        "kind": "turn",
+        "poses": 12,
+        "length_m": 10.936055981702287,
+        "declared_length_m": null,
+        "max_edge_m": 0.9941869074274831,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 98,
+        "id": "seg_0098",
+        "kind": "row",
+        "poses": 12,
+        "length_m": 11.770896793805704,
+        "declared_length_m": null,
+        "max_edge_m": 1.0700815267096146,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 99,
+        "id": "seg_0099",
+        "kind": "turn",
+        "poses": 3,
+        "length_m": 1.2346513527357388,
+        "declared_length_m": null,
+        "max_edge_m": 0.6173256763678694,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 100,
+        "id": "seg_0100",
+        "kind": "row",
+        "poses": 24,
+        "length_m": 23.34445185345855,
+        "declared_length_m": null,
+        "max_edge_m": 1.0149761675416826,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      }
+    ],
+    "seams": [
+      {
+        "from_id": "seg_0000",
+        "to_id": "seg_0001",
+        "gap_m": 0.0,
+        "yaw_change_rad": 1.5707963267948968
+      },
+      {
+        "from_id": "seg_0001",
+        "to_id": "seg_0002",
+        "gap_m": 0.0,
+        "yaw_change_rad": 1.5707963267948968
+      },
+      {
+        "from_id": "seg_0002",
+        "to_id": "seg_0003",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.0231818108627952
+      },
+      {
+        "from_id": "seg_0003",
+        "to_id": "seg_0004",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.0231818108627952
+      },
+      {
+        "from_id": "seg_0004",
+        "to_id": "seg_0005",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0005",
+        "to_id": "seg_0006",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0006",
+        "to_id": "seg_0007",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.102919605635944
+      },
+      {
+        "from_id": "seg_0007",
+        "to_id": "seg_0008",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1029196056359445
+      },
+      {
+        "from_id": "seg_0008",
+        "to_id": "seg_0009",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0009",
+        "to_id": "seg_0010",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0010",
+        "to_id": "seg_0011",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0011",
+        "to_id": "seg_0012",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0012",
+        "to_id": "seg_0013",
+        "gap_m": 0.0,
+        "yaw_change_rad": 2.9730028695373494
+      },
+      {
+        "from_id": "seg_0013",
+        "to_id": "seg_0014",
+        "gap_m": 0.0,
+        "yaw_change_rad": 2.9730028695373494
+      },
+      {
+        "from_id": "seg_0014",
+        "to_id": "seg_0015",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0015",
+        "to_id": "seg_0016",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0016",
+        "to_id": "seg_0017",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0017",
+        "to_id": "seg_0018",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0018",
+        "to_id": "seg_0019",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1009093093961217
+      },
+      {
+        "from_id": "seg_0019",
+        "to_id": "seg_0020",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1009093093961217
+      },
+      {
+        "from_id": "seg_0020",
+        "to_id": "seg_0021",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0021",
+        "to_id": "seg_0022",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0022",
+        "to_id": "seg_0023",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0023",
+        "to_id": "seg_0024",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0024",
+        "to_id": "seg_0025",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.0707789460707837
+      },
+      {
+        "from_id": "seg_0025",
+        "to_id": "seg_0026",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.0707789460707837
+      },
+      {
+        "from_id": "seg_0026",
+        "to_id": "seg_0027",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0027",
+        "to_id": "seg_0028",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0028",
+        "to_id": "seg_0029",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0029",
+        "to_id": "seg_0030",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0030",
+        "to_id": "seg_0031",
+        "gap_m": 0.0,
+        "yaw_change_rad": 2.8723678502044376
+      },
+      {
+        "from_id": "seg_0031",
+        "to_id": "seg_0032",
+        "gap_m": 0.0,
+        "yaw_change_rad": 2.8723678502044376
+      },
+      {
+        "from_id": "seg_0032",
+        "to_id": "seg_0033",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0033",
+        "to_id": "seg_0034",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0034",
+        "to_id": "seg_0035",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0035",
+        "to_id": "seg_0036",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0036",
+        "to_id": "seg_0037",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0037",
+        "to_id": "seg_0038",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0038",
+        "to_id": "seg_0039",
+        "gap_m": 0.0,
+        "yaw_change_rad": 2.6462719363015115
+      },
+      {
+        "from_id": "seg_0039",
+        "to_id": "seg_0040",
+        "gap_m": 0.0,
+        "yaw_change_rad": 2.6462719363015115
+      },
+      {
+        "from_id": "seg_0040",
+        "to_id": "seg_0041",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0041",
+        "to_id": "seg_0042",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0042",
+        "to_id": "seg_0043",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0043",
+        "to_id": "seg_0044",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0044",
+        "to_id": "seg_0045",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0045",
+        "to_id": "seg_0046",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0046",
+        "to_id": "seg_0047",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0047",
+        "to_id": "seg_0048",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0048",
+        "to_id": "seg_0049",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.077236928293895
+      },
+      {
+        "from_id": "seg_0049",
+        "to_id": "seg_0050",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.077236928293895
+      },
+      {
+        "from_id": "seg_0050",
+        "to_id": "seg_0051",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0051",
+        "to_id": "seg_0052",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0052",
+        "to_id": "seg_0053",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0053",
+        "to_id": "seg_0054",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0054",
+        "to_id": "seg_0055",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0055",
+        "to_id": "seg_0056",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0056",
+        "to_id": "seg_0057",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677724
+      },
+      {
+        "from_id": "seg_0057",
+        "to_id": "seg_0058",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677724
+      },
+      {
+        "from_id": "seg_0058",
+        "to_id": "seg_0059",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677724
+      },
+      {
+        "from_id": "seg_0059",
+        "to_id": "seg_0060",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677724
+      },
+      {
+        "from_id": "seg_0060",
+        "to_id": "seg_0061",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0061",
+        "to_id": "seg_0062",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0062",
+        "to_id": "seg_0063",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0063",
+        "to_id": "seg_0064",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0064",
+        "to_id": "seg_0065",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677724
+      },
+      {
+        "from_id": "seg_0065",
+        "to_id": "seg_0066",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677724
+      },
+      {
+        "from_id": "seg_0066",
+        "to_id": "seg_0067",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677724
+      },
+      {
+        "from_id": "seg_0067",
+        "to_id": "seg_0068",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677746
+      },
+      {
+        "from_id": "seg_0068",
+        "to_id": "seg_0069",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677746
+      },
+      {
+        "from_id": "seg_0069",
+        "to_id": "seg_0070",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677746
+      },
+      {
+        "from_id": "seg_0070",
+        "to_id": "seg_0071",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677746
+      },
+      {
+        "from_id": "seg_0071",
+        "to_id": "seg_0072",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677746
+      },
+      {
+        "from_id": "seg_0072",
+        "to_id": "seg_0073",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.095848100109435
+      },
+      {
+        "from_id": "seg_0073",
+        "to_id": "seg_0074",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.095848100109435
+      },
+      {
+        "from_id": "seg_0074",
+        "to_id": "seg_0075",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0075",
+        "to_id": "seg_0076",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0076",
+        "to_id": "seg_0077",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.065116198436147
+      },
+      {
+        "from_id": "seg_0077",
+        "to_id": "seg_0078",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.065116198436147
+      },
+      {
+        "from_id": "seg_0078",
+        "to_id": "seg_0079",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0079",
+        "to_id": "seg_0080",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0080",
+        "to_id": "seg_0081",
+        "gap_m": 0.0,
+        "yaw_change_rad": 2.8542765000903247
+      },
+      {
+        "from_id": "seg_0081",
+        "to_id": "seg_0082",
+        "gap_m": 0.0,
+        "yaw_change_rad": 2.8542765000903247
+      },
+      {
+        "from_id": "seg_0082",
+        "to_id": "seg_0083",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0083",
+        "to_id": "seg_0084",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0084",
+        "to_id": "seg_0085",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1102957438699432
+      },
+      {
+        "from_id": "seg_0085",
+        "to_id": "seg_0086",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1102957438699432
+      },
+      {
+        "from_id": "seg_0086",
+        "to_id": "seg_0087",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0087",
+        "to_id": "seg_0088",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0088",
+        "to_id": "seg_0089",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677746
+      },
+      {
+        "from_id": "seg_0089",
+        "to_id": "seg_0090",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677746
+      },
+      {
+        "from_id": "seg_0090",
+        "to_id": "seg_0091",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677746
+      },
+      {
+        "from_id": "seg_0091",
+        "to_id": "seg_0092",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.1140892741677733
+      },
+      {
+        "from_id": "seg_0092",
+        "to_id": "seg_0093",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.0985874291005326
+      },
+      {
+        "from_id": "seg_0093",
+        "to_id": "seg_0094",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.0985874291005326
+      },
+      {
+        "from_id": "seg_0094",
+        "to_id": "seg_0095",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0095",
+        "to_id": "seg_0096",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.141592653589793
+      },
+      {
+        "from_id": "seg_0096",
+        "to_id": "seg_0097",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.0500240993860808
+      },
+      {
+        "from_id": "seg_0097",
+        "to_id": "seg_0098",
+        "gap_m": 0.0,
+        "yaw_change_rad": 3.0500240993860808
+      },
+      {
+        "from_id": "seg_0098",
+        "to_id": "seg_0099",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "seg_0099",
+        "to_id": "seg_0100",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      }
+    ]
+  },
+  "merge_operations": [],
+  "segment_mapping": [
+    {
+      "output_index": 0,
+      "output_id": "seg_0000",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 0,
+          "id": "seg_0000",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 0,
+            "points": 37
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 1,
+      "output_id": "seg_0001",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 1,
+          "id": "seg_0001",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 0,
+            "to_row": 1,
+            "points": 2
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 2,
+      "output_id": "seg_0002",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 2,
+          "id": "seg_0002",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 1,
+            "points": 37
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 3,
+      "output_id": "seg_0003",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 3,
+          "id": "seg_0003",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 1,
+            "to_row": 2,
+            "points": 10
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 4,
+      "output_id": "seg_0004",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 4,
+          "id": "seg_0004",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 2,
+            "points": 9
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 5,
+      "output_id": "seg_0005",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 5,
+          "id": "seg_0005",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 2,
+            "to_row": 3,
+            "points": 38
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 6,
+      "output_id": "seg_0006",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 6,
+          "id": "seg_0006",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 3,
+            "points": 26
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 7,
+      "output_id": "seg_0007",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 7,
+          "id": "seg_0007",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 3,
+            "to_row": 4,
+            "points": 27
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 8,
+      "output_id": "seg_0008",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 8,
+          "id": "seg_0008",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 4,
+            "points": 25
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 9,
+      "output_id": "seg_0009",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 9,
+          "id": "seg_0009",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 4,
+            "to_row": 5,
+            "points": 6
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 10,
+      "output_id": "seg_0010",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 10,
+          "id": "seg_0010",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 5,
+            "points": 2
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 11,
+      "output_id": "seg_0011",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 11,
+          "id": "seg_0011",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 5,
+            "to_row": 6,
+            "points": 3
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 12,
+      "output_id": "seg_0012",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 12,
+          "id": "seg_0012",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 6,
+            "points": 6
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 13,
+      "output_id": "seg_0013",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 13,
+          "id": "seg_0013",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 6,
+            "to_row": 7,
+            "points": 7
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 14,
+      "output_id": "seg_0014",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 14,
+          "id": "seg_0014",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 7,
+            "points": 6
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 15,
+      "output_id": "seg_0015",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 15,
+          "id": "seg_0015",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 7,
+            "to_row": 8,
+            "points": 9
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 16,
+      "output_id": "seg_0016",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 16,
+          "id": "seg_0016",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 8,
+            "points": 2
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 17,
+      "output_id": "seg_0017",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 17,
+          "id": "seg_0017",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 8,
+            "to_row": 9,
+            "points": 31
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 18,
+      "output_id": "seg_0018",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 18,
+          "id": "seg_0018",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 9,
+            "points": 25
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 19,
+      "output_id": "seg_0019",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 19,
+          "id": "seg_0019",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 9,
+            "to_row": 10,
+            "points": 26
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 20,
+      "output_id": "seg_0020",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 20,
+          "id": "seg_0020",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 10,
+            "points": 22
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 21,
+      "output_id": "seg_0021",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 21,
+          "id": "seg_0021",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 10,
+            "to_row": 11,
+            "points": 2
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 22,
+      "output_id": "seg_0022",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 22,
+          "id": "seg_0022",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 11,
+            "points": 4
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 23,
+      "output_id": "seg_0023",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 23,
+          "id": "seg_0023",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 11,
+            "to_row": 12,
+            "points": 5
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 24,
+      "output_id": "seg_0024",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 24,
+          "id": "seg_0024",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 12,
+            "points": 8
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 25,
+      "output_id": "seg_0025",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 25,
+          "id": "seg_0025",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 12,
+            "to_row": 13,
+            "points": 16
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 26,
+      "output_id": "seg_0026",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 26,
+          "id": "seg_0026",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 13,
+            "points": 15
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 27,
+      "output_id": "seg_0027",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 27,
+          "id": "seg_0027",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 13,
+            "to_row": 14,
+            "points": 33
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 28,
+      "output_id": "seg_0028",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 28,
+          "id": "seg_0028",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 14,
+            "points": 16
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 29,
+      "output_id": "seg_0029",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 29,
+          "id": "seg_0029",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 14,
+            "to_row": 15,
+            "points": 22
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 30,
+      "output_id": "seg_0030",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 30,
+          "id": "seg_0030",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 15,
+            "points": 4
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 31,
+      "output_id": "seg_0031",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 31,
+          "id": "seg_0031",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 15,
+            "to_row": 16,
+            "points": 5
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 32,
+      "output_id": "seg_0032",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 32,
+          "id": "seg_0032",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 16,
+            "points": 2
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 33,
+      "output_id": "seg_0033",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 33,
+          "id": "seg_0033",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 16,
+            "to_row": 17,
+            "points": 3
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 34,
+      "output_id": "seg_0034",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 34,
+          "id": "seg_0034",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 17,
+            "points": 13
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 35,
+      "output_id": "seg_0035",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 35,
+          "id": "seg_0035",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 17,
+            "to_row": 18,
+            "points": 2
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 36,
+      "output_id": "seg_0036",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 36,
+          "id": "seg_0036",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 18,
+            "points": 12
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 37,
+      "output_id": "seg_0037",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 37,
+          "id": "seg_0037",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 18,
+            "to_row": 19,
+            "points": 4
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 38,
+      "output_id": "seg_0038",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 38,
+          "id": "seg_0038",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 19,
+            "points": 7
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 39,
+      "output_id": "seg_0039",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 39,
+          "id": "seg_0039",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 19,
+            "to_row": 20,
+            "points": 4
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 40,
+      "output_id": "seg_0040",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 40,
+          "id": "seg_0040",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 20,
+            "points": 2
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 41,
+      "output_id": "seg_0041",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 41,
+          "id": "seg_0041",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 20,
+            "to_row": 21,
+            "points": 8
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 42,
+      "output_id": "seg_0042",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 42,
+          "id": "seg_0042",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 21,
+            "points": 4
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 43,
+      "output_id": "seg_0043",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 43,
+          "id": "seg_0043",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 21,
+            "to_row": 22,
+            "points": 16
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 44,
+      "output_id": "seg_0044",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 44,
+          "id": "seg_0044",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 22,
+            "points": 9
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 45,
+      "output_id": "seg_0045",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 45,
+          "id": "seg_0045",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 22,
+            "to_row": 23,
+            "points": 13
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 46,
+      "output_id": "seg_0046",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 46,
+          "id": "seg_0046",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 23,
+            "points": 2
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 47,
+      "output_id": "seg_0047",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 47,
+          "id": "seg_0047",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 23,
+            "to_row": 24,
+            "points": 19
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 48,
+      "output_id": "seg_0048",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 48,
+          "id": "seg_0048",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 24,
+            "points": 16
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 49,
+      "output_id": "seg_0049",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 49,
+          "id": "seg_0049",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 24,
+            "to_row": 25,
+            "points": 17
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 50,
+      "output_id": "seg_0050",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 50,
+          "id": "seg_0050",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 25,
+            "points": 17
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 51,
+      "output_id": "seg_0051",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 51,
+          "id": "seg_0051",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 25,
+            "to_row": 26,
+            "points": 3
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 52,
+      "output_id": "seg_0052",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 52,
+          "id": "seg_0052",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 26,
+            "points": 11
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 53,
+      "output_id": "seg_0053",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 53,
+          "id": "seg_0053",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 26,
+            "to_row": 27,
+            "points": 4
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 54,
+      "output_id": "seg_0054",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 54,
+          "id": "seg_0054",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 27,
+            "points": 3
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 55,
+      "output_id": "seg_0055",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 55,
+          "id": "seg_0055",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 27,
+            "to_row": 28,
+            "points": 2
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 56,
+      "output_id": "seg_0056",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 56,
+          "id": "seg_0056",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 28,
+            "points": 3
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 57,
+      "output_id": "seg_0057",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 57,
+          "id": "seg_0057",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 28,
+            "to_row": 29,
+            "points": 38
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 58,
+      "output_id": "seg_0058",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 58,
+          "id": "seg_0058",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 29,
+            "points": 37
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 59,
+      "output_id": "seg_0059",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 59,
+          "id": "seg_0059",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 29,
+            "to_row": 30,
+            "points": 38
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 60,
+      "output_id": "seg_0060",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 60,
+          "id": "seg_0060",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 30,
+            "points": 12
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 61,
+      "output_id": "seg_0061",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 61,
+          "id": "seg_0061",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 30,
+            "to_row": 31,
+            "points": 2
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 62,
+      "output_id": "seg_0062",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 62,
+          "id": "seg_0062",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 31,
+            "points": 2
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 63,
+      "output_id": "seg_0063",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 63,
+          "id": "seg_0063",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 31,
+            "to_row": 32,
+            "points": 3
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 64,
+      "output_id": "seg_0064",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 64,
+          "id": "seg_0064",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 32,
+            "points": 22
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 65,
+      "output_id": "seg_0065",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 65,
+          "id": "seg_0065",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 32,
+            "to_row": 33,
+            "points": 38
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 66,
+      "output_id": "seg_0066",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 66,
+          "id": "seg_0066",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 33,
+            "points": 37
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 67,
+      "output_id": "seg_0067",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 67,
+          "id": "seg_0067",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 33,
+            "to_row": 34,
+            "points": 38
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 68,
+      "output_id": "seg_0068",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 68,
+          "id": "seg_0068",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 34,
+            "points": 37
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 69,
+      "output_id": "seg_0069",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 69,
+          "id": "seg_0069",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 34,
+            "to_row": 35,
+            "points": 38
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 70,
+      "output_id": "seg_0070",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 70,
+          "id": "seg_0070",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 35,
+            "points": 37
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 71,
+      "output_id": "seg_0071",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 71,
+          "id": "seg_0071",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 35,
+            "to_row": 36,
+            "points": 38
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 72,
+      "output_id": "seg_0072",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 72,
+          "id": "seg_0072",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 36,
+            "points": 37
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 73,
+      "output_id": "seg_0073",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 73,
+          "id": "seg_0073",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 36,
+            "to_row": 37,
+            "points": 23
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 74,
+      "output_id": "seg_0074",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 74,
+          "id": "seg_0074",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 37,
+            "points": 22
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 75,
+      "output_id": "seg_0075",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 75,
+          "id": "seg_0075",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 37,
+            "to_row": 38,
+            "points": 38
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 76,
+      "output_id": "seg_0076",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 76,
+          "id": "seg_0076",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 38,
+            "points": 14
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 77,
+      "output_id": "seg_0077",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 77,
+          "id": "seg_0077",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 38,
+            "to_row": 39,
+            "points": 15
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 78,
+      "output_id": "seg_0078",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 78,
+          "id": "seg_0078",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 39,
+            "points": 33
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 79,
+      "output_id": "seg_0079",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 79,
+          "id": "seg_0079",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 39,
+            "to_row": 40,
+            "points": 2
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 80,
+      "output_id": "seg_0080",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 80,
+          "id": "seg_0080",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 40,
+            "points": 4
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 81,
+      "output_id": "seg_0081",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 81,
+          "id": "seg_0081",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 40,
+            "to_row": 41,
+            "points": 5
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 82,
+      "output_id": "seg_0082",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 82,
+          "id": "seg_0082",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 41,
+            "points": 4
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 83,
+      "output_id": "seg_0083",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 83,
+          "id": "seg_0083",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 41,
+            "to_row": 42,
+            "points": 38
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 84,
+      "output_id": "seg_0084",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 84,
+          "id": "seg_0084",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 42,
+            "points": 32
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 85,
+      "output_id": "seg_0085",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 85,
+          "id": "seg_0085",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 42,
+            "to_row": 43,
+            "points": 33
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 86,
+      "output_id": "seg_0086",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 86,
+          "id": "seg_0086",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 43,
+            "points": 4
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 87,
+      "output_id": "seg_0087",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 87,
+          "id": "seg_0087",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 43,
+            "to_row": 44,
+            "points": 3
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 88,
+      "output_id": "seg_0088",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 88,
+          "id": "seg_0088",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 44,
+            "points": 32
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 89,
+      "output_id": "seg_0089",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 89,
+          "id": "seg_0089",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 44,
+            "to_row": 45,
+            "points": 38
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 90,
+      "output_id": "seg_0090",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 90,
+          "id": "seg_0090",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 45,
+            "points": 37
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 91,
+      "output_id": "seg_0091",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 91,
+          "id": "seg_0091",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 45,
+            "to_row": 46,
+            "points": 38
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 92,
+      "output_id": "seg_0092",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 92,
+          "id": "seg_0092",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 46,
+            "points": 37
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 93,
+      "output_id": "seg_0093",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 93,
+          "id": "seg_0093",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 46,
+            "to_row": 47,
+            "points": 25
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 94,
+      "output_id": "seg_0094",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 94,
+          "id": "seg_0094",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 47,
+            "points": 24
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 95,
+      "output_id": "seg_0095",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 95,
+          "id": "seg_0095",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 47,
+            "to_row": 48,
+            "points": 38
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 96,
+      "output_id": "seg_0096",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 96,
+          "id": "seg_0096",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 48,
+            "points": 11
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 97,
+      "output_id": "seg_0097",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 97,
+          "id": "seg_0097",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 48,
+            "to_row": 49,
+            "points": 12
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 98,
+      "output_id": "seg_0098",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 98,
+          "id": "seg_0098",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 49,
+            "points": 12
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 99,
+      "output_id": "seg_0099",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 99,
+          "id": "seg_0099",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "from_row": 49,
+            "to_row": 50,
+            "points": 3
+          }
+        }
+      ]
+    },
+    {
+      "output_index": 100,
+      "output_id": "seg_0100",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 100,
+          "id": "seg_0100",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {
+            "row_idx": 50,
+            "points": 24
+          }
+        }
+      ]
+    }
+  ],
+  "disappeared_event_ids": [],
+  "delta": {
+    "segments": 0,
+    "poses": 0,
+    "internal_length_m": 0.0,
+    "total_length_including_seams_m": 0.0
+  },
+  "metadata": {
+    "plan_keys": [
+      "cluster_order",
+      "clusters",
+      "field_meta",
+      "frame_id",
+      "segments",
+      "transitions"
+    ],
+    "field_meta": {
+      "planner": "boustrophedon",
+      "spacing": 1.0,
+      "margin": 0.2,
+      "source": "field.geojson",
+      "feature_count": 20,
+      "obstacle_count": 17
+    },
+    "transitions_count": 0,
+    "note": "coverage_executor does not remap top-level transitions/clusters; absorbed segment metadata is not propagated"
+  },
+  "status": "BLOCKED",
+  "findings": [
+    {
+      "code": "SOURCE_GEOMETRY_UNSAFE",
+      "origin": "original_plan",
+      "blocks_import": true,
+      "count": 62,
+      "examples": [
+        {
+          "id": "seg_0005",
+          "edge": 8
+        },
+        {
+          "id": "seg_0005",
+          "edge": 9
+        },
+        {
+          "id": "seg_0005",
+          "edge": 10
+        },
+        {
+          "id": "seg_0009",
+          "edge": 0
+        },
+        {
+          "id": "seg_0009",
+          "edge": 1
+        },
+        {
+          "id": "seg_0009",
+          "edge": 2
+        },
+        {
+          "id": "seg_0009",
+          "edge": 3
+        },
+        {
+          "id": "seg_0009",
+          "edge": 4
+        },
+        {
+          "id": "seg_0011",
+          "edge": 0
+        },
+        {
+          "id": "seg_0011",
+          "edge": 1
+        }
+      ]
+    },
+    {
+      "code": "TARGET_GEOMETRY_UNSAFE",
+      "origin": "map_admission",
+      "blocks_import": true,
+      "count": 1736,
+      "examples": [
+        {
+          "id": "seg_0000",
+          "edge": 0
+        },
+        {
+          "id": "seg_0000",
+          "edge": 1
+        },
+        {
+          "id": "seg_0000",
+          "edge": 2
+        },
+        {
+          "id": "seg_0000",
+          "edge": 3
+        },
+        {
+          "id": "seg_0000",
+          "edge": 4
+        },
+        {
+          "id": "seg_0000",
+          "edge": 5
+        },
+        {
+          "id": "seg_0000",
+          "edge": 6
+        },
+        {
+          "id": "seg_0000",
+          "edge": 7
+        },
+        {
+          "id": "seg_0000",
+          "edge": 8
+        },
+        {
+          "id": "seg_0000",
+          "edge": 9
+        }
+      ]
+    },
+    {
+      "code": "MAP_GEOMETRY_MISMATCH",
+      "origin": "map_admission",
+      "blocks_import": true,
+      "count": 1,
+      "examples": [
+        "Boundary and obstacle geometry must both agree; no auto-translation"
+      ]
+    },
+    {
+      "code": "RASTER_PATH_UNSAFE_OR_OUT_OF_BOUNDS",
+      "origin": "map_admission",
+      "blocks_import": true,
+      "count": 1736,
+      "examples": [
+        {
+          "id": "seg_0000",
+          "edge": 0
+        },
+        {
+          "id": "seg_0000",
+          "edge": 1
+        },
+        {
+          "id": "seg_0000",
+          "edge": 2
+        },
+        {
+          "id": "seg_0000",
+          "edge": 3
+        },
+        {
+          "id": "seg_0000",
+          "edge": 4
+        },
+        {
+          "id": "seg_0000",
+          "edge": 5
+        },
+        {
+          "id": "seg_0000",
+          "edge": 6
+        },
+        {
+          "id": "seg_0000",
+          "edge": 7
+        },
+        {
+          "id": "seg_0000",
+          "edge": 8
+        },
+        {
+          "id": "seg_0000",
+          "edge": 9
+        }
+      ]
+    },
+    {
+      "code": "COORDINATE_EVIDENCE_REQUIRED",
+      "origin": "map_admission",
+      "blocks_import": true,
+      "count": 1,
+      "examples": [
+        "A reviewed hash-bound coordinate manifest is required"
+      ]
+    }
+  ],
+  "inputs": {
+    "plan": {
+      "path": "plan_boustrophedon.json",
+      "sha256": "77dec291992f92430eac4222417d6713cd75485bec0903ea46f51e03126c985b"
+    },
+    "profile": {
+      "path": "../ROS2_BT-/profiles/executor_e1_static.yaml",
+      "sha256": "c26d10bc7031dca770c3e9d97f10b2aa82737deba1472b34c30fba3375ec4d4c"
+    },
+    "ros_plan_io": {
+      "path": "../ROS2_BT-/src/coverage_manager/coverage_manager/plan_io.py",
+      "sha256": "15ad34b4ac85e3bd1a482fe3a75629f86e72b6e3079125a1a7cc2838327637e0"
+    },
+    "source_geojson": {
+      "path": "field.geojson",
+      "sha256": "7bbd62bd4a54e80c27f3d09478bcd4ccf7f548c446bc3c0a791232573607cb6e"
+    },
+    "target_geojson": {
+      "path": "../ROS2_BT-/datasets/raw/maps_30/geojson/low_01_5p0m_scatter.geojson",
+      "sha256": "690ae93c40febb9b64efec0c9ce856162196e1e6935bbb07ed7b8da0c0e5462b"
+    },
+    "map_yaml": {
+      "path": "../ROS2_BT-/e1_assets/maps/low_01_5p0m_scatter.yaml",
+      "sha256": "b896654e2821a77001e726e99834d0276dc7703ee6b74cd513aa2478f15b5b5d"
+    }
+  },
+  "provenance": {
+    "ccpp_main": "c59ef20dc986fa8df50837ca34361a2dbb4a0b09",
+    "ccpp_pr1": "8fa580bb53ed14bce4b87422ac38b569650fcb61",
+    "ros2_main": "f523316be5e83863b27a52507708648a1d752a1f",
+    "plan_io_sha256": "15ad34b4ac85e3bd1a482fe3a75629f86e72b6e3079125a1a7cc2838327637e0",
+    "profile_sha256": "c26d10bc7031dca770c3e9d97f10b2aa82737deba1472b34c30fba3375ec4d4c",
+    "executor_node_sha256": "5e93c74c14073797588d737b1939330dd55d5a781e55a516654ab827876ae218",
+    "bt_supervisor_sha256": "f4ae8e1a2ed63eec44f82ce58aecaef7acd57d914f8b85980373b75ae7f966c6"
+  },
+  "upstream_verified": true,
+  "maps": {
+    "coordinates_transformed": false,
+    "simulation_tested": false,
+    "source_bounds": [
+      1.625,
+      4.625,
+      38.375,
+      28.375
+    ],
+    "source_unsafe_after_count": 62,
+    "target_bounds": [
+      0.0,
+      0.0,
+      5.0,
+      5.0
+    ],
+    "same_field_geometry": false,
+    "same_obstacle_geometry": false,
+    "raster": {
+      "width": 140,
+      "height": 140,
+      "resolution": 0.05,
+      "origin": [
+        -1.0,
+        -1.0,
+        0.0
+      ],
+      "image_sha256": "bd87d65b64e78007306d26dff83a6a0ef9efb5a702306cc66414f8290e6be329",
+      "unknown_cells": 0,
+      "occupied_cells": 9659
+    },
+    "raster_alignment": {
+      "mismatched_cells": 0,
+      "boundary_band_m": 0.07071067811865477
+    },
+    "limit": "2D geometry/raster checks; manifest records human coordinate review. Does not verify Gazebo SDF, TF, kinematics, controller or footprint sweep."
+  }
+}

@@ -1,0 +1,3 @@
+index,id,kind,poses,length_m,declared_length_m,max_edge_m,duplicate_edges,near_duplicate_edges
+0,row_a,row,6,2.500000001,3.000000001,1.0,0,1
+1,row_c,row,3,2.0,,1.0,0,0

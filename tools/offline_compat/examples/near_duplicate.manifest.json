@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "units": "m",
+  "axes": "x_y_right_handed",
+  "frame_id": "map",
+  "source_to_target_se2": [
+    0,
+    0,
+    0
+  ],
+  "coordinate_review": "SYNTHETIC ONLY: Cartesian metres, source and target generated in one coordinate system; no real Gazebo evidence.",
+  "sha256": {
+    "plan": "a881d1be2359d30484fb01319b4ab95bf4fb18528a92346a45ba6145ec7dfe41",
+    "source_geojson": "a7ebc44354dfe0ea8aca7ec3af9fc2ee524488340520de4e12d30338d2da04d3",
+    "target_geojson": "a7ebc44354dfe0ea8aca7ec3af9fc2ee524488340520de4e12d30338d2da04d3",
+    "map_yaml": "40ef19662584eb996e5ce132a45ce71a2d5dafa4dc71e3c814edc01837d08a7d",
+    "map_image": "605315f1e79c025cb9d5dda29efa10e8620021698336052451ad7008ddcd43f8"
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "report_version": 1,
+  "scope": "offline_coverage_executor_preprocessing_only",
+  "simulation_tested": false,
+  "options": {
+    "merge_enabled": false,
+    "length_threshold_m": 2.0,
+    "min_poses": 3,
+    "join_tolerance_m": 1e-06,
+    "duplicate_tolerance_m": 1e-06,
+    "max_edge_m": 2.0,
+    "max_segment_m": 100.0,
+    "clearance_m": 0.0
+  },
+  "before": {
+    "segment_count": 3,
+    "kinds": {
+      "row": 2,
+      "turn": 1
+    },
+    "pose_count": 9,
+    "path_length_m": 4.5,
+    "seam_length_m": 0.0,
+    "bounds": [
+      1.0,
+      1.0,
+      3.0,
+      1.5
+    ],
+    "discontinuous_seams": 0,
+    "duplicate_edges": 0,
+    "near_duplicate_edges": 0,
+    "segments": [
+      {
+        "index": 0,
+        "id": "row_a",
+        "kind": "row",
+        "poses": 3,
+        "length_m": 2.0,
+        "declared_length_m": null,
+        "max_edge_m": 1.0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 1,
+        "id": "turn_b",
+        "kind": "turn",
+        "poses": 3,
+        "length_m": 0.5,
+        "declared_length_m": null,
+        "max_edge_m": 0.25,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 2,
+        "id": "row_c",
+        "kind": "row",
+        "poses": 3,
+        "length_m": 2.0,
+        "declared_length_m": null,
+        "max_edge_m": 1.0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      }
+    ],
+    "seams": [
+      {
+        "from_id": "row_a",
+        "to_id": "turn_b",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "turn_b",
+        "to_id": "row_c",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      }
+    ]
+  },
+  "after": {
+    "segment_count": 3,
+    "kinds": {
+      "row": 2,
+      "turn": 1
+    },
+    "pose_count": 9,
+    "path_length_m": 4.5,
+    "seam_length_m": 0.0,
+    "bounds": [
+      1.0,
+      1.0,
+      3.0,
+      1.5
+    ],
+    "discontinuous_seams": 0,
+    "duplicate_edges": 0,
+    "near_duplicate_edges": 0,
+    "segments": [
+      {
+        "index": 0,
+        "id": "row_a",
+        "kind": "row",
+        "poses": 3,
+        "length_m": 2.0,
+        "declared_length_m": null,
+        "max_edge_m": 1.0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 1,
+        "id": "turn_b",
+        "kind": "turn",
+        "poses": 3,
+        "length_m": 0.5,
+        "declared_length_m": null,
+        "max_edge_m": 0.25,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      },
+      {
+        "index": 2,
+        "id": "row_c",
+        "kind": "row",
+        "poses": 3,
+        "length_m": 2.0,
+        "declared_length_m": null,
+        "max_edge_m": 1.0,
+        "duplicate_edges": 0,
+        "near_duplicate_edges": 0
+      }
+    ],
+    "seams": [
+      {
+        "from_id": "row_a",
+        "to_id": "turn_b",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      },
+      {
+        "from_id": "turn_b",
+        "to_id": "row_c",
+        "gap_m": 0.0,
+        "yaw_change_rad": 0.0
+      }
+    ]
+  },
+  "merge_operations": [],
+  "segment_mapping": [
+    {
+      "output_index": 0,
+      "output_id": "row_a",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 0,
+          "id": "row_a",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {}
+        }
+      ]
+    },
+    {
+      "output_index": 1,
+      "output_id": "turn_b",
+      "output_kind": "turn",
+      "sources": [
+        {
+          "index": 1,
+          "id": "turn_b",
+          "kind": "turn",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {}
+        }
+      ]
+    },
+    {
+      "output_index": 2,
+      "output_id": "row_c",
+      "output_kind": "row",
+      "sources": [
+        {
+          "index": 2,
+          "id": "row_c",
+          "kind": "row",
+          "cluster_id": -1,
+          "frame_id": "map",
+          "meta": {}
+        }
+      ]
+    }
+  ],
+  "disappeared_event_ids": [],
+  "delta": {
+    "segments": 0,
+    "poses": 0,
+    "internal_length_m": 0.0,
+    "total_length_including_seams_m": 0.0
+  },
+  "metadata": {
+    "plan_keys": [
+      "cluster_order",
+      "clusters",
+      "field_meta",
+      "frame_id",
+      "segments",
+      "transitions"
+    ],
+    "field_meta": {
+      "synthetic": true
+    },
+    "transitions_count": 0,
+    "note": "coverage_executor does not remap top-level transitions/clusters; absorbed segment metadata is not propagated"
+  },
+  "status": "OFFLINE_PASS",
+  "findings": [],
+  "inputs": {
+    "plan": {
+      "path": "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/short_turn.json",
+      "sha256": "cc25c7d782c0e64aaf05f14cf97facbd16c9ad6f10f095ab58ffbe7e88f2eb22"
+    },
+    "source_geojson": {
+      "path": "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/field.geojson",
+      "sha256": "a7ebc44354dfe0ea8aca7ec3af9fc2ee524488340520de4e12d30338d2da04d3"
+    },
+    "target_geojson": {
+      "path": "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/field.geojson",
+      "sha256": "a7ebc44354dfe0ea8aca7ec3af9fc2ee524488340520de4e12d30338d2da04d3"
+    },
+    "map_yaml": {
+      "path": "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/map.yaml",
+      "sha256": "40ef19662584eb996e5ce132a45ce71a2d5dafa4dc71e3c814edc01837d08a7d"
+    },
+    "manifest": {
+      "path": "/workspace/scratch/a8981bc7d9e4/compat_results_final/fixtures/short_turn.manifest.json",
+      "sha256": "604a699a0cfa90d96a69affa79e913274950bbf66ea6c6c0a9f20eaf45b6dd8b"
+    }
+  },
+  "provenance": {
+    "ccpp_main": "c59ef20dc986fa8df50837ca34361a2dbb4a0b09",
+    "ccpp_pr1": "8fa580bb53ed14bce4b87422ac38b569650fcb61",
+    "ros2_main": "f523316be5e83863b27a52507708648a1d752a1f",
+    "plan_io_sha256": "15ad34b4ac85e3bd1a482fe3a75629f86e72b6e3079125a1a7cc2838327637e0",
+    "profile_sha256": "c26d10bc7031dca770c3e9d97f10b2aa82737deba1472b34c30fba3375ec4d4c",
+    "executor_node_sha256": "5e93c74c14073797588d737b1939330dd55d5a781e55a516654ab827876ae218",
+    "bt_supervisor_sha256": "f4ae8e1a2ed63eec44f82ce58aecaef7acd57d914f8b85980373b75ae7f966c6"
+  },
+  "upstream_verified": false,
+  "maps": {
+    "coordinates_transformed": false,
+    "simulation_tested": false,
+    "source_bounds": [
+      0.0,
+      0.0,
+      10.0,
+      10.0
+    ],
+    "source_unsafe_after_count": 0,
+    "target_bounds": [
+      0.0,
+      0.0,
+      10.0,
+      10.0
+    ],
+    "same_field_geometry": true,
+    "same_obstacle_geometry": true,
+    "raster": {
+      "width": 120,
+      "height": 120,
+      "resolution": 0.1,
+      "origin": [
+        -1.0,
+        -1.0,
+        0.0
+      ],
+      "image_sha256": "605315f1e79c025cb9d5dda29efa10e8620021698336052451ad7008ddcd43f8",
+      "unknown_cells": 0,
+      "occupied_cells": 4400
+    },
+    "raster_alignment": {
+      "mismatched_cells": 0,
+      "boundary_band_m": 0.14142135623730953
+    },
+    "limit": "2D geometry/raster checks; manifest records human coordinate review. Does not verify Gazebo SDF, TF, kinematics, controller or footprint sweep."
+  }
+}
