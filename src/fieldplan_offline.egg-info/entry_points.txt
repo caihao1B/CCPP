@@ -1,4 +1,0 @@
-[console_scripts]
-fieldplan-plan-boustrophedon = fieldplan_offline.cli.plan_boustrophedon:main
-fieldplan-plan-grid = fieldplan_offline.cli.plan_grid:main
-fieldplan-visualize-plan = fieldplan_offline.cli.visualize_plan:main

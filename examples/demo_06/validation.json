@@ -1,0 +1,38 @@
+{
+  "valid": true,
+  "errors": [],
+  "certificates": {
+    "curved_body_enclosures": 110,
+    "straight_body_sweeps": 129,
+    "pivot_envelopes": 17,
+    "normalized_profiles": 239,
+    "steering_events": 0
+  },
+  "enclosure_count": 379,
+  "mandatory_centres": 283,
+  "missing_centre_ids": [],
+  "service_rule": "cutter_footprint",
+  "maximum_certified_curvature_inv_m": 10.0,
+  "minimum_certified_moving_radius_m": 0.1,
+  "requested_minimum_radius_m": 0.1,
+  "maximum_continuous_bound_ratios": {
+    "v": 0.9950248756393759,
+    "a": 0.9900745032513889,
+    "j": 0.9851487597046896,
+    "w": 0.9600016644415207,
+    "alpha": 0.9900745031681546,
+    "yaw_jerk": 0.9851487594727524,
+    "track_v": 0.7960199004975799,
+    "track_a": 0.8663151903449652,
+    "track_j": 0.9851487597046896,
+    "lateral_a": 0.09592686104777119
+  },
+  "manual_area_partition_error_m2": 1.3500311979441904e-13,
+  "scope": "analytical curve reference replay, whole-body conservative enclosures and continuous derivative bounds; no tracking-error or hardware guarantee",
+  "limitations": [
+    "every primitive starts/ends at rest; this is not global time optimality",
+    "curved bodies use an orientation-independent circumscribed disk (conservative)",
+    "coverage is a conservative inner estimate, not a 100% field claim",
+    "return to start constrains position, not final heading or steering"
+  ]
+}

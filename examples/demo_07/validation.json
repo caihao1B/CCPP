@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "errors": [],
+  "certificates": {
+    "translations": 75,
+    "rotations": 74,
+    "profiles": 149
+  },
+  "mandatory_centres": 154,
+  "missing_centre_ids": [],
+  "minimum_conservative_body_clearance_m": 0.13942561292719013,
+  "scope": "whole straight/rotation primitives + analytic time extrema; not closed-loop or hardware validation",
+  "manual_area_partition_error_m2": 4.263256414560601e-14
+}

@@ -1,0 +1,1 @@
+Authoritative complete regression: pytest_all.txt/xml (170 tests). pytest_legacy and pytest_curves are earlier subsets; they must NOT be summed with pytest_all. Current GUI: gui_curves.json (28 checks). final_demos.txt is the fresh seven-example revalidation plus three GIF renders.

@@ -1,0 +1,1290 @@
+[
+  {
+    "sequence": 1,
+    "node_id": 61,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.2795070569547775,
+    "y_m": 1.8425036181334893
+  },
+  {
+    "sequence": 2,
+    "node_id": 60,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 1.8236056455638223,
+    "y_m": 2.105718420723988
+  },
+  {
+    "sequence": 3,
+    "node_id": 88,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 1.8236056455638223,
+    "y_m": 2.6321480259049848
+  },
+  {
+    "sequence": 4,
+    "node_id": 89,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.2795070569547775,
+    "y_m": 2.8953628284954838
+  },
+  {
+    "sequence": 5,
+    "node_id": 117,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.2795070569547775,
+    "y_m": 3.421792433676481
+  },
+  {
+    "sequence": 6,
+    "node_id": 116,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 1.8236056455638223,
+    "y_m": 3.6850072362669786
+  },
+  {
+    "sequence": 7,
+    "node_id": 144,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 1.8236056455638223,
+    "y_m": 4.211436841447976
+  },
+  {
+    "sequence": 8,
+    "node_id": 116,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 1.8236056455638223,
+    "y_m": 3.6850072362669786
+  },
+  {
+    "sequence": 9,
+    "node_id": 117,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 2.2795070569547775,
+    "y_m": 3.421792433676481
+  },
+  {
+    "sequence": 10,
+    "node_id": 118,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7354084683457334,
+    "y_m": 3.6850072362669786
+  },
+  {
+    "sequence": 11,
+    "node_id": 146,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7354084683457334,
+    "y_m": 4.211436841447976
+  },
+  {
+    "sequence": 12,
+    "node_id": 118,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 2.7354084683457334,
+    "y_m": 3.6850072362669786
+  },
+  {
+    "sequence": 13,
+    "node_id": 119,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.191309879736689,
+    "y_m": 3.421792433676481
+  },
+  {
+    "sequence": 14,
+    "node_id": 91,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.191309879736689,
+    "y_m": 2.8953628284954838
+  },
+  {
+    "sequence": 15,
+    "node_id": 90,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7354084683457334,
+    "y_m": 2.6321480259049848
+  },
+  {
+    "sequence": 16,
+    "node_id": 62,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7354084683457334,
+    "y_m": 2.105718420723988
+  },
+  {
+    "sequence": 17,
+    "node_id": 63,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.191309879736689,
+    "y_m": 1.8425036181334893
+  },
+  {
+    "sequence": 18,
+    "node_id": 64,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.6472112911276446,
+    "y_m": 2.105718420723988
+  },
+  {
+    "sequence": 19,
+    "node_id": 65,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 4.1031127025186,
+    "y_m": 1.8425036181334893
+  },
+  {
+    "sequence": 20,
+    "node_id": 66,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 4.559014113909555,
+    "y_m": 2.105718420723988
+  },
+  {
+    "sequence": 21,
+    "node_id": 65,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 4.1031127025186,
+    "y_m": 1.8425036181334893
+  },
+  {
+    "sequence": 22,
+    "node_id": 64,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 3.6472112911276446,
+    "y_m": 2.105718420723988
+  },
+  {
+    "sequence": 23,
+    "node_id": 92,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.6472112911276446,
+    "y_m": 2.6321480259049848
+  },
+  {
+    "sequence": 24,
+    "node_id": 93,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 4.1031127025186,
+    "y_m": 2.8953628284954838
+  },
+  {
+    "sequence": 25,
+    "node_id": 92,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 3.6472112911276446,
+    "y_m": 2.6321480259049848
+  },
+  {
+    "sequence": 26,
+    "node_id": 91,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 3.191309879736689,
+    "y_m": 2.8953628284954838
+  },
+  {
+    "sequence": 27,
+    "node_id": 119,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 3.191309879736689,
+    "y_m": 3.421792433676481
+  },
+  {
+    "sequence": 28,
+    "node_id": 120,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.6472112911276446,
+    "y_m": 3.6850072362669786
+  },
+  {
+    "sequence": 29,
+    "node_id": 121,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 4.1031127025186,
+    "y_m": 3.421792433676481
+  },
+  {
+    "sequence": 30,
+    "node_id": 94,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 4.559014113909555,
+    "y_m": 2.6321480259049848
+  },
+  {
+    "sequence": 31,
+    "node_id": 67,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 5.014915525300511,
+    "y_m": 1.8425036181334893
+  },
+  {
+    "sequence": 32,
+    "node_id": 68,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 5.470816936691467,
+    "y_m": 2.105718420723988
+  },
+  {
+    "sequence": 33,
+    "node_id": 96,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 5.470816936691467,
+    "y_m": 2.6321480259049848
+  },
+  {
+    "sequence": 34,
+    "node_id": 68,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 5.470816936691467,
+    "y_m": 2.105718420723988
+  },
+  {
+    "sequence": 35,
+    "node_id": 69,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 5.926718348082422,
+    "y_m": 1.8425036181334893
+  },
+  {
+    "sequence": 36,
+    "node_id": 70,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.382619759473378,
+    "y_m": 2.105718420723988
+  },
+  {
+    "sequence": 37,
+    "node_id": 98,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.382619759473378,
+    "y_m": 2.6321480259049848
+  },
+  {
+    "sequence": 38,
+    "node_id": 70,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 6.382619759473378,
+    "y_m": 2.105718420723988
+  },
+  {
+    "sequence": 39,
+    "node_id": 71,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.8385211708643325,
+    "y_m": 1.8425036181334893
+  },
+  {
+    "sequence": 40,
+    "node_id": 72,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.294422582255289,
+    "y_m": 2.105718420723988
+  },
+  {
+    "sequence": 41,
+    "node_id": 100,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.294422582255289,
+    "y_m": 2.6321480259049848
+  },
+  {
+    "sequence": 42,
+    "node_id": 101,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.750323993646244,
+    "y_m": 2.8953628284954838
+  },
+  {
+    "sequence": 43,
+    "node_id": 100,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 7.294422582255289,
+    "y_m": 2.6321480259049848
+  },
+  {
+    "sequence": 44,
+    "node_id": 72,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 7.294422582255289,
+    "y_m": 2.105718420723988
+  },
+  {
+    "sequence": 45,
+    "node_id": 73,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.750323993646244,
+    "y_m": 1.8425036181334893
+  },
+  {
+    "sequence": 46,
+    "node_id": 74,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.2062254050372,
+    "y_m": 2.105718420723988
+  },
+  {
+    "sequence": 47,
+    "node_id": 102,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.2062254050372,
+    "y_m": 2.6321480259049848
+  },
+  {
+    "sequence": 48,
+    "node_id": 103,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.662126816428154,
+    "y_m": 2.8953628284954838
+  },
+  {
+    "sequence": 49,
+    "node_id": 131,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.662126816428154,
+    "y_m": 3.421792433676481
+  },
+  {
+    "sequence": 50,
+    "node_id": 103,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 8.662126816428154,
+    "y_m": 2.8953628284954838
+  },
+  {
+    "sequence": 51,
+    "node_id": 102,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 8.2062254050372,
+    "y_m": 2.6321480259049848
+  },
+  {
+    "sequence": 52,
+    "node_id": 74,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 8.2062254050372,
+    "y_m": 2.105718420723988
+  },
+  {
+    "sequence": 53,
+    "node_id": 75,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.662126816428154,
+    "y_m": 1.8425036181334893
+  },
+  {
+    "sequence": 54,
+    "node_id": 76,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.11802822781911,
+    "y_m": 2.105718420723988
+  },
+  {
+    "sequence": 55,
+    "node_id": 104,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.11802822781911,
+    "y_m": 2.6321480259049848
+  },
+  {
+    "sequence": 56,
+    "node_id": 76,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 9.11802822781911,
+    "y_m": 2.105718420723988
+  },
+  {
+    "sequence": 57,
+    "node_id": 77,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.573929639210066,
+    "y_m": 1.8425036181334893
+  },
+  {
+    "sequence": 58,
+    "node_id": 78,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 10.029831050601022,
+    "y_m": 2.105718420723988
+  },
+  {
+    "sequence": 59,
+    "node_id": 79,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 10.485732461991978,
+    "y_m": 1.8425036181334893
+  },
+  {
+    "sequence": 60,
+    "node_id": 106,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 10.029831050601022,
+    "y_m": 2.6321480259049848
+  },
+  {
+    "sequence": 61,
+    "node_id": 105,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.573929639210066,
+    "y_m": 2.8953628284954838
+  },
+  {
+    "sequence": 62,
+    "node_id": 133,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.573929639210066,
+    "y_m": 3.421792433676481
+  },
+  {
+    "sequence": 63,
+    "node_id": 134,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 10.029831050601022,
+    "y_m": 3.6850072362669786
+  },
+  {
+    "sequence": 64,
+    "node_id": 135,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 10.485732461991978,
+    "y_m": 3.421792433676481
+  },
+  {
+    "sequence": 65,
+    "node_id": 107,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 10.485732461991978,
+    "y_m": 2.8953628284954838
+  },
+  {
+    "sequence": 66,
+    "node_id": 135,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 10.485732461991978,
+    "y_m": 3.421792433676481
+  },
+  {
+    "sequence": 67,
+    "node_id": 134,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 10.029831050601022,
+    "y_m": 3.6850072362669786
+  },
+  {
+    "sequence": 68,
+    "node_id": 133,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 9.573929639210066,
+    "y_m": 3.421792433676481
+  },
+  {
+    "sequence": 69,
+    "node_id": 132,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.11802822781911,
+    "y_m": 3.6850072362669786
+  },
+  {
+    "sequence": 70,
+    "node_id": 160,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.11802822781911,
+    "y_m": 4.211436841447976
+  },
+  {
+    "sequence": 71,
+    "node_id": 161,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.573929639210066,
+    "y_m": 4.474651644038474
+  },
+  {
+    "sequence": 72,
+    "node_id": 162,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 10.029831050601022,
+    "y_m": 4.211436841447976
+  },
+  {
+    "sequence": 73,
+    "node_id": 163,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 10.485732461991978,
+    "y_m": 4.474651644038474
+  },
+  {
+    "sequence": 74,
+    "node_id": 191,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 10.485732461991978,
+    "y_m": 5.001081249219471
+  },
+  {
+    "sequence": 75,
+    "node_id": 190,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 10.029831050601022,
+    "y_m": 5.2642960518099695
+  },
+  {
+    "sequence": 76,
+    "node_id": 189,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.573929639210066,
+    "y_m": 5.001081249219471
+  },
+  {
+    "sequence": 77,
+    "node_id": 161,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 9.573929639210066,
+    "y_m": 4.474651644038474
+  },
+  {
+    "sequence": 78,
+    "node_id": 160,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 9.11802822781911,
+    "y_m": 4.211436841447976
+  },
+  {
+    "sequence": 79,
+    "node_id": 159,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.662126816428154,
+    "y_m": 4.474651644038474
+  },
+  {
+    "sequence": 80,
+    "node_id": 158,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.2062254050372,
+    "y_m": 4.211436841447976
+  },
+  {
+    "sequence": 81,
+    "node_id": 130,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.2062254050372,
+    "y_m": 3.6850072362669786
+  },
+  {
+    "sequence": 82,
+    "node_id": 158,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 8.2062254050372,
+    "y_m": 4.211436841447976
+  },
+  {
+    "sequence": 83,
+    "node_id": 159,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 8.662126816428154,
+    "y_m": 4.474651644038474
+  },
+  {
+    "sequence": 84,
+    "node_id": 187,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.662126816428154,
+    "y_m": 5.001081249219471
+  },
+  {
+    "sequence": 85,
+    "node_id": 188,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.11802822781911,
+    "y_m": 5.2642960518099695
+  },
+  {
+    "sequence": 86,
+    "node_id": 187,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 8.662126816428154,
+    "y_m": 5.001081249219471
+  },
+  {
+    "sequence": 87,
+    "node_id": 186,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.2062254050372,
+    "y_m": 5.2642960518099695
+  },
+  {
+    "sequence": 88,
+    "node_id": 214,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.2062254050372,
+    "y_m": 5.7907256569909675
+  },
+  {
+    "sequence": 89,
+    "node_id": 215,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.662126816428154,
+    "y_m": 6.053940459581465
+  },
+  {
+    "sequence": 90,
+    "node_id": 216,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.11802822781911,
+    "y_m": 5.7907256569909675
+  },
+  {
+    "sequence": 91,
+    "node_id": 217,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.573929639210066,
+    "y_m": 6.053940459581465
+  },
+  {
+    "sequence": 92,
+    "node_id": 245,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.573929639210066,
+    "y_m": 6.580370064762462
+  },
+  {
+    "sequence": 93,
+    "node_id": 217,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 9.573929639210066,
+    "y_m": 6.053940459581465
+  },
+  {
+    "sequence": 94,
+    "node_id": 218,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 10.029831050601022,
+    "y_m": 5.7907256569909675
+  },
+  {
+    "sequence": 95,
+    "node_id": 219,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 10.485732461991978,
+    "y_m": 6.053940459581465
+  },
+  {
+    "sequence": 96,
+    "node_id": 247,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 10.485732461991978,
+    "y_m": 6.580370064762462
+  },
+  {
+    "sequence": 97,
+    "node_id": 246,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 10.029831050601022,
+    "y_m": 6.843584867352962
+  },
+  {
+    "sequence": 98,
+    "node_id": 274,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 10.029831050601022,
+    "y_m": 7.370014472533957
+  },
+  {
+    "sequence": 99,
+    "node_id": 273,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.573929639210066,
+    "y_m": 7.633229275124457
+  },
+  {
+    "sequence": 100,
+    "node_id": 272,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.11802822781911,
+    "y_m": 7.370014472533957
+  },
+  {
+    "sequence": 101,
+    "node_id": 244,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.11802822781911,
+    "y_m": 6.843584867352962
+  },
+  {
+    "sequence": 102,
+    "node_id": 272,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 9.11802822781911,
+    "y_m": 7.370014472533957
+  },
+  {
+    "sequence": 103,
+    "node_id": 271,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.662126816428154,
+    "y_m": 7.633229275124457
+  },
+  {
+    "sequence": 104,
+    "node_id": 270,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.2062254050372,
+    "y_m": 7.370014472533957
+  },
+  {
+    "sequence": 105,
+    "node_id": 269,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.750323993646244,
+    "y_m": 7.633229275124457
+  },
+  {
+    "sequence": 106,
+    "node_id": 270,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 8.2062254050372,
+    "y_m": 7.370014472533957
+  },
+  {
+    "sequence": 107,
+    "node_id": 242,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.2062254050372,
+    "y_m": 6.843584867352962
+  },
+  {
+    "sequence": 108,
+    "node_id": 243,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.662126816428154,
+    "y_m": 6.580370064762462
+  },
+  {
+    "sequence": 109,
+    "node_id": 215,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 8.662126816428154,
+    "y_m": 6.053940459581465
+  },
+  {
+    "sequence": 110,
+    "node_id": 243,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 8.662126816428154,
+    "y_m": 6.580370064762462
+  },
+  {
+    "sequence": 111,
+    "node_id": 242,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 8.2062254050372,
+    "y_m": 6.843584867352962
+  },
+  {
+    "sequence": 112,
+    "node_id": 241,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.750323993646244,
+    "y_m": 6.580370064762462
+  },
+  {
+    "sequence": 113,
+    "node_id": 240,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.294422582255289,
+    "y_m": 6.843584867352962
+  },
+  {
+    "sequence": 114,
+    "node_id": 268,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.294422582255289,
+    "y_m": 7.370014472533957
+  },
+  {
+    "sequence": 115,
+    "node_id": 267,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.8385211708643325,
+    "y_m": 7.633229275124457
+  },
+  {
+    "sequence": 116,
+    "node_id": 266,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.382619759473378,
+    "y_m": 7.370014472533957
+  },
+  {
+    "sequence": 117,
+    "node_id": 238,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.382619759473378,
+    "y_m": 6.843584867352962
+  },
+  {
+    "sequence": 118,
+    "node_id": 266,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 6.382619759473378,
+    "y_m": 7.370014472533957
+  },
+  {
+    "sequence": 119,
+    "node_id": 265,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 5.926718348082422,
+    "y_m": 7.633229275124457
+  },
+  {
+    "sequence": 120,
+    "node_id": 264,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 5.470816936691467,
+    "y_m": 7.370014472533957
+  },
+  {
+    "sequence": 121,
+    "node_id": 236,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 5.470816936691467,
+    "y_m": 6.843584867352962
+  },
+  {
+    "sequence": 122,
+    "node_id": 264,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 5.470816936691467,
+    "y_m": 7.370014472533957
+  },
+  {
+    "sequence": 123,
+    "node_id": 263,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 5.014915525300511,
+    "y_m": 7.633229275124457
+  },
+  {
+    "sequence": 124,
+    "node_id": 262,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 4.559014113909555,
+    "y_m": 7.370014472533957
+  },
+  {
+    "sequence": 125,
+    "node_id": 234,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 4.559014113909555,
+    "y_m": 6.843584867352962
+  },
+  {
+    "sequence": 126,
+    "node_id": 233,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 4.1031127025186,
+    "y_m": 6.580370064762462
+  },
+  {
+    "sequence": 127,
+    "node_id": 234,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 4.559014113909555,
+    "y_m": 6.843584867352962
+  },
+  {
+    "sequence": 128,
+    "node_id": 262,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 4.559014113909555,
+    "y_m": 7.370014472533957
+  },
+  {
+    "sequence": 129,
+    "node_id": 261,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 4.1031127025186,
+    "y_m": 7.633229275124457
+  },
+  {
+    "sequence": 130,
+    "node_id": 260,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.6472112911276446,
+    "y_m": 7.370014472533957
+  },
+  {
+    "sequence": 131,
+    "node_id": 259,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.191309879736689,
+    "y_m": 7.633229275124457
+  },
+  {
+    "sequence": 132,
+    "node_id": 260,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 3.6472112911276446,
+    "y_m": 7.370014472533957
+  },
+  {
+    "sequence": 133,
+    "node_id": 232,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.6472112911276446,
+    "y_m": 6.843584867352962
+  },
+  {
+    "sequence": 134,
+    "node_id": 231,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.191309879736689,
+    "y_m": 6.580370064762462
+  },
+  {
+    "sequence": 135,
+    "node_id": 230,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7354084683457334,
+    "y_m": 6.843584867352962
+  },
+  {
+    "sequence": 136,
+    "node_id": 258,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7354084683457334,
+    "y_m": 7.370014472533957
+  },
+  {
+    "sequence": 137,
+    "node_id": 230,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 2.7354084683457334,
+    "y_m": 6.843584867352962
+  },
+  {
+    "sequence": 138,
+    "node_id": 231,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 3.191309879736689,
+    "y_m": 6.580370064762462
+  },
+  {
+    "sequence": 139,
+    "node_id": 203,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.191309879736689,
+    "y_m": 6.053940459581465
+  },
+  {
+    "sequence": 140,
+    "node_id": 204,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.6472112911276446,
+    "y_m": 5.7907256569909675
+  },
+  {
+    "sequence": 141,
+    "node_id": 205,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 4.1031127025186,
+    "y_m": 6.053940459581465
+  },
+  {
+    "sequence": 142,
+    "node_id": 204,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 3.6472112911276446,
+    "y_m": 5.7907256569909675
+  },
+  {
+    "sequence": 143,
+    "node_id": 203,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 3.191309879736689,
+    "y_m": 6.053940459581465
+  },
+  {
+    "sequence": 144,
+    "node_id": 202,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7354084683457334,
+    "y_m": 5.7907256569909675
+  },
+  {
+    "sequence": 145,
+    "node_id": 201,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.2795070569547775,
+    "y_m": 6.053940459581465
+  },
+  {
+    "sequence": 146,
+    "node_id": 229,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.2795070569547775,
+    "y_m": 6.580370064762462
+  },
+  {
+    "sequence": 147,
+    "node_id": 228,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 1.8236056455638223,
+    "y_m": 6.843584867352962
+  },
+  {
+    "sequence": 148,
+    "node_id": 229,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 2.2795070569547775,
+    "y_m": 6.580370064762462
+  },
+  {
+    "sequence": 149,
+    "node_id": 201,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 2.2795070569547775,
+    "y_m": 6.053940459581465
+  },
+  {
+    "sequence": 150,
+    "node_id": 200,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 1.8236056455638223,
+    "y_m": 5.7907256569909675
+  },
+  {
+    "sequence": 151,
+    "node_id": 172,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 1.8236056455638223,
+    "y_m": 5.2642960518099695
+  },
+  {
+    "sequence": 152,
+    "node_id": 173,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.2795070569547775,
+    "y_m": 5.001081249219471
+  },
+  {
+    "sequence": 153,
+    "node_id": 145,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.2795070569547775,
+    "y_m": 4.474651644038474
+  },
+  {
+    "sequence": 154,
+    "node_id": 173,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 2.2795070569547775,
+    "y_m": 5.001081249219471
+  },
+  {
+    "sequence": 155,
+    "node_id": 174,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7354084683457334,
+    "y_m": 5.2642960518099695
+  },
+  {
+    "sequence": 156,
+    "node_id": 175,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.191309879736689,
+    "y_m": 5.001081249219471
+  },
+  {
+    "sequence": 157,
+    "node_id": 176,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.6472112911276446,
+    "y_m": 5.2642960518099695
+  },
+  {
+    "sequence": 158,
+    "node_id": 175,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 3.191309879736689,
+    "y_m": 5.001081249219471
+  },
+  {
+    "sequence": 159,
+    "node_id": 147,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.191309879736689,
+    "y_m": 4.474651644038474
+  },
+  {
+    "sequence": 160,
+    "node_id": 148,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.6472112911276446,
+    "y_m": 4.211436841447976
+  },
+  {
+    "sequence": 161,
+    "node_id": 61,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 2.2795070569547775,
+    "y_m": 1.8425036181334893
+  }
+]

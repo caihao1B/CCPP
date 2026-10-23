@@ -1,0 +1,38 @@
+[
+  {
+    "demo": "03",
+    "curve_type": "BEZIER5",
+    "curve_event_id": 3,
+    "position_range_m": [
+      0.168753140901722,
+      0.2596581589977006
+    ],
+    "max_forward_speed_mps": 0.039305834672894724,
+    "max_abs_yaw_rate_radps": 0.2899418495067206,
+    "moving_and_turning_samples": 41
+  },
+  {
+    "demo": "04",
+    "curve_type": "ARC",
+    "curve_event_id": 6,
+    "position_range_m": [
+      0.39450616453076925,
+      0.14910931457576382
+    ],
+    "max_forward_speed_mps": 0.2344249681649953,
+    "max_abs_yaw_rate_radps": 0.3907082802749922,
+    "moving_and_turning_samples": 41
+  },
+  {
+    "demo": "05",
+    "curve_type": "BEZIER5",
+    "curve_event_id": 3,
+    "position_range_m": [
+      0.40179459540599893,
+      0.4017945688638247
+    ],
+    "max_forward_speed_mps": 0.014968252950992843,
+    "max_abs_yaw_rate_radps": 0.03624183787498913,
+    "moving_and_turning_samples": 41
+  }
+]

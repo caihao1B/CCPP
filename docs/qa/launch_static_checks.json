@@ -1,0 +1,33 @@
+{
+  "scope": "static only; Windows not executed",
+  "checks": [
+    {
+      "check": "four_vscode_launch_entries",
+      "passed": true
+    },
+    {
+      "check": "run_demo.bat ASCII+CRLF",
+      "passed": true
+    },
+    {
+      "check": "run_tests.bat ASCII+CRLF",
+      "passed": true
+    },
+    {
+      "check": "install_windows.bat ASCII+CRLF",
+      "passed": true
+    },
+    {
+      "check": "run_gui.bat ASCII+CRLF",
+      "passed": true
+    },
+    {
+      "check": "setup_windows.bat ASCII+CRLF",
+      "passed": true
+    },
+    {
+      "check": "preset paths exist",
+      "passed": true
+    }
+  ]
+}

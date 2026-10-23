@@ -1,0 +1,2306 @@
+[
+  {
+    "requested": "astar",
+    "start": [
+      2.0999999999999996,
+      1.5
+    ],
+    "goal": [
+      2.0999999999999996,
+      2.0999999999999996
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 2.748099996097153e-05,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.0999999999999996,
+      2.0999999999999996
+    ],
+    "goal": [
+      1.5,
+      2.0999999999999996
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 7.942000024740992e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      1.5,
+      2.0999999999999996
+    ],
+    "goal": [
+      1.5,
+      2.7
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 6.128999984866823e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      1.5,
+      2.7
+    ],
+    "goal": [
+      2.0999999999999996,
+      2.7
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.5179999662868795e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.0999999999999996,
+      2.7
+    ],
+    "goal": [
+      2.0999999999999996,
+      3.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.818000090584974e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.0999999999999996,
+      3.3
+    ],
+    "goal": [
+      1.5,
+      3.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 6.42899999547808e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      1.5,
+      3.3
+    ],
+    "goal": [
+      2.0999999999999996,
+      3.9
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 0.00010113199994066235,
+    "length_m": 0.8485281374238568
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.0999999999999996,
+      3.9
+    ],
+    "goal": [
+      2.7,
+      3.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 2.044999996542174e-05,
+    "length_m": 0.8485281374238575
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.7,
+      3.3
+    ],
+    "goal": [
+      2.7,
+      2.7
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.568000005951035e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.7,
+      2.7
+    ],
+    "goal": [
+      2.7,
+      2.0999999999999996
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.3080000270711025e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.7,
+      2.0999999999999996
+    ],
+    "goal": [
+      2.7,
+      1.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.397999984779744e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.7,
+      1.5
+    ],
+    "goal": [
+      3.3,
+      1.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.546000013760931e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.3,
+      1.5
+    ],
+    "goal": [
+      3.3,
+      2.0999999999999996
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.11799999003415e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.3,
+      2.0999999999999996
+    ],
+    "goal": [
+      3.9,
+      2.0999999999999996
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.716999910669983e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.9,
+      2.0999999999999996
+    ],
+    "goal": [
+      3.9,
+      1.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.278000003272609e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.9,
+      1.5
+    ],
+    "goal": [
+      4.5,
+      1.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.008000016459846e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      4.5,
+      1.5
+    ],
+    "goal": [
+      5.1,
+      1.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.058000056124001e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      5.1,
+      1.5
+    ],
+    "goal": [
+      4.5,
+      2.0999999999999996
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.7797000054997625e-05,
+    "length_m": 0.8485281374238566
+  },
+  {
+    "requested": "astar",
+    "start": [
+      4.5,
+      2.0999999999999996
+    ],
+    "goal": [
+      3.3,
+      2.7
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.5714000028310693e-05,
+    "length_m": 1.3416407864998743
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.3,
+      2.7
+    ],
+    "goal": [
+      3.3,
+      3.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.727000032289652e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.3,
+      3.3
+    ],
+    "goal": [
+      3.9,
+      3.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.897999929198704e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.9,
+      3.3
+    ],
+    "goal": [
+      3.9,
+      3.9
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.918000058751204e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.9,
+      3.9
+    ],
+    "goal": [
+      3.3,
+      3.9
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.515999989962438e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.3,
+      3.9
+    ],
+    "goal": [
+      2.7,
+      3.9
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.936999971505429e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.7,
+      3.9
+    ],
+    "goal": [
+      2.7,
+      4.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.347999945115589e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.7,
+      4.5
+    ],
+    "goal": [
+      3.3,
+      4.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.018000024392677e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.3,
+      4.5
+    ],
+    "goal": [
+      3.3,
+      5.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.177000048206537e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.3,
+      5.1
+    ],
+    "goal": [
+      3.3,
+      6.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.6745000039009028e-05,
+    "length_m": 1.2000000000000002
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.3,
+      6.3
+    ],
+    "goal": [
+      3.9,
+      6.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.94699997943826e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.9,
+      6.3
+    ],
+    "goal": [
+      3.9,
+      4.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.4271000054577598e-05,
+    "length_m": 1.7999999999999998
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.9,
+      4.5
+    ],
+    "goal": [
+      3.9,
+      5.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.997999894840177e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.9,
+      5.1
+    ],
+    "goal": [
+      3.9,
+      5.699999999999999
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.9970000191024155e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.9,
+      5.699999999999999
+    ],
+    "goal": [
+      3.3,
+      5.699999999999999
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.038000040258339e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.3,
+      5.699999999999999
+    ],
+    "goal": [
+      2.7,
+      5.699999999999999
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.335999960858317e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.7,
+      5.699999999999999
+    ],
+    "goal": [
+      2.7,
+      5.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.887999921265873e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.7,
+      5.1
+    ],
+    "goal": [
+      2.0999999999999996,
+      5.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.868000019087049e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.0999999999999996,
+      5.1
+    ],
+    "goal": [
+      2.0999999999999996,
+      4.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.826999997931125e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.0999999999999996,
+      4.5
+    ],
+    "goal": [
+      1.5,
+      3.9
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.3900999988436524e-05,
+    "length_m": 0.8485281374238568
+  },
+  {
+    "requested": "astar",
+    "start": [
+      1.5,
+      3.9
+    ],
+    "goal": [
+      1.5,
+      4.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.796999974132632e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      1.5,
+      4.5
+    ],
+    "goal": [
+      1.5,
+      5.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.416000024320965e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      1.5,
+      5.1
+    ],
+    "goal": [
+      1.5,
+      5.699999999999999
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.246999992574274e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      1.5,
+      5.699999999999999
+    ],
+    "goal": [
+      2.0999999999999996,
+      5.699999999999999
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.747000048155314e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.0999999999999996,
+      5.699999999999999
+    ],
+    "goal": [
+      2.0999999999999996,
+      6.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.267999995339778e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.0999999999999996,
+      6.3
+    ],
+    "goal": [
+      1.5,
+      6.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.02799991863867e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      1.5,
+      6.3
+    ],
+    "goal": [
+      2.0999999999999996,
+      6.8999999999999995
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.660500004163623e-05,
+    "length_m": 0.8485281374238566
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.0999999999999996,
+      6.8999999999999995
+    ],
+    "goal": [
+      2.7,
+      6.8999999999999995
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.7770000719538075e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.7,
+      6.8999999999999995
+    ],
+    "goal": [
+      2.7,
+      6.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.176000061306695e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.7,
+      6.3
+    ],
+    "goal": [
+      3.3,
+      6.8999999999999995
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.36750000289976e-05,
+    "length_m": 0.8485281374238566
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.3,
+      6.8999999999999995
+    ],
+    "goal": [
+      3.9,
+      6.8999999999999995
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.858000011154218e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.9,
+      6.8999999999999995
+    ],
+    "goal": [
+      4.5,
+      6.8999999999999995
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.629000042972621e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      4.5,
+      6.8999999999999995
+    ],
+    "goal": [
+      5.1,
+      6.8999999999999995
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.6989999848156e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      5.1,
+      6.8999999999999995
+    ],
+    "goal": [
+      5.699999999999999,
+      6.8999999999999995
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.597000042849686e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      5.699999999999999,
+      6.8999999999999995
+    ],
+    "goal": [
+      5.1,
+      7.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.624399999400339e-05,
+    "length_m": 0.8485281374238571
+  },
+  {
+    "requested": "astar",
+    "start": [
+      5.1,
+      7.5
+    ],
+    "goal": [
+      3.9,
+      7.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.436200000171084e-05,
+    "length_m": 1.1999999999999997
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.9,
+      7.5
+    ],
+    "goal": [
+      3.9,
+      8.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.177000048206537e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.9,
+      8.1
+    ],
+    "goal": [
+      3.3,
+      8.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.138000005899812e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.3,
+      8.1
+    ],
+    "goal": [
+      3.3,
+      7.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.345999968791148e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.3,
+      7.5
+    ],
+    "goal": [
+      2.7,
+      7.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.447000037544058e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      2.7,
+      7.5
+    ],
+    "goal": [
+      4.5,
+      7.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.4921999991202028e-05,
+    "length_m": 1.7999999999999998
+  },
+  {
+    "requested": "astar",
+    "start": [
+      4.5,
+      7.5
+    ],
+    "goal": [
+      4.5,
+      8.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.63700007458101e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      4.5,
+      8.1
+    ],
+    "goal": [
+      5.1,
+      8.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.848000003221387e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      5.1,
+      8.1
+    ],
+    "goal": [
+      5.699999999999999,
+      7.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.4892000081090373e-05,
+    "length_m": 0.8485281374238566
+  },
+  {
+    "requested": "astar",
+    "start": [
+      5.699999999999999,
+      7.5
+    ],
+    "goal": [
+      5.699999999999999,
+      8.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.396999997879902e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      5.699999999999999,
+      8.1
+    ],
+    "goal": [
+      6.3,
+      8.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.607000050782517e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      6.3,
+      8.1
+    ],
+    "goal": [
+      6.3,
+      7.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.977000003236753e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      6.3,
+      7.5
+    ],
+    "goal": [
+      6.3,
+      6.8999999999999995
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.717000024356821e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      6.3,
+      6.8999999999999995
+    ],
+    "goal": [
+      6.8999999999999995,
+      6.8999999999999995
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.466999939722882e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      6.8999999999999995,
+      6.8999999999999995
+    ],
+    "goal": [
+      6.8999999999999995,
+      7.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.018000024392677e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      6.8999999999999995,
+      7.5
+    ],
+    "goal": [
+      6.8999999999999995,
+      8.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.027000042900909e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      6.8999999999999995,
+      8.1
+    ],
+    "goal": [
+      7.5,
+      8.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.087999966235657e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      7.5,
+      8.1
+    ],
+    "goal": [
+      7.5,
+      7.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.216999966251024e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      7.5,
+      7.5
+    ],
+    "goal": [
+      8.1,
+      8.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 3.729599995949684e-05,
+    "length_m": 0.8485281374238566
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.1,
+      8.1
+    ],
+    "goal": [
+      8.7,
+      8.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.446000048119458e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.7,
+      8.1
+    ],
+    "goal": [
+      8.7,
+      7.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.5269999873198685e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.7,
+      7.5
+    ],
+    "goal": [
+      9.3,
+      7.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.386999989947071e-06,
+    "length_m": 0.6000000000000014
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.3,
+      7.5
+    ],
+    "goal": [
+      9.3,
+      8.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.476999947655713e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.3,
+      8.1
+    ],
+    "goal": [
+      9.3,
+      6.8999999999999995
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.6745000039009028e-05,
+    "length_m": 1.2000000000000002
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.3,
+      6.8999999999999995
+    ],
+    "goal": [
+      9.899999999999999,
+      7.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.3971000043966342e-05,
+    "length_m": 0.8485281374238559
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.899999999999999,
+      7.5
+    ],
+    "goal": [
+      9.899999999999999,
+      6.8999999999999995
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.847000013796787e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.899999999999999,
+      6.8999999999999995
+    ],
+    "goal": [
+      10.5,
+      6.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.4561999932993785e-05,
+    "length_m": 0.8485281374238578
+  },
+  {
+    "requested": "astar",
+    "start": [
+      10.5,
+      6.3
+    ],
+    "goal": [
+      10.5,
+      5.699999999999999
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.5269999873198685e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      10.5,
+      5.699999999999999
+    ],
+    "goal": [
+      9.899999999999999,
+      6.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.3880999972570862e-05,
+    "length_m": 0.8485281374238585
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.899999999999999,
+      6.3
+    ],
+    "goal": [
+      9.3,
+      6.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.816999989998294e-06,
+    "length_m": 0.5999999999999979
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.3,
+      6.3
+    ],
+    "goal": [
+      9.3,
+      5.699999999999999
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.956999987371091e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.3,
+      5.699999999999999
+    ],
+    "goal": [
+      9.899999999999999,
+      5.699999999999999
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.356999966148578e-06,
+    "length_m": 0.5999999999999979
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.899999999999999,
+      5.699999999999999
+    ],
+    "goal": [
+      9.899999999999999,
+      5.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.7780000588536495e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.899999999999999,
+      5.1
+    ],
+    "goal": [
+      9.3,
+      5.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.606000061357918e-06,
+    "length_m": 0.5999999999999979
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.3,
+      5.1
+    ],
+    "goal": [
+      9.3,
+      4.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.908000050818373e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.3,
+      4.5
+    ],
+    "goal": [
+      8.7,
+      4.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.007000027035247e-06,
+    "length_m": 0.6000000000000014
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.7,
+      4.5
+    ],
+    "goal": [
+      8.1,
+      4.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.54800010377221e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.1,
+      4.5
+    ],
+    "goal": [
+      8.1,
+      3.9
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 6.0389999134713435e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.1,
+      3.9
+    ],
+    "goal": [
+      8.1,
+      7.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.576399995428801e-05,
+    "length_m": 3.6
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.1,
+      7.5
+    ],
+    "goal": [
+      7.5,
+      6.8999999999999995
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.3259999946058088e-05,
+    "length_m": 0.8485281374238571
+  },
+  {
+    "requested": "astar",
+    "start": [
+      7.5,
+      6.8999999999999995
+    ],
+    "goal": [
+      8.1,
+      6.8999999999999995
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.727000032289652e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.1,
+      6.8999999999999995
+    ],
+    "goal": [
+      8.7,
+      6.8999999999999995
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.396999997879902e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.7,
+      6.8999999999999995
+    ],
+    "goal": [
+      8.7,
+      6.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.848000003221387e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.7,
+      6.3
+    ],
+    "goal": [
+      8.1,
+      6.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.5369999952527e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.1,
+      6.3
+    ],
+    "goal": [
+      8.1,
+      5.699999999999999
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.529000077331148e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.1,
+      5.699999999999999
+    ],
+    "goal": [
+      8.7,
+      5.699999999999999
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.518000079973717e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.7,
+      5.699999999999999
+    ],
+    "goal": [
+      8.7,
+      5.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.988000000594184e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.7,
+      5.1
+    ],
+    "goal": [
+      8.1,
+      5.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.246000003149675e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.1,
+      5.1
+    ],
+    "goal": [
+      10.5,
+      5.1
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.470200004405342e-05,
+    "length_m": 2.4000000000000004
+  },
+  {
+    "requested": "astar",
+    "start": [
+      10.5,
+      5.1
+    ],
+    "goal": [
+      10.5,
+      4.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.677999982050096e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      10.5,
+      4.5
+    ],
+    "goal": [
+      10.5,
+      3.9
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.857000021729618e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      10.5,
+      3.9
+    ],
+    "goal": [
+      10.5,
+      3.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.5660000296265935e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      10.5,
+      3.3
+    ],
+    "goal": [
+      10.5,
+      2.7
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.195999963485519e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      10.5,
+      2.7
+    ],
+    "goal": [
+      10.5,
+      2.0999999999999996
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.7269999186028144e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      10.5,
+      2.0999999999999996
+    ],
+    "goal": [
+      9.899999999999999,
+      2.0999999999999996
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.496999963521375e-06,
+    "length_m": 0.6000000000000014
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.899999999999999,
+      2.0999999999999996
+    ],
+    "goal": [
+      9.3,
+      2.0999999999999996
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.506999971454206e-06,
+    "length_m": 0.5999999999999979
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.3,
+      2.0999999999999996
+    ],
+    "goal": [
+      9.3,
+      2.7
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.065999974045553e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.3,
+      2.7
+    ],
+    "goal": [
+      9.899999999999999,
+      2.7
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.426000032253796e-06,
+    "length_m": 0.5999999999999979
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.899999999999999,
+      2.7
+    ],
+    "goal": [
+      9.899999999999999,
+      3.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 3.956000000471249e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.899999999999999,
+      3.3
+    ],
+    "goal": [
+      9.3,
+      3.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.5369999952527e-06,
+    "length_m": 0.5999999999999979
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.3,
+      3.3
+    ],
+    "goal": [
+      9.3,
+      3.9
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.5169999793870375e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.3,
+      3.9
+    ],
+    "goal": [
+      9.899999999999999,
+      3.9
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.366999974081409e-06,
+    "length_m": 0.5999999999999979
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.899999999999999,
+      3.9
+    ],
+    "goal": [
+      9.899999999999999,
+      4.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.077999958302826e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.899999999999999,
+      4.5
+    ],
+    "goal": [
+      8.7,
+      3.9
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.4522000014949299e-05,
+    "length_m": 1.3416407864998732
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.7,
+      3.9
+    ],
+    "goal": [
+      8.7,
+      3.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.3259999529254856e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.7,
+      3.3
+    ],
+    "goal": [
+      8.1,
+      3.3
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.5169999793870375e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.1,
+      3.3
+    ],
+    "goal": [
+      8.1,
+      2.7
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.326999942350085e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.1,
+      2.7
+    ],
+    "goal": [
+      8.7,
+      2.7
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.3560000904108165e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.7,
+      2.7
+    ],
+    "goal": [
+      8.7,
+      2.0999999999999996
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.267000008439936e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.7,
+      2.0999999999999996
+    ],
+    "goal": [
+      9.899999999999999,
+      1.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.4911999983269197e-05,
+    "length_m": 1.341640786499873
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.899999999999999,
+      1.5
+    ],
+    "goal": [
+      9.3,
+      1.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.958000090482528e-06,
+    "length_m": 0.5999999999999979
+  },
+  {
+    "requested": "astar",
+    "start": [
+      9.3,
+      1.5
+    ],
+    "goal": [
+      8.7,
+      1.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.666999984692666e-06,
+    "length_m": 0.6000000000000014
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.7,
+      1.5
+    ],
+    "goal": [
+      8.1,
+      1.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.597000042849686e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.1,
+      1.5
+    ],
+    "goal": [
+      7.5,
+      1.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.04800004819117e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      7.5,
+      1.5
+    ],
+    "goal": [
+      7.5,
+      2.0999999999999996
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.697000008491159e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      7.5,
+      2.0999999999999996
+    ],
+    "goal": [
+      8.1,
+      2.0999999999999996
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.727000032289652e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      8.1,
+      2.0999999999999996
+    ],
+    "goal": [
+      6.8999999999999995,
+      2.0999999999999996
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.4261000046644767e-05,
+    "length_m": 1.2000000000000002
+  },
+  {
+    "requested": "astar",
+    "start": [
+      6.8999999999999995,
+      2.0999999999999996
+    ],
+    "goal": [
+      6.8999999999999995,
+      1.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.656999976759835e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      6.8999999999999995,
+      1.5
+    ],
+    "goal": [
+      6.3,
+      1.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.257000000507105e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      6.3,
+      1.5
+    ],
+    "goal": [
+      6.3,
+      2.0999999999999996
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.947000093125098e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      6.3,
+      2.0999999999999996
+    ],
+    "goal": [
+      5.699999999999999,
+      2.0999999999999996
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.6369999608941725e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      5.699999999999999,
+      2.0999999999999996
+    ],
+    "goal": [
+      5.699999999999999,
+      1.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.525999997895269e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      5.699999999999999,
+      1.5
+    ],
+    "goal": [
+      5.1,
+      2.0999999999999996
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.4783000096940668e-05,
+    "length_m": 0.8485281374238566
+  },
+  {
+    "requested": "astar",
+    "start": [
+      5.1,
+      2.0999999999999996
+    ],
+    "goal": [
+      5.1,
+      2.7
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 5.477999934555555e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      5.1,
+      2.7
+    ],
+    "goal": [
+      4.5,
+      2.7
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.7369999265356455e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      4.5,
+      2.7
+    ],
+    "goal": [
+      3.9,
+      2.7
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.1060000057768775e-06,
+    "length_m": 0.6000000000000001
+  },
+  {
+    "requested": "astar",
+    "start": [
+      3.9,
+      2.7
+    ],
+    "goal": [
+      5.699999999999999,
+      2.7
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.3740999975198065e-05,
+    "length_m": 1.7999999999999994
+  },
+  {
+    "requested": "astar",
+    "start": [
+      5.699999999999999,
+      2.7
+    ],
+    "goal": [
+      6.3,
+      2.7
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.357000079835416e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      6.3,
+      2.7
+    ],
+    "goal": [
+      6.8999999999999995,
+      2.7
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.0060000401354046e-06,
+    "length_m": 0.5999999999999996
+  },
+  {
+    "requested": "astar",
+    "start": [
+      6.8999999999999995,
+      2.7
+    ],
+    "goal": [
+      7.5,
+      2.7
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 4.186999944977288e-06,
+    "length_m": 0.6000000000000005
+  },
+  {
+    "requested": "astar",
+    "start": [
+      7.5,
+      2.7
+    ],
+    "goal": [
+      2.0999999999999996,
+      1.5
+    ],
+    "fallback": null,
+    "actual": "verified_visibility",
+    "success": true,
+    "seconds": 1.4300999964689254e-05,
+    "length_m": 5.531726674375733
+  }
+]

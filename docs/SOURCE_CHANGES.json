@@ -1,0 +1,115 @@
+{
+  "source_zip_sha256": "23415bb9687cae5f6c9117c4aa614b08f75d1122e61dfb18375c99ea35464074",
+  "base_modules": [
+    {
+      "path": "ccpp_mowing/navigation.py",
+      "original_sha256": "b37d5b653278eabb81ba65137ee0cab63fc405136b70dee48b750db8f14affd0",
+      "new_sha256": "b37d5b653278eabb81ba65137ee0cab63fc405136b70dee48b750db8f14affd0",
+      "unchanged": true
+    },
+    {
+      "path": "ccpp_mowing/grids.py",
+      "original_sha256": "2524ac58940c7dfc803ca4dae14377e2868365ad62ec86a4279fea764ec276cb",
+      "new_sha256": "2524ac58940c7dfc803ca4dae14377e2868365ad62ec86a4279fea764ec276cb",
+      "unchanged": true
+    },
+    {
+      "path": "ccpp_mowing/models.py",
+      "original_sha256": "539380d06b9e433ed7efdb84ed29a21aafc31113c3043860a5a030cab04557b8",
+      "new_sha256": "89dd696197caa83c8fdecae8e553c8b4dadb9dcf226b748ebb325df1092798c8",
+      "unchanged": false
+    },
+    {
+      "path": "ccpp_mowing/cli.py",
+      "original_sha256": "c4623312161b4a95933245017f5d57f5eee18e6a9e2d01d93c5489e791af8b5c",
+      "new_sha256": "127484fb6a9d4113e119e057d2f8522d3d33377f17e02cbcd03b5414fb14392e",
+      "unchanged": false
+    },
+    {
+      "path": "ccpp_mowing/snapshot.py",
+      "original_sha256": "5c696a4b30a7daca7a861a1812c59241594cf042c4eb2dc2fb80951edfed74a5",
+      "new_sha256": "e773916390bde8b8b79001afee36c3615b017a03960b10abce7e6ae6041c6d6d",
+      "unchanged": false
+    },
+    {
+      "path": "ccpp_mowing/validation.py",
+      "original_sha256": "10aa4c9afef2f8a40bbf0255cd3b278e76ebecdb5fef7afdd23dc9ad00a67737",
+      "new_sha256": "b15c36d09cd174370d1d35d3c7c290375bcf27079ed85978e231eb107c4a9411",
+      "unchanged": false
+    },
+    {
+      "path": "ccpp_mowing/search.py",
+      "original_sha256": "3044d0b237d4ee3df40d18e2ef7f6ee8eb8b18076720c3f9459e741185f537bb",
+      "new_sha256": "3044d0b237d4ee3df40d18e2ef7f6ee8eb8b18076720c3f9459e741185f537bb",
+      "unchanged": true
+    },
+    {
+      "path": "ccpp_mowing/motion.py",
+      "original_sha256": "2ca75a7305199d099dfd9e778df8127b106030dc9770164e92c63da61de05163",
+      "new_sha256": "232573f96ae147ba1f6c2d47808d8f00a2f37bed9af565f2b95c669b3f9849d7",
+      "unchanged": false
+    },
+    {
+      "path": "ccpp_mowing/geometry.py",
+      "original_sha256": "2aff843660832968613166584809a2450b14d383fea12bbc09108b75fc8a18fe",
+      "new_sha256": "2aff843660832968613166584809a2450b14d383fea12bbc09108b75fc8a18fe",
+      "unchanged": true
+    },
+    {
+      "path": "ccpp_mowing/maps.py",
+      "original_sha256": "84381cb36cad616ea88aaae951b76b8a2ac6c18ec620620a476cb3013ce817e5",
+      "new_sha256": "84381cb36cad616ea88aaae951b76b8a2ac6c18ec620620a476cb3013ce817e5",
+      "unchanged": true
+    },
+    {
+      "path": "ccpp_mowing/order_core.py",
+      "original_sha256": "6a5cd8d8b99d07df4edd4486eeecf01c0932f692a3e6a7ad256626c384da1544",
+      "new_sha256": "6a5cd8d8b99d07df4edd4486eeecf01c0932f692a3e6a7ad256626c384da1544",
+      "unchanged": true
+    },
+    {
+      "path": "ccpp_mowing/pipeline.py",
+      "original_sha256": "7b8329992265ddd695e00753e71bebf4a17ebc248be42dcf5ced4b80132577b5",
+      "new_sha256": "0cebec4f4f4c72fc905a0734f55d034d1ead8facfef1c63d34c9741a880e1125",
+      "unchanged": false
+    },
+    {
+      "path": "ccpp_mowing/gui.py",
+      "original_sha256": "d6c07fff60dad5bec386c5829351290789358c5b9ff63bac51c00555cffef9d5",
+      "new_sha256": "37770899229f35fc4a35b05848c1d4846276632c71c87d882af91c70ea39569e",
+      "unchanged": false
+    },
+    {
+      "path": "ccpp_mowing/__init__.py",
+      "original_sha256": "1dfa5af7471f399f21cbfe8bd4bb8a02ff09d6ac8447b24a1abe2646128eb7e3",
+      "new_sha256": "226dd9db6cdfd72f0d5b7aca481f0d10b8a2f86611e9d0c10b1a082299bb73c6",
+      "unchanged": false
+    },
+    {
+      "path": "ccpp_mowing/__main__.py",
+      "original_sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+      "new_sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+      "unchanged": true
+    },
+    {
+      "path": "ccpp_mowing/visualization.py",
+      "original_sha256": "ea23aac31336a0f9aeb75b92575ca569a6493539299b237201e54dd9b70ab8e1",
+      "new_sha256": "7dd8bd265e7a718fdd3891a98eda9a1abb7771afe495304757301cc86d7aec52",
+      "unchanged": false
+    },
+    {
+      "path": "ccpp_mowing/ordering.py",
+      "original_sha256": "fa4262641224b513bd7b2c75f08e4bff064a1daed55cf917d576bd427230d6d2",
+      "new_sha256": "fa4262641224b513bd7b2c75f08e4bff064a1daed55cf917d576bd427230d6d2",
+      "unchanged": true
+    }
+  ],
+  "new_curve_modules": [
+    "curves.py",
+    "dubins.py",
+    "curve_planner.py",
+    "curve_motion.py",
+    "curve_validation.py",
+    "animation_export.py"
+  ]
+}

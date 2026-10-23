@@ -1,0 +1,99 @@
+{
+  "project": "CCPP Mowing Planner 2.0.0",
+  "source_zip_sha256": "23415bb9687cae5f6c9117c4aa614b08f75d1122e61dfb18375c99ea35464074",
+  "runtime": {
+    "python": "3.13.5",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "shapely": "2.1.2",
+    "networkx": "3.6.1",
+    "matplotlib": "3.10.8",
+    "Pillow": "12.3.0"
+  },
+  "automated_tests": {
+    "total": 170,
+    "passed": 170,
+    "original_v1_tests": 110,
+    "new_curve_tests": 60
+  },
+  "real_tk_gui_checks": {
+    "passed": 28,
+    "total": 28,
+    "display": "Linux Xvfb; not Windows"
+  },
+  "saved_presets_independently_revalidated": [
+    {
+      "id": "01",
+      "valid": true
+    },
+    {
+      "id": "02",
+      "valid": true
+    },
+    {
+      "id": "03",
+      "valid": true
+    },
+    {
+      "id": "04",
+      "valid": true
+    },
+    {
+      "id": "05",
+      "valid": true
+    },
+    {
+      "id": "06",
+      "valid": true
+    },
+    {
+      "id": "07",
+      "valid": true
+    }
+  ],
+  "rendered_gifs": [
+    "examples/demo_03/first_curve.gif",
+    "examples/demo_04/first_curve.gif",
+    "examples/demo_05/first_curve.gif"
+  ],
+  "dense_tests": [
+    {
+      "case": "serpentine",
+      "serviced_centres": 1388,
+      "candidate_centres": 1388,
+      "curve_primitive_counts": {
+        "LINE": 529,
+        "BEZIER5": 200,
+        "ARC": 62
+      },
+      "pivot_fallbacks": 263,
+      "validation_passed": true
+    },
+    {
+      "case": "greedy",
+      "serviced_centres": 1388,
+      "candidate_centres": 1388,
+      "curve_primitive_counts": {
+        "LINE": 1552,
+        "BEZIER5": 45,
+        "ARC": 14
+      },
+      "pivot_fallbacks": 1435,
+      "validation_passed": true
+    }
+  ],
+  "not_executed": [
+    "Windows native runtime",
+    "physical robot",
+    "closed-loop tracking",
+    "Ruff lint (unavailable installation)"
+  ],
+  "evidence_boundary": [
+    "analytical reference replay",
+    "continuous conservative floating-point bounds, not formal verified arithmetic",
+    "local curve converter, not complete SE(2) search",
+    "primitive rest-to-rest motion",
+    "manual/residual area explicitly retained"
+  ]
+}

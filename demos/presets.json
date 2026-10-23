@@ -1,0 +1,91 @@
+[
+  {
+    "id": "08",
+    "name": "08 | Square / GA / constrained forward loops",
+    "config": "configs/demo_08.json",
+    "map": "maps/demo_08.geojson",
+    "robot": "configs/robot_08.json",
+    "result": "comparison_examples/square_ga"
+  },
+  {
+    "id": "09",
+    "name": "09 | Triangle / GA / constrained forward loops",
+    "config": "configs/demo_09.json",
+    "map": "maps/demo_09.geojson",
+    "robot": "configs/robot_09.json",
+    "result": "comparison_examples/triangle_ga"
+  },
+  {
+    "id": "10",
+    "name": "10 | Square / MST-Euler / heading loops",
+    "config": "configs/demo_10.json",
+    "map": "maps/demo_10.geojson",
+    "robot": "configs/robot_10.json",
+    "result": "comparison_examples/square_mst"
+  },
+  {
+    "id": "11",
+    "name": "11 | Forward vehicle / R=0.60 m / no pivot",
+    "config": "configs/demo_11.json",
+    "map": "maps/demo_11.geojson",
+    "robot": "configs/robot_11.json",
+    "result": "comparison_examples/car_r060"
+  },
+  {
+    "id": "12",
+    "name": "12 | Forward vehicle / R=0.90 m / no pivot",
+    "config": "configs/demo_12.json",
+    "map": "maps/demo_12.geojson",
+    "robot": "configs/robot_12.json",
+    "result": "comparison_examples/car_r090"
+  },
+  {
+    "id": "01",
+    "name": "01 | Differential + circular fillet [legacy baseline]",
+    "config": "configs/demo_01.json",
+    "map": "maps/curves_open.geojson",
+    "result": "examples/demo_01"
+  },
+  {
+    "id": "02",
+    "name": "02 | Differential + G2 Bezier [legacy baseline]",
+    "config": "configs/demo_02.json",
+    "map": "maps/curves_open.geojson",
+    "result": "examples/demo_02"
+  },
+  {
+    "id": "03",
+    "name": "03 | Differential + optimized Bezier [legacy baseline]",
+    "config": "configs/demo_03.json",
+    "map": "maps/curves_open.geojson",
+    "result": "examples/demo_03"
+  },
+  {
+    "id": "04",
+    "name": "04 | Forward-only Dubins R=0.60 m [legacy baseline]",
+    "config": "configs/demo_04.json",
+    "map": "maps/forward_open.geojson",
+    "result": "examples/demo_04"
+  },
+  {
+    "id": "05",
+    "name": "05 | Forward-only optimized Bezier [legacy baseline]",
+    "config": "configs/demo_05.json",
+    "map": "maps/forward_bezier.geojson",
+    "result": "examples/demo_05"
+  },
+  {
+    "id": "06",
+    "name": "06 | Obstacle field + optimized Bezier [legacy baseline]",
+    "config": "configs/demo_06.json",
+    "map": "maps/curves_obstacles.geojson",
+    "result": "examples/demo_06"
+  },
+  {
+    "id": "07",
+    "name": "07 | Original stop-turn-go baseline [legacy baseline]",
+    "config": "configs/demo_07.json",
+    "map": "maps/curves_open.geojson",
+    "result": "examples/demo_07"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "name": "motion_models_exposed",
+    "passed": true
+  },
+  {
+    "name": "curve_methods_exposed",
+    "passed": true
+  },
+  {
+    "name": "seven_real_presets",
+    "passed": true
+  },
+  {
+    "name": "preset_applies_optimized_bezier",
+    "passed": true
+  },
+  {
+    "name": "real_GUI_button_launches_pipeline",
+    "passed": true
+  },
+  {
+    "name": "worker_finishes",
+    "passed": true
+  },
+  {
+    "name": "curved_result_loaded",
+    "passed": true
+  },
+  {
+    "name": "curved_result_passes_independent_validation",
+    "passed": true
+  },
+  {
+    "name": "result_contains_real_Bezier_segments",
+    "passed": true
+  },
+  {
+    "name": "four_result_tabs",
+    "passed": true
+  },
+  {
+    "name": "first_curve_enables_slow_follow",
+    "passed": true
+  },
+  {
+    "name": "body_on_analytical_curve",
+    "passed": true
+  },
+  {
+    "name": "heading_tangent_to_curve",
+    "passed": true
+  },
+  {
+    "name": "moving_while_yaw_changes",
+    "passed": true
+  },
+  {
+    "name": "animation_clock_advances",
+    "passed": true
+  },
+  {
+    "name": "pause_stops_clock",
+    "passed": true
+  },
+  {
+    "name": "curvature_chart_exists",
+    "passed": true
+  },
+  {
+    "name": "figure_saves_with_robot",
+    "passed": true
+  },
+  {
+    "name": "saved_config_syncs_to_controls",
+    "passed": true
+  },
+  {
+    "name": "car_has_no_pivots",
+    "passed": true
+  },
+  {
+    "name": "car_disables_pivot_checkbox",
+    "passed": true
+  },
+  {
+    "name": "equivalent_steering_indicator_visible",
+    "passed": true
+  },
+  {
+    "name": "GIF_button_launches_owned_renderer",
+    "passed": true
+  },
+  {
+    "name": "GIF_export_finishes",
+    "passed": true
+  },
+  {
+    "name": "negative_radius_rejected",
+    "passed": true
+  },
+  {
+    "name": "worker_finishes",
+    "passed": true
+  },
+  {
+    "name": "cancel_does_not_publish_success",
+    "passed": true
+  },
+  {
+    "name": "owned_worker_reaped",
+    "passed": true
+  }
+]

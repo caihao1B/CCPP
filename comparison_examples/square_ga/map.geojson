@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "coordinate_system": "local Cartesian metres",
+  "metadata": {
+    "synthetic": true,
+    "purpose": "fixed irregular boundary + fixed obstacle; square/triangle x coverage ordering"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "field"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              12.0,
+              0.0
+            ],
+            [
+              12.0,
+              7.0
+            ],
+            [
+              10.5,
+              9.5
+            ],
+            [
+              2.0,
+              9.5
+            ],
+            [
+              0.0,
+              7.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "obstacle"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.6,
+              4.1
+            ],
+            [
+              6.6,
+              5.3
+            ],
+            [
+              5.4,
+              5.3
+            ],
+            [
+              5.4,
+              4.1
+            ],
+            [
+              6.6,
+              4.1
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

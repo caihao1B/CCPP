@@ -1,0 +1,142 @@
+{
+  "passed": 26,
+  "total": 26,
+  "checks": [
+    {
+      "name": "independent_result_car_r060",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "independent_result_car_r090",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "independent_result_square_ga",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "independent_result_square_ga_circular",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "independent_result_square_ga_conservative",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "independent_result_square_greedy",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "independent_result_square_mst",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "independent_result_triangle_ga",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "independent_result_triangle_greedy",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "independent_result_triangle_mst",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "relative_links_index.html",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "name": "relative_links_ccpp.html",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "name": "relative_links_projects.html",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "name": "relative_links_START_HERE.html",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "name": "relative_links_reports/verification.html",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "name": "preview_binds_loopback",
+      "passed": true
+    },
+    {
+      "name": "HTTP_index",
+      "passed": true,
+      "bytes": 7511,
+      "content_type": "text/html"
+    },
+    {
+      "name": "HTTP_ccpp.html",
+      "passed": true,
+      "bytes": 13847,
+      "content_type": "text/html"
+    },
+    {
+      "name": "HTTP_assets/site.css",
+      "passed": true,
+      "bytes": 13564,
+      "content_type": "text/css"
+    },
+    {
+      "name": "HTTP_assets/replay.js",
+      "passed": true,
+      "bytes": 17309,
+      "content_type": "text/javascript"
+    },
+    {
+      "name": "HTTP_assets/data/cases.js",
+      "passed": true,
+      "bytes": 3819348,
+      "content_type": "text/javascript"
+    },
+    {
+      "name": "HTTP_assets/videos/heading_loop.mp4",
+      "passed": true,
+      "bytes": 628710,
+      "content_type": "video/mp4"
+    },
+    {
+      "name": "HTTP_START_HERE.html",
+      "passed": true,
+      "bytes": 25671,
+      "content_type": "text/html"
+    },
+    {
+      "name": "HTTP_reports/verification.html",
+      "passed": true,
+      "bytes": 14689,
+      "content_type": "text/html"
+    },
+    {
+      "name": "website_under_100_files",
+      "passed": true,
+      "count": 45
+    },
+    {
+      "name": "web_upload_files_under_25MiB",
+      "passed": true
+    }
+  ]
+}

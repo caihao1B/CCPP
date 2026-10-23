@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "coordinate_system": "local Cartesian metres",
+  "metadata": {
+    "synthetic": true,
+    "shape": "rectangle",
+    "width_m": 12.0,
+    "height_m": 10.0,
+    "density_request": "none",
+    "distribution": "uniform",
+    "seed": 7,
+    "requested_obstacles": 0,
+    "placed_obstacles": 0,
+    "actual_obstacle_area_fraction": 0.0,
+    "note": "minimum separation applied; requested count may not fit; split includes a deliberate impassable wall"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "field"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.0,
+              0.0
+            ],
+            [
+              12.0,
+              10.0
+            ],
+            [
+              0.0,
+              10.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              12.0,
+              0.0
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "probe": "unmodified",
+    "valid": true,
+    "errors": []
+  },
+  {
+    "probe": "forbid_pivot_config",
+    "pivot_events": 6,
+    "valid": true,
+    "errors": []
+  },
+  {
+    "probe": "tool_spinup_reduced_to_1ms",
+    "required_spinup_s": 2.0,
+    "valid": true,
+    "errors": []
+  },
+  {
+    "probe": "changed_duration_area_ratio_event_counts",
+    "valid": true,
+    "errors": []
+  }
+]

@@ -1,0 +1,2563 @@
+{
+  "requested_method": "circular_fillet",
+  "motion_model": "differential",
+  "turn_policy": "loops_only",
+  "heading_loops": 24,
+  "cross_row_loops": 2,
+  "initial_yaw_rad": 1.5707963267948966,
+  "initial_heading_policy": "tangent of first route leg; not a heading reset during motion",
+  "raw_length_m": 107.83604295780933,
+  "curve_counts": {
+    "LINE": 118,
+    "ARC": 163
+  },
+  "pivot_fallbacks": 0,
+  "records": [
+    {
+      "segment": 23,
+      "actual": "dubins_cross_row",
+      "word": "RSR",
+      "radius_m": 0.18
+    },
+    {
+      "segment": 54,
+      "actual": "dubins_cross_row",
+      "word": "LSL",
+      "radius_m": 0.18
+    },
+    {
+      "corner": 1,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 2,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 3,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 4,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 5,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 7,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 8,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 9,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 10,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 11,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 12,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 13,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 15,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 16,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 17,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 18,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 19,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 20,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 21,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 22,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 26,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 27,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 28,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 29,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 30,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.5555555555555545
+    },
+    {
+      "corner": 33,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 34,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 35,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 37,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 38,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 40,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 42,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 43,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 44,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 45,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 46,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 48,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 49,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 50,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 52,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 53,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 56,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 57,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 59,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 60,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 61,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 62,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 66,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 67,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 69,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 70,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 71,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 72,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 73,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 74,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 75,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 76,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 80,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 81,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 82,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 83,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 84,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 85,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 87,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 89,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 90,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 91,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 92,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 93,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 94,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 95,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 96,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 98,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 99,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 100,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 101,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 102,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 103,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 105,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 106,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 108,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 109,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 110,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 111,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 112,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 114,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 115,
+      "actual": "circular_fillet",
+      "curvature_bound": 5.555555555555555
+    },
+    {
+      "corner": 6,
+      "actual": "dubins_heading_loop",
+      "word": "RLR",
+      "radius_m": 0.18,
+      "turn_id": "heading_6",
+      "position": [
+        1.5,
+        3.3
+      ],
+      "yaw_before": 3.141592653589793,
+      "yaw_after": 7.068583470577035,
+      "delta_heading_rad": -2.3561944901923444,
+      "length_m": 1.209358001152141
+    },
+    {
+      "corner": 14,
+      "actual": "dubins_heading_loop",
+      "word": "LRL",
+      "radius_m": 0.18,
+      "turn_id": "heading_14",
+      "position": [
+        5.1,
+        1.5
+      ],
+      "yaw_before": 6.283185307179586,
+      "yaw_after": 2.356194490192345,
+      "delta_heading_rad": 2.356194490192345,
+      "length_m": 1.2093580011521412
+    },
+    {
+      "corner": 25,
+      "actual": "dubins_heading_loop",
+      "word": "RLR",
+      "radius_m": 0.18,
+      "turn_id": "heading_25",
+      "position": [
+        3.9,
+        4.5
+      ],
+      "yaw_before": -1.5707963267948963,
+      "yaw_after": 1.5707963267948966,
+      "delta_heading_rad": -3.141592653589793,
+      "length_m": 1.3194689145077128
+    },
+    {
+      "corner": 31,
+      "actual": "dubins_heading_loop",
+      "word": "RLR",
+      "radius_m": 0.18,
+      "turn_id": "heading_31",
+      "position": [
+        1.5,
+        3.9
+      ],
+      "yaw_before": 3.926990816987242,
+      "yaw_after": 7.853981633974483,
+      "delta_heading_rad": -2.3561944901923453,
+      "length_m": 1.2093580011521412
+    },
+    {
+      "corner": 36,
+      "actual": "dubins_heading_loop",
+      "word": "RLR",
+      "radius_m": 0.18,
+      "turn_id": "heading_36",
+      "position": [
+        1.5,
+        6.3
+      ],
+      "yaw_before": 9.42477796076938,
+      "yaw_after": 13.351768777756622,
+      "delta_heading_rad": -2.356194490192344,
+      "length_m": 1.2093580011521412
+    },
+    {
+      "corner": 39,
+      "actual": "dubins_heading_loop",
+      "word": "LRL",
+      "radius_m": 0.18,
+      "turn_id": "heading_39",
+      "position": [
+        2.7,
+        6.3
+      ],
+      "yaw_before": 10.995574287564276,
+      "yaw_after": 7.068583470577034,
+      "delta_heading_rad": 2.356194490192344,
+      "length_m": 1.209358001152141
+    },
+    {
+      "corner": 41,
+      "actual": "dubins_heading_loop",
+      "word": "LRL",
+      "radius_m": 0.18,
+      "turn_id": "heading_41",
+      "position": [
+        5.699999999999999,
+        6.8999999999999995
+      ],
+      "yaw_before": 6.283185307179586,
+      "yaw_after": 2.356194490192344,
+      "delta_heading_rad": 2.356194490192344,
+      "length_m": 1.209358001152141
+    },
+    {
+      "corner": 47,
+      "actual": "dubins_heading_loop",
+      "word": "RLR",
+      "radius_m": 0.18,
+      "turn_id": "heading_47",
+      "position": [
+        2.7,
+        7.5
+      ],
+      "yaw_before": 3.141592653589793,
+      "yaw_after": 6.283185307179586,
+      "delta_heading_rad": -3.141592653589793,
+      "length_m": 1.3194689145077128
+    },
+    {
+      "corner": 51,
+      "actual": "dubins_heading_loop",
+      "word": "LRL",
+      "radius_m": 0.18,
+      "turn_id": "heading_51",
+      "position": [
+        5.699999999999999,
+        7.5
+      ],
+      "yaw_before": 5.497787143782137,
+      "yaw_after": 1.5707963267948966,
+      "delta_heading_rad": 2.3561944901923457,
+      "length_m": 1.209358001152141
+    },
+    {
+      "corner": 58,
+      "actual": "dubins_heading_loop",
+      "word": "LRL",
+      "radius_m": 0.18,
+      "turn_id": "heading_58",
+      "position": [
+        7.5,
+        7.5
+      ],
+      "yaw_before": -1.5707963267948968,
+      "yaw_after": -5.497787143782139,
+      "delta_heading_rad": 2.356194490192345,
+      "length_m": 1.209358001152141
+    },
+    {
+      "corner": 63,
+      "actual": "dubins_heading_loop",
+      "word": "RLR",
+      "radius_m": 0.18,
+      "turn_id": "heading_63",
+      "position": [
+        9.3,
+        8.1
+      ],
+      "yaw_before": -4.712388980384691,
+      "yaw_after": -1.5707963267948966,
+      "delta_heading_rad": -3.1415926535897922,
+      "length_m": 1.3194689145077125
+    },
+    {
+      "corner": 64,
+      "actual": "dubins_heading_loop",
+      "word": "LRL",
+      "radius_m": 0.18,
+      "turn_id": "heading_64",
+      "position": [
+        9.3,
+        6.8999999999999995
+      ],
+      "yaw_before": -1.5707963267948966,
+      "yaw_after": -5.497787143782136,
+      "delta_heading_rad": 2.3561944901923475,
+      "length_m": 1.2093580011521412
+    },
+    {
+      "corner": 65,
+      "actual": "dubins_heading_loop",
+      "word": "RLR",
+      "radius_m": 0.18,
+      "turn_id": "heading_65",
+      "position": [
+        9.899999999999999,
+        7.5
+      ],
+      "yaw_before": -5.497787143782136,
+      "yaw_after": -1.5707963267948966,
+      "delta_heading_rad": -2.3561944901923466,
+      "length_m": 1.2093580011521412
+    },
+    {
+      "corner": 68,
+      "actual": "dubins_heading_loop",
+      "word": "RLR",
+      "radius_m": 0.18,
+      "turn_id": "heading_68",
+      "position": [
+        10.5,
+        5.699999999999999
+      ],
+      "yaw_before": -1.5707963267948966,
+      "yaw_after": 2.3561944901923457,
+      "delta_heading_rad": -2.356194490192344,
+      "length_m": 1.209358001152141
+    },
+    {
+      "corner": 77,
+      "actual": "dubins_heading_loop",
+      "word": "RLR",
+      "radius_m": 0.18,
+      "turn_id": "heading_77",
+      "position": [
+        8.1,
+        3.9
+      ],
+      "yaw_before": 4.71238898038469,
+      "yaw_after": 7.853981633974484,
+      "delta_heading_rad": -3.141592653589793,
+      "length_m": 1.3194689145077128
+    },
+    {
+      "corner": 78,
+      "actual": "dubins_heading_loop",
+      "word": "LRL",
+      "radius_m": 0.18,
+      "turn_id": "heading_78",
+      "position": [
+        8.1,
+        7.5
+      ],
+      "yaw_before": 7.853981633974483,
+      "yaw_after": 3.9269908169872414,
+      "delta_heading_rad": 2.3561944901923457,
+      "length_m": 1.2093580011521414
+    },
+    {
+      "corner": 79,
+      "actual": "dubins_heading_loop",
+      "word": "LRL",
+      "radius_m": 0.18,
+      "turn_id": "heading_79",
+      "position": [
+        7.5,
+        6.8999999999999995
+      ],
+      "yaw_before": 3.9269908169872414,
+      "yaw_after": 0.0,
+      "delta_heading_rad": 2.356194490192345,
+      "length_m": 1.209358001152141
+    },
+    {
+      "corner": 86,
+      "actual": "dubins_heading_loop",
+      "word": "RLR",
+      "radius_m": 0.18,
+      "turn_id": "heading_86",
+      "position": [
+        8.1,
+        5.1
+      ],
+      "yaw_before": -3.141592653589793,
+      "yaw_after": 0.0,
+      "delta_heading_rad": -3.141592653589793,
+      "length_m": 1.3194689145077128
+    },
+    {
+      "corner": 97,
+      "actual": "dubins_heading_loop",
+      "word": "LRL",
+      "radius_m": 0.18,
+      "turn_id": "heading_97",
+      "position": [
+        9.899999999999999,
+        4.5
+      ],
+      "yaw_before": -4.71238898038469,
+      "yaw_after": -8.961130351768574,
+      "delta_heading_rad": 2.0344439357957027,
+      "length_m": 1.180861854451795
+    },
+    {
+      "corner": 104,
+      "actual": "dubins_heading_loop",
+      "word": "RLR",
+      "radius_m": 0.18,
+      "turn_id": "heading_104",
+      "position": [
+        9.899999999999999,
+        1.5
+      ],
+      "yaw_before": -6.746832916180392,
+      "yaw_after": -3.141592653589793,
+      "delta_heading_rad": -2.677945044588988,
+      "length_m": 1.2470838224356642
+    },
+    {
+      "corner": 107,
+      "actual": "dubins_heading_loop",
+      "word": "RLR",
+      "radius_m": 0.18,
+      "turn_id": "heading_107",
+      "position": [
+        8.1,
+        2.0999999999999996
+      ],
+      "yaw_before": -6.283185307179586,
+      "yaw_after": -3.141592653589793,
+      "delta_heading_rad": -3.141592653589793,
+      "length_m": 1.3194689145077128
+    },
+    {
+      "corner": 113,
+      "actual": "dubins_heading_loop",
+      "word": "RLR",
+      "radius_m": 0.18,
+      "turn_id": "heading_113",
+      "position": [
+        5.699999999999999,
+        1.5
+      ],
+      "yaw_before": -1.5707963267948966,
+      "yaw_after": 2.356194490192345,
+      "delta_heading_rad": -2.356194490192345,
+      "length_m": 1.2093580011521412
+    },
+    {
+      "corner": 116,
+      "actual": "dubins_heading_loop",
+      "word": "RLR",
+      "radius_m": 0.18,
+      "turn_id": "heading_116",
+      "position": [
+        3.9,
+        2.7
+      ],
+      "yaw_before": 3.141592653589793,
+      "yaw_after": 6.283185307179586,
+      "delta_heading_rad": -3.141592653589793,
+      "length_m": 1.3194689145077128
+    },
+    {
+      "corner": 117,
+      "actual": "dubins_heading_loop",
+      "word": "RLR",
+      "radius_m": 0.18,
+      "turn_id": "heading_117",
+      "position": [
+        7.5,
+        2.7
+      ],
+      "yaw_before": 6.283185307179586,
+      "yaw_after": 9.643446906643323,
+      "delta_heading_rad": -2.922923707715851,
+      "length_m": 1.2825881676523274
+    }
+  ],
+  "scope": "local curve conversion of fixed coverage order; not globally optimal or SE(2)-complete",
+  "service_rule": "cutter_footprint",
+  "curvature_bound_inv_m": 5.555555555555555,
+  "actual_duration_s": 1517.6349711986702,
+  "baseline_duration_s": 2007.4856924964981,
+  "time_reduction_ratio": 0.24401206102179107,
+  "profile_solves": 75,
+  "cache_hits": 206,
+  "accepted_numeric_solves": 75,
+  "fallback_profile_count": 0,
+  "time_records": [
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 4.348425890646446,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.256572200946197,
+      "continuous_bound_ratios": {
+        "v": 0.5731998406558606,
+        "a": 0.9900745031086402,
+        "j": 0.9361496209156761,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.2579399282951373,
+        "track_a": 0.7425558773314801,
+        "track_j": 0.8024139607848653,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "WORK",
+      "baseline_seconds": 6.923647855099672,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 5.454144456123433,
+      "continuous_bound_ratios": {
+        "v": 0.23040039946596497,
+        "a": 0.23761788075506798,
+        "j": 0.13414997080656932,
+        "w": 0.9600016644415207,
+        "alpha": 0.9900745031461164,
+        "yaw_jerk": 0.5589582116940387,
+        "track_v": 0.1900803295594211,
+        "track_a": 0.3267245860382184,
+        "track_j": 0.21080709698175176,
+        "lateral_a": 0.17062824880953076
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 3.608439182435159,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 2.656822325710427,
+      "continuous_bound_ratios": {
+        "v": 0.401482122588473,
+        "a": 0.8500142887636597,
+        "j": 0.985148759470772,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.18066695516481285,
+        "track_a": 0.6375107165727447,
+        "track_j": 0.8444132224035189,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 3.608439182435162,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 2.6568223257102463,
+      "continuous_bound_ratios": {
+        "v": 0.401482122588501,
+        "a": 0.8500142887637768,
+        "j": 0.9851487594709748,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.18066695516482548,
+        "track_a": 0.6375107165728325,
+        "track_j": 0.8444132224036927,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 3.6084391824351574,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 2.6568223257106074,
+      "continuous_bound_ratios": {
+        "v": 0.4014821225884449,
+        "a": 0.8500142887635426,
+        "j": 0.9851487594705696,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.18066695516480022,
+        "track_a": 0.6375107165726569,
+        "track_j": 0.8444132224033454,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 4.679547077783806,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.635535025986576,
+      "continuous_bound_ratios": {
+        "v": 0.10632223116936264,
+        "a": 0.23761788074552895,
+        "j": 0.201256022649883,
+        "w": 0.6399023172230159,
+        "alpha": 0.9900745031063705,
+        "yaw_jerk": 0.8385667610411792,
+        "track_v": 0.12670065881015713,
+        "track_a": 0.32672458602510224,
+        "track_j": 0.3162594641641019,
+        "lateral_a": 0.07581136690875019
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 18.48202496344372,
+      "solver_success": true,
+      "iterations": 8,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 11.742291342365437,
+      "continuous_bound_ratios": {
+        "v": 0.16532721010332524,
+        "a": 0.23761788074552342,
+        "j": 0.12942811622498904,
+        "w": 0.9950248756218649,
+        "alpha": 0.9900745031063476,
+        "yaw_jerk": 0.5392838176041209,
+        "track_v": 0.19701492537312926,
+        "track_a": 0.32672458602509474,
+        "track_j": 0.2033870397821256,
+        "lateral_a": 0.1833052222893964
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 5.2155996347615075,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 4.108619390987827,
+      "continuous_bound_ratios": {
+        "v": 0.723171431465664,
+        "a": 0.990074503108534,
+        "j": 0.7420105250165329,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.3254271441595488,
+        "track_a": 0.7425558773314004,
+        "track_j": 0.6360090214427425,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 4.916166068196546,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.872738831889724,
+      "continuous_bound_ratios": {
+        "v": 0.6816533288255955,
+        "a": 0.9900745031063733,
+        "j": 0.787204860366412,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.30674399797151797,
+        "track_a": 0.7425558773297799,
+        "track_j": 0.6747470231712103,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "WORK",
+      "baseline_seconds": 4.895758348888674,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.8566625305732876,
+      "continuous_bound_ratios": {
+        "v": 0.16291768484720393,
+        "a": 0.23761788074553125,
+        "j": 0.18971670809518365,
+        "w": 0.6788236868633498,
+        "alpha": 0.9900745031063802,
+        "yaw_jerk": 0.790486283729932,
+        "track_v": 0.13440708999894324,
+        "track_a": 0.3267245860251054,
+        "track_j": 0.2981262555781458,
+        "lateral_a": 0.08531412440134134
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 7.929954477168371,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 6.278048647917755,
+      "continuous_bound_ratios": {
+        "v": 0.9950248756225291,
+        "a": 0.9900745031091117,
+        "j": 0.539283817606772,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.4477611940301381,
+        "track_a": 0.7425558773318337,
+        "track_j": 0.462243272234376,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 6.442352540027594,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 5.075001231483595,
+      "continuous_bound_ratios": {
+        "v": 0.8932674351308647,
+        "a": 0.9900745031232722,
+        "j": 0.6007168653541677,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.40197034580888913,
+        "track_a": 0.7425558773424541,
+        "track_j": 0.5149001703035724,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 4.679547077783807,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.635535025986571,
+      "continuous_bound_ratios": {
+        "v": 0.10632223116936282,
+        "a": 0.23761788074552959,
+        "j": 0.2012560226498839,
+        "w": 0.6399023172230169,
+        "alpha": 0.9900745031063731,
+        "yaw_jerk": 0.8385667610411829,
+        "track_v": 0.12670065881015735,
+        "track_a": 0.3267245860251031,
+        "track_j": 0.3162594641641033,
+        "lateral_a": 0.07581136690875043
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 4.679547077783808,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.6355350259865844,
+      "continuous_bound_ratios": {
+        "v": 0.10632223116936247,
+        "a": 0.237617880745528,
+        "j": 0.2012560226498819,
+        "w": 0.6399023172230149,
+        "alpha": 0.9900745031063668,
+        "yaw_jerk": 0.8385667610411747,
+        "track_v": 0.12670065881015696,
+        "track_a": 0.32672458602510096,
+        "track_j": 0.3162594641641002,
+        "lateral_a": 0.07581136690874994
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 5.7739190519796,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 4.548438806693053,
+      "continuous_bound_ratios": {
+        "v": 0.8005854740389576,
+        "a": 0.9900745031113789,
+        "j": 0.6702604917807524,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.36026346331753095,
+        "track_a": 0.7425558773335341,
+        "track_j": 0.5745089929549307,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "WORK",
+      "baseline_seconds": 3.6150071880225942,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 2.6616582181848645,
+      "continuous_bound_ratios": {
+        "v": 0.0967067979497569,
+        "a": 0.2043747520815616,
+        "j": 0.23643570227248917,
+        "w": 0.4029449914573205,
+        "alpha": 0.8515614670065067,
+        "yaw_jerk": 0.9851487594687048,
+        "track_v": 0.07978310830854946,
+        "track_a": 0.2810152841121472,
+        "track_j": 0.37154181785676865,
+        "lateral_a": 0.030060658188305698
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 6.9911608583323135,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 5.507328222820281,
+      "continuous_bound_ratios": {
+        "v": 0.969362711803464,
+        "a": 0.990074503150313,
+        "j": 0.5535604031908298,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.4362132203115588,
+        "track_a": 0.7425558773627347,
+        "track_j": 0.47448034559213986,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "WORK",
+      "baseline_seconds": 5.812701393609921,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 4.578989825176849,
+      "continuous_bound_ratios": {
+        "v": 0.1934310859057356,
+        "a": 0.23761788074681744,
+        "j": 0.15978924336441536,
+        "w": 0.8059628579405651,
+        "alpha": 0.9900745031117394,
+        "yaw_jerk": 0.6657885140183973,
+        "track_v": 0.15958064587223186,
+        "track_a": 0.326724586026874,
+        "track_j": 0.25109738242979557,
+        "lateral_a": 0.12026438034001735
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 3.9245191416255096,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 2.889545741578875,
+      "continuous_bound_ratios": {
+        "v": 0.4748979937991723,
+        "a": 0.9244709909526199,
+        "j": 0.9851487594131485,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.21370409720962755,
+        "track_a": 0.6933532432144648,
+        "track_j": 0.8444132223541273,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 5.8463396668342815,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 4.605488573417176,
+      "continuous_bound_ratios": {
+        "v": 0.810626988607047,
+        "a": 0.9900745031121377,
+        "j": 0.6619577451581983,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.3647821448731711,
+        "track_a": 0.7425558773341032,
+        "track_j": 0.5673923529927414,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 8.118988160479113,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 6.444562499996823,
+      "continuous_bound_ratios": {
+        "v": 0.9950248756221557,
+        "a": 0.9900745031073975,
+        "j": 0.5392838176051072,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.44776119402997006,
+        "track_a": 0.7425558773305481,
+        "track_j": 0.46224327223294903,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "WORK",
+      "baseline_seconds": 6.923647855099672,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 5.454144456124237,
+      "continuous_bound_ratios": {
+        "v": 0.23040039946593097,
+        "a": 0.2376178807549979,
+        "j": 0.13414997080650992,
+        "w": 0.9600016644413791,
+        "alpha": 0.9900745031458245,
+        "yaw_jerk": 0.5589582116937912,
+        "track_v": 0.19008032955939305,
+        "track_a": 0.3267245860381221,
+        "track_j": 0.21080709698165842,
+        "lateral_a": 0.1706282488094804
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 8.55816496101822,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 6.846562499999095,
+      "continuous_bound_ratios": {
+        "v": 0.9950248756219147,
+        "a": 0.9900745031066653,
+        "j": 0.5392838176044402,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.4477611940298616,
+        "track_a": 0.742555877329999,
+        "track_j": 0.4622432722323773,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 5.653134801236465,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 4.453290300390954,
+      "continuous_bound_ratios": {
+        "v": 0.13023771120342845,
+        "a": 0.23761788074650303,
+        "j": 0.16429948873379382,
+        "w": 0.783838076687301,
+        "alpha": 0.9900745031104292,
+        "yaw_jerk": 0.6845812030574744,
+        "track_v": 0.1551999391840856,
+        "track_a": 0.3267245860264416,
+        "track_j": 0.2581849108673903,
+        "lateral_a": 0.11375216586892023
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 18.180513041607597,
+      "solver_success": true,
+      "iterations": 8,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 11.596841991271681,
+      "continuous_bound_ratios": {
+        "v": 0.16532721010332538,
+        "a": 0.23761788074552367,
+        "j": 0.12942811622498923,
+        "w": 0.9950248756218657,
+        "alpha": 0.9900745031063486,
+        "yaw_jerk": 0.5392838176041217,
+        "track_v": 0.19701492537312942,
+        "track_a": 0.326724586025095,
+        "track_j": 0.20338703978212588,
+        "lateral_a": 0.1833052222893967
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 4.074182737488617,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 2.999740084009758,
+      "continuous_bound_ratios": {
+        "v": 0.5118096147570089,
+        "a": 0.9597261770626161,
+        "j": 0.985148759394768,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.23031432664065404,
+        "track_a": 0.719794632796962,
+        "track_j": 0.8444132223383726,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "WORK",
+      "baseline_seconds": 4.895758348888672,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.8566625305732853,
+      "continuous_bound_ratios": {
+        "v": 0.16291768484720387,
+        "a": 0.23761788074553125,
+        "j": 0.1897167080951838,
+        "w": 0.6788236868633494,
+        "alpha": 0.9900745031063799,
+        "yaw_jerk": 0.7904862837299322,
+        "track_v": 0.13440708999894319,
+        "track_a": 0.3267245860251054,
+        "track_j": 0.2981262555781459,
+        "lateral_a": 0.08531412440134126
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 5.611854199824425,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 4.420771263020794,
+      "continuous_bound_ratios": {
+        "v": 0.7781142953954265,
+        "a": 0.9900745031102248,
+        "j": 0.6896169582232583,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.35015143292794193,
+        "track_a": 0.7425558773326686,
+        "track_j": 0.59110024990565,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 4.941058844013093,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.892348262938438,
+      "continuous_bound_ratios": {
+        "v": 0.6851048484170142,
+        "a": 0.9900745031063672,
+        "j": 0.7832389666724769,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.3082971817876564,
+        "track_a": 0.7425558773297753,
+        "track_j": 0.6713476857192661,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 3.6084391824351663,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 2.656822325710614,
+      "continuous_bound_ratios": {
+        "v": 0.4014821225884469,
+        "a": 0.8500142887635448,
+        "j": 0.9851487594705696,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.1806669551648011,
+        "track_a": 0.6375107165726586,
+        "track_j": 0.8444132224033454,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 5.611854199824427,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 4.420771263020796,
+      "continuous_bound_ratios": {
+        "v": 0.7781142953954263,
+        "a": 0.9900745031102245,
+        "j": 0.6896169582232576,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.3501514329279419,
+        "track_a": 0.7425558773326683,
+        "track_j": 0.5911002499056495,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "WORK",
+      "baseline_seconds": 4.8957583488886725,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.856662530573279,
+      "continuous_bound_ratios": {
+        "v": 0.1629176848472042,
+        "a": 0.23761788074553214,
+        "j": 0.1897167080951848,
+        "w": 0.6788236868633509,
+        "alpha": 0.9900745031063838,
+        "yaw_jerk": 0.7904862837299365,
+        "track_v": 0.13440708999894346,
+        "track_a": 0.3267245860251067,
+        "track_j": 0.2981262555781475,
+        "lateral_a": 0.08531412440134165
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 4.348425890646447,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.2565722009461293,
+      "continuous_bound_ratios": {
+        "v": 0.5731998406558727,
+        "a": 0.9900745031086816,
+        "j": 0.9361496209157352,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.25793992829514273,
+        "track_a": 0.7425558773315112,
+        "track_j": 0.8024139607849159,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 4.679547077783807,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.635535025986578,
+      "continuous_bound_ratios": {
+        "v": 0.10632223116936264,
+        "a": 0.23761788074552875,
+        "j": 0.2012560226498828,
+        "w": 0.639902317223016,
+        "alpha": 0.9900745031063698,
+        "yaw_jerk": 0.8385667610411782,
+        "track_v": 0.12670065881015716,
+        "track_a": 0.326724586025102,
+        "track_j": 0.31625946416410156,
+        "lateral_a": 0.07581136690875019
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 10.765933142466864,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 8.020048647925185,
+      "continuous_bound_ratios": {
+        "v": 0.9950248756219362,
+        "a": 0.9900745031066116,
+        "j": 0.53928381760437,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.4477611940298713,
+        "track_a": 0.7425558773299586,
+        "track_j": 0.46224327223231715,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 5.611854199824428,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 4.420771263020632,
+      "continuous_bound_ratios": {
+        "v": 0.7781142953954556,
+        "a": 0.9900745031102981,
+        "j": 0.6896169582233346,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.35015143292795503,
+        "track_a": 0.7425558773327235,
+        "track_j": 0.5911002499057153,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 6.2024281946639785,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 4.88599941257922,
+      "continuous_bound_ratios": {
+        "v": 0.8600006116694808,
+        "a": 0.990074503117308,
+        "j": 0.6239539905752235,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.3870002752512664,
+        "track_a": 0.742555877337981,
+        "track_j": 0.5348177062073345,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 4.348425890646445,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.2565722009461964,
+      "continuous_bound_ratios": {
+        "v": 0.5731998406558605,
+        "a": 0.99007450310864,
+        "j": 0.9361496209156761,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.25793992829513723,
+        "track_a": 0.74255587733148,
+        "track_j": 0.8024139607848653,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 18.482024963443713,
+      "solver_success": true,
+      "iterations": 8,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 11.742291342364368,
+      "continuous_bound_ratios": {
+        "v": 0.16532721010334994,
+        "a": 0.23761788074553689,
+        "j": 0.12942811622498437,
+        "w": 0.9950248756220137,
+        "alpha": 0.9900745031064038,
+        "yaw_jerk": 0.5392838176041015,
+        "track_v": 0.1970149253731587,
+        "track_a": 0.3267245860251132,
+        "track_j": 0.20338703978211828,
+        "lateral_a": 0.18330522228945123
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 6.442352540027596,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 5.075001231483596,
+      "continuous_bound_ratios": {
+        "v": 0.8932674351308654,
+        "a": 0.9900745031232726,
+        "j": 0.6007168653541679,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.4019703458088894,
+        "track_a": 0.7425558773424543,
+        "track_j": 0.5149001703035725,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 4.074182737488614,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 2.9997400840092485,
+      "continuous_bound_ratios": {
+        "v": 0.5118096147570947,
+        "a": 0.9597261770629397,
+        "j": 0.9851487593952676,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.23031432664069262,
+        "track_a": 0.7197946327972047,
+        "track_j": 0.8444132223388008,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 3.6084391824351707,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 2.6568223257104355,
+      "continuous_bound_ratios": {
+        "v": 0.4014821225884754,
+        "a": 0.8500142887636619,
+        "j": 0.9851487594707714,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.18066695516481393,
+        "track_a": 0.6375107165727464,
+        "track_j": 0.8444132224035183,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 5.6531348012364635,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 4.453290300390781,
+      "continuous_bound_ratios": {
+        "v": 0.13023771120343344,
+        "a": 0.23761788074652135,
+        "j": 0.16429948873381295,
+        "w": 0.7838380766873311,
+        "alpha": 0.9900745031105057,
+        "yaw_jerk": 0.684581203057554,
+        "track_v": 0.15519993918409153,
+        "track_a": 0.3267245860264668,
+        "track_j": 0.2581849108674204,
+        "lateral_a": 0.11375216586892896
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 5.653134801236462,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 4.453290300390951,
+      "continuous_bound_ratios": {
+        "v": 0.13023771120342842,
+        "a": 0.23761788074650306,
+        "j": 0.16429948873379402,
+        "w": 0.7838380766873009,
+        "alpha": 0.9900745031104294,
+        "yaw_jerk": 0.684581203057475,
+        "track_v": 0.15519993918408553,
+        "track_a": 0.3267245860264417,
+        "track_j": 0.2581849108673906,
+        "lateral_a": 0.11375216586892019
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 6.987712429686843,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 5.504611702804054,
+      "continuous_bound_ratios": {
+        "v": 0.9688845683005269,
+        "a": 0.990074503150557,
+        "j": 0.5538335846607314,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.43599805573523714,
+        "track_a": 0.7425558773629177,
+        "track_j": 0.47471450113776975,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 5.875942332947486,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 4.628808248340596,
+      "continuous_bound_ratios": {
+        "v": 0.8147315602628857,
+        "a": 0.9900745031124729,
+        "j": 0.6586228393680026,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.3666292021182986,
+        "track_a": 0.7425558773343546,
+        "track_j": 0.5645338623154308,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 4.6855126627057935,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.6424892257889114,
+      "continuous_bound_ratios": {
+        "v": 0.6411263484965832,
+        "a": 0.9900745031063748,
+        "j": 0.8369657787341965,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.28850685682346244,
+        "track_a": 0.742555877329781,
+        "track_j": 0.7173992389150255,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "WORK",
+      "baseline_seconds": 4.895758348888677,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.85666253057329,
+      "continuous_bound_ratios": {
+        "v": 0.162917684847204,
+        "a": 0.2376178807455312,
+        "j": 0.1897167080951835,
+        "w": 0.6788236868633502,
+        "alpha": 0.9900745031063801,
+        "yaw_jerk": 0.7904862837299312,
+        "track_v": 0.13440708999894332,
+        "track_a": 0.3267245860251054,
+        "track_j": 0.29812625557814554,
+        "lateral_a": 0.08531412440134144
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 5.334708691207968,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 4.20244825309839,
+      "continuous_bound_ratios": {
+        "v": 0.7396865539604139,
+        "a": 0.990074503108918,
+        "j": 0.7254435147781916,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.3328589492821863,
+        "track_a": 0.7425558773316884,
+        "track_j": 0.6218087269527356,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 5.611854199824435,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 4.420771263020636,
+      "continuous_bound_ratios": {
+        "v": 0.7781142953954568,
+        "a": 0.9900745031102991,
+        "j": 0.6896169582233346,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.3501514329279556,
+        "track_a": 0.7425558773327242,
+        "track_j": 0.5911002499057153,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "WORK",
+      "baseline_seconds": 4.89575834888867,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.8566625305732756,
+      "continuous_bound_ratios": {
+        "v": 0.16291768484720417,
+        "a": 0.2376178807455323,
+        "j": 0.18971670809518507,
+        "w": 0.6788236868633507,
+        "alpha": 0.9900745031063847,
+        "yaw_jerk": 0.7904862837299378,
+        "track_v": 0.13440708999894344,
+        "track_a": 0.32672458602510696,
+        "track_j": 0.298126255578148,
+        "lateral_a": 0.0853141244013416
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 4.074182737488607,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 2.999740084009412,
+      "continuous_bound_ratios": {
+        "v": 0.5118096147570641,
+        "a": 0.95972617706283,
+        "j": 0.9851487593951013,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.23031432664067883,
+        "track_a": 0.7197946327971224,
+        "track_j": 0.8444132223386582,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 3.608439182435153,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 2.656822325710422,
+      "continuous_bound_ratios": {
+        "v": 0.40148212258847144,
+        "a": 0.8500142887636579,
+        "j": 0.9851487594707719,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.18066695516481215,
+        "track_a": 0.6375107165727434,
+        "track_j": 0.8444132224035187,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 5.8463396668342895,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 4.605488573416962,
+      "continuous_bound_ratios": {
+        "v": 0.8106269886070869,
+        "a": 0.9900745031122326,
+        "j": 0.6619577451582924,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.3647821448731891,
+        "track_a": 0.7425558773341743,
+        "track_j": 0.5673923529928221,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 4.348425890646449,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.2565722009461315,
+      "continuous_bound_ratios": {
+        "v": 0.573199840655873,
+        "a": 0.9900745031086815,
+        "j": 0.9361496209157343,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.2579399282951429,
+        "track_a": 0.7425558773315111,
+        "track_j": 0.8024139607849151,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 16.666666666666664,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 10.866562499999977,
+      "continuous_bound_ratios": {
+        "v": 0.9950248756218865,
+        "a": 0.9900745031063745,
+        "j": 0.5392838176041383,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.44776119402984893,
+        "track_a": 0.7425558773297808,
+        "track_j": 0.4622432722321186,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 5.87594233294749,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 4.628808248340598,
+      "continuous_bound_ratios": {
+        "v": 0.8147315602628866,
+        "a": 0.9900745031124736,
+        "j": 0.6586228393680026,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.36662920211829897,
+        "track_a": 0.7425558773343551,
+        "track_j": 0.5645338623154308,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 10.277777777777782,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 7.784562499999859,
+      "continuous_bound_ratios": {
+        "v": 0.9950248756219372,
+        "a": 0.9900745031063735,
+        "j": 0.5392838176041103,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.44776119402987175,
+        "track_a": 0.74255587732978,
+        "track_j": 0.4622432722320945,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 10.277777777777779,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 7.784562499999925,
+      "continuous_bound_ratios": {
+        "v": 0.995024875621912,
+        "a": 0.990074503106369,
+        "j": 0.5392838176041188,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.4477611940298604,
+        "track_a": 0.7425558773297767,
+        "track_j": 0.4622432722321019,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 5.846339666834282,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 4.605488573417177,
+      "continuous_bound_ratios": {
+        "v": 0.8106269886070473,
+        "a": 0.990074503112138,
+        "j": 0.6619577451581984,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.3647821448731713,
+        "track_a": 0.7425558773341034,
+        "track_j": 0.5673923529927415,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 4.394273701251898,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.3082114294081273,
+      "continuous_bound_ratios": {
+        "v": 0.09674956171271396,
+        "a": 0.23761788074604437,
+        "j": 0.22116885064594818,
+        "w": 0.5822890288265192,
+        "alpha": 0.9900745031085181,
+        "yaw_jerk": 0.9215368776914508,
+        "track_v": 0.1152932277076508,
+        "track_a": 0.32672458602581095,
+        "track_j": 0.34755105101506145,
+        "lateral_a": 0.06277463213812619
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 18.76577258199165,
+      "solver_success": true,
+      "iterations": 8,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 11.879171193553155,
+      "continuous_bound_ratios": {
+        "v": 0.1653272101033131,
+        "a": 0.2376178807455456,
+        "j": 0.12942811622502265,
+        "w": 0.9950248756217921,
+        "alpha": 0.9900745031064399,
+        "yaw_jerk": 0.539283817604261,
+        "track_v": 0.19701492537311482,
+        "track_a": 0.3267245860251251,
+        "track_j": 0.20338703978217848,
+        "lateral_a": 0.18330522228936955
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 4.394273701251901,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.308211429408199,
+      "continuous_bound_ratios": {
+        "v": 0.09674956171271201,
+        "a": 0.2376178807460344,
+        "j": 0.22116885064593414,
+        "w": 0.5822890288265076,
+        "alpha": 0.9900745031084768,
+        "yaw_jerk": 0.9215368776913921,
+        "track_v": 0.1152932277076485,
+        "track_a": 0.3267245860257973,
+        "track_j": 0.34755105101503936,
+        "lateral_a": 0.06277463213812366
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 7.075654544166863,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 5.5738886224365,
+      "continuous_bound_ratios": {
+        "v": 0.981078223735501,
+        "a": 0.990074503157165,
+        "j": 0.5469500806453298,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.44148520068097546,
+        "track_a": 0.7425558773678738,
+        "track_j": 0.46881435483885414,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 3.9245191416255123,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 2.8895457415787025,
+      "continuous_bound_ratios": {
+        "v": 0.4748979937992014,
+        "a": 0.9244709909527312,
+        "j": 0.9851487594133257,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.21370409720964062,
+        "track_a": 0.6933532432145484,
+        "track_j": 0.8444132223542792,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 3.9245191416255136,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 2.889545741578876,
+      "continuous_bound_ratios": {
+        "v": 0.4748979937991735,
+        "a": 0.9244709909526216,
+        "j": 0.9851487594131496,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.2137040972096281,
+        "track_a": 0.6933532432144662,
+        "track_j": 0.8444132223541282,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 7.075654544166863,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 5.5738886224355495,
+      "continuous_bound_ratios": {
+        "v": 0.9810782237356683,
+        "a": 0.9900745031575028,
+        "j": 0.5469500806456095,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.44148520068105074,
+        "track_a": 0.742555877368127,
+        "track_j": 0.4688143548390939,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 5.035126851053406,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.966450890606012,
+      "continuous_bound_ratios": {
+        "v": 0.11599995750240123,
+        "a": 0.23761788074552737,
+        "j": 0.184465493135755,
+        "w": 0.6981478923755631,
+        "alpha": 0.990074503106364,
+        "yaw_jerk": 0.7686062213989792,
+        "track_v": 0.13823328269036148,
+        "track_a": 0.3267245860251001,
+        "track_j": 0.2898743463561864,
+        "lateral_a": 0.09024056879977989
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 18.28729812598353,
+      "solver_success": true,
+      "iterations": 8,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 11.648355115974864,
+      "continuous_bound_ratios": {
+        "v": 0.1653272101033198,
+        "a": 0.23761788074552118,
+        "j": 0.12942811622499087,
+        "w": 0.9950248756218322,
+        "alpha": 0.9900745031063382,
+        "yaw_jerk": 0.5392838176041286,
+        "track_v": 0.19701492537312276,
+        "track_a": 0.3267245860250915,
+        "track_j": 0.20338703978212852,
+        "lateral_a": 0.18330522228938437
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 5.035126851053404,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.9664508906060107,
+      "continuous_bound_ratios": {
+        "v": 0.11599995750240118,
+        "a": 0.2376178807455273,
+        "j": 0.184465493135755,
+        "w": 0.6981478923755626,
+        "alpha": 0.9900745031063637,
+        "yaw_jerk": 0.7686062213989792,
+        "track_v": 0.1382332826903614,
+        "track_a": 0.3267245860251,
+        "track_j": 0.2898743463561864,
+        "lateral_a": 0.09024056879977979
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 10.277777777777771,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 7.784562499999906,
+      "continuous_bound_ratios": {
+        "v": 0.9950248756219177,
+        "a": 0.9900745031063706,
+        "j": 0.5392838176041175,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.447761194029863,
+        "track_a": 0.7425558773297778,
+        "track_j": 0.46224327223210065,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 6.442352540027595,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 5.0750012314826805,
+      "continuous_bound_ratios": {
+        "v": 0.8932674351310264,
+        "a": 0.9900745031236297,
+        "j": 0.6007168653544929,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.40197034580896185,
+        "track_a": 0.7425558773427222,
+        "track_j": 0.514900170303851,
+        "lateral_a": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 5.359702566083819,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 4.222137325527604,
+      "continuous_bound_ratios": {
+        "v": 0.12347757827828508,
+        "a": 0.23761788074614515,
+        "j": 0.17329453381643956,
+        "w": 0.7431520914896789,
+        "alpha": 0.9900745031089382,
+        "yaw_jerk": 0.7220605575684981,
+        "track_v": 0.1471441141149564,
+        "track_a": 0.3267245860259496,
+        "track_j": 0.27231998171154786,
+        "lateral_a": 0.10224977718382672
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 18.204429548184798,
+      "solver_success": true,
+      "iterations": 8,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 11.608379314043734,
+      "continuous_bound_ratios": {
+        "v": 0.16532721010334403,
+        "a": 0.23761788074553353,
+        "j": 0.1294281162249853,
+        "w": 0.995024875621978,
+        "alpha": 0.9900745031063897,
+        "yaw_jerk": 0.5392838176041054,
+        "track_v": 0.19701492537315163,
+        "track_a": 0.3267245860251086,
+        "track_j": 0.20338703978211975,
+        "lateral_a": 0.18330522228943802
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "TRANSIT",
+      "baseline_seconds": 17.72989318710171,
+      "solver_success": true,
+      "iterations": 8,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 12.635712973456751,
+      "continuous_bound_ratios": {
+        "v": 0.9950248756221414,
+        "a": 0.9900745031063554,
+        "j": 0.37335033526429356,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.6467661691543919,
+        "track_a": 0.7425558773297665,
+        "track_j": 0.32001457308368025,
+        "lateral_a": 0.0
+      }
+    }
+  ],
+  "mode": "slsqp",
+  "timing_scope": "independent rest-to-rest primitive timing; stops at all primitive joins, finite standstill steering at curvature jumps"
+}

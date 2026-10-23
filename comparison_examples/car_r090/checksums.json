@@ -1,0 +1,21 @@
+{
+  "ordering.json": "e9a71dd95216d5af41971f72cd4c78cf1a055ebe4f43b2d78ef69e10044f0b14",
+  "optimization.json": "f61abd9efeb68452fa6c5e1465ee10bb4f8d0ebbe26a98edab7a265d0121db11",
+  "map.geojson": "6a2165ed32def53debc236708ba871db4f1a197e36464732aacd83b01061d438",
+  "curve_path.csv": "c0a62a657749049b305779a768ff6288431fe3df95583d93dd1c6e818fd2c466",
+  "queries.json": "88cc2b6ba41b88888280fd1ebacbfbb57281a01caddb0f3cd5af14fc3c755673",
+  "raw_legs.json": "80ea5f5ece561d49cd0116114f5cee1e3fae2ec824d3dfa1a6024bd599a7b63e",
+  "manual_handover.csv": "984e5547b5f25c9da3f25858d8e6d5a759e7144f194f5e97705a2b924d89350b",
+  "grid.geojson": "5fc4640153b5677bccdcf0a961c46e5582ecc29aac34ca2e54fe84d2037f9c1a",
+  "robot.json": "0c9232ab00facaee33fb95faa5a5b7c360b763aa6fa94a8c75e310eebf612a68",
+  "config.json": "015c56c8befe6704dbe5c778f3ee60d45f34c20dd3a1d05ddee3d6d5516ff700",
+  "task_masks.geojson": "0faa58c212e84de25f43c2116a0c93081b11e48a0ecc80b1cf31d85d6aa22d4b",
+  "metrics.json": "9719373b8d57027461ff581fb5c3a1f8b241a93451043f0223fa15699bd17b18",
+  "stages.json": "21a99d0ffaa2c5f5aba713b69814608e185ee59d351e4706ea30e195c0fd174a",
+  "coverage.geojson": "69889f59ad88e3484cf2552f06819e9944e564e2815ac0ff87126eb9a00a33d4",
+  "environment.json": "fe4bf6e9098f911b66ee61e6080792e75e9b4ccacaab75ff582fd08e2709f628",
+  "events.json": "02a6e6d114871d6093ca1832ff64d8417ae4d68d3693ab5422cbb9220581fc51",
+  "skipped_tasks.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "validation.json": "27325a69d579549b447389d6172de9b191d67e9ad370f753b8fb8046678ca5f1",
+  "required_centres.json": "dfb243dadab94d551c7e221c0804a2140a01afb5ba11d5be72b3cff00b9a55b2"
+}

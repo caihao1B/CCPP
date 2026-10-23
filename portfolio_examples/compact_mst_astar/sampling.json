@@ -1,0 +1,6 @@
+{
+  "requested_dt_s": 0.25,
+  "actual_dt_s": 0.25,
+  "samples": 8120,
+  "warning": "CSV is a visualization/export sample. Whole-primitive analytic validation does not depend on this interval."
+}

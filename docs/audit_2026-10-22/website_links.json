@@ -1,0 +1,96 @@
+{
+  "checked_links_files": 22,
+  "missing": [],
+  "missing_anchors": [],
+  "http_results": [
+    {
+      "file": "assets/data/astar_evidence.json",
+      "status": 200
+    },
+    {
+      "file": "assets/data/astar_node_sequence.csv",
+      "status": 200
+    },
+    {
+      "file": "assets/data/demo-data.js",
+      "status": 200
+    },
+    {
+      "file": "assets/data/media_manifest.json",
+      "status": 200
+    },
+    {
+      "file": "assets/images/astar_detour.png",
+      "status": 200
+    },
+    {
+      "file": "assets/images/compact_greedy_astar.png",
+      "status": 200
+    },
+    {
+      "file": "assets/images/motion_limits.png",
+      "status": 200
+    },
+    {
+      "file": "assets/images/radius_comparison.png",
+      "status": 200
+    },
+    {
+      "file": "assets/replay.js",
+      "status": 200
+    },
+    {
+      "file": "assets/site.css",
+      "status": 200
+    },
+    {
+      "file": "assets/videos/bezier_closeup.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/videos/bezier_closeup.mp4",
+      "status": 200
+    },
+    {
+      "file": "assets/videos/compact_full.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/videos/compact_full.mp4",
+      "status": 200
+    },
+    {
+      "file": "assets/videos/dubins_closeup.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/videos/dubins_closeup.mp4",
+      "status": 200
+    },
+    {
+      "file": "assets/videos/obstacle_full.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/videos/obstacle_full.mp4",
+      "status": 200
+    },
+    {
+      "file": "ccpp.html",
+      "status": 200
+    },
+    {
+      "file": "index.html",
+      "status": 200
+    },
+    {
+      "file": "projects.html",
+      "status": 200
+    },
+    {
+      "file": "reports/audit-report.html",
+      "status": 200
+    }
+  ],
+  "all_assets": 85
+}

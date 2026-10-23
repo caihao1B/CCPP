@@ -1,0 +1,1190 @@
+[
+  {
+    "sequence": 1,
+    "node_id": 18,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 0.8999999999999999,
+    "y_m": 0.8999999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 2,
+    "node_id": 19,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 1.5,
+    "y_m": 0.8999999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 3,
+    "node_id": 20,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.0999999999999996,
+    "y_m": 0.8999999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 4,
+    "node_id": 71,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.0999999999999996,
+    "y_m": 2.7,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 5,
+    "node_id": 70,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 1.5,
+    "y_m": 2.7,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 6,
+    "node_id": 87,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 1.5,
+    "y_m": 3.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 7,
+    "node_id": 86,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 0.8999999999999999,
+    "y_m": 3.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 8,
+    "node_id": 69,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 0.8999999999999999,
+    "y_m": 2.7,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 9,
+    "node_id": 52,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 0.8999999999999999,
+    "y_m": 2.0999999999999996,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 10,
+    "node_id": 35,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 0.8999999999999999,
+    "y_m": 1.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 11,
+    "node_id": 37,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.0999999999999996,
+    "y_m": 1.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 12,
+    "node_id": 36,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 1.5,
+    "y_m": 1.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 13,
+    "node_id": 53,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 1.5,
+    "y_m": 2.0999999999999996,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 14,
+    "node_id": 54,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.0999999999999996,
+    "y_m": 2.0999999999999996,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 15,
+    "node_id": 55,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7,
+    "y_m": 2.0999999999999996,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 16,
+    "node_id": 38,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7,
+    "y_m": 1.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 17,
+    "node_id": 21,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7,
+    "y_m": 0.8999999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 18,
+    "node_id": 22,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.3,
+    "y_m": 0.8999999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 19,
+    "node_id": 23,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.9,
+    "y_m": 0.8999999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 20,
+    "node_id": 39,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.3,
+    "y_m": 1.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 21,
+    "node_id": 56,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.3,
+    "y_m": 2.0999999999999996,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 22,
+    "node_id": 73,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.3,
+    "y_m": 2.7,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 23,
+    "node_id": 72,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7,
+    "y_m": 2.7,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 24,
+    "node_id": 89,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7,
+    "y_m": 3.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 25,
+    "node_id": 90,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.3,
+    "y_m": 3.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 26,
+    "node_id": 107,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.3,
+    "y_m": 3.9,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 27,
+    "node_id": 106,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7,
+    "y_m": 3.9,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 28,
+    "node_id": 123,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7,
+    "y_m": 4.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 29,
+    "node_id": 124,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.3,
+    "y_m": 4.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 30,
+    "node_id": 141,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.3,
+    "y_m": 5.1,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 31,
+    "node_id": 158,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.3,
+    "y_m": 5.699999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 32,
+    "node_id": 157,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7,
+    "y_m": 5.699999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 33,
+    "node_id": 140,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7,
+    "y_m": 5.1,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 34,
+    "node_id": 139,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.0999999999999996,
+    "y_m": 5.1,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 35,
+    "node_id": 122,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.0999999999999996,
+    "y_m": 4.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 36,
+    "node_id": 105,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.0999999999999996,
+    "y_m": 3.9,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 37,
+    "node_id": 88,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.0999999999999996,
+    "y_m": 3.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 38,
+    "node_id": 103,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 0.8999999999999999,
+    "y_m": 3.9,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 39,
+    "node_id": 104,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 1.5,
+    "y_m": 3.9,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 40,
+    "node_id": 121,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 1.5,
+    "y_m": 4.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 41,
+    "node_id": 138,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 1.5,
+    "y_m": 5.1,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 42,
+    "node_id": 120,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 0.8999999999999999,
+    "y_m": 4.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 43,
+    "node_id": 137,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 0.8999999999999999,
+    "y_m": 5.1,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 44,
+    "node_id": 154,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 0.8999999999999999,
+    "y_m": 5.699999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 45,
+    "node_id": 188,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 0.8999999999999999,
+    "y_m": 6.8999999999999995,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 46,
+    "node_id": 171,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 0.8999999999999999,
+    "y_m": 6.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 47,
+    "node_id": 172,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 1.5,
+    "y_m": 6.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 48,
+    "node_id": 189,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 1.5,
+    "y_m": 6.8999999999999995,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 49,
+    "node_id": 190,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.0999999999999996,
+    "y_m": 6.8999999999999995,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 50,
+    "node_id": 191,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7,
+    "y_m": 6.8999999999999995,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 51,
+    "node_id": 174,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.7,
+    "y_m": 6.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 52,
+    "node_id": 155,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 1.5,
+    "y_m": 5.699999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 53,
+    "node_id": 156,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.0999999999999996,
+    "y_m": 5.699999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 54,
+    "node_id": 173,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 2.0999999999999996,
+    "y_m": 6.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 55,
+    "node_id": 175,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.3,
+    "y_m": 6.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 56,
+    "node_id": 192,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.3,
+    "y_m": 6.8999999999999995,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 57,
+    "node_id": 193,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.9,
+    "y_m": 6.8999999999999995,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 58,
+    "node_id": 176,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.9,
+    "y_m": 6.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 59,
+    "node_id": 178,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 5.1,
+    "y_m": 6.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 60,
+    "node_id": 177,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 4.5,
+    "y_m": 6.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 61,
+    "node_id": 194,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 4.5,
+    "y_m": 6.8999999999999995,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 62,
+    "node_id": 195,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 5.1,
+    "y_m": 6.8999999999999995,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 63,
+    "node_id": 196,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 5.699999999999999,
+    "y_m": 6.8999999999999995,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 64,
+    "node_id": 179,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 5.699999999999999,
+    "y_m": 6.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 65,
+    "node_id": 197,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.3,
+    "y_m": 6.8999999999999995,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 66,
+    "node_id": 200,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.1,
+    "y_m": 6.8999999999999995,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 67,
+    "node_id": 201,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.7,
+    "y_m": 6.8999999999999995,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 68,
+    "node_id": 202,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.3,
+    "y_m": 6.8999999999999995,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 69,
+    "node_id": 185,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.3,
+    "y_m": 6.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 70,
+    "node_id": 168,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.3,
+    "y_m": 5.699999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 71,
+    "node_id": 184,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.7,
+    "y_m": 6.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 72,
+    "node_id": 183,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.1,
+    "y_m": 6.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 73,
+    "node_id": 182,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.5,
+    "y_m": 6.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 74,
+    "node_id": 199,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.5,
+    "y_m": 6.8999999999999995,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 75,
+    "node_id": 198,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.8999999999999995,
+    "y_m": 6.8999999999999995,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 76,
+    "node_id": 181,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.8999999999999995,
+    "y_m": 6.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 77,
+    "node_id": 180,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.3,
+    "y_m": 6.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 78,
+    "node_id": 164,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.8999999999999995,
+    "y_m": 5.699999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 79,
+    "node_id": 147,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.8999999999999995,
+    "y_m": 5.1,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 80,
+    "node_id": 130,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.8999999999999995,
+    "y_m": 4.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 81,
+    "node_id": 113,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.8999999999999995,
+    "y_m": 3.9,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 82,
+    "node_id": 96,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.8999999999999995,
+    "y_m": 3.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 83,
+    "node_id": 131,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.5,
+    "y_m": 4.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 84,
+    "node_id": 132,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.1,
+    "y_m": 4.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 85,
+    "node_id": 149,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.1,
+    "y_m": 5.1,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 86,
+    "node_id": 150,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.7,
+    "y_m": 5.1,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 87,
+    "node_id": 167,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.7,
+    "y_m": 5.699999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 88,
+    "node_id": 166,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.1,
+    "y_m": 5.699999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 89,
+    "node_id": 165,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.5,
+    "y_m": 5.699999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 90,
+    "node_id": 148,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.5,
+    "y_m": 5.1,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 91,
+    "node_id": 114,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.5,
+    "y_m": 3.9,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 92,
+    "node_id": 115,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.1,
+    "y_m": 3.9,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 93,
+    "node_id": 116,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.7,
+    "y_m": 3.9,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 94,
+    "node_id": 133,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.7,
+    "y_m": 4.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 95,
+    "node_id": 151,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.3,
+    "y_m": 5.1,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 96,
+    "node_id": 134,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.3,
+    "y_m": 4.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 97,
+    "node_id": 117,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.3,
+    "y_m": 3.9,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 98,
+    "node_id": 100,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.3,
+    "y_m": 3.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 99,
+    "node_id": 83,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.3,
+    "y_m": 2.7,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 100,
+    "node_id": 99,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.7,
+    "y_m": 3.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 101,
+    "node_id": 82,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.7,
+    "y_m": 2.7,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 102,
+    "node_id": 81,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.1,
+    "y_m": 2.7,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 103,
+    "node_id": 80,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.5,
+    "y_m": 2.7,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 104,
+    "node_id": 97,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.5,
+    "y_m": 3.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 105,
+    "node_id": 98,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.1,
+    "y_m": 3.3,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 106,
+    "node_id": 64,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.1,
+    "y_m": 2.0999999999999996,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 107,
+    "node_id": 65,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.7,
+    "y_m": 2.0999999999999996,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 108,
+    "node_id": 66,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.3,
+    "y_m": 2.0999999999999996,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 109,
+    "node_id": 49,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.3,
+    "y_m": 1.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 110,
+    "node_id": 32,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 9.3,
+    "y_m": 0.8999999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 111,
+    "node_id": 48,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.7,
+    "y_m": 1.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 112,
+    "node_id": 47,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.1,
+    "y_m": 1.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 113,
+    "node_id": 46,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.5,
+    "y_m": 1.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 114,
+    "node_id": 63,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.5,
+    "y_m": 2.0999999999999996,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 115,
+    "node_id": 62,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.8999999999999995,
+    "y_m": 2.0999999999999996,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 116,
+    "node_id": 45,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.8999999999999995,
+    "y_m": 1.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 117,
+    "node_id": 44,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.3,
+    "y_m": 1.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 118,
+    "node_id": 79,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.8999999999999995,
+    "y_m": 2.7,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 119,
+    "node_id": 61,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.3,
+    "y_m": 2.0999999999999996,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 120,
+    "node_id": 27,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.3,
+    "y_m": 0.8999999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 121,
+    "node_id": 28,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 6.8999999999999995,
+    "y_m": 0.8999999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 122,
+    "node_id": 29,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 7.5,
+    "y_m": 0.8999999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 123,
+    "node_id": 30,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.1,
+    "y_m": 0.8999999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 124,
+    "node_id": 31,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 8.7,
+    "y_m": 0.8999999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 125,
+    "node_id": 26,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 5.699999999999999,
+    "y_m": 0.8999999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 126,
+    "node_id": 25,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 5.1,
+    "y_m": 0.8999999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 127,
+    "node_id": 24,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 4.5,
+    "y_m": 0.8999999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 128,
+    "node_id": 41,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 4.5,
+    "y_m": 1.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 129,
+    "node_id": 42,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 5.1,
+    "y_m": 1.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 130,
+    "node_id": 43,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 5.699999999999999,
+    "y_m": 1.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 131,
+    "node_id": 40,
+    "visit_number": 1,
+    "revisit": false,
+    "x_m": 3.9,
+    "y_m": 1.5,
+    "meaning": "planned task visit, not first cutter contact"
+  },
+  {
+    "sequence": 132,
+    "node_id": 18,
+    "visit_number": 2,
+    "revisit": true,
+    "x_m": 0.8999999999999999,
+    "y_m": 0.8999999999999999,
+    "meaning": "planned task visit, not first cutter contact"
+  }
+]

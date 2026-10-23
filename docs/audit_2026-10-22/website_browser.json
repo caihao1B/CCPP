@@ -1,0 +1,254 @@
+{
+  "method": "Chromium in-memory rendering with byte-identical inline assets; managed browser restricts URL navigation; file links audited separately",
+  "passed": 50,
+  "total": 50,
+  "pose_samples": 670,
+  "max_pose_error": 1.5190572154519885e-14,
+  "results": [
+    {
+      "name": "eight_verified_scenarios",
+      "passed": true
+    },
+    {
+      "name": "analytical_replay_compact_greedy_astar",
+      "passed": true,
+      "sampled_poses": 86,
+      "max_abs_error": 1.3231137275884121e-14
+    },
+    {
+      "name": "node_visit_table_compact_greedy_astar",
+      "passed": true,
+      "rows": 196
+    },
+    {
+      "name": "play_pause_follow_compact_greedy_astar",
+      "passed": true
+    },
+    {
+      "name": "reset_compact_greedy_astar",
+      "passed": true
+    },
+    {
+      "name": "analytical_replay_mower_mst_astar",
+      "passed": true,
+      "sampled_poses": 83,
+      "max_abs_error": 1.4945642794690415e-14
+    },
+    {
+      "name": "node_visit_table_mower_mst_astar",
+      "passed": true,
+      "rows": 159
+    },
+    {
+      "name": "play_pause_follow_mower_mst_astar",
+      "passed": true
+    },
+    {
+      "name": "reset_mower_mst_astar",
+      "passed": true
+    },
+    {
+      "name": "analytical_replay_compact_mst_astar",
+      "passed": true,
+      "sampled_poses": 83,
+      "max_abs_error": 1.5190572154519885e-14
+    },
+    {
+      "name": "node_visit_table_compact_mst_astar",
+      "passed": true,
+      "rows": 185
+    },
+    {
+      "name": "play_pause_follow_compact_mst_astar",
+      "passed": true
+    },
+    {
+      "name": "reset_compact_mst_astar",
+      "passed": true
+    },
+    {
+      "name": "analytical_replay_obstacle_astar_bezier",
+      "passed": true,
+      "sampled_poses": 86,
+      "max_abs_error": 1.354472090042691e-14
+    },
+    {
+      "name": "node_visit_table_obstacle_astar_bezier",
+      "passed": true,
+      "rows": 114
+    },
+    {
+      "name": "play_pause_follow_obstacle_astar_bezier",
+      "passed": true
+    },
+    {
+      "name": "reset_obstacle_astar_bezier",
+      "passed": true
+    },
+    {
+      "name": "analytical_replay_compact_ga_astar",
+      "passed": true,
+      "sampled_poses": 80,
+      "max_abs_error": 6.6155686379420605e-15
+    },
+    {
+      "name": "node_visit_table_compact_ga_astar",
+      "passed": true,
+      "rows": 132
+    },
+    {
+      "name": "play_pause_follow_compact_ga_astar",
+      "passed": true
+    },
+    {
+      "name": "reset_compact_ga_astar",
+      "passed": true
+    },
+    {
+      "name": "analytical_replay_compact_greedy_conservative",
+      "passed": true,
+      "sampled_poses": 86,
+      "max_abs_error": 1.3231137275884121e-14
+    },
+    {
+      "name": "node_visit_table_compact_greedy_conservative",
+      "passed": true,
+      "rows": 196
+    },
+    {
+      "name": "play_pause_follow_compact_greedy_conservative",
+      "passed": true
+    },
+    {
+      "name": "reset_compact_greedy_conservative",
+      "passed": true
+    },
+    {
+      "name": "analytical_replay_forward_dubins_r060",
+      "passed": true,
+      "sampled_poses": 83,
+      "max_abs_error": 4.440892098500626e-16
+    },
+    {
+      "name": "node_visit_table_forward_dubins_r060",
+      "passed": true,
+      "rows": 215
+    },
+    {
+      "name": "play_pause_follow_forward_dubins_r060",
+      "passed": true
+    },
+    {
+      "name": "reset_forward_dubins_r060",
+      "passed": true
+    },
+    {
+      "name": "analytical_replay_forward_dubins_r090",
+      "passed": true,
+      "sampled_poses": 83,
+      "max_abs_error": 6.432490598706546e-16
+    },
+    {
+      "name": "node_visit_table_forward_dubins_r090",
+      "passed": true,
+      "rows": 215
+    },
+    {
+      "name": "play_pause_follow_forward_dubins_r090",
+      "passed": true
+    },
+    {
+      "name": "reset_forward_dubins_r090",
+      "passed": true
+    },
+    {
+      "name": "video_metadata_0",
+      "passed": true,
+      "duration": 16,
+      "width": 960,
+      "height": 672,
+      "error": null
+    },
+    {
+      "name": "video_play_0",
+      "passed": true
+    },
+    {
+      "name": "video_metadata_1",
+      "passed": true,
+      "duration": 18,
+      "width": 960,
+      "height": 672,
+      "error": null
+    },
+    {
+      "name": "video_play_1",
+      "passed": true
+    },
+    {
+      "name": "video_metadata_2",
+      "passed": true,
+      "duration": 24,
+      "width": 960,
+      "height": 672,
+      "error": null
+    },
+    {
+      "name": "video_play_2",
+      "passed": true
+    },
+    {
+      "name": "video_metadata_3",
+      "passed": true,
+      "duration": 24,
+      "width": 960,
+      "height": 672,
+      "error": null
+    },
+    {
+      "name": "video_play_3",
+      "passed": true
+    },
+    {
+      "name": "desktop_no_horizontal_overflow_index.html",
+      "passed": true
+    },
+    {
+      "name": "desktop_no_horizontal_overflow_ccpp.html",
+      "passed": true
+    },
+    {
+      "name": "desktop_no_horizontal_overflow_projects.html",
+      "passed": true
+    },
+    {
+      "name": "desktop_no_horizontal_overflow_reports/audit-report.html",
+      "passed": true
+    },
+    {
+      "name": "mobile_no_horizontal_overflow_index.html",
+      "passed": true,
+      "scroll_width": 390
+    },
+    {
+      "name": "mobile_no_horizontal_overflow_ccpp.html",
+      "passed": true,
+      "scroll_width": 390
+    },
+    {
+      "name": "mobile_no_horizontal_overflow_projects.html",
+      "passed": true,
+      "scroll_width": 390
+    },
+    {
+      "name": "mobile_no_horizontal_overflow_reports/audit-report.html",
+      "passed": true,
+      "scroll_width": 390
+    },
+    {
+      "name": "no_browser_javascript_exceptions",
+      "passed": true,
+      "errors": []
+    }
+  ]
+}

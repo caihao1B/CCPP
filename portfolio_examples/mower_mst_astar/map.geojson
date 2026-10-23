@@ -1,0 +1,76 @@
+{
+  "type": "FeatureCollection",
+  "coordinate_system": "local Cartesian metres",
+  "metadata": {
+    "synthetic": true,
+    "purpose": "visible A-star detour + node order; not real farm"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "field"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.0,
+              0.0
+            ],
+            [
+              10.0,
+              8.0
+            ],
+            [
+              0.0,
+              8.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              10.0,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "obstacle"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.9,
+              2.6
+            ],
+            [
+              5.9,
+              5.4
+            ],
+            [
+              4.1,
+              5.4
+            ],
+            [
+              4.1,
+              2.6
+            ],
+            [
+              5.9,
+              2.6
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

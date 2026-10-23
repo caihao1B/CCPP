@@ -1,0 +1,23 @@
+{
+  "source_zip": "CCPP_VSCode_Interview_Kit.zip",
+  "source_zip_sha256": "23415bb9687cae5f6c9117c4aa614b08f75d1122e61dfb18375c99ea35464074",
+  "base_files": {
+    "ccpp_mowing/navigation.py": "b37d5b653278eabb81ba65137ee0cab63fc405136b70dee48b750db8f14affd0",
+    "ccpp_mowing/grids.py": "2524ac58940c7dfc803ca4dae14377e2868365ad62ec86a4279fea764ec276cb",
+    "ccpp_mowing/models.py": "539380d06b9e433ed7efdb84ed29a21aafc31113c3043860a5a030cab04557b8",
+    "ccpp_mowing/cli.py": "c4623312161b4a95933245017f5d57f5eee18e6a9e2d01d93c5489e791af8b5c",
+    "ccpp_mowing/snapshot.py": "5c696a4b30a7daca7a861a1812c59241594cf042c4eb2dc2fb80951edfed74a5",
+    "ccpp_mowing/validation.py": "10aa4c9afef2f8a40bbf0255cd3b278e76ebecdb5fef7afdd23dc9ad00a67737",
+    "ccpp_mowing/search.py": "3044d0b237d4ee3df40d18e2ef7f6ee8eb8b18076720c3f9459e741185f537bb",
+    "ccpp_mowing/motion.py": "2ca75a7305199d099dfd9e778df8127b106030dc9770164e92c63da61de05163",
+    "ccpp_mowing/geometry.py": "2aff843660832968613166584809a2450b14d383fea12bbc09108b75fc8a18fe",
+    "ccpp_mowing/maps.py": "84381cb36cad616ea88aaae951b76b8a2ac6c18ec620620a476cb3013ce817e5",
+    "ccpp_mowing/order_core.py": "6a5cd8d8b99d07df4edd4486eeecf01c0932f692a3e6a7ad256626c384da1544",
+    "ccpp_mowing/pipeline.py": "7b8329992265ddd695e00753e71bebf4a17ebc248be42dcf5ced4b80132577b5",
+    "ccpp_mowing/gui.py": "d6c07fff60dad5bec386c5829351290789358c5b9ff63bac51c00555cffef9d5",
+    "ccpp_mowing/__init__.py": "1dfa5af7471f399f21cbfe8bd4bb8a02ff09d6ac8447b24a1abe2646128eb7e3",
+    "ccpp_mowing/__main__.py": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+    "ccpp_mowing/visualization.py": "ea23aac31336a0f9aeb75b92575ca569a6493539299b237201e54dd9b70ab8e1",
+    "ccpp_mowing/ordering.py": "fa4262641224b513bd7b2c75f08e4bff064a1daed55cf917d576bd427230d6d2"
+  }
+}

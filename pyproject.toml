@@ -1,27 +1,31 @@
 [build-system]
-requires = ["setuptools>=68", "wheel"]
+requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "fieldplan-offline"
-version = "0.1.0"
-description = "Offline coverage planning (square grid + clustering/TSP + segment export) for ROS2/Nav2 FollowPath."
+name = "ccpp-mowing-planner"
+version = "2.1.0"
+description = "Coverage planning with constrained analytical curves, differential/forward-only models and independent validation"
 readme = "README.md"
-requires-python = ">=3.10"
-dependencies = [
-  "shapely>=2.0",
-  "networkx>=3.0",
-  "numpy>=1.24",
-]
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.0,<3", "scipy>=1.11,<2", "shapely>=2.0,<3", "networkx>=3.2,<4", "matplotlib>=3.8,<4", "Pillow>=10,<13"]
 
 [project.optional-dependencies]
-ml = ["scikit-learn>=1.3"]
-metis = ["pymetis>=2023.1"]
+dev = ["pytest>=8,<10", "ruff>=0.11"]
 
 [project.scripts]
-fieldplan-plan-grid = "fieldplan_offline.cli.plan_grid:main"
-fieldplan-plan-boustrophedon = "fieldplan_offline.cli.plan_boustrophedon:main"
-fieldplan-visualize-plan = "fieldplan_offline.cli.visualize_plan:main"
+ccpp-mow = "ccpp_mowing.cli:main"
 
-[tool.setuptools]
-package-dir = {"" = "src"}
+[tool.setuptools.packages.find]
+include = ["ccpp_mowing*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E9", "F63", "F7", "F82"]

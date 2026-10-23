@@ -1,0 +1,448 @@
+{
+  "requested_method": "dubins",
+  "motion_model": "bounded_curvature",
+  "turn_policy": "loops_only",
+  "heading_loops": 1,
+  "cross_row_loops": 11,
+  "initial_yaw_rad": 0.0,
+  "initial_heading_policy": "tangent of first route leg; not a heading reset during motion",
+  "raw_length_m": 134.39999999999998,
+  "curve_counts": {
+    "LINE": 13,
+    "ARC": 36
+  },
+  "pivot_fallbacks": 0,
+  "records": [
+    {
+      "segment": 1,
+      "actual": "dubins_cross_row",
+      "word": "RLR",
+      "radius_m": 0.6
+    },
+    {
+      "segment": 3,
+      "actual": "dubins_cross_row",
+      "word": "LRL",
+      "radius_m": 0.6
+    },
+    {
+      "segment": 5,
+      "actual": "dubins_cross_row",
+      "word": "RLR",
+      "radius_m": 0.6
+    },
+    {
+      "segment": 7,
+      "actual": "dubins_cross_row",
+      "word": "LRL",
+      "radius_m": 0.6
+    },
+    {
+      "segment": 9,
+      "actual": "dubins_cross_row",
+      "word": "RLR",
+      "radius_m": 0.6
+    },
+    {
+      "segment": 11,
+      "actual": "dubins_cross_row",
+      "word": "LRL",
+      "radius_m": 0.6
+    },
+    {
+      "segment": 13,
+      "actual": "dubins_cross_row",
+      "word": "RLR",
+      "radius_m": 0.6
+    },
+    {
+      "segment": 15,
+      "actual": "dubins_cross_row",
+      "word": "LRL",
+      "radius_m": 0.6
+    },
+    {
+      "segment": 17,
+      "actual": "dubins_cross_row",
+      "word": "RLR",
+      "radius_m": 0.6
+    },
+    {
+      "segment": 19,
+      "actual": "dubins_cross_row",
+      "word": "LRL",
+      "radius_m": 0.6
+    },
+    {
+      "segment": 21,
+      "actual": "dubins_cross_row",
+      "word": "RLR",
+      "radius_m": 0.6
+    },
+    {
+      "corner": 23,
+      "actual": "dubins_heading_loop",
+      "word": "LRL",
+      "radius_m": 0.6,
+      "turn_id": "heading_23",
+      "position": [
+        3.3000000000000007,
+        9.3
+      ],
+      "yaw_before": 3.141592653589793,
+      "yaw_after": -1.5707963267948961,
+      "delta_heading_rad": 1.5707963267948966,
+      "length_m": 3.8451078830085903
+    }
+  ],
+  "scope": "local curve conversion of fixed coverage order; not globally optimal or SE(2)-complete",
+  "service_rule": "cutter_footprint",
+  "curvature_bound_inv_m": 1.6666666666666667,
+  "actual_duration_s": 913.4516265047283,
+  "baseline_duration_s": 1303.3934058326342,
+  "time_reduction_ratio": 0.29917427660975715,
+  "profile_solves": 14,
+  "cache_hits": 35,
+  "accepted_numeric_solves": 14,
+  "fallback_profile_count": 0,
+  "time_records": [
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 39.99999999999999,
+      "solver_success": true,
+      "iterations": 12,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 21.98796428551904,
+      "continuous_bound_ratios": {
+        "v": 0.995024875632919,
+        "a": 0.9900745031104808,
+        "j": 0.5662480084827642,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.4975124378164595,
+        "track_a": 0.8663151902216706,
+        "track_j": 0.5662480084827642,
+        "lateral_a": 0.0,
+        "steering_rate": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "WORK",
+      "baseline_seconds": 4.949860100453271,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.6996106010588465,
+      "continuous_bound_ratios": {
+        "v": 0.4688499363299906,
+        "a": 0.6789082307103437,
+        "j": 0.5650581707433194,
+        "w": 0.651180467124987,
+        "alpha": 0.9900745031192512,
+        "yaw_jerk": 0.8240431656673409,
+        "track_v": 0.39070828027499216,
+        "track_a": 0.9900745031192512,
+        "track_j": 0.9417636179055324,
+        "lateral_a": 0.2616907890436146,
+        "steering_rate": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "WORK",
+      "baseline_seconds": 15.927295657002173,
+      "solver_success": true,
+      "iterations": 8,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 10.509889924937841,
+      "continuous_bound_ratios": {
+        "v": 0.7164179104477633,
+        "a": 0.6789082307015013,
+        "j": 0.3697946177856788,
+        "w": 0.9950248756218935,
+        "alpha": 0.990074503106356,
+        "yaw_jerk": 0.5392838176041149,
+        "track_v": 0.597014925373136,
+        "track_a": 0.990074503106356,
+        "track_j": 0.6163243629761314,
+        "lateral_a": 0.6110174076313564,
+        "steering_rate": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "WORK",
+      "baseline_seconds": 42.5,
+      "solver_success": true,
+      "iterations": 11,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 23.19396428606133,
+      "continuous_bound_ratios": {
+        "v": 0.9950248756035381,
+        "a": 0.9900745030995332,
+        "j": 0.5662480084869618,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.49751243780176907,
+        "track_a": 0.8663151902120915,
+        "track_j": 0.5662480084869618,
+        "lateral_a": 0.0,
+        "steering_rate": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "WORK",
+      "baseline_seconds": 4.949860100453271,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.6996106010588448,
+      "continuous_bound_ratios": {
+        "v": 0.4688499363299905,
+        "a": 0.6789082307103438,
+        "j": 0.5650581707433198,
+        "w": 0.6511804671249869,
+        "alpha": 0.9900745031192513,
+        "yaw_jerk": 0.8240431656673414,
+        "track_v": 0.3907082802749921,
+        "track_a": 0.9900745031192513,
+        "track_j": 0.9417636179055331,
+        "lateral_a": 0.2616907890436145,
+        "steering_rate": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "WORK",
+      "baseline_seconds": 15.927295657002169,
+      "solver_success": true,
+      "iterations": 8,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 10.509889924937848,
+      "continuous_bound_ratios": {
+        "v": 0.7164179104477607,
+        "a": 0.6789082307015032,
+        "j": 0.3697946177856823,
+        "w": 0.9950248756218899,
+        "alpha": 0.9900745031063588,
+        "yaw_jerk": 0.5392838176041199,
+        "track_v": 0.5970149253731339,
+        "track_a": 0.9900745031063588,
+        "track_j": 0.6163243629761371,
+        "lateral_a": 0.611017407631352,
+        "steering_rate": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "WORK",
+      "baseline_seconds": 4.94986010045327,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.6996106010588443,
+      "continuous_bound_ratios": {
+        "v": 0.46884993632999034,
+        "a": 0.6789082307103437,
+        "j": 0.5650581707433199,
+        "w": 0.6511804671249866,
+        "alpha": 0.9900745031192512,
+        "yaw_jerk": 0.8240431656673414,
+        "track_v": 0.39070828027499194,
+        "track_a": 0.9900745031192512,
+        "track_j": 0.9417636179055331,
+        "lateral_a": 0.2616907890436143,
+        "steering_rate": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "WORK",
+      "baseline_seconds": 15.927295657002166,
+      "solver_success": true,
+      "iterations": 8,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 10.509889924937845,
+      "continuous_bound_ratios": {
+        "v": 0.7164179104477606,
+        "a": 0.678908230701504,
+        "j": 0.369794617785683,
+        "w": 0.9950248756218898,
+        "alpha": 0.9900745031063598,
+        "yaw_jerk": 0.539283817604121,
+        "track_v": 0.5970149253731338,
+        "track_a": 0.9900745031063598,
+        "track_j": 0.6163243629761384,
+        "lateral_a": 0.6110174076313518,
+        "steering_rate": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "WORK",
+      "baseline_seconds": 15.927295657002162,
+      "solver_success": true,
+      "iterations": 8,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 10.509889924937848,
+      "continuous_bound_ratios": {
+        "v": 0.7164179104477593,
+        "a": 0.6789082307015052,
+        "j": 0.36979461778568506,
+        "w": 0.9950248756218879,
+        "alpha": 0.9900745031063616,
+        "yaw_jerk": 0.539283817604124,
+        "track_v": 0.5970149253731327,
+        "track_a": 0.9900745031063618,
+        "track_j": 0.6163243629761418,
+        "lateral_a": 0.6110174076313496,
+        "steering_rate": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "WORK",
+      "baseline_seconds": 4.949860100453267,
+      "solver_success": true,
+      "iterations": 6,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.699610601058842,
+      "continuous_bound_ratios": {
+        "v": 0.46884993632999006,
+        "a": 0.6789082307103437,
+        "j": 0.56505817074332,
+        "w": 0.6511804671249862,
+        "alpha": 0.9900745031192512,
+        "yaw_jerk": 0.8240431656673416,
+        "track_v": 0.3907082802749917,
+        "track_a": 0.9900745031192512,
+        "track_j": 0.9417636179055334,
+        "lateral_a": 0.261690789043614,
+        "steering_rate": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 4.143804544700459,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.0510012422147303,
+      "continuous_bound_ratios": {
+        "v": 0.2084714192952614,
+        "a": 0.5856758938506873,
+        "j": 0.5910892556300409,
+        "w": 0.4632698206561364,
+        "alpha": 0.8541106785322522,
+        "yaw_jerk": 0.8620051644604761,
+        "track_v": 0.27796189239368185,
+        "track_a": 0.8541106785322522,
+        "track_j": 0.9851487593834014,
+        "lateral_a": 0.1324505376395602,
+        "steering_rate": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 19.307121733910314,
+      "solver_success": true,
+      "iterations": 8,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 12.140318024437969,
+      "continuous_bound_ratios": {
+        "v": 0.44776119402987236,
+        "a": 0.678908230701516,
+        "j": 0.36979461778567785,
+        "w": 0.9950248756219386,
+        "alpha": 0.9900745031063775,
+        "yaw_jerk": 0.5392838176041135,
+        "track_v": 0.5970149253731631,
+        "track_a": 0.9900745031063775,
+        "track_j": 0.6163243629761298,
+        "lateral_a": 0.6110174076314119,
+        "steering_rate": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "ARC",
+      "kind": "TRANSIT",
+      "baseline_seconds": 4.143804544700461,
+      "solver_success": true,
+      "iterations": 7,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 3.0510012422145687,
+      "continuous_bound_ratios": {
+        "v": 0.20847141929527263,
+        "a": 0.5856758938507498,
+        "j": 0.5910892556301353,
+        "w": 0.4632698206561615,
+        "alpha": 0.8541106785323435,
+        "yaw_jerk": 0.8620051644606139,
+        "track_v": 0.27796189239369684,
+        "track_a": 0.8541106785323435,
+        "track_j": 0.985148759383559,
+        "lateral_a": 0.13245053763957446,
+        "steering_rate": 0.0
+      }
+    },
+    {
+      "method": "slsqp",
+      "curve_type": "LINE",
+      "kind": "TRANSIT",
+      "baseline_seconds": 17.187500000000004,
+      "solver_success": true,
+      "iterations": 8,
+      "message": "Optimization terminated successfully",
+      "accepted": true,
+      "actual_seconds": 12.598392857140071,
+      "continuous_bound_ratios": {
+        "v": 0.9950248756223525,
+        "a": 0.9900745031065737,
+        "j": 0.35390500530269264,
+        "w": 0.0,
+        "alpha": 0.0,
+        "yaw_jerk": 0.0,
+        "track_v": 0.7960199004978821,
+        "track_a": 0.866315190218252,
+        "track_j": 0.35390500530269264,
+        "lateral_a": 0.0,
+        "steering_rate": 0.0
+      }
+    }
+  ],
+  "mode": "slsqp",
+  "timing_scope": "independent rest-to-rest primitive timing; stops at all primitive joins, finite standstill steering at curvature jumps"
+}

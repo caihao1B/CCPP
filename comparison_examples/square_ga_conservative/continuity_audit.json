@@ -1,0 +1,11 @@
+{
+  "event_boundaries": 329,
+  "moving_samples": 3653,
+  "max_boundary_position_difference_m": 1.7763568394002505e-15,
+  "max_boundary_heading_difference_rad": 1.7763568394002505e-15,
+  "max_forward_nonholonomic_residual_mps": 4.334229117101962e-10,
+  "minimum_sampled_forward_speed_mps": 5.3791973044292836e-06,
+  "minimum_sampled_equivalent_wheel_speed_mps": 9.892953261230097e-07,
+  "pivot_events": 0,
+  "notes": "Finite differences supplement (not replace) the independent continuous-bound certificate. Wheel speeds are model quantities."
+}

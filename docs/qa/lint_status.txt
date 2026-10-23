@@ -1,0 +1,1 @@
+Ruff was not installed in this execution environment. An install attempt failed because external package DNS was unavailable. Ruff was NOT executed and is not included in the pass counts. Pytest and compileall are separate verified checks.

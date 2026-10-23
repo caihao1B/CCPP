@@ -1,0 +1,71 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "1 GUI - v2.1 forward loops",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/app.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "env": {
+        "PYTHONUTF8": "1",
+        "PYTHONIOENCODING": "utf-8"
+      }
+    },
+    {
+      "name": "2 Square GA + no-pivot curves (demo 08)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "ccpp_mowing",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "plan",
+        "--config",
+        "configs/demo_08.json",
+        "--map",
+        "maps/demo_08.geojson",
+        "--robot",
+        "configs/robot_08.json",
+        "--out",
+        "outputs/debug_loops",
+        "--overwrite"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "3 Forward-only R=0.60 m (demo 11)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "ccpp_mowing",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "plan",
+        "--config",
+        "configs/demo_11.json",
+        "--map",
+        "maps/demo_11.geojson",
+        "--robot",
+        "configs/robot_11.json",
+        "--out",
+        "outputs/debug_forward",
+        "--overwrite"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "4 All regression tests",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "-q"
+      ],
+      "console": "integratedTerminal",
+      "env": {
+        "MPLBACKEND": "Agg"
+      }
+    }
+  ]
+}

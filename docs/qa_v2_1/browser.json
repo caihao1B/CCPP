@@ -1,0 +1,554 @@
+{
+  "checks": [
+    {
+      "name": "ten_real_cases",
+      "passed": true
+    },
+    {
+      "name": "six_grid_algorithm_rows",
+      "passed": true
+    },
+    {
+      "name": "square_greedy:full_order_retained",
+      "passed": true
+    },
+    {
+      "name": "square_greedy:no_hidden_pivot",
+      "passed": true
+    },
+    {
+      "name": "square_greedy:stage_grid",
+      "passed": true
+    },
+    {
+      "name": "square_greedy:stage_order",
+      "passed": true
+    },
+    {
+      "name": "square_greedy:stage_curve",
+      "passed": true
+    },
+    {
+      "name": "square_greedy:full_heading_loop_window",
+      "passed": true
+    },
+    {
+      "name": "square_greedy:JS_vs_Python",
+      "passed": true,
+      "samples": 197,
+      "max_abs_error": 3.552713678800501e-15
+    },
+    {
+      "name": "square_greedy:curve_zoom_available",
+      "passed": true
+    },
+    {
+      "name": "square_greedy:full_view_resets",
+      "passed": true
+    },
+    {
+      "name": "square_mst:full_order_retained",
+      "passed": true
+    },
+    {
+      "name": "square_mst:no_hidden_pivot",
+      "passed": true
+    },
+    {
+      "name": "square_mst:stage_grid",
+      "passed": true
+    },
+    {
+      "name": "square_mst:stage_order",
+      "passed": true
+    },
+    {
+      "name": "square_mst:stage_curve",
+      "passed": true
+    },
+    {
+      "name": "square_mst:full_heading_loop_window",
+      "passed": true
+    },
+    {
+      "name": "square_mst:JS_vs_Python",
+      "passed": true,
+      "samples": 194,
+      "max_abs_error": 7.105427357601002e-15
+    },
+    {
+      "name": "square_mst:curve_zoom_available",
+      "passed": true
+    },
+    {
+      "name": "square_mst:full_view_resets",
+      "passed": true
+    },
+    {
+      "name": "square_ga:full_order_retained",
+      "passed": true
+    },
+    {
+      "name": "square_ga:no_hidden_pivot",
+      "passed": true
+    },
+    {
+      "name": "square_ga:stage_grid",
+      "passed": true
+    },
+    {
+      "name": "square_ga:stage_order",
+      "passed": true
+    },
+    {
+      "name": "square_ga:stage_curve",
+      "passed": true
+    },
+    {
+      "name": "square_ga:full_heading_loop_window",
+      "passed": true
+    },
+    {
+      "name": "square_ga:JS_vs_Python",
+      "passed": true,
+      "samples": 191,
+      "max_abs_error": 1.7763568394002505e-15
+    },
+    {
+      "name": "square_ga:curve_zoom_available",
+      "passed": true
+    },
+    {
+      "name": "square_ga:full_view_resets",
+      "passed": true
+    },
+    {
+      "name": "triangle_greedy:full_order_retained",
+      "passed": true
+    },
+    {
+      "name": "triangle_greedy:no_hidden_pivot",
+      "passed": true
+    },
+    {
+      "name": "triangle_greedy:stage_grid",
+      "passed": true
+    },
+    {
+      "name": "triangle_greedy:stage_order",
+      "passed": true
+    },
+    {
+      "name": "triangle_greedy:stage_curve",
+      "passed": true
+    },
+    {
+      "name": "triangle_greedy:full_heading_loop_window",
+      "passed": true
+    },
+    {
+      "name": "triangle_greedy:JS_vs_Python",
+      "passed": true,
+      "samples": 197,
+      "max_abs_error": 7.105427357601002e-15
+    },
+    {
+      "name": "triangle_greedy:curve_zoom_available",
+      "passed": true
+    },
+    {
+      "name": "triangle_greedy:full_view_resets",
+      "passed": true
+    },
+    {
+      "name": "triangle_mst:full_order_retained",
+      "passed": true
+    },
+    {
+      "name": "triangle_mst:no_hidden_pivot",
+      "passed": true
+    },
+    {
+      "name": "triangle_mst:stage_grid",
+      "passed": true
+    },
+    {
+      "name": "triangle_mst:stage_order",
+      "passed": true
+    },
+    {
+      "name": "triangle_mst:stage_curve",
+      "passed": true
+    },
+    {
+      "name": "triangle_mst:full_heading_loop_window",
+      "passed": true
+    },
+    {
+      "name": "triangle_mst:JS_vs_Python",
+      "passed": true,
+      "samples": 194,
+      "max_abs_error": 7.105427357601002e-15
+    },
+    {
+      "name": "triangle_mst:curve_zoom_available",
+      "passed": true
+    },
+    {
+      "name": "triangle_mst:full_view_resets",
+      "passed": true
+    },
+    {
+      "name": "triangle_ga:full_order_retained",
+      "passed": true
+    },
+    {
+      "name": "triangle_ga:no_hidden_pivot",
+      "passed": true
+    },
+    {
+      "name": "triangle_ga:stage_grid",
+      "passed": true
+    },
+    {
+      "name": "triangle_ga:stage_order",
+      "passed": true
+    },
+    {
+      "name": "triangle_ga:stage_curve",
+      "passed": true
+    },
+    {
+      "name": "triangle_ga:full_heading_loop_window",
+      "passed": true
+    },
+    {
+      "name": "triangle_ga:JS_vs_Python",
+      "passed": true,
+      "samples": 194,
+      "max_abs_error": 7.105427357601002e-15
+    },
+    {
+      "name": "triangle_ga:curve_zoom_available",
+      "passed": true
+    },
+    {
+      "name": "triangle_ga:full_view_resets",
+      "passed": true
+    },
+    {
+      "name": "square_ga_circular:full_order_retained",
+      "passed": true
+    },
+    {
+      "name": "square_ga_circular:no_hidden_pivot",
+      "passed": true
+    },
+    {
+      "name": "square_ga_circular:stage_grid",
+      "passed": true
+    },
+    {
+      "name": "square_ga_circular:stage_order",
+      "passed": true
+    },
+    {
+      "name": "square_ga_circular:stage_curve",
+      "passed": true
+    },
+    {
+      "name": "square_ga_circular:full_heading_loop_window",
+      "passed": true
+    },
+    {
+      "name": "square_ga_circular:JS_vs_Python",
+      "passed": true,
+      "samples": 191,
+      "max_abs_error": 1.7763568394002505e-15
+    },
+    {
+      "name": "square_ga_circular:curve_zoom_available",
+      "passed": true
+    },
+    {
+      "name": "square_ga_circular:full_view_resets",
+      "passed": true
+    },
+    {
+      "name": "square_ga_conservative:full_order_retained",
+      "passed": true
+    },
+    {
+      "name": "square_ga_conservative:no_hidden_pivot",
+      "passed": true
+    },
+    {
+      "name": "square_ga_conservative:stage_grid",
+      "passed": true
+    },
+    {
+      "name": "square_ga_conservative:stage_order",
+      "passed": true
+    },
+    {
+      "name": "square_ga_conservative:stage_curve",
+      "passed": true
+    },
+    {
+      "name": "square_ga_conservative:full_heading_loop_window",
+      "passed": true
+    },
+    {
+      "name": "square_ga_conservative:JS_vs_Python",
+      "passed": true,
+      "samples": 191,
+      "max_abs_error": 2.6645352591003757e-15
+    },
+    {
+      "name": "square_ga_conservative:curve_zoom_available",
+      "passed": true
+    },
+    {
+      "name": "square_ga_conservative:full_view_resets",
+      "passed": true
+    },
+    {
+      "name": "car_r060:full_order_retained",
+      "passed": true
+    },
+    {
+      "name": "car_r060:no_hidden_pivot",
+      "passed": true
+    },
+    {
+      "name": "car_r060:stage_grid",
+      "passed": true
+    },
+    {
+      "name": "car_r060:stage_order",
+      "passed": true
+    },
+    {
+      "name": "car_r060:stage_curve",
+      "passed": true
+    },
+    {
+      "name": "car_r060:full_heading_loop_window",
+      "passed": true
+    },
+    {
+      "name": "car_r060:JS_vs_Python",
+      "passed": true,
+      "samples": 197,
+      "max_abs_error": 4.440892098500626e-16
+    },
+    {
+      "name": "car_r060:curve_zoom_available",
+      "passed": true
+    },
+    {
+      "name": "car_r060:full_view_resets",
+      "passed": true
+    },
+    {
+      "name": "car_r090:full_order_retained",
+      "passed": true
+    },
+    {
+      "name": "car_r090:no_hidden_pivot",
+      "passed": true
+    },
+    {
+      "name": "car_r090:stage_grid",
+      "passed": true
+    },
+    {
+      "name": "car_r090:stage_order",
+      "passed": true
+    },
+    {
+      "name": "car_r090:stage_curve",
+      "passed": true
+    },
+    {
+      "name": "car_r090:full_heading_loop_window",
+      "passed": true
+    },
+    {
+      "name": "car_r090:JS_vs_Python",
+      "passed": true,
+      "samples": 197,
+      "max_abs_error": 1.7763568394002505e-15
+    },
+    {
+      "name": "car_r090:curve_zoom_available",
+      "passed": true
+    },
+    {
+      "name": "car_r090:full_view_resets",
+      "passed": true
+    },
+    {
+      "name": "fixed_order_ablation_hashes_equal",
+      "passed": true
+    },
+    {
+      "name": "car_radius_order_hashes_equal",
+      "passed": true
+    },
+    {
+      "name": "replay_time_advances",
+      "passed": true
+    },
+    {
+      "name": "pause_freezes_time",
+      "passed": true
+    },
+    {
+      "name": "end_stops_without_pose_reset",
+      "passed": true
+    },
+    {
+      "name": "explicit_reset_goes_to_focus_start",
+      "passed": true
+    },
+    {
+      "name": "node_table_selects_real_sequence",
+      "passed": true
+    },
+    {
+      "name": "video_0:metadata_decoded",
+      "passed": true
+    },
+    {
+      "name": "video_0:actually_plays",
+      "passed": true
+    },
+    {
+      "name": "video_1:metadata_decoded",
+      "passed": true
+    },
+    {
+      "name": "video_1:actually_plays",
+      "passed": true
+    },
+    {
+      "name": "no_autolooping_videos",
+      "passed": true
+    },
+    {
+      "name": "layout:index.html:1440",
+      "passed": true,
+      "scroll_width": 1440
+    },
+    {
+      "name": "layout:ccpp.html:1440",
+      "passed": true,
+      "scroll_width": 1440
+    },
+    {
+      "name": "layout:projects.html:1440",
+      "passed": true,
+      "scroll_width": 1440
+    },
+    {
+      "name": "layout:index.html:768",
+      "passed": true,
+      "scroll_width": 768
+    },
+    {
+      "name": "layout:ccpp.html:768",
+      "passed": true,
+      "scroll_width": 768
+    },
+    {
+      "name": "layout:projects.html:768",
+      "passed": true,
+      "scroll_width": 768
+    },
+    {
+      "name": "layout:index.html:390",
+      "passed": true,
+      "scroll_width": 390
+    },
+    {
+      "name": "mobile_menu_opens",
+      "passed": true
+    },
+    {
+      "name": "layout:ccpp.html:390",
+      "passed": true,
+      "scroll_width": 390
+    },
+    {
+      "name": "layout:projects.html:390",
+      "passed": true,
+      "scroll_width": 390
+    },
+    {
+      "name": "layout:index.html:360",
+      "passed": true,
+      "scroll_width": 360
+    },
+    {
+      "name": "layout:ccpp.html:360",
+      "passed": true,
+      "scroll_width": 360
+    },
+    {
+      "name": "layout:projects.html:360",
+      "passed": true,
+      "scroll_width": 360
+    },
+    {
+      "name": "no_javascript_errors",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "passed": 118,
+  "total": 118,
+  "numerical": {
+    "square_greedy": {
+      "samples": 197,
+      "max_abs_error": 3.552713678800501e-15
+    },
+    "square_mst": {
+      "samples": 194,
+      "max_abs_error": 7.105427357601002e-15
+    },
+    "square_ga": {
+      "samples": 191,
+      "max_abs_error": 1.7763568394002505e-15
+    },
+    "triangle_greedy": {
+      "samples": 197,
+      "max_abs_error": 7.105427357601002e-15
+    },
+    "triangle_mst": {
+      "samples": 194,
+      "max_abs_error": 7.105427357601002e-15
+    },
+    "triangle_ga": {
+      "samples": 194,
+      "max_abs_error": 7.105427357601002e-15
+    },
+    "square_ga_circular": {
+      "samples": 191,
+      "max_abs_error": 1.7763568394002505e-15
+    },
+    "square_ga_conservative": {
+      "samples": 191,
+      "max_abs_error": 2.6645352591003757e-15
+    },
+    "car_r060": {
+      "samples": 197,
+      "max_abs_error": 4.440892098500626e-16
+    },
+    "car_r090": {
+      "samples": 197,
+      "max_abs_error": 1.7763568394002505e-15
+    }
+  },
+  "notes": "Linux Chromium. Administrator URLBlocklist blocks top-level navigation: actual HTML was inserted with Playwright set_content, HTTP assets served unchanged on loopback. No system policy changed. Not a live GitHub Pages or Windows test."
+}

@@ -1,0 +1,6104 @@
+[
+  {
+    "id": 0,
+    "kind": "WAIT",
+    "t0": 0.0,
+    "t1": 2.0,
+    "duration": 2.0,
+    "p0": [
+      3.3,
+      2.7
+    ],
+    "p1": [
+      3.3,
+      2.7
+    ],
+    "yaw0": 0.0,
+    "yaw1": 0.0,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 1,
+    "kind": "SERVICE",
+    "t0": 2.0,
+    "t1": 3.0,
+    "duration": 1.0,
+    "p0": [
+      3.3,
+      2.7
+    ],
+    "p1": [
+      3.3,
+      2.7
+    ],
+    "yaw0": 0.0,
+    "yaw1": 0.0,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "reason": "initial_stationary_service_assumed_1s",
+    "cluster": -1
+  },
+  {
+    "id": 2,
+    "kind": "WORK",
+    "t0": 3.0,
+    "t1": 24.98796428551904,
+    "duration": 21.98796428551904,
+    "p0": [
+      3.3,
+      2.7
+    ],
+    "p1": [
+      12.899999999999999,
+      2.7
+    ],
+    "yaw0": 0.0,
+    "yaw1": 0.0,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.051824212272547875,
+      "ramp": 2.6919642857329147,
+      "cruise": 16.60403571405321
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        3.3,
+        2.7
+      ],
+      "p1": [
+        12.899999999999999,
+        2.7
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 9.599999999999998,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 9.599999999999998,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 39.99999999999999,
+    "reason": "retained_certified_straight",
+    "cluster": 0,
+    "turn_id": null
+  },
+  {
+    "id": 3,
+    "kind": "WAIT",
+    "t0": 24.98796428551904,
+    "t1": 27.98796428551904,
+    "duration": 3.0,
+    "p0": [
+      12.899999999999999,
+      2.7
+    ],
+    "p1": [
+      12.899999999999999,
+      2.7
+    ],
+    "yaw0": 0.0,
+    "yaw1": 0.0,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 4,
+    "kind": "STEER",
+    "t0": 27.98796428551904,
+    "t1": 30.98791833357766,
+    "duration": 2.9999540480586173,
+    "p0": [
+      12.899999999999999,
+      2.7
+    ],
+    "p1": [
+      12.899999999999999,
+      2.7
+    ],
+    "yaw0": 0.0,
+    "yaw1": 0.0,
+    "steer0": 0.0,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207383,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.30815636882850206
+    },
+    "baseline_seconds": 3.7995845611314696,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 5,
+    "kind": "WAIT",
+    "t0": 30.98791833357766,
+    "t1": 32.98791833357766,
+    "duration": 2.0,
+    "p0": [
+      12.899999999999999,
+      2.7
+    ],
+    "p1": [
+      12.899999999999999,
+      2.7
+    ],
+    "yaw0": 0.0,
+    "yaw1": 0.0,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 6,
+    "kind": "WORK",
+    "t0": 32.98791833357766,
+    "t1": 36.687528934636504,
+    "duration": 3.6996106010588465,
+    "p0": [
+      12.899999999999999,
+      2.7
+    ],
+    "p1": [
+      13.296862696659687,
+      2.55
+    ],
+    "yaw0": 0.0,
+    "yaw1": -0.722734247813416,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207384,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131429,
+      "ramp": 1.849805300529423,
+      "cruise": 4.107392871442846e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        12.899999999999999,
+        2.1
+      ],
+      "radius": 0.6,
+      "angle0": 1.5707963267948966,
+      "sweep": -0.722734247813416
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880496,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.722734247813416,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880496,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.949860100453271,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_1"
+  },
+  {
+    "id": 7,
+    "kind": "WAIT",
+    "t0": 36.687528934636504,
+    "t1": 39.687528934636504,
+    "duration": 3.0,
+    "p0": [
+      13.296862696659687,
+      2.55
+    ],
+    "p1": [
+      13.296862696659687,
+      2.55
+    ],
+    "yaw0": -0.722734247813416,
+    "yaw1": -0.722734247813416,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 8,
+    "kind": "STEER",
+    "t0": 39.687528934636504,
+    "t1": 44.34153819113869,
+    "duration": 4.654009256502186,
+    "p0": [
+      13.296862696659687,
+      2.55
+    ],
+    "p1": [
+      13.296862696659687,
+      2.55
+    ],
+    "yaw0": -0.722734247813416,
+    "yaw1": -0.722734247813416,
+    "steer0": -0.8253768505207384,
+    "steer1": 0.8253768505207385,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 9,
+    "kind": "WAIT",
+    "t0": 44.34153819113869,
+    "t1": 46.34153819113869,
+    "duration": 2.0,
+    "p0": [
+      13.296862696659687,
+      2.55
+    ],
+    "p1": [
+      13.296862696659687,
+      2.55
+    ],
+    "yaw0": -0.722734247813416,
+    "yaw1": -0.722734247813416,
+    "steer0": 0.8253768505207385,
+    "steer1": 0.8253768505207385,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 10,
+    "kind": "WORK",
+    "t0": 46.34153819113869,
+    "t1": 56.851428116076534,
+    "duration": 10.509889924937841,
+    "p0": [
+      13.296862696659687,
+      2.55
+    ],
+    "p1": [
+      13.296862696659687,
+      3.4499999999999993
+    ],
+    "yaw0": -0.722734247813416,
+    "yaw1": 3.864326901403209,
+    "steer0": 0.8253768505207385,
+    "steer1": 0.8253768505207385,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.13015194390314458,
+      "ramp": 2.8265625000000156,
+      "cruise": 4.85676492493781
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        13.693725393319376,
+        2.9999999999999996
+      ],
+      "radius": 0.6,
+      "angle0": -2.2935305746083126,
+      "sweep": 4.587061149216625
+    },
+    "curve_bounds": {
+      "speed_u": 2.752236689529975,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 4.587061149216625,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 2.752236689529975,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 15.927295657002173,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_1"
+  },
+  {
+    "id": 11,
+    "kind": "WAIT",
+    "t0": 56.851428116076534,
+    "t1": 59.851428116076534,
+    "duration": 3.0,
+    "p0": [
+      13.296862696659687,
+      3.4499999999999993
+    ],
+    "p1": [
+      13.296862696659687,
+      3.4499999999999993
+    ],
+    "yaw0": 3.864326901403209,
+    "yaw1": 3.864326901403209,
+    "steer0": 0.8253768505207385,
+    "steer1": 0.8253768505207385,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 12,
+    "kind": "STEER",
+    "t0": 59.851428116076534,
+    "t1": 64.50543737257873,
+    "duration": 4.654009256502186,
+    "p0": [
+      13.296862696659687,
+      3.4499999999999993
+    ],
+    "p1": [
+      13.296862696659687,
+      3.4499999999999993
+    ],
+    "yaw0": 3.864326901403209,
+    "yaw1": 3.864326901403209,
+    "steer0": 0.8253768505207385,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 13,
+    "kind": "WAIT",
+    "t0": 64.50543737257873,
+    "t1": 66.50543737257873,
+    "duration": 2.0,
+    "p0": [
+      13.296862696659687,
+      3.4499999999999993
+    ],
+    "p1": [
+      13.296862696659687,
+      3.4499999999999993
+    ],
+    "yaw0": 3.864326901403209,
+    "yaw1": 3.864326901403209,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 14,
+    "kind": "WORK",
+    "t0": 66.50543737257873,
+    "t1": 70.20504797363758,
+    "duration": 3.6996106010588465,
+    "p0": [
+      13.296862696659687,
+      3.4499999999999993
+    ],
+    "p1": [
+      12.899999999999999,
+      3.299999999999999
+    ],
+    "yaw0": 3.864326901403209,
+    "yaw1": 3.141592653589793,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131429,
+      "ramp": 1.849805300529423,
+      "cruise": 4.107392871442846e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        12.899999999999999,
+        3.899999999999999
+      ],
+      "radius": 0.6,
+      "angle0": 5.435123228198106,
+      "sweep": -0.722734247813416
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880496,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.722734247813416,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880496,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.949860100453271,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_1"
+  },
+  {
+    "id": 15,
+    "kind": "WAIT",
+    "t0": 70.20504797363758,
+    "t1": 73.20504797363758,
+    "duration": 3.0,
+    "p0": [
+      12.899999999999999,
+      3.299999999999999
+    ],
+    "p1": [
+      12.899999999999999,
+      3.299999999999999
+    ],
+    "yaw0": 3.141592653589793,
+    "yaw1": 3.141592653589793,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 16,
+    "kind": "STEER",
+    "t0": 73.20504797363758,
+    "t1": 76.20500202169619,
+    "duration": 2.9999540480586173,
+    "p0": [
+      12.899999999999999,
+      3.299999999999999
+    ],
+    "p1": [
+      12.899999999999999,
+      3.299999999999999
+    ],
+    "yaw0": 3.141592653589793,
+    "yaw1": 3.141592653589793,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207383,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.30815636882850206
+    },
+    "baseline_seconds": 3.7995845611314696,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 17,
+    "kind": "WAIT",
+    "t0": 76.20500202169619,
+    "t1": 78.20500202169619,
+    "duration": 2.0,
+    "p0": [
+      12.899999999999999,
+      3.299999999999999
+    ],
+    "p1": [
+      12.899999999999999,
+      3.299999999999999
+    ],
+    "yaw0": 3.141592653589793,
+    "yaw1": 3.141592653589793,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 18,
+    "kind": "WORK",
+    "t0": 78.20500202169619,
+    "t1": 101.39896630775752,
+    "duration": 23.19396428606133,
+    "p0": [
+      12.899999999999999,
+      3.299999999999999
+    ],
+    "p1": [
+      2.6999999999999993,
+      3.3
+    ],
+    "yaw0": 3.141592653589793,
+    "yaw1": 3.141592653589793,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.04877572919625187,
+      "ramp": 2.691964285683193,
+      "cruise": 17.810035714694944
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        12.899999999999999,
+        3.3
+      ],
+      "p1": [
+        2.7,
+        3.3
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 10.2,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 10.2,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 42.5,
+    "reason": "retained_certified_straight",
+    "cluster": 0,
+    "turn_id": null
+  },
+  {
+    "id": 19,
+    "kind": "WAIT",
+    "t0": 101.39896630775752,
+    "t1": 104.39896630775752,
+    "duration": 3.0,
+    "p0": [
+      2.6999999999999993,
+      3.3
+    ],
+    "p1": [
+      2.6999999999999993,
+      3.3
+    ],
+    "yaw0": 3.141592653589793,
+    "yaw1": 3.141592653589793,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 20,
+    "kind": "STEER",
+    "t0": 104.39896630775752,
+    "t1": 107.39892035581613,
+    "duration": 2.9999540480586173,
+    "p0": [
+      2.6999999999999993,
+      3.3
+    ],
+    "p1": [
+      2.6999999999999993,
+      3.3
+    ],
+    "yaw0": 3.141592653589793,
+    "yaw1": 3.141592653589793,
+    "steer0": -0.0,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207384,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.3081563688285023
+    },
+    "baseline_seconds": 3.79958456113147,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 21,
+    "kind": "WAIT",
+    "t0": 107.39892035581613,
+    "t1": 109.39892035581613,
+    "duration": 2.0,
+    "p0": [
+      2.6999999999999993,
+      3.3
+    ],
+    "p1": [
+      2.6999999999999993,
+      3.3
+    ],
+    "yaw0": 3.141592653589793,
+    "yaw1": 3.141592653589793,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 22,
+    "kind": "WORK",
+    "t0": 109.39892035581613,
+    "t1": 113.09853095687498,
+    "duration": 3.6996106010588448,
+    "p0": [
+      2.6999999999999993,
+      3.3
+    ],
+    "p1": [
+      2.3031373033403115,
+      3.15
+    ],
+    "yaw0": 3.141592653589793,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131431,
+      "ramp": 1.8498053005294224,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        2.7,
+        2.6999999999999997
+      ],
+      "radius": 0.6,
+      "angle0": 1.5707963267948966,
+      "sweep": 0.7227342478134156
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880493,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.7227342478134156,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880493,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.949860100453271,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_3"
+  },
+  {
+    "id": 23,
+    "kind": "WAIT",
+    "t0": 113.09853095687498,
+    "t1": 116.09853095687498,
+    "duration": 3.0,
+    "p0": [
+      2.3031373033403115,
+      3.15
+    ],
+    "p1": [
+      2.3031373033403115,
+      3.15
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 24,
+    "kind": "STEER",
+    "t0": 116.09853095687498,
+    "t1": 120.75254021337717,
+    "duration": 4.654009256502186,
+    "p0": [
+      2.3031373033403115,
+      3.15
+    ],
+    "p1": [
+      2.3031373033403115,
+      3.15
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 25,
+    "kind": "WAIT",
+    "t0": 120.75254021337717,
+    "t1": 122.75254021337717,
+    "duration": 2.0,
+    "p0": [
+      2.3031373033403115,
+      3.15
+    ],
+    "p1": [
+      2.3031373033403115,
+      3.15
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 26,
+    "kind": "WORK",
+    "t0": 122.75254021337717,
+    "t1": 133.262430138315,
+    "duration": 10.509889924937848,
+    "p0": [
+      2.3031373033403115,
+      3.15
+    ],
+    "p1": [
+      2.303137303340312,
+      4.05
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": -0.7227342478134156,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207386,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.13015194390314413,
+      "ramp": 2.8265624999999974,
+      "cruise": 4.8567649249378535
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        1.906274606680623,
+        3.6
+      ],
+      "radius": 0.6,
+      "angle0": 5.435123228198105,
+      "sweep": -4.587061149216624
+    },
+    "curve_bounds": {
+      "speed_u": 2.7522366895299744,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 4.587061149216624,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 2.7522366895299744,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 15.927295657002169,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_3"
+  },
+  {
+    "id": 27,
+    "kind": "WAIT",
+    "t0": 133.262430138315,
+    "t1": 136.262430138315,
+    "duration": 3.0,
+    "p0": [
+      2.303137303340312,
+      4.05
+    ],
+    "p1": [
+      2.303137303340312,
+      4.05
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": -0.7227342478134156,
+    "steer0": -0.8253768505207386,
+    "steer1": -0.8253768505207386,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 28,
+    "kind": "STEER",
+    "t0": 136.262430138315,
+    "t1": 140.9164393948172,
+    "duration": 4.654009256502187,
+    "p0": [
+      2.303137303340312,
+      4.05
+    ],
+    "p1": [
+      2.303137303340312,
+      4.05
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": -0.7227342478134156,
+    "steer0": -0.8253768505207386,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.650753701041477,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.9622115772720534
+    },
+    "baseline_seconds": 6.346832129382122,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 29,
+    "kind": "WAIT",
+    "t0": 140.9164393948172,
+    "t1": 142.9164393948172,
+    "duration": 2.0,
+    "p0": [
+      2.303137303340312,
+      4.05
+    ],
+    "p1": [
+      2.303137303340312,
+      4.05
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": -0.7227342478134156,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 30,
+    "kind": "WORK",
+    "t0": 142.9164393948172,
+    "t1": 146.61604999587604,
+    "duration": 3.6996106010588443,
+    "p0": [
+      2.303137303340312,
+      4.05
+    ],
+    "p1": [
+      2.7,
+      3.9
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131432,
+      "ramp": 1.849805300529422,
+      "cruise": 4.1073928714428435e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        2.7000000000000006,
+        4.5
+      ],
+      "radius": 0.6,
+      "angle0": -2.2935305746083126,
+      "sweep": 0.7227342478134151
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880491,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.7227342478134151,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880491,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.94986010045327,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_3"
+  },
+  {
+    "id": 31,
+    "kind": "WAIT",
+    "t0": 146.61604999587604,
+    "t1": 149.61604999587604,
+    "duration": 3.0,
+    "p0": [
+      2.7,
+      3.9
+    ],
+    "p1": [
+      2.7,
+      3.9
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 32,
+    "kind": "STEER",
+    "t0": 149.61604999587604,
+    "t1": 152.61600404393465,
+    "duration": 2.9999540480586173,
+    "p0": [
+      2.7,
+      3.9
+    ],
+    "p1": [
+      2.7,
+      3.9
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207384,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.3081563688285023
+    },
+    "baseline_seconds": 3.79958456113147,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 33,
+    "kind": "WAIT",
+    "t0": 152.61600404393465,
+    "t1": 154.61600404393465,
+    "duration": 2.0,
+    "p0": [
+      2.7,
+      3.9
+    ],
+    "p1": [
+      2.7,
+      3.9
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 34,
+    "kind": "WORK",
+    "t0": 154.61600404393465,
+    "t1": 177.80996832999597,
+    "duration": 23.19396428606133,
+    "p0": [
+      2.7,
+      3.9
+    ],
+    "p1": [
+      12.899999999999999,
+      3.9
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.04877572919625187,
+      "ramp": 2.691964285683193,
+      "cruise": 17.810035714694944
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        2.7,
+        3.9
+      ],
+      "p1": [
+        12.899999999999999,
+        3.9
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 10.2,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 10.2,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 42.5,
+    "reason": "retained_certified_straight",
+    "cluster": 0,
+    "turn_id": null
+  },
+  {
+    "id": 35,
+    "kind": "WAIT",
+    "t0": 177.80996832999597,
+    "t1": 180.80996832999597,
+    "duration": 3.0,
+    "p0": [
+      12.899999999999999,
+      3.9
+    ],
+    "p1": [
+      12.899999999999999,
+      3.9
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 36,
+    "kind": "STEER",
+    "t0": 180.80996832999597,
+    "t1": 183.80992237805458,
+    "duration": 2.9999540480586173,
+    "p0": [
+      12.899999999999999,
+      3.9
+    ],
+    "p1": [
+      12.899999999999999,
+      3.9
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207384,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.3081563688285023
+    },
+    "baseline_seconds": 3.79958456113147,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 37,
+    "kind": "WAIT",
+    "t0": 183.80992237805458,
+    "t1": 185.80992237805458,
+    "duration": 2.0,
+    "p0": [
+      12.899999999999999,
+      3.9
+    ],
+    "p1": [
+      12.899999999999999,
+      3.9
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 38,
+    "kind": "WORK",
+    "t0": 185.80992237805458,
+    "t1": 189.50953297911343,
+    "duration": 3.6996106010588443,
+    "p0": [
+      12.899999999999999,
+      3.9
+    ],
+    "p1": [
+      13.296862696659687,
+      3.75
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -0.7227342478134156,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131432,
+      "ramp": 1.849805300529422,
+      "cruise": 4.1073928714428435e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        12.899999999999999,
+        3.3
+      ],
+      "radius": 0.6,
+      "angle0": 1.5707963267948966,
+      "sweep": -0.7227342478134151
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880491,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.7227342478134151,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880491,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.94986010045327,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_5"
+  },
+  {
+    "id": 39,
+    "kind": "WAIT",
+    "t0": 189.50953297911343,
+    "t1": 192.50953297911343,
+    "duration": 3.0,
+    "p0": [
+      13.296862696659687,
+      3.75
+    ],
+    "p1": [
+      13.296862696659687,
+      3.75
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": -0.7227342478134156,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 40,
+    "kind": "STEER",
+    "t0": 192.50953297911343,
+    "t1": 197.1635422356156,
+    "duration": 4.654009256502187,
+    "p0": [
+      13.296862696659687,
+      3.75
+    ],
+    "p1": [
+      13.296862696659687,
+      3.75
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": -0.7227342478134156,
+    "steer0": -0.8253768505207384,
+    "steer1": 0.8253768505207386,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.650753701041477,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.9622115772720534
+    },
+    "baseline_seconds": 6.346832129382122,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 41,
+    "kind": "WAIT",
+    "t0": 197.1635422356156,
+    "t1": 199.1635422356156,
+    "duration": 2.0,
+    "p0": [
+      13.296862696659687,
+      3.75
+    ],
+    "p1": [
+      13.296862696659687,
+      3.75
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": -0.7227342478134156,
+    "steer0": 0.8253768505207386,
+    "steer1": 0.8253768505207386,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 42,
+    "kind": "WORK",
+    "t0": 199.1635422356156,
+    "t1": 209.67343216055346,
+    "duration": 10.509889924937848,
+    "p0": [
+      13.296862696659687,
+      3.75
+    ],
+    "p1": [
+      13.296862696659687,
+      4.65
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207386,
+    "steer1": 0.8253768505207384,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.13015194390314413,
+      "ramp": 2.8265624999999974,
+      "cruise": 4.8567649249378535
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        13.693725393319376,
+        4.2
+      ],
+      "radius": 0.6,
+      "angle0": -2.2935305746083117,
+      "sweep": 4.587061149216624
+    },
+    "curve_bounds": {
+      "speed_u": 2.7522366895299744,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 4.587061149216624,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 2.7522366895299744,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 15.927295657002169,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_5"
+  },
+  {
+    "id": 43,
+    "kind": "WAIT",
+    "t0": 209.67343216055346,
+    "t1": 212.67343216055346,
+    "duration": 3.0,
+    "p0": [
+      13.296862696659687,
+      4.65
+    ],
+    "p1": [
+      13.296862696659687,
+      4.65
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 44,
+    "kind": "STEER",
+    "t0": 212.67343216055346,
+    "t1": 217.32744141705564,
+    "duration": 4.654009256502186,
+    "p0": [
+      13.296862696659687,
+      4.65
+    ],
+    "p1": [
+      13.296862696659687,
+      4.65
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207384,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 45,
+    "kind": "WAIT",
+    "t0": 217.32744141705564,
+    "t1": 219.32744141705564,
+    "duration": 2.0,
+    "p0": [
+      13.296862696659687,
+      4.65
+    ],
+    "p1": [
+      13.296862696659687,
+      4.65
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 46,
+    "kind": "WORK",
+    "t0": 219.32744141705564,
+    "t1": 223.0270520181145,
+    "duration": 3.6996106010588465,
+    "p0": [
+      13.296862696659687,
+      4.65
+    ],
+    "p1": [
+      12.899999999999999,
+      4.500000000000001
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131429,
+      "ramp": 1.849805300529423,
+      "cruise": 4.107392871442846e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        12.899999999999999,
+        5.1000000000000005
+      ],
+      "radius": 0.6,
+      "angle0": 5.435123228198106,
+      "sweep": -0.722734247813416
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880496,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.722734247813416,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880496,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.949860100453271,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_5"
+  },
+  {
+    "id": 47,
+    "kind": "WAIT",
+    "t0": 223.0270520181145,
+    "t1": 226.0270520181145,
+    "duration": 3.0,
+    "p0": [
+      12.899999999999999,
+      4.500000000000001
+    ],
+    "p1": [
+      12.899999999999999,
+      4.500000000000001
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 48,
+    "kind": "STEER",
+    "t0": 226.0270520181145,
+    "t1": 229.0270060661731,
+    "duration": 2.9999540480586173,
+    "p0": [
+      12.899999999999999,
+      4.500000000000001
+    ],
+    "p1": [
+      12.899999999999999,
+      4.500000000000001
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207383,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.30815636882850206
+    },
+    "baseline_seconds": 3.7995845611314696,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 49,
+    "kind": "WAIT",
+    "t0": 229.0270060661731,
+    "t1": 231.0270060661731,
+    "duration": 2.0,
+    "p0": [
+      12.899999999999999,
+      4.500000000000001
+    ],
+    "p1": [
+      12.899999999999999,
+      4.500000000000001
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 50,
+    "kind": "WORK",
+    "t0": 231.0270060661731,
+    "t1": 254.22097035223442,
+    "duration": 23.19396428606133,
+    "p0": [
+      12.899999999999999,
+      4.500000000000001
+    ],
+    "p1": [
+      2.6999999999999993,
+      4.5
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.04877572919625187,
+      "ramp": 2.691964285683193,
+      "cruise": 17.810035714694944
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        12.899999999999999,
+        4.5
+      ],
+      "p1": [
+        2.7,
+        4.5
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 10.2,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 10.2,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 42.5,
+    "reason": "retained_certified_straight",
+    "cluster": 0,
+    "turn_id": null
+  },
+  {
+    "id": 51,
+    "kind": "WAIT",
+    "t0": 254.22097035223442,
+    "t1": 257.2209703522344,
+    "duration": 3.0,
+    "p0": [
+      2.6999999999999993,
+      4.5
+    ],
+    "p1": [
+      2.6999999999999993,
+      4.5
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 52,
+    "kind": "STEER",
+    "t0": 257.2209703522344,
+    "t1": 260.22092440029303,
+    "duration": 2.9999540480586173,
+    "p0": [
+      2.6999999999999993,
+      4.5
+    ],
+    "p1": [
+      2.6999999999999993,
+      4.5
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": 0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207383,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.30815636882850206
+    },
+    "baseline_seconds": 3.7995845611314696,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 53,
+    "kind": "WAIT",
+    "t0": 260.22092440029303,
+    "t1": 262.22092440029303,
+    "duration": 2.0,
+    "p0": [
+      2.6999999999999993,
+      4.5
+    ],
+    "p1": [
+      2.6999999999999993,
+      4.5
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": 0.8253768505207383,
+    "steer1": 0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 54,
+    "kind": "WORK",
+    "t0": 262.22092440029303,
+    "t1": 265.9205350013519,
+    "duration": 3.6996106010588465,
+    "p0": [
+      2.6999999999999993,
+      4.5
+    ],
+    "p1": [
+      2.3031373033403115,
+      4.35
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207383,
+    "steer1": 0.8253768505207384,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131429,
+      "ramp": 1.849805300529423,
+      "cruise": 4.107392871442846e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        2.7,
+        3.9
+      ],
+      "radius": 0.6,
+      "angle0": 1.5707963267948966,
+      "sweep": 0.722734247813416
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880496,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.722734247813416,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880496,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.949860100453271,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_7"
+  },
+  {
+    "id": 55,
+    "kind": "WAIT",
+    "t0": 265.9205350013519,
+    "t1": 268.9205350013519,
+    "duration": 3.0,
+    "p0": [
+      2.3031373033403115,
+      4.35
+    ],
+    "p1": [
+      2.3031373033403115,
+      4.35
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 56,
+    "kind": "STEER",
+    "t0": 268.9205350013519,
+    "t1": 273.5745442578541,
+    "duration": 4.654009256502186,
+    "p0": [
+      2.3031373033403115,
+      4.35
+    ],
+    "p1": [
+      2.3031373033403115,
+      4.35
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 57,
+    "kind": "WAIT",
+    "t0": 273.5745442578541,
+    "t1": 275.5745442578541,
+    "duration": 2.0,
+    "p0": [
+      2.3031373033403115,
+      4.35
+    ],
+    "p1": [
+      2.3031373033403115,
+      4.35
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 58,
+    "kind": "WORK",
+    "t0": 275.5745442578541,
+    "t1": 286.08443418279194,
+    "duration": 10.509889924937841,
+    "p0": [
+      2.3031373033403115,
+      4.35
+    ],
+    "p1": [
+      2.3031373033403115,
+      5.25
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": -0.7227342478134164,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207385,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.13015194390314458,
+      "ramp": 2.8265625000000156,
+      "cruise": 4.85676492493781
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        1.9062746066806229,
+        4.8
+      ],
+      "radius": 0.6,
+      "angle0": 5.435123228198106,
+      "sweep": -4.587061149216625
+    },
+    "curve_bounds": {
+      "speed_u": 2.752236689529975,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 4.587061149216625,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 2.752236689529975,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 15.927295657002173,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_7"
+  },
+  {
+    "id": 59,
+    "kind": "WAIT",
+    "t0": 286.08443418279194,
+    "t1": 289.08443418279194,
+    "duration": 3.0,
+    "p0": [
+      2.3031373033403115,
+      5.25
+    ],
+    "p1": [
+      2.3031373033403115,
+      5.25
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": -0.7227342478134164,
+    "steer0": -0.8253768505207385,
+    "steer1": -0.8253768505207385,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 60,
+    "kind": "STEER",
+    "t0": 289.08443418279194,
+    "t1": 293.73844343929414,
+    "duration": 4.654009256502186,
+    "p0": [
+      2.3031373033403115,
+      5.25
+    ],
+    "p1": [
+      2.3031373033403115,
+      5.25
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": -0.7227342478134164,
+    "steer0": -0.8253768505207385,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 61,
+    "kind": "WAIT",
+    "t0": 293.73844343929414,
+    "t1": 295.73844343929414,
+    "duration": 2.0,
+    "p0": [
+      2.3031373033403115,
+      5.25
+    ],
+    "p1": [
+      2.3031373033403115,
+      5.25
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": -0.7227342478134164,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 62,
+    "kind": "WORK",
+    "t0": 295.73844343929414,
+    "t1": 299.438054040353,
+    "duration": 3.6996106010588465,
+    "p0": [
+      2.3031373033403115,
+      5.25
+    ],
+    "p1": [
+      2.7,
+      5.1000000000000005
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207383,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131429,
+      "ramp": 1.849805300529423,
+      "cruise": 4.107392871442846e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        2.7,
+        5.7
+      ],
+      "radius": 0.6,
+      "angle0": -2.2935305746083126,
+      "sweep": 0.722734247813416
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880496,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.722734247813416,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880496,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.949860100453271,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_7"
+  },
+  {
+    "id": 63,
+    "kind": "WAIT",
+    "t0": 299.438054040353,
+    "t1": 302.438054040353,
+    "duration": 3.0,
+    "p0": [
+      2.7,
+      5.1000000000000005
+    ],
+    "p1": [
+      2.7,
+      5.1000000000000005
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.8253768505207383,
+    "steer1": 0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 64,
+    "kind": "STEER",
+    "t0": 302.438054040353,
+    "t1": 305.4380080884116,
+    "duration": 2.9999540480586173,
+    "p0": [
+      2.7,
+      5.1000000000000005
+    ],
+    "p1": [
+      2.7,
+      5.1000000000000005
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.8253768505207383,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207383,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.30815636882850206
+    },
+    "baseline_seconds": 3.7995845611314696,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 65,
+    "kind": "WAIT",
+    "t0": 305.4380080884116,
+    "t1": 307.4380080884116,
+    "duration": 2.0,
+    "p0": [
+      2.7,
+      5.1000000000000005
+    ],
+    "p1": [
+      2.7,
+      5.1000000000000005
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 66,
+    "kind": "WORK",
+    "t0": 307.4380080884116,
+    "t1": 330.6319723744729,
+    "duration": 23.19396428606133,
+    "p0": [
+      2.7,
+      5.1000000000000005
+    ],
+    "p1": [
+      12.899999999999999,
+      5.1
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.04877572919625187,
+      "ramp": 2.691964285683193,
+      "cruise": 17.810035714694944
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        2.7,
+        5.1
+      ],
+      "p1": [
+        12.899999999999999,
+        5.1
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 10.2,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 10.2,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 42.5,
+    "reason": "retained_certified_straight",
+    "cluster": 0,
+    "turn_id": null
+  },
+  {
+    "id": 67,
+    "kind": "WAIT",
+    "t0": 330.6319723744729,
+    "t1": 333.6319723744729,
+    "duration": 3.0,
+    "p0": [
+      12.899999999999999,
+      5.1
+    ],
+    "p1": [
+      12.899999999999999,
+      5.1
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 68,
+    "kind": "STEER",
+    "t0": 333.6319723744729,
+    "t1": 336.63192642253154,
+    "duration": 2.9999540480586173,
+    "p0": [
+      12.899999999999999,
+      5.1
+    ],
+    "p1": [
+      12.899999999999999,
+      5.1
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207383,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.30815636882850206
+    },
+    "baseline_seconds": 3.7995845611314696,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 69,
+    "kind": "WAIT",
+    "t0": 336.63192642253154,
+    "t1": 338.63192642253154,
+    "duration": 2.0,
+    "p0": [
+      12.899999999999999,
+      5.1
+    ],
+    "p1": [
+      12.899999999999999,
+      5.1
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 70,
+    "kind": "WORK",
+    "t0": 338.63192642253154,
+    "t1": 342.3315370235904,
+    "duration": 3.6996106010588465,
+    "p0": [
+      12.899999999999999,
+      5.1
+    ],
+    "p1": [
+      13.296862696659687,
+      4.95
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -0.7227342478134164,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207384,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131429,
+      "ramp": 1.849805300529423,
+      "cruise": 4.107392871442846e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        12.899999999999999,
+        4.5
+      ],
+      "radius": 0.6,
+      "angle0": 1.5707963267948966,
+      "sweep": -0.722734247813416
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880496,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.722734247813416,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880496,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.949860100453271,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_9"
+  },
+  {
+    "id": 71,
+    "kind": "WAIT",
+    "t0": 342.3315370235904,
+    "t1": 345.3315370235904,
+    "duration": 3.0,
+    "p0": [
+      13.296862696659687,
+      4.95
+    ],
+    "p1": [
+      13.296862696659687,
+      4.95
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": -0.7227342478134164,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 72,
+    "kind": "STEER",
+    "t0": 345.3315370235904,
+    "t1": 349.9855462800926,
+    "duration": 4.654009256502186,
+    "p0": [
+      13.296862696659687,
+      4.95
+    ],
+    "p1": [
+      13.296862696659687,
+      4.95
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": -0.7227342478134164,
+    "steer0": -0.8253768505207384,
+    "steer1": 0.8253768505207385,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 73,
+    "kind": "WAIT",
+    "t0": 349.9855462800926,
+    "t1": 351.9855462800926,
+    "duration": 2.0,
+    "p0": [
+      13.296862696659687,
+      4.95
+    ],
+    "p1": [
+      13.296862696659687,
+      4.95
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": -0.7227342478134164,
+    "steer0": 0.8253768505207385,
+    "steer1": 0.8253768505207385,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 74,
+    "kind": "WORK",
+    "t0": 351.9855462800926,
+    "t1": 362.49543620503044,
+    "duration": 10.509889924937841,
+    "p0": [
+      13.296862696659687,
+      4.95
+    ],
+    "p1": [
+      13.296862696659687,
+      5.8500000000000005
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207385,
+    "steer1": 0.8253768505207385,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.13015194390314458,
+      "ramp": 2.8265625000000156,
+      "cruise": 4.85676492493781
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        13.693725393319376,
+        5.4
+      ],
+      "radius": 0.6,
+      "angle0": -2.2935305746083126,
+      "sweep": 4.587061149216625
+    },
+    "curve_bounds": {
+      "speed_u": 2.752236689529975,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 4.587061149216625,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 2.752236689529975,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 15.927295657002173,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_9"
+  },
+  {
+    "id": 75,
+    "kind": "WAIT",
+    "t0": 362.49543620503044,
+    "t1": 365.49543620503044,
+    "duration": 3.0,
+    "p0": [
+      13.296862696659687,
+      5.8500000000000005
+    ],
+    "p1": [
+      13.296862696659687,
+      5.8500000000000005
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207385,
+    "steer1": 0.8253768505207385,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 76,
+    "kind": "STEER",
+    "t0": 365.49543620503044,
+    "t1": 370.14944546153265,
+    "duration": 4.654009256502186,
+    "p0": [
+      13.296862696659687,
+      5.8500000000000005
+    ],
+    "p1": [
+      13.296862696659687,
+      5.8500000000000005
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207385,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 77,
+    "kind": "WAIT",
+    "t0": 370.14944546153265,
+    "t1": 372.14944546153265,
+    "duration": 2.0,
+    "p0": [
+      13.296862696659687,
+      5.8500000000000005
+    ],
+    "p1": [
+      13.296862696659687,
+      5.8500000000000005
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 78,
+    "kind": "WORK",
+    "t0": 372.14944546153265,
+    "t1": 375.8490560625915,
+    "duration": 3.6996106010588465,
+    "p0": [
+      13.296862696659687,
+      5.8500000000000005
+    ],
+    "p1": [
+      12.899999999999999,
+      5.700000000000001
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131429,
+      "ramp": 1.849805300529423,
+      "cruise": 4.107392871442846e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        12.899999999999999,
+        6.300000000000001
+      ],
+      "radius": 0.6,
+      "angle0": 5.435123228198106,
+      "sweep": -0.722734247813416
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880496,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.722734247813416,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880496,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.949860100453271,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_9"
+  },
+  {
+    "id": 79,
+    "kind": "WAIT",
+    "t0": 375.8490560625915,
+    "t1": 378.8490560625915,
+    "duration": 3.0,
+    "p0": [
+      12.899999999999999,
+      5.700000000000001
+    ],
+    "p1": [
+      12.899999999999999,
+      5.700000000000001
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 80,
+    "kind": "STEER",
+    "t0": 378.8490560625915,
+    "t1": 381.8490101106501,
+    "duration": 2.9999540480586173,
+    "p0": [
+      12.899999999999999,
+      5.700000000000001
+    ],
+    "p1": [
+      12.899999999999999,
+      5.700000000000001
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207383,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.30815636882850206
+    },
+    "baseline_seconds": 3.7995845611314696,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 81,
+    "kind": "WAIT",
+    "t0": 381.8490101106501,
+    "t1": 383.8490101106501,
+    "duration": 2.0,
+    "p0": [
+      12.899999999999999,
+      5.700000000000001
+    ],
+    "p1": [
+      12.899999999999999,
+      5.700000000000001
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 82,
+    "kind": "WORK",
+    "t0": 383.8490101106501,
+    "t1": 407.04297439671143,
+    "duration": 23.19396428606133,
+    "p0": [
+      12.899999999999999,
+      5.700000000000001
+    ],
+    "p1": [
+      2.6999999999999993,
+      5.699999999999999
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.04877572919625187,
+      "ramp": 2.691964285683193,
+      "cruise": 17.810035714694944
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        12.899999999999999,
+        5.699999999999999
+      ],
+      "p1": [
+        2.7,
+        5.699999999999999
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 10.2,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 10.2,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 42.5,
+    "reason": "retained_certified_straight",
+    "cluster": 0,
+    "turn_id": null
+  },
+  {
+    "id": 83,
+    "kind": "WAIT",
+    "t0": 407.04297439671143,
+    "t1": 410.04297439671143,
+    "duration": 3.0,
+    "p0": [
+      2.6999999999999993,
+      5.699999999999999
+    ],
+    "p1": [
+      2.6999999999999993,
+      5.699999999999999
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 84,
+    "kind": "STEER",
+    "t0": 410.04297439671143,
+    "t1": 413.04292844477004,
+    "duration": 2.9999540480586173,
+    "p0": [
+      2.6999999999999993,
+      5.699999999999999
+    ],
+    "p1": [
+      2.6999999999999993,
+      5.699999999999999
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207384,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.3081563688285023
+    },
+    "baseline_seconds": 3.79958456113147,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 85,
+    "kind": "WAIT",
+    "t0": 413.04292844477004,
+    "t1": 415.04292844477004,
+    "duration": 2.0,
+    "p0": [
+      2.6999999999999993,
+      5.699999999999999
+    ],
+    "p1": [
+      2.6999999999999993,
+      5.699999999999999
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 86,
+    "kind": "WORK",
+    "t0": 415.04292844477004,
+    "t1": 418.7425390458289,
+    "duration": 3.6996106010588443,
+    "p0": [
+      2.6999999999999993,
+      5.699999999999999
+    ],
+    "p1": [
+      2.303137303340312,
+      5.55
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.864326901403208,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131432,
+      "ramp": 1.849805300529422,
+      "cruise": 4.1073928714428435e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        2.7,
+        5.1
+      ],
+      "radius": 0.6,
+      "angle0": 1.5707963267948966,
+      "sweep": 0.7227342478134151
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880491,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.7227342478134151,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880491,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.94986010045327,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_11"
+  },
+  {
+    "id": 87,
+    "kind": "WAIT",
+    "t0": 418.7425390458289,
+    "t1": 421.7425390458289,
+    "duration": 3.0,
+    "p0": [
+      2.303137303340312,
+      5.55
+    ],
+    "p1": [
+      2.303137303340312,
+      5.55
+    ],
+    "yaw0": 3.864326901403208,
+    "yaw1": 3.864326901403208,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 88,
+    "kind": "STEER",
+    "t0": 421.7425390458289,
+    "t1": 426.3965483023311,
+    "duration": 4.654009256502186,
+    "p0": [
+      2.303137303340312,
+      5.55
+    ],
+    "p1": [
+      2.303137303340312,
+      5.55
+    ],
+    "yaw0": 3.864326901403208,
+    "yaw1": 3.864326901403208,
+    "steer0": 0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 89,
+    "kind": "WAIT",
+    "t0": 426.3965483023311,
+    "t1": 428.3965483023311,
+    "duration": 2.0,
+    "p0": [
+      2.303137303340312,
+      5.55
+    ],
+    "p1": [
+      2.303137303340312,
+      5.55
+    ],
+    "yaw0": 3.864326901403208,
+    "yaw1": 3.864326901403208,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 90,
+    "kind": "WORK",
+    "t0": 428.3965483023311,
+    "t1": 438.90643822726895,
+    "duration": 10.509889924937845,
+    "p0": [
+      2.303137303340312,
+      5.55
+    ],
+    "p1": [
+      2.303137303340312,
+      6.45
+    ],
+    "yaw0": 3.864326901403208,
+    "yaw1": -0.7227342478134156,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.13015194390314413,
+      "ramp": 2.8265624999999943,
+      "cruise": 4.856764924937856
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        1.9062746066806238,
+        6.0
+      ],
+      "radius": 0.6,
+      "angle0": 5.435123228198105,
+      "sweep": -4.587061149216623
+    },
+    "curve_bounds": {
+      "speed_u": 2.752236689529974,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 4.587061149216623,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 2.752236689529974,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 15.927295657002166,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_11"
+  },
+  {
+    "id": 91,
+    "kind": "WAIT",
+    "t0": 438.90643822726895,
+    "t1": 441.90643822726895,
+    "duration": 3.0,
+    "p0": [
+      2.303137303340312,
+      6.45
+    ],
+    "p1": [
+      2.303137303340312,
+      6.45
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": -0.7227342478134156,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 92,
+    "kind": "STEER",
+    "t0": 441.90643822726895,
+    "t1": 446.56044748377116,
+    "duration": 4.654009256502186,
+    "p0": [
+      2.303137303340312,
+      6.45
+    ],
+    "p1": [
+      2.303137303340312,
+      6.45
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": -0.7227342478134156,
+    "steer0": -0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 93,
+    "kind": "WAIT",
+    "t0": 446.56044748377116,
+    "t1": 448.56044748377116,
+    "duration": 2.0,
+    "p0": [
+      2.303137303340312,
+      6.45
+    ],
+    "p1": [
+      2.303137303340312,
+      6.45
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": -0.7227342478134156,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 94,
+    "kind": "WORK",
+    "t0": 448.56044748377116,
+    "t1": 452.26005808483,
+    "duration": 3.6996106010588443,
+    "p0": [
+      2.303137303340312,
+      6.45
+    ],
+    "p1": [
+      2.7,
+      6.300000000000001
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131432,
+      "ramp": 1.849805300529422,
+      "cruise": 4.1073928714428435e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        2.7,
+        6.9
+      ],
+      "radius": 0.6,
+      "angle0": -2.2935305746083117,
+      "sweep": 0.7227342478134151
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880491,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.7227342478134151,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880491,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.94986010045327,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_11"
+  },
+  {
+    "id": 95,
+    "kind": "WAIT",
+    "t0": 452.26005808483,
+    "t1": 455.26005808483,
+    "duration": 3.0,
+    "p0": [
+      2.7,
+      6.300000000000001
+    ],
+    "p1": [
+      2.7,
+      6.300000000000001
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 96,
+    "kind": "STEER",
+    "t0": 455.26005808483,
+    "t1": 458.2600121328886,
+    "duration": 2.9999540480586173,
+    "p0": [
+      2.7,
+      6.300000000000001
+    ],
+    "p1": [
+      2.7,
+      6.300000000000001
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207384,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.3081563688285023
+    },
+    "baseline_seconds": 3.79958456113147,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 97,
+    "kind": "WAIT",
+    "t0": 458.2600121328886,
+    "t1": 460.2600121328886,
+    "duration": 2.0,
+    "p0": [
+      2.7,
+      6.300000000000001
+    ],
+    "p1": [
+      2.7,
+      6.300000000000001
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 98,
+    "kind": "WORK",
+    "t0": 460.2600121328886,
+    "t1": 483.45397641894994,
+    "duration": 23.19396428606133,
+    "p0": [
+      2.7,
+      6.300000000000001
+    ],
+    "p1": [
+      12.899999999999999,
+      6.3
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.04877572919625187,
+      "ramp": 2.691964285683193,
+      "cruise": 17.810035714694944
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        2.7,
+        6.3
+      ],
+      "p1": [
+        12.899999999999999,
+        6.3
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 10.2,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 10.2,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 42.5,
+    "reason": "retained_certified_straight",
+    "cluster": 0,
+    "turn_id": null
+  },
+  {
+    "id": 99,
+    "kind": "WAIT",
+    "t0": 483.45397641894994,
+    "t1": 486.45397641894994,
+    "duration": 3.0,
+    "p0": [
+      12.899999999999999,
+      6.3
+    ],
+    "p1": [
+      12.899999999999999,
+      6.3
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 100,
+    "kind": "STEER",
+    "t0": 486.45397641894994,
+    "t1": 489.45393046700855,
+    "duration": 2.9999540480586173,
+    "p0": [
+      12.899999999999999,
+      6.3
+    ],
+    "p1": [
+      12.899999999999999,
+      6.3
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207383,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.30815636882850206
+    },
+    "baseline_seconds": 3.7995845611314696,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 101,
+    "kind": "WAIT",
+    "t0": 489.45393046700855,
+    "t1": 491.45393046700855,
+    "duration": 2.0,
+    "p0": [
+      12.899999999999999,
+      6.3
+    ],
+    "p1": [
+      12.899999999999999,
+      6.3
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 102,
+    "kind": "WORK",
+    "t0": 491.45393046700855,
+    "t1": 495.1535410680674,
+    "duration": 3.6996106010588465,
+    "p0": [
+      12.899999999999999,
+      6.3
+    ],
+    "p1": [
+      13.296862696659687,
+      6.15
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -0.7227342478134164,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207384,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131429,
+      "ramp": 1.849805300529423,
+      "cruise": 4.107392871442846e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        12.899999999999999,
+        5.7
+      ],
+      "radius": 0.6,
+      "angle0": 1.5707963267948966,
+      "sweep": -0.722734247813416
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880496,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.722734247813416,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880496,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.949860100453271,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_13"
+  },
+  {
+    "id": 103,
+    "kind": "WAIT",
+    "t0": 495.1535410680674,
+    "t1": 498.1535410680674,
+    "duration": 3.0,
+    "p0": [
+      13.296862696659687,
+      6.15
+    ],
+    "p1": [
+      13.296862696659687,
+      6.15
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": -0.7227342478134164,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 104,
+    "kind": "STEER",
+    "t0": 498.1535410680674,
+    "t1": 502.8075503245696,
+    "duration": 4.654009256502186,
+    "p0": [
+      13.296862696659687,
+      6.15
+    ],
+    "p1": [
+      13.296862696659687,
+      6.15
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": -0.7227342478134164,
+    "steer0": -0.8253768505207384,
+    "steer1": 0.8253768505207385,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 105,
+    "kind": "WAIT",
+    "t0": 502.8075503245696,
+    "t1": 504.8075503245696,
+    "duration": 2.0,
+    "p0": [
+      13.296862696659687,
+      6.15
+    ],
+    "p1": [
+      13.296862696659687,
+      6.15
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": -0.7227342478134164,
+    "steer0": 0.8253768505207385,
+    "steer1": 0.8253768505207385,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 106,
+    "kind": "WORK",
+    "t0": 504.8075503245696,
+    "t1": 515.3174402495074,
+    "duration": 10.509889924937841,
+    "p0": [
+      13.296862696659687,
+      6.15
+    ],
+    "p1": [
+      13.296862696659687,
+      7.050000000000001
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207385,
+    "steer1": 0.8253768505207385,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.13015194390314458,
+      "ramp": 2.8265625000000156,
+      "cruise": 4.85676492493781
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        13.693725393319376,
+        6.6000000000000005
+      ],
+      "radius": 0.6,
+      "angle0": -2.2935305746083126,
+      "sweep": 4.587061149216625
+    },
+    "curve_bounds": {
+      "speed_u": 2.752236689529975,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 4.587061149216625,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 2.752236689529975,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 15.927295657002173,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_13"
+  },
+  {
+    "id": 107,
+    "kind": "WAIT",
+    "t0": 515.3174402495074,
+    "t1": 518.3174402495074,
+    "duration": 3.0,
+    "p0": [
+      13.296862696659687,
+      7.050000000000001
+    ],
+    "p1": [
+      13.296862696659687,
+      7.050000000000001
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207385,
+    "steer1": 0.8253768505207385,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 108,
+    "kind": "STEER",
+    "t0": 518.3174402495074,
+    "t1": 522.9714495060095,
+    "duration": 4.654009256502186,
+    "p0": [
+      13.296862696659687,
+      7.050000000000001
+    ],
+    "p1": [
+      13.296862696659687,
+      7.050000000000001
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207385,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 109,
+    "kind": "WAIT",
+    "t0": 522.9714495060095,
+    "t1": 524.9714495060095,
+    "duration": 2.0,
+    "p0": [
+      13.296862696659687,
+      7.050000000000001
+    ],
+    "p1": [
+      13.296862696659687,
+      7.050000000000001
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 110,
+    "kind": "WORK",
+    "t0": 524.9714495060095,
+    "t1": 528.6710601070683,
+    "duration": 3.6996106010588465,
+    "p0": [
+      13.296862696659687,
+      7.050000000000001
+    ],
+    "p1": [
+      12.899999999999999,
+      6.900000000000001
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131429,
+      "ramp": 1.849805300529423,
+      "cruise": 4.107392871442846e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        12.899999999999999,
+        7.500000000000001
+      ],
+      "radius": 0.6,
+      "angle0": 5.435123228198106,
+      "sweep": -0.722734247813416
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880496,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.722734247813416,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880496,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.949860100453271,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_13"
+  },
+  {
+    "id": 111,
+    "kind": "WAIT",
+    "t0": 528.6710601070683,
+    "t1": 531.6710601070683,
+    "duration": 3.0,
+    "p0": [
+      12.899999999999999,
+      6.900000000000001
+    ],
+    "p1": [
+      12.899999999999999,
+      6.900000000000001
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 112,
+    "kind": "STEER",
+    "t0": 531.6710601070683,
+    "t1": 534.671014155127,
+    "duration": 2.9999540480586173,
+    "p0": [
+      12.899999999999999,
+      6.900000000000001
+    ],
+    "p1": [
+      12.899999999999999,
+      6.900000000000001
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207383,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.30815636882850206
+    },
+    "baseline_seconds": 3.7995845611314696,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 113,
+    "kind": "WAIT",
+    "t0": 534.671014155127,
+    "t1": 536.671014155127,
+    "duration": 2.0,
+    "p0": [
+      12.899999999999999,
+      6.900000000000001
+    ],
+    "p1": [
+      12.899999999999999,
+      6.900000000000001
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 114,
+    "kind": "WORK",
+    "t0": 536.671014155127,
+    "t1": 559.8649784411883,
+    "duration": 23.19396428606133,
+    "p0": [
+      12.899999999999999,
+      6.900000000000001
+    ],
+    "p1": [
+      2.6999999999999993,
+      6.8999999999999995
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.04877572919625187,
+      "ramp": 2.691964285683193,
+      "cruise": 17.810035714694944
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        12.899999999999999,
+        6.8999999999999995
+      ],
+      "p1": [
+        2.7,
+        6.8999999999999995
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 10.2,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 10.2,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 42.5,
+    "reason": "retained_certified_straight",
+    "cluster": 0,
+    "turn_id": null
+  },
+  {
+    "id": 115,
+    "kind": "WAIT",
+    "t0": 559.8649784411883,
+    "t1": 562.8649784411883,
+    "duration": 3.0,
+    "p0": [
+      2.6999999999999993,
+      6.8999999999999995
+    ],
+    "p1": [
+      2.6999999999999993,
+      6.8999999999999995
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 116,
+    "kind": "STEER",
+    "t0": 562.8649784411883,
+    "t1": 565.8649324892469,
+    "duration": 2.9999540480586173,
+    "p0": [
+      2.6999999999999993,
+      6.8999999999999995
+    ],
+    "p1": [
+      2.6999999999999993,
+      6.8999999999999995
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207384,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.3081563688285023
+    },
+    "baseline_seconds": 3.79958456113147,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 117,
+    "kind": "WAIT",
+    "t0": 565.8649324892469,
+    "t1": 567.8649324892469,
+    "duration": 2.0,
+    "p0": [
+      2.6999999999999993,
+      6.8999999999999995
+    ],
+    "p1": [
+      2.6999999999999993,
+      6.8999999999999995
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 118,
+    "kind": "WORK",
+    "t0": 567.8649324892469,
+    "t1": 571.5645430903057,
+    "duration": 3.6996106010588443,
+    "p0": [
+      2.6999999999999993,
+      6.8999999999999995
+    ],
+    "p1": [
+      2.303137303340312,
+      6.75
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.864326901403208,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131432,
+      "ramp": 1.849805300529422,
+      "cruise": 4.1073928714428435e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        2.7,
+        6.3
+      ],
+      "radius": 0.6,
+      "angle0": 1.5707963267948966,
+      "sweep": 0.7227342478134151
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880491,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.7227342478134151,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880491,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.94986010045327,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_15"
+  },
+  {
+    "id": 119,
+    "kind": "WAIT",
+    "t0": 571.5645430903057,
+    "t1": 574.5645430903057,
+    "duration": 3.0,
+    "p0": [
+      2.303137303340312,
+      6.75
+    ],
+    "p1": [
+      2.303137303340312,
+      6.75
+    ],
+    "yaw0": 3.864326901403208,
+    "yaw1": 3.864326901403208,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 120,
+    "kind": "STEER",
+    "t0": 574.5645430903057,
+    "t1": 579.2185523468079,
+    "duration": 4.654009256502186,
+    "p0": [
+      2.303137303340312,
+      6.75
+    ],
+    "p1": [
+      2.303137303340312,
+      6.75
+    ],
+    "yaw0": 3.864326901403208,
+    "yaw1": 3.864326901403208,
+    "steer0": 0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 121,
+    "kind": "WAIT",
+    "t0": 579.2185523468079,
+    "t1": 581.2185523468079,
+    "duration": 2.0,
+    "p0": [
+      2.303137303340312,
+      6.75
+    ],
+    "p1": [
+      2.303137303340312,
+      6.75
+    ],
+    "yaw0": 3.864326901403208,
+    "yaw1": 3.864326901403208,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 122,
+    "kind": "WORK",
+    "t0": 581.2185523468079,
+    "t1": 591.7284422717457,
+    "duration": 10.509889924937845,
+    "p0": [
+      2.303137303340312,
+      6.75
+    ],
+    "p1": [
+      2.303137303340312,
+      7.65
+    ],
+    "yaw0": 3.864326901403208,
+    "yaw1": -0.7227342478134156,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.13015194390314413,
+      "ramp": 2.8265624999999943,
+      "cruise": 4.856764924937856
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        1.9062746066806238,
+        7.2
+      ],
+      "radius": 0.6,
+      "angle0": 5.435123228198105,
+      "sweep": -4.587061149216623
+    },
+    "curve_bounds": {
+      "speed_u": 2.752236689529974,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 4.587061149216623,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 2.752236689529974,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 15.927295657002166,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_15"
+  },
+  {
+    "id": 123,
+    "kind": "WAIT",
+    "t0": 591.7284422717457,
+    "t1": 594.7284422717457,
+    "duration": 3.0,
+    "p0": [
+      2.303137303340312,
+      7.65
+    ],
+    "p1": [
+      2.303137303340312,
+      7.65
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": -0.7227342478134156,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 124,
+    "kind": "STEER",
+    "t0": 594.7284422717457,
+    "t1": 599.3824515282479,
+    "duration": 4.654009256502186,
+    "p0": [
+      2.303137303340312,
+      7.65
+    ],
+    "p1": [
+      2.303137303340312,
+      7.65
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": -0.7227342478134156,
+    "steer0": -0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 125,
+    "kind": "WAIT",
+    "t0": 599.3824515282479,
+    "t1": 601.3824515282479,
+    "duration": 2.0,
+    "p0": [
+      2.303137303340312,
+      7.65
+    ],
+    "p1": [
+      2.303137303340312,
+      7.65
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": -0.7227342478134156,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 126,
+    "kind": "WORK",
+    "t0": 601.3824515282479,
+    "t1": 605.0820621293067,
+    "duration": 3.6996106010588443,
+    "p0": [
+      2.303137303340312,
+      7.65
+    ],
+    "p1": [
+      2.7,
+      7.500000000000002
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131432,
+      "ramp": 1.849805300529422,
+      "cruise": 4.1073928714428435e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        2.7,
+        8.100000000000001
+      ],
+      "radius": 0.6,
+      "angle0": -2.2935305746083117,
+      "sweep": 0.7227342478134151
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880491,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.7227342478134151,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880491,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.94986010045327,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_15"
+  },
+  {
+    "id": 127,
+    "kind": "WAIT",
+    "t0": 605.0820621293067,
+    "t1": 608.0820621293067,
+    "duration": 3.0,
+    "p0": [
+      2.7,
+      7.500000000000002
+    ],
+    "p1": [
+      2.7,
+      7.500000000000002
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 128,
+    "kind": "STEER",
+    "t0": 608.0820621293067,
+    "t1": 611.0820161773653,
+    "duration": 2.9999540480586173,
+    "p0": [
+      2.7,
+      7.500000000000002
+    ],
+    "p1": [
+      2.7,
+      7.500000000000002
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207384,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.3081563688285023
+    },
+    "baseline_seconds": 3.79958456113147,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 129,
+    "kind": "WAIT",
+    "t0": 611.0820161773653,
+    "t1": 613.0820161773653,
+    "duration": 2.0,
+    "p0": [
+      2.7,
+      7.500000000000002
+    ],
+    "p1": [
+      2.7,
+      7.500000000000002
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 130,
+    "kind": "WORK",
+    "t0": 613.0820161773653,
+    "t1": 636.2759804634267,
+    "duration": 23.19396428606133,
+    "p0": [
+      2.7,
+      7.500000000000002
+    ],
+    "p1": [
+      12.899999999999999,
+      7.5
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.04877572919625187,
+      "ramp": 2.691964285683193,
+      "cruise": 17.810035714694944
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        2.7,
+        7.5
+      ],
+      "p1": [
+        12.899999999999999,
+        7.5
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 10.2,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 10.2,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 42.5,
+    "reason": "retained_certified_straight",
+    "cluster": 0,
+    "turn_id": null
+  },
+  {
+    "id": 131,
+    "kind": "WAIT",
+    "t0": 636.2759804634267,
+    "t1": 639.2759804634267,
+    "duration": 3.0,
+    "p0": [
+      12.899999999999999,
+      7.5
+    ],
+    "p1": [
+      12.899999999999999,
+      7.5
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 132,
+    "kind": "STEER",
+    "t0": 639.2759804634267,
+    "t1": 642.2759345114853,
+    "duration": 2.9999540480586173,
+    "p0": [
+      12.899999999999999,
+      7.5
+    ],
+    "p1": [
+      12.899999999999999,
+      7.5
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207383,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.30815636882850206
+    },
+    "baseline_seconds": 3.7995845611314696,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 133,
+    "kind": "WAIT",
+    "t0": 642.2759345114853,
+    "t1": 644.2759345114853,
+    "duration": 2.0,
+    "p0": [
+      12.899999999999999,
+      7.5
+    ],
+    "p1": [
+      12.899999999999999,
+      7.5
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 134,
+    "kind": "WORK",
+    "t0": 644.2759345114853,
+    "t1": 647.9755451125441,
+    "duration": 3.6996106010588465,
+    "p0": [
+      12.899999999999999,
+      7.5
+    ],
+    "p1": [
+      13.296862696659687,
+      7.3500000000000005
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -0.7227342478134164,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207384,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131429,
+      "ramp": 1.849805300529423,
+      "cruise": 4.107392871442846e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        12.899999999999999,
+        6.9
+      ],
+      "radius": 0.6,
+      "angle0": 1.5707963267948966,
+      "sweep": -0.722734247813416
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880496,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.722734247813416,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880496,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.949860100453271,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_17"
+  },
+  {
+    "id": 135,
+    "kind": "WAIT",
+    "t0": 647.9755451125441,
+    "t1": 650.9755451125441,
+    "duration": 3.0,
+    "p0": [
+      13.296862696659687,
+      7.3500000000000005
+    ],
+    "p1": [
+      13.296862696659687,
+      7.3500000000000005
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": -0.7227342478134164,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 136,
+    "kind": "STEER",
+    "t0": 650.9755451125441,
+    "t1": 655.6295543690462,
+    "duration": 4.654009256502186,
+    "p0": [
+      13.296862696659687,
+      7.3500000000000005
+    ],
+    "p1": [
+      13.296862696659687,
+      7.3500000000000005
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": -0.7227342478134164,
+    "steer0": -0.8253768505207384,
+    "steer1": 0.8253768505207385,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 137,
+    "kind": "WAIT",
+    "t0": 655.6295543690462,
+    "t1": 657.6295543690462,
+    "duration": 2.0,
+    "p0": [
+      13.296862696659687,
+      7.3500000000000005
+    ],
+    "p1": [
+      13.296862696659687,
+      7.3500000000000005
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": -0.7227342478134164,
+    "steer0": 0.8253768505207385,
+    "steer1": 0.8253768505207385,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 138,
+    "kind": "WORK",
+    "t0": 657.6295543690462,
+    "t1": 668.1394442939841,
+    "duration": 10.509889924937841,
+    "p0": [
+      13.296862696659687,
+      7.3500000000000005
+    ],
+    "p1": [
+      13.296862696659687,
+      8.25
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207385,
+    "steer1": 0.8253768505207385,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.13015194390314458,
+      "ramp": 2.8265625000000156,
+      "cruise": 4.85676492493781
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        13.693725393319376,
+        7.800000000000001
+      ],
+      "radius": 0.6,
+      "angle0": -2.2935305746083126,
+      "sweep": 4.587061149216625
+    },
+    "curve_bounds": {
+      "speed_u": 2.752236689529975,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 4.587061149216625,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 2.752236689529975,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 15.927295657002173,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_17"
+  },
+  {
+    "id": 139,
+    "kind": "WAIT",
+    "t0": 668.1394442939841,
+    "t1": 671.1394442939841,
+    "duration": 3.0,
+    "p0": [
+      13.296862696659687,
+      8.25
+    ],
+    "p1": [
+      13.296862696659687,
+      8.25
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207385,
+    "steer1": 0.8253768505207385,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 140,
+    "kind": "STEER",
+    "t0": 671.1394442939841,
+    "t1": 675.7934535504862,
+    "duration": 4.654009256502186,
+    "p0": [
+      13.296862696659687,
+      8.25
+    ],
+    "p1": [
+      13.296862696659687,
+      8.25
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207385,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 141,
+    "kind": "WAIT",
+    "t0": 675.7934535504862,
+    "t1": 677.7934535504862,
+    "duration": 2.0,
+    "p0": [
+      13.296862696659687,
+      8.25
+    ],
+    "p1": [
+      13.296862696659687,
+      8.25
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 142,
+    "kind": "WORK",
+    "t0": 677.7934535504862,
+    "t1": 681.493064151545,
+    "duration": 3.6996106010588465,
+    "p0": [
+      13.296862696659687,
+      8.25
+    ],
+    "p1": [
+      12.899999999999999,
+      8.1
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131429,
+      "ramp": 1.849805300529423,
+      "cruise": 4.107392871442846e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        12.899999999999999,
+        8.7
+      ],
+      "radius": 0.6,
+      "angle0": 5.435123228198106,
+      "sweep": -0.722734247813416
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880496,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.722734247813416,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880496,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.949860100453271,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_17"
+  },
+  {
+    "id": 143,
+    "kind": "WAIT",
+    "t0": 681.493064151545,
+    "t1": 684.493064151545,
+    "duration": 3.0,
+    "p0": [
+      12.899999999999999,
+      8.1
+    ],
+    "p1": [
+      12.899999999999999,
+      8.1
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 144,
+    "kind": "STEER",
+    "t0": 684.493064151545,
+    "t1": 687.4930181996036,
+    "duration": 2.9999540480586173,
+    "p0": [
+      12.899999999999999,
+      8.1
+    ],
+    "p1": [
+      12.899999999999999,
+      8.1
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207383,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.30815636882850206
+    },
+    "baseline_seconds": 3.7995845611314696,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 145,
+    "kind": "WAIT",
+    "t0": 687.4930181996036,
+    "t1": 689.4930181996036,
+    "duration": 2.0,
+    "p0": [
+      12.899999999999999,
+      8.1
+    ],
+    "p1": [
+      12.899999999999999,
+      8.1
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 146,
+    "kind": "WORK",
+    "t0": 689.4930181996036,
+    "t1": 712.686982485665,
+    "duration": 23.19396428606133,
+    "p0": [
+      12.899999999999999,
+      8.1
+    ],
+    "p1": [
+      2.6999999999999993,
+      8.1
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.04877572919625187,
+      "ramp": 2.691964285683193,
+      "cruise": 17.810035714694944
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        12.899999999999999,
+        8.1
+      ],
+      "p1": [
+        2.7,
+        8.1
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 10.2,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 10.2,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 42.5,
+    "reason": "retained_certified_straight",
+    "cluster": 0,
+    "turn_id": null
+  },
+  {
+    "id": 147,
+    "kind": "WAIT",
+    "t0": 712.686982485665,
+    "t1": 715.686982485665,
+    "duration": 3.0,
+    "p0": [
+      2.6999999999999993,
+      8.1
+    ],
+    "p1": [
+      2.6999999999999993,
+      8.1
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 148,
+    "kind": "STEER",
+    "t0": 715.686982485665,
+    "t1": 718.6869365337236,
+    "duration": 2.9999540480586173,
+    "p0": [
+      2.6999999999999993,
+      8.1
+    ],
+    "p1": [
+      2.6999999999999993,
+      8.1
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": 0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207383,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.30815636882850206
+    },
+    "baseline_seconds": 3.7995845611314696,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 149,
+    "kind": "WAIT",
+    "t0": 718.6869365337236,
+    "t1": 720.6869365337236,
+    "duration": 2.0,
+    "p0": [
+      2.6999999999999993,
+      8.1
+    ],
+    "p1": [
+      2.6999999999999993,
+      8.1
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": 0.8253768505207383,
+    "steer1": 0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 150,
+    "kind": "WORK",
+    "t0": 720.6869365337236,
+    "t1": 724.3865471347824,
+    "duration": 3.6996106010588465,
+    "p0": [
+      2.6999999999999993,
+      8.1
+    ],
+    "p1": [
+      2.3031373033403115,
+      7.95
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207383,
+    "steer1": 0.8253768505207384,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131429,
+      "ramp": 1.849805300529423,
+      "cruise": 4.107392871442846e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        2.7,
+        7.5
+      ],
+      "radius": 0.6,
+      "angle0": 1.5707963267948966,
+      "sweep": 0.722734247813416
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880496,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.722734247813416,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880496,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.949860100453271,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_19"
+  },
+  {
+    "id": 151,
+    "kind": "WAIT",
+    "t0": 724.3865471347824,
+    "t1": 727.3865471347824,
+    "duration": 3.0,
+    "p0": [
+      2.3031373033403115,
+      7.95
+    ],
+    "p1": [
+      2.3031373033403115,
+      7.95
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 152,
+    "kind": "STEER",
+    "t0": 727.3865471347824,
+    "t1": 732.0405563912846,
+    "duration": 4.654009256502186,
+    "p0": [
+      2.3031373033403115,
+      7.95
+    ],
+    "p1": [
+      2.3031373033403115,
+      7.95
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": 0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 153,
+    "kind": "WAIT",
+    "t0": 732.0405563912846,
+    "t1": 734.0405563912846,
+    "duration": 2.0,
+    "p0": [
+      2.3031373033403115,
+      7.95
+    ],
+    "p1": [
+      2.3031373033403115,
+      7.95
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": 3.8643269014032087,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 154,
+    "kind": "WORK",
+    "t0": 734.0405563912846,
+    "t1": 744.5504463162224,
+    "duration": 10.509889924937841,
+    "p0": [
+      2.3031373033403115,
+      7.95
+    ],
+    "p1": [
+      2.3031373033403115,
+      8.85
+    ],
+    "yaw0": 3.8643269014032087,
+    "yaw1": -0.7227342478134164,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207385,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.13015194390314458,
+      "ramp": 2.8265625000000156,
+      "cruise": 4.85676492493781
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        1.9062746066806229,
+        8.4
+      ],
+      "radius": 0.6,
+      "angle0": 5.435123228198106,
+      "sweep": -4.587061149216625
+    },
+    "curve_bounds": {
+      "speed_u": 2.752236689529975,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 4.587061149216625,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 2.752236689529975,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 15.927295657002173,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_19"
+  },
+  {
+    "id": 155,
+    "kind": "WAIT",
+    "t0": 744.5504463162224,
+    "t1": 747.5504463162224,
+    "duration": 3.0,
+    "p0": [
+      2.3031373033403115,
+      8.85
+    ],
+    "p1": [
+      2.3031373033403115,
+      8.85
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": -0.7227342478134164,
+    "steer0": -0.8253768505207385,
+    "steer1": -0.8253768505207385,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 156,
+    "kind": "STEER",
+    "t0": 747.5504463162224,
+    "t1": 752.2044555727246,
+    "duration": 4.654009256502186,
+    "p0": [
+      2.3031373033403115,
+      8.85
+    ],
+    "p1": [
+      2.3031373033403115,
+      8.85
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": -0.7227342478134164,
+    "steer0": -0.8253768505207385,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 157,
+    "kind": "WAIT",
+    "t0": 752.2044555727246,
+    "t1": 754.2044555727246,
+    "duration": 2.0,
+    "p0": [
+      2.3031373033403115,
+      8.85
+    ],
+    "p1": [
+      2.3031373033403115,
+      8.85
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": -0.7227342478134164,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 158,
+    "kind": "WORK",
+    "t0": 754.2044555727246,
+    "t1": 757.9040661737833,
+    "duration": 3.6996106010588465,
+    "p0": [
+      2.3031373033403115,
+      8.85
+    ],
+    "p1": [
+      2.7,
+      8.7
+    ],
+    "yaw0": -0.7227342478134164,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207383,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131429,
+      "ramp": 1.849805300529423,
+      "cruise": 4.107392871442846e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        2.7,
+        9.299999999999999
+      ],
+      "radius": 0.6,
+      "angle0": -2.2935305746083126,
+      "sweep": 0.722734247813416
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880496,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.722734247813416,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880496,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.949860100453271,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_19"
+  },
+  {
+    "id": 159,
+    "kind": "WAIT",
+    "t0": 757.9040661737833,
+    "t1": 760.9040661737833,
+    "duration": 3.0,
+    "p0": [
+      2.7,
+      8.7
+    ],
+    "p1": [
+      2.7,
+      8.7
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.8253768505207383,
+    "steer1": 0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 160,
+    "kind": "STEER",
+    "t0": 760.9040661737833,
+    "t1": 763.904020221842,
+    "duration": 2.9999540480586173,
+    "p0": [
+      2.7,
+      8.7
+    ],
+    "p1": [
+      2.7,
+      8.7
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.8253768505207383,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207383,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.30815636882850206
+    },
+    "baseline_seconds": 3.7995845611314696,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 161,
+    "kind": "WAIT",
+    "t0": 763.904020221842,
+    "t1": 765.904020221842,
+    "duration": 2.0,
+    "p0": [
+      2.7,
+      8.7
+    ],
+    "p1": [
+      2.7,
+      8.7
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 162,
+    "kind": "WORK",
+    "t0": 765.904020221842,
+    "t1": 789.0979845079033,
+    "duration": 23.19396428606133,
+    "p0": [
+      2.7,
+      8.7
+    ],
+    "p1": [
+      12.899999999999999,
+      8.7
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.04877572919625187,
+      "ramp": 2.691964285683193,
+      "cruise": 17.810035714694944
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        2.7,
+        8.7
+      ],
+      "p1": [
+        12.899999999999999,
+        8.7
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 10.2,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 10.2,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 42.5,
+    "reason": "retained_certified_straight",
+    "cluster": 0,
+    "turn_id": null
+  },
+  {
+    "id": 163,
+    "kind": "WAIT",
+    "t0": 789.0979845079033,
+    "t1": 792.0979845079033,
+    "duration": 3.0,
+    "p0": [
+      12.899999999999999,
+      8.7
+    ],
+    "p1": [
+      12.899999999999999,
+      8.7
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 164,
+    "kind": "STEER",
+    "t0": 792.0979845079033,
+    "t1": 795.097938555962,
+    "duration": 2.9999540480586173,
+    "p0": [
+      12.899999999999999,
+      8.7
+    ],
+    "p1": [
+      12.899999999999999,
+      8.7
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": 0.0,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207384,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.3081563688285023
+    },
+    "baseline_seconds": 3.79958456113147,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 165,
+    "kind": "WAIT",
+    "t0": 795.097938555962,
+    "t1": 797.097938555962,
+    "duration": 2.0,
+    "p0": [
+      12.899999999999999,
+      8.7
+    ],
+    "p1": [
+      12.899999999999999,
+      8.7
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -4.440892098500626e-16,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 166,
+    "kind": "WORK",
+    "t0": 797.097938555962,
+    "t1": 800.7975491570207,
+    "duration": 3.6996106010588443,
+    "p0": [
+      12.899999999999999,
+      8.7
+    ],
+    "p1": [
+      13.296862696659687,
+      8.55
+    ],
+    "yaw0": -4.440892098500626e-16,
+    "yaw1": -0.7227342478134156,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131432,
+      "ramp": 1.849805300529422,
+      "cruise": 4.1073928714428435e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        12.899999999999999,
+        8.1
+      ],
+      "radius": 0.6,
+      "angle0": 1.5707963267948966,
+      "sweep": -0.7227342478134151
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880491,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.7227342478134151,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880491,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.94986010045327,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_21"
+  },
+  {
+    "id": 167,
+    "kind": "WAIT",
+    "t0": 800.7975491570207,
+    "t1": 803.7975491570207,
+    "duration": 3.0,
+    "p0": [
+      13.296862696659687,
+      8.55
+    ],
+    "p1": [
+      13.296862696659687,
+      8.55
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": -0.7227342478134156,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 168,
+    "kind": "STEER",
+    "t0": 803.7975491570207,
+    "t1": 808.4515584135229,
+    "duration": 4.654009256502186,
+    "p0": [
+      13.296862696659687,
+      8.55
+    ],
+    "p1": [
+      13.296862696659687,
+      8.55
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": -0.7227342478134156,
+    "steer0": -0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414768,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272053
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 169,
+    "kind": "WAIT",
+    "t0": 808.4515584135229,
+    "t1": 810.4515584135229,
+    "duration": 2.0,
+    "p0": [
+      13.296862696659687,
+      8.55
+    ],
+    "p1": [
+      13.296862696659687,
+      8.55
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": -0.7227342478134156,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 170,
+    "kind": "WORK",
+    "t0": 810.4515584135229,
+    "t1": 820.9614483384607,
+    "duration": 10.509889924937848,
+    "p0": [
+      13.296862696659687,
+      8.55
+    ],
+    "p1": [
+      13.296862696659687,
+      9.450000000000001
+    ],
+    "yaw0": -0.7227342478134156,
+    "yaw1": 3.864326901403207,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.8253768505207383,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.1301519439031439,
+      "ramp": 2.8265624999999837,
+      "cruise": 4.856764924937881
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        13.693725393319376,
+        9.0
+      ],
+      "radius": 0.6,
+      "angle0": -2.2935305746083117,
+      "sweep": 4.5870611492166224
+    },
+    "curve_bounds": {
+      "speed_u": 2.7522366895299735,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 4.5870611492166224,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 2.7522366895299735,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 15.927295657002162,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_21"
+  },
+  {
+    "id": 171,
+    "kind": "WAIT",
+    "t0": 820.9614483384607,
+    "t1": 823.9614483384607,
+    "duration": 3.0,
+    "p0": [
+      13.296862696659687,
+      9.450000000000001
+    ],
+    "p1": [
+      13.296862696659687,
+      9.450000000000001
+    ],
+    "yaw0": 3.864326901403207,
+    "yaw1": 3.864326901403207,
+    "steer0": 0.8253768505207383,
+    "steer1": 0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 172,
+    "kind": "STEER",
+    "t0": 823.9614483384607,
+    "t1": 828.6154575949629,
+    "duration": 4.654009256502185,
+    "p0": [
+      13.296862696659687,
+      9.450000000000001
+    ],
+    "p1": [
+      13.296862696659687,
+      9.450000000000001
+    ],
+    "yaw0": 3.864326901403207,
+    "yaw1": 3.864326901403207,
+    "steer0": 0.8253768505207383,
+    "steer1": -0.8253768505207382,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414763,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.962211577272052
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 173,
+    "kind": "WAIT",
+    "t0": 828.6154575949629,
+    "t1": 830.6154575949629,
+    "duration": 2.0,
+    "p0": [
+      13.296862696659687,
+      9.450000000000001
+    ],
+    "p1": [
+      13.296862696659687,
+      9.450000000000001
+    ],
+    "yaw0": 3.864326901403207,
+    "yaw1": 3.864326901403207,
+    "steer0": -0.8253768505207382,
+    "steer1": -0.8253768505207382,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 174,
+    "kind": "WORK",
+    "t0": 830.6154575949629,
+    "t1": 834.3150681960217,
+    "duration": 3.699610601058842,
+    "p0": [
+      13.296862696659687,
+      9.450000000000001
+    ],
+    "p1": [
+      12.899999999999999,
+      9.300000000000002
+    ],
+    "yaw0": 3.864326901403207,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.8253768505207382,
+    "steer1": -0.8253768505207383,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.5405974346131436,
+      "ramp": 1.849805300529421,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        12.899999999999999,
+        9.900000000000002
+      ],
+      "radius": 0.6,
+      "angle0": 5.435123228198104,
+      "sweep": -0.7227342478134142
+    },
+    "curve_bounds": {
+      "speed_u": 0.4336405486880485,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.7227342478134142,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4336405486880485,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.949860100453267,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0,
+    "turn_id": "bridge_21"
+  },
+  {
+    "id": 175,
+    "kind": "WAIT",
+    "t0": 834.3150681960217,
+    "t1": 837.3150681960217,
+    "duration": 3.0,
+    "p0": [
+      12.899999999999999,
+      9.300000000000002
+    ],
+    "p1": [
+      12.899999999999999,
+      9.300000000000002
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.8253768505207383,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 176,
+    "kind": "STEER",
+    "t0": 837.3150681960217,
+    "t1": 840.3150222440803,
+    "duration": 2.9999540480586173,
+    "p0": [
+      12.899999999999999,
+      9.300000000000002
+    ],
+    "p1": [
+      12.899999999999999,
+      9.300000000000002
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.8253768505207383,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207383,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.30815636882850206
+    },
+    "baseline_seconds": 3.7995845611314696,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 177,
+    "kind": "WAIT",
+    "t0": 840.3150222440803,
+    "t1": 842.3150222440803,
+    "duration": 2.0,
+    "p0": [
+      12.899999999999999,
+      9.300000000000002
+    ],
+    "p1": [
+      12.899999999999999,
+      9.300000000000002
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 178,
+    "kind": "WORK",
+    "t0": 842.3150222440803,
+    "t1": 864.3029865295994,
+    "duration": 21.98796428551904,
+    "p0": [
+      12.899999999999999,
+      9.300000000000002
+    ],
+    "p1": [
+      3.3000000000000007,
+      9.3
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.051824212272547875,
+      "ramp": 2.6919642857329147,
+      "cruise": 16.60403571405321
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        12.899999999999999,
+        9.3
+      ],
+      "p1": [
+        3.3,
+        9.3
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 9.599999999999998,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 9.599999999999998,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 39.99999999999999,
+    "reason": "retained_certified_straight",
+    "cluster": 0,
+    "turn_id": null
+  },
+  {
+    "id": 179,
+    "kind": "WAIT",
+    "t0": 864.3029865295994,
+    "t1": 867.3029865295994,
+    "duration": 3.0,
+    "p0": [
+      3.3000000000000007,
+      9.3
+    ],
+    "p1": [
+      3.3000000000000007,
+      9.3
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 180,
+    "kind": "STEER",
+    "t0": 867.3029865295994,
+    "t1": 870.302940577658,
+    "duration": 2.999954048058617,
+    "p0": [
+      3.3000000000000007,
+      9.3
+    ],
+    "p1": [
+      3.3000000000000007,
+      9.3
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.1415926535897927,
+    "steer0": -0.0,
+    "steer1": 0.8253768505207382,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207382,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.30815636882850184
+    },
+    "baseline_seconds": 3.7995845611314696,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 181,
+    "kind": "TRANSIT",
+    "t0": 870.302940577658,
+    "t1": 873.3539418198727,
+    "duration": 3.0510012422147303,
+    "p0": [
+      3.3000000000000007,
+      9.3
+    ],
+    "p1": [
+      3.0531373033403124,
+      9.24686269665969
+    ],
+    "yaw0": 3.1415926535897927,
+    "yaw1": 3.565623693080533,
+    "steer0": 0.8253768505207382,
+    "steer1": 0.8253768505207382,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.6555225125205765,
+      "ramp": 1.525500621107365,
+      "cruise": 3.387291827266748e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        3.3000000000000007,
+        8.700000000000001
+      ],
+      "radius": 0.6,
+      "angle0": 1.5707963267948966,
+      "sweep": 0.4240310394907403
+    },
+    "curve_bounds": {
+      "speed_u": 0.2544186236944442,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.4240310394907403,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.2544186236944442,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.143804544700459,
+    "reason": "certified_dubins_heading_loop",
+    "cluster": 0,
+    "turn_id": "heading_23"
+  },
+  {
+    "id": 182,
+    "kind": "STEER",
+    "t0": 873.3539418198727,
+    "t1": 878.0079510763749,
+    "duration": 4.654009256502186,
+    "p0": [
+      3.0531373033403124,
+      9.24686269665969
+    ],
+    "p1": [
+      3.0531373033403124,
+      9.24686269665969
+    ],
+    "yaw0": 3.565623693080533,
+    "yaw1": 3.565623693080533,
+    "steer0": 0.8253768505207382,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.6507537010414766,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.9622115772720525
+    },
+    "baseline_seconds": 6.34683212938212,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 183,
+    "kind": "TRANSIT",
+    "t0": 878.0079510763749,
+    "t1": 890.1482691008129,
+    "duration": 12.140318024437969,
+    "p0": [
+      3.0531373033403124,
+      9.24686269665969
+    ],
+    "p1": [
+      3.3531373033403127,
+      9.54686269665969
+    ],
+    "yaw0": 3.565623693080533,
+    "yaw1": -1.9948273662856373,
+    "steer0": -0.8253768505207384,
+    "steer1": -0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10736807481967411,
+      "ramp": 2.826562500000083,
+      "cruise": 6.487193024437802
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        2.806274606680624,
+        9.793725393319379
+      ],
+      "radius": 0.6,
+      "angle0": 5.13642001987543,
+      "sweep": -5.56045105936617
+    },
+    "curve_bounds": {
+      "speed_u": 3.336270635619702,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 5.56045105936617,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 3.336270635619702,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 19.307121733910314,
+    "reason": "certified_dubins_heading_loop",
+    "cluster": 0,
+    "turn_id": "heading_23"
+  },
+  {
+    "id": 184,
+    "kind": "STEER",
+    "t0": 890.1482691008129,
+    "t1": 894.802278357315,
+    "duration": 4.654009256502187,
+    "p0": [
+      3.3531373033403127,
+      9.54686269665969
+    ],
+    "p1": [
+      3.3531373033403127,
+      9.54686269665969
+    ],
+    "yaw0": -1.9948273662856373,
+    "yaw1": -1.9948273662856373,
+    "steer0": -0.8253768505207384,
+    "steer1": 0.8253768505207386,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 1.650753701041477,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150666,
+      "cruise": 1.9622115772720534
+    },
+    "baseline_seconds": 6.346832129382122,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 185,
+    "kind": "TRANSIT",
+    "t0": 894.802278357315,
+    "t1": 897.8532795995296,
+    "duration": 3.0510012422145687,
+    "p0": [
+      3.3531373033403127,
+      9.54686269665969
+    ],
+    "p1": [
+      3.300000000000001,
+      9.300000000000002
+    ],
+    "yaw0": -1.9948273662856373,
+    "yaw1": -1.5707963267948966,
+    "steer0": 0.8253768505207386,
+    "steer1": 0.8253768505207384,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.6555225125206112,
+      "ramp": 1.5255006211072841,
+      "cruise": 3.3872918272665683e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        3.9000000000000012,
+        9.300000000000002
+      ],
+      "radius": 0.6,
+      "angle0": -3.565623693080533,
+      "sweep": 0.4240310394907407
+    },
+    "curve_bounds": {
+      "speed_u": 0.2544186236944444,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.4240310394907407,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 1.6666666666666667,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.2544186236944444,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.143804544700461,
+    "reason": "certified_dubins_heading_loop",
+    "cluster": 0,
+    "turn_id": "heading_23"
+  },
+  {
+    "id": 186,
+    "kind": "STEER",
+    "t0": 897.8532795995296,
+    "t1": 900.8532336475882,
+    "duration": 2.9999540480586173,
+    "p0": [
+      3.300000000000001,
+      9.300000000000002
+    ],
+    "p1": [
+      3.300000000000001,
+      9.300000000000002
+    ],
+    "yaw0": -1.5707963267948966,
+    "yaw1": -1.5707963267948966,
+    "steer0": 0.8253768505207384,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "steer_profile": {
+      "distance": 0.8253768505207384,
+      "peak": 0.499001996007984,
+      "ramp": 1.3458988396150575,
+      "cruise": 0.3081563688285023
+    },
+    "baseline_seconds": 3.79958456113147,
+    "reason": "standstill_steering_at_curvature_jump",
+    "cluster": 0
+  },
+  {
+    "id": 187,
+    "kind": "TRANSIT",
+    "t0": 900.8532336475882,
+    "t1": 913.4516265047283,
+    "duration": 12.598392857140071,
+    "p0": [
+      3.300000000000001,
+      9.300000000000002
+    ],
+    "p1": [
+      3.3,
+      2.7
+    ],
+    "yaw0": -1.5707963267948966,
+    "yaw1": -1.5707963267948966,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.12060907583301243,
+      "ramp": 4.307142857143922,
+      "cruise": 3.9841071428522277
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        3.3,
+        9.3
+      ],
+      "p1": [
+        3.3,
+        2.7
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 6.6000000000000005,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 6.6000000000000005,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 17.187500000000004,
+    "reason": "retained_certified_straight",
+    "cluster": 0,
+    "turn_id": null
+  }
+]

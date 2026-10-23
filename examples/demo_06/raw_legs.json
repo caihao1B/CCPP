@@ -1,0 +1,4716 @@
+[
+  {
+    "p0": [
+      1.25,
+      1.25
+    ],
+    "p1": [
+      1.75,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ]
+  },
+  {
+    "p0": [
+      1.75,
+      1.25
+    ],
+    "p1": [
+      2.25,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      52
+    ]
+  },
+  {
+    "p0": [
+      2.25,
+      1.25
+    ],
+    "p1": [
+      2.75,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      53
+    ]
+  },
+  {
+    "p0": [
+      2.75,
+      1.25
+    ],
+    "p1": [
+      3.25,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      54
+    ]
+  },
+  {
+    "p0": [
+      3.25,
+      1.25
+    ],
+    "p1": [
+      3.75,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      55
+    ]
+  },
+  {
+    "p0": [
+      3.75,
+      1.25
+    ],
+    "p1": [
+      4.25,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      56
+    ]
+  },
+  {
+    "p0": [
+      4.25,
+      1.25
+    ],
+    "p1": [
+      4.75,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      57
+    ]
+  },
+  {
+    "p0": [
+      4.75,
+      1.25
+    ],
+    "p1": [
+      4.25,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      80
+    ]
+  },
+  {
+    "p0": [
+      4.25,
+      1.75
+    ],
+    "p1": [
+      3.75,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      79,
+      78,
+      77,
+      76,
+      75,
+      74
+    ]
+  },
+  {
+    "p0": [
+      3.75,
+      1.75
+    ],
+    "p1": [
+      3.25,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      78
+    ]
+  },
+  {
+    "p0": [
+      3.25,
+      1.75
+    ],
+    "p1": [
+      2.75,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      77
+    ]
+  },
+  {
+    "p0": [
+      2.75,
+      1.75
+    ],
+    "p1": [
+      2.25,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      76
+    ]
+  },
+  {
+    "p0": [
+      2.25,
+      1.75
+    ],
+    "p1": [
+      1.75,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      75
+    ]
+  },
+  {
+    "p0": [
+      1.75,
+      1.75
+    ],
+    "p1": [
+      1.25,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      74
+    ]
+  },
+  {
+    "p0": [
+      1.25,
+      1.75
+    ],
+    "p1": [
+      1.25,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      98
+    ]
+  },
+  {
+    "p0": [
+      1.25,
+      2.25
+    ],
+    "p1": [
+      1.75,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      99,
+      100,
+      101,
+      102
+    ]
+  },
+  {
+    "p0": [
+      1.75,
+      2.25
+    ],
+    "p1": [
+      2.25,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      100
+    ]
+  },
+  {
+    "p0": [
+      2.25,
+      2.25
+    ],
+    "p1": [
+      2.75,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      101
+    ]
+  },
+  {
+    "p0": [
+      2.75,
+      2.25
+    ],
+    "p1": [
+      3.25,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      102
+    ]
+  },
+  {
+    "p0": [
+      3.25,
+      2.25
+    ],
+    "p1": [
+      3.25,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      126
+    ]
+  },
+  {
+    "p0": [
+      3.25,
+      2.75
+    ],
+    "p1": [
+      2.75,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      125,
+      124,
+      123,
+      122
+    ]
+  },
+  {
+    "p0": [
+      2.75,
+      2.75
+    ],
+    "p1": [
+      2.25,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      124
+    ]
+  },
+  {
+    "p0": [
+      2.25,
+      2.75
+    ],
+    "p1": [
+      1.75,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      123
+    ]
+  },
+  {
+    "p0": [
+      1.75,
+      2.75
+    ],
+    "p1": [
+      1.25,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      122
+    ]
+  },
+  {
+    "p0": [
+      1.25,
+      2.75
+    ],
+    "p1": [
+      1.25,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      146
+    ]
+  },
+  {
+    "p0": [
+      1.25,
+      3.25
+    ],
+    "p1": [
+      1.75,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      147,
+      148
+    ]
+  },
+  {
+    "p0": [
+      1.75,
+      3.25
+    ],
+    "p1": [
+      2.25,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      148
+    ]
+  },
+  {
+    "p0": [
+      2.25,
+      3.25
+    ],
+    "p1": [
+      1.75,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      171
+    ]
+  },
+  {
+    "p0": [
+      1.75,
+      3.75
+    ],
+    "p1": [
+      1.25,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      170
+    ]
+  },
+  {
+    "p0": [
+      1.25,
+      3.75
+    ],
+    "p1": [
+      1.25,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      194
+    ]
+  },
+  {
+    "p0": [
+      1.25,
+      4.25
+    ],
+    "p1": [
+      3.75,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 0,
+    "reason": "first_service_arrival",
+    "tasks": [
+      103
+    ]
+  },
+  {
+    "p0": [
+      3.75,
+      2.25
+    ],
+    "p1": [
+      3.75,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      127
+    ]
+  },
+  {
+    "p0": [
+      3.75,
+      2.75
+    ],
+    "p1": [
+      4.25,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      152
+    ]
+  },
+  {
+    "p0": [
+      4.25,
+      3.25
+    ],
+    "p1": [
+      3.75,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      151,
+      150,
+      149
+    ]
+  },
+  {
+    "p0": [
+      3.75,
+      3.25
+    ],
+    "p1": [
+      3.25,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      150
+    ]
+  },
+  {
+    "p0": [
+      3.25,
+      3.25
+    ],
+    "p1": [
+      2.75,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      149
+    ]
+  },
+  {
+    "p0": [
+      2.75,
+      3.25
+    ],
+    "p1": [
+      2.25,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      172
+    ]
+  },
+  {
+    "p0": [
+      2.25,
+      3.75
+    ],
+    "p1": [
+      2.75,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      173,
+      174,
+      175,
+      176,
+      177
+    ]
+  },
+  {
+    "p0": [
+      2.75,
+      3.75
+    ],
+    "p1": [
+      3.25,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      174
+    ]
+  },
+  {
+    "p0": [
+      3.25,
+      3.75
+    ],
+    "p1": [
+      3.75,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      175
+    ]
+  },
+  {
+    "p0": [
+      3.75,
+      3.75
+    ],
+    "p1": [
+      4.25,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      176
+    ]
+  },
+  {
+    "p0": [
+      4.25,
+      3.75
+    ],
+    "p1": [
+      4.75,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      177
+    ]
+  },
+  {
+    "p0": [
+      4.75,
+      3.75
+    ],
+    "p1": [
+      5.75,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      203
+    ]
+  },
+  {
+    "p0": [
+      5.75,
+      4.25
+    ],
+    "p1": [
+      5.25,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      202,
+      201,
+      200,
+      199,
+      198,
+      197,
+      196
+    ]
+  },
+  {
+    "p0": [
+      5.25,
+      4.25
+    ],
+    "p1": [
+      4.75,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      201
+    ]
+  },
+  {
+    "p0": [
+      4.75,
+      4.25
+    ],
+    "p1": [
+      4.25,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      200
+    ]
+  },
+  {
+    "p0": [
+      4.25,
+      4.25
+    ],
+    "p1": [
+      3.75,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      199
+    ]
+  },
+  {
+    "p0": [
+      3.75,
+      4.25
+    ],
+    "p1": [
+      3.25,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      198
+    ]
+  },
+  {
+    "p0": [
+      3.25,
+      4.25
+    ],
+    "p1": [
+      2.75,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      197
+    ]
+  },
+  {
+    "p0": [
+      2.75,
+      4.25
+    ],
+    "p1": [
+      2.25,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      196
+    ]
+  },
+  {
+    "p0": [
+      2.25,
+      4.25
+    ],
+    "p1": [
+      2.25,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      220
+    ]
+  },
+  {
+    "p0": [
+      2.25,
+      4.75
+    ],
+    "p1": [
+      2.75,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      221,
+      222,
+      223,
+      224,
+      225
+    ]
+  },
+  {
+    "p0": [
+      2.75,
+      4.75
+    ],
+    "p1": [
+      3.25,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      222
+    ]
+  },
+  {
+    "p0": [
+      3.25,
+      4.75
+    ],
+    "p1": [
+      3.75,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      223
+    ]
+  },
+  {
+    "p0": [
+      3.75,
+      4.75
+    ],
+    "p1": [
+      4.25,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      224
+    ]
+  },
+  {
+    "p0": [
+      4.25,
+      4.75
+    ],
+    "p1": [
+      4.75,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      225
+    ]
+  },
+  {
+    "p0": [
+      4.75,
+      4.75
+    ],
+    "p1": [
+      4.25,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      248
+    ]
+  },
+  {
+    "p0": [
+      4.25,
+      5.25
+    ],
+    "p1": [
+      3.75,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      247,
+      246,
+      245
+    ]
+  },
+  {
+    "p0": [
+      3.75,
+      5.25
+    ],
+    "p1": [
+      3.25,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      246
+    ]
+  },
+  {
+    "p0": [
+      3.25,
+      5.25
+    ],
+    "p1": [
+      2.75,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      245
+    ]
+  },
+  {
+    "p0": [
+      2.75,
+      5.25
+    ],
+    "p1": [
+      3.25,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      270
+    ]
+  },
+  {
+    "p0": [
+      3.25,
+      5.75
+    ],
+    "p1": [
+      3.75,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      271
+    ]
+  },
+  {
+    "p0": [
+      3.75,
+      5.75
+    ],
+    "p1": [
+      1.75,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 3,
+    "reason": "first_service_arrival",
+    "tasks": [
+      195
+    ]
+  },
+  {
+    "p0": [
+      1.75,
+      4.25
+    ],
+    "p1": [
+      1.25,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      218
+    ]
+  },
+  {
+    "p0": [
+      1.25,
+      4.75
+    ],
+    "p1": [
+      1.75,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      219
+    ]
+  },
+  {
+    "p0": [
+      1.75,
+      4.75
+    ],
+    "p1": [
+      2.25,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      244
+    ]
+  },
+  {
+    "p0": [
+      2.25,
+      5.25
+    ],
+    "p1": [
+      1.75,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      243,
+      242
+    ]
+  },
+  {
+    "p0": [
+      1.75,
+      5.25
+    ],
+    "p1": [
+      1.25,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      242
+    ]
+  },
+  {
+    "p0": [
+      1.25,
+      5.25
+    ],
+    "p1": [
+      1.25,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      266
+    ]
+  },
+  {
+    "p0": [
+      1.25,
+      5.75
+    ],
+    "p1": [
+      1.75,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      267,
+      268,
+      269
+    ]
+  },
+  {
+    "p0": [
+      1.75,
+      5.75
+    ],
+    "p1": [
+      2.25,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      268
+    ]
+  },
+  {
+    "p0": [
+      2.25,
+      5.75
+    ],
+    "p1": [
+      2.75,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      269
+    ]
+  },
+  {
+    "p0": [
+      2.75,
+      5.75
+    ],
+    "p1": [
+      4.25,
+      6.25
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      296
+    ]
+  },
+  {
+    "p0": [
+      4.25,
+      6.25
+    ],
+    "p1": [
+      3.75,
+      6.25
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      295,
+      294,
+      293,
+      292,
+      291,
+      290
+    ]
+  },
+  {
+    "p0": [
+      3.75,
+      6.25
+    ],
+    "p1": [
+      3.25,
+      6.25
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      294
+    ]
+  },
+  {
+    "p0": [
+      3.25,
+      6.25
+    ],
+    "p1": [
+      2.75,
+      6.25
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      293
+    ]
+  },
+  {
+    "p0": [
+      2.75,
+      6.25
+    ],
+    "p1": [
+      2.25,
+      6.25
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      292
+    ]
+  },
+  {
+    "p0": [
+      2.25,
+      6.25
+    ],
+    "p1": [
+      1.75,
+      6.25
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      291
+    ]
+  },
+  {
+    "p0": [
+      1.75,
+      6.25
+    ],
+    "p1": [
+      1.25,
+      6.25
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      290
+    ]
+  },
+  {
+    "p0": [
+      1.25,
+      6.25
+    ],
+    "p1": [
+      1.25,
+      6.75
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      314
+    ]
+  },
+  {
+    "p0": [
+      1.25,
+      6.75
+    ],
+    "p1": [
+      1.75,
+      6.75
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      315,
+      316,
+      317,
+      318,
+      319
+    ]
+  },
+  {
+    "p0": [
+      1.75,
+      6.75
+    ],
+    "p1": [
+      2.25,
+      6.75
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      316
+    ]
+  },
+  {
+    "p0": [
+      2.25,
+      6.75
+    ],
+    "p1": [
+      2.75,
+      6.75
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      317
+    ]
+  },
+  {
+    "p0": [
+      2.75,
+      6.75
+    ],
+    "p1": [
+      3.25,
+      6.75
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      318
+    ]
+  },
+  {
+    "p0": [
+      3.25,
+      6.75
+    ],
+    "p1": [
+      3.75,
+      6.75
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      319
+    ]
+  },
+  {
+    "p0": [
+      3.75,
+      6.75
+    ],
+    "p1": [
+      2.75,
+      7.25
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      341
+    ]
+  },
+  {
+    "p0": [
+      2.75,
+      7.25
+    ],
+    "p1": [
+      2.25,
+      7.25
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      340,
+      339,
+      338
+    ]
+  },
+  {
+    "p0": [
+      2.25,
+      7.25
+    ],
+    "p1": [
+      1.75,
+      7.25
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      339
+    ]
+  },
+  {
+    "p0": [
+      1.75,
+      7.25
+    ],
+    "p1": [
+      1.25,
+      7.25
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      338
+    ]
+  },
+  {
+    "p0": [
+      1.25,
+      7.25
+    ],
+    "p1": [
+      1.25,
+      7.75
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      362
+    ]
+  },
+  {
+    "p0": [
+      1.25,
+      7.75
+    ],
+    "p1": [
+      1.75,
+      7.75
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      363,
+      364
+    ]
+  },
+  {
+    "p0": [
+      1.75,
+      7.75
+    ],
+    "p1": [
+      2.25,
+      7.75
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      364
+    ]
+  },
+  {
+    "p0": [
+      2.25,
+      7.75
+    ],
+    "p1": [
+      1.75,
+      8.25
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      387
+    ]
+  },
+  {
+    "p0": [
+      1.75,
+      8.25
+    ],
+    "p1": [
+      1.25,
+      8.25
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      386
+    ]
+  },
+  {
+    "p0": [
+      1.25,
+      8.25
+    ],
+    "p1": [
+      1.25,
+      8.75
+    ],
+    "kind": "WORK",
+    "cluster": 6,
+    "reason": "first_service_arrival",
+    "tasks": [
+      410
+    ]
+  },
+  {
+    "p0": [
+      1.25,
+      8.75
+    ],
+    "p1": [
+      1.75,
+      8.75
+    ],
+    "kind": "WORK",
+    "cluster": 9,
+    "reason": "first_service_arrival",
+    "tasks": [
+      411
+    ]
+  },
+  {
+    "p0": [
+      1.75,
+      8.75
+    ],
+    "p1": [
+      2.25,
+      8.75
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418
+    ]
+  },
+  {
+    "p0": [
+      2.25,
+      8.75
+    ],
+    "p1": [
+      2.75,
+      8.75
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      413
+    ]
+  },
+  {
+    "p0": [
+      2.75,
+      8.75
+    ],
+    "p1": [
+      3.25,
+      8.75
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      414
+    ]
+  },
+  {
+    "p0": [
+      3.25,
+      8.75
+    ],
+    "p1": [
+      3.75,
+      8.75
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      415
+    ]
+  },
+  {
+    "p0": [
+      3.75,
+      8.75
+    ],
+    "p1": [
+      4.25,
+      8.75
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      416
+    ]
+  },
+  {
+    "p0": [
+      4.25,
+      8.75
+    ],
+    "p1": [
+      4.75,
+      8.75
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      417
+    ]
+  },
+  {
+    "p0": [
+      4.75,
+      8.75
+    ],
+    "p1": [
+      5.25,
+      8.75
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      418
+    ]
+  },
+  {
+    "p0": [
+      5.25,
+      8.75
+    ],
+    "p1": [
+      4.25,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      272
+    ]
+  },
+  {
+    "p0": [
+      4.25,
+      5.75
+    ],
+    "p1": [
+      4.75,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      273
+    ]
+  },
+  {
+    "p0": [
+      4.75,
+      5.75
+    ],
+    "p1": [
+      4.75,
+      6.25
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      297
+    ]
+  },
+  {
+    "p0": [
+      4.75,
+      6.25
+    ],
+    "p1": [
+      4.25,
+      6.75
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      320
+    ]
+  },
+  {
+    "p0": [
+      4.25,
+      6.75
+    ],
+    "p1": [
+      4.75,
+      6.75
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      321,
+      322
+    ]
+  },
+  {
+    "p0": [
+      4.75,
+      6.75
+    ],
+    "p1": [
+      5.25,
+      6.75
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      322
+    ]
+  },
+  {
+    "p0": [
+      5.25,
+      6.75
+    ],
+    "p1": [
+      5.25,
+      7.25
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      346
+    ]
+  },
+  {
+    "p0": [
+      5.25,
+      7.25
+    ],
+    "p1": [
+      4.75,
+      7.25
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      345,
+      344,
+      343,
+      342
+    ]
+  },
+  {
+    "p0": [
+      4.75,
+      7.25
+    ],
+    "p1": [
+      4.25,
+      7.25
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      344
+    ]
+  },
+  {
+    "p0": [
+      4.25,
+      7.25
+    ],
+    "p1": [
+      3.75,
+      7.25
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      343
+    ]
+  },
+  {
+    "p0": [
+      3.75,
+      7.25
+    ],
+    "p1": [
+      3.25,
+      7.25
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      342
+    ]
+  },
+  {
+    "p0": [
+      3.25,
+      7.25
+    ],
+    "p1": [
+      2.75,
+      7.75
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      365
+    ]
+  },
+  {
+    "p0": [
+      2.75,
+      7.75
+    ],
+    "p1": [
+      3.25,
+      7.75
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      366,
+      367,
+      368,
+      369,
+      370
+    ]
+  },
+  {
+    "p0": [
+      3.25,
+      7.75
+    ],
+    "p1": [
+      3.75,
+      7.75
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      367
+    ]
+  },
+  {
+    "p0": [
+      3.75,
+      7.75
+    ],
+    "p1": [
+      4.25,
+      7.75
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      368
+    ]
+  },
+  {
+    "p0": [
+      4.25,
+      7.75
+    ],
+    "p1": [
+      4.75,
+      7.75
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      369
+    ]
+  },
+  {
+    "p0": [
+      4.75,
+      7.75
+    ],
+    "p1": [
+      5.25,
+      7.75
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      370
+    ]
+  },
+  {
+    "p0": [
+      5.25,
+      7.75
+    ],
+    "p1": [
+      5.25,
+      8.25
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      394
+    ]
+  },
+  {
+    "p0": [
+      5.25,
+      8.25
+    ],
+    "p1": [
+      4.75,
+      8.25
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      393,
+      392,
+      391,
+      390,
+      389,
+      388
+    ]
+  },
+  {
+    "p0": [
+      4.75,
+      8.25
+    ],
+    "p1": [
+      4.25,
+      8.25
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      392
+    ]
+  },
+  {
+    "p0": [
+      4.25,
+      8.25
+    ],
+    "p1": [
+      3.75,
+      8.25
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      391
+    ]
+  },
+  {
+    "p0": [
+      3.75,
+      8.25
+    ],
+    "p1": [
+      3.25,
+      8.25
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      390
+    ]
+  },
+  {
+    "p0": [
+      3.25,
+      8.25
+    ],
+    "p1": [
+      2.75,
+      8.25
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      389
+    ]
+  },
+  {
+    "p0": [
+      2.75,
+      8.25
+    ],
+    "p1": [
+      2.25,
+      8.25
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      388
+    ]
+  },
+  {
+    "p0": [
+      2.25,
+      8.25
+    ],
+    "p1": [
+      5.25,
+      6.25
+    ],
+    "kind": "WORK",
+    "cluster": 7,
+    "reason": "first_service_arrival",
+    "tasks": [
+      298
+    ]
+  },
+  {
+    "p0": [
+      5.25,
+      6.25
+    ],
+    "p1": [
+      7.5,
+      5.7
+    ],
+    "kind": "TRANSIT",
+    "cluster": 8,
+    "reason": "cluster_transition",
+    "tasks": []
+  },
+  {
+    "p0": [
+      7.5,
+      5.7
+    ],
+    "p1": [
+      8.75,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      281
+    ]
+  },
+  {
+    "p0": [
+      8.75,
+      5.75
+    ],
+    "p1": [
+      9.75,
+      6.25
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      307
+    ]
+  },
+  {
+    "p0": [
+      9.75,
+      6.25
+    ],
+    "p1": [
+      9.25,
+      6.25
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      306,
+      305
+    ]
+  },
+  {
+    "p0": [
+      9.25,
+      6.25
+    ],
+    "p1": [
+      8.75,
+      6.25
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      305
+    ]
+  },
+  {
+    "p0": [
+      8.75,
+      6.25
+    ],
+    "p1": [
+      8.75,
+      6.75
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      329
+    ]
+  },
+  {
+    "p0": [
+      8.75,
+      6.75
+    ],
+    "p1": [
+      9.25,
+      6.75
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      330,
+      331,
+      332
+    ]
+  },
+  {
+    "p0": [
+      9.25,
+      6.75
+    ],
+    "p1": [
+      9.75,
+      6.75
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      331
+    ]
+  },
+  {
+    "p0": [
+      9.75,
+      6.75
+    ],
+    "p1": [
+      10.25,
+      6.75
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      332
+    ]
+  },
+  {
+    "p0": [
+      10.25,
+      6.75
+    ],
+    "p1": [
+      10.75,
+      7.25
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      357
+    ]
+  },
+  {
+    "p0": [
+      10.75,
+      7.25
+    ],
+    "p1": [
+      10.25,
+      7.25
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      356,
+      355,
+      354
+    ]
+  },
+  {
+    "p0": [
+      10.25,
+      7.25
+    ],
+    "p1": [
+      9.75,
+      7.25
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      355
+    ]
+  },
+  {
+    "p0": [
+      9.75,
+      7.25
+    ],
+    "p1": [
+      9.25,
+      7.25
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      354
+    ]
+  },
+  {
+    "p0": [
+      9.25,
+      7.25
+    ],
+    "p1": [
+      9.25,
+      7.75
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      378
+    ]
+  },
+  {
+    "p0": [
+      9.25,
+      7.75
+    ],
+    "p1": [
+      9.75,
+      7.75
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      379,
+      380,
+      381
+    ]
+  },
+  {
+    "p0": [
+      9.75,
+      7.75
+    ],
+    "p1": [
+      10.25,
+      7.75
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      380
+    ]
+  },
+  {
+    "p0": [
+      10.25,
+      7.75
+    ],
+    "p1": [
+      10.75,
+      7.75
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      381
+    ]
+  },
+  {
+    "p0": [
+      10.75,
+      7.75
+    ],
+    "p1": [
+      10.75,
+      8.25
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      405
+    ]
+  },
+  {
+    "p0": [
+      10.75,
+      8.25
+    ],
+    "p1": [
+      10.25,
+      8.25
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      404,
+      403,
+      402,
+      401
+    ]
+  },
+  {
+    "p0": [
+      10.25,
+      8.25
+    ],
+    "p1": [
+      9.75,
+      8.25
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      403
+    ]
+  },
+  {
+    "p0": [
+      9.75,
+      8.25
+    ],
+    "p1": [
+      9.25,
+      8.25
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      402
+    ]
+  },
+  {
+    "p0": [
+      9.25,
+      8.25
+    ],
+    "p1": [
+      8.75,
+      8.25
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      401
+    ]
+  },
+  {
+    "p0": [
+      8.75,
+      8.25
+    ],
+    "p1": [
+      8.75,
+      8.75
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      425
+    ]
+  },
+  {
+    "p0": [
+      8.75,
+      8.75
+    ],
+    "p1": [
+      9.25,
+      8.75
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      426,
+      427,
+      428,
+      429
+    ]
+  },
+  {
+    "p0": [
+      9.25,
+      8.75
+    ],
+    "p1": [
+      9.75,
+      8.75
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      427
+    ]
+  },
+  {
+    "p0": [
+      9.75,
+      8.75
+    ],
+    "p1": [
+      10.25,
+      8.75
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      428
+    ]
+  },
+  {
+    "p0": [
+      10.25,
+      8.75
+    ],
+    "p1": [
+      10.75,
+      8.75
+    ],
+    "kind": "WORK",
+    "cluster": 8,
+    "reason": "first_service_arrival",
+    "tasks": [
+      429
+    ]
+  },
+  {
+    "p0": [
+      10.75,
+      8.75
+    ],
+    "p1": [
+      8.75,
+      5.75
+    ],
+    "kind": "TRANSIT",
+    "cluster": 8,
+    "reason": "safe_revisit_or_detour",
+    "tasks": [
+      281
+    ]
+  },
+  {
+    "p0": [
+      8.75,
+      5.75
+    ],
+    "p1": [
+      8.75,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      257
+    ]
+  },
+  {
+    "p0": [
+      8.75,
+      5.25
+    ],
+    "p1": [
+      9.25,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      282
+    ]
+  },
+  {
+    "p0": [
+      9.25,
+      5.75
+    ],
+    "p1": [
+      9.75,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      283,
+      284,
+      285
+    ]
+  },
+  {
+    "p0": [
+      9.75,
+      5.75
+    ],
+    "p1": [
+      10.25,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      284
+    ]
+  },
+  {
+    "p0": [
+      10.25,
+      5.75
+    ],
+    "p1": [
+      10.75,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      285
+    ]
+  },
+  {
+    "p0": [
+      10.75,
+      5.75
+    ],
+    "p1": [
+      10.75,
+      6.25
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      309
+    ]
+  },
+  {
+    "p0": [
+      10.75,
+      6.25
+    ],
+    "p1": [
+      10.25,
+      6.25
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      308
+    ]
+  },
+  {
+    "p0": [
+      10.25,
+      6.25
+    ],
+    "p1": [
+      10.75,
+      6.75
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      333
+    ]
+  },
+  {
+    "p0": [
+      10.75,
+      6.75
+    ],
+    "p1": [
+      10.75,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      165
+    ]
+  },
+  {
+    "p0": [
+      10.75,
+      3.25
+    ],
+    "p1": [
+      10.25,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      164
+    ]
+  },
+  {
+    "p0": [
+      10.25,
+      3.25
+    ],
+    "p1": [
+      8.25,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      184
+    ]
+  },
+  {
+    "p0": [
+      8.25,
+      3.75
+    ],
+    "p1": [
+      9.75,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      187,
+      188,
+      189
+    ]
+  },
+  {
+    "p0": [
+      9.75,
+      3.75
+    ],
+    "p1": [
+      10.25,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      188
+    ]
+  },
+  {
+    "p0": [
+      10.25,
+      3.75
+    ],
+    "p1": [
+      10.75,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      189
+    ]
+  },
+  {
+    "p0": [
+      10.75,
+      3.75
+    ],
+    "p1": [
+      10.75,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      213
+    ]
+  },
+  {
+    "p0": [
+      10.75,
+      4.25
+    ],
+    "p1": [
+      10.25,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      212,
+      211,
+      210,
+      209,
+      208,
+      207
+    ]
+  },
+  {
+    "p0": [
+      10.25,
+      4.25
+    ],
+    "p1": [
+      9.75,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      211
+    ]
+  },
+  {
+    "p0": [
+      9.75,
+      4.25
+    ],
+    "p1": [
+      9.25,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      210
+    ]
+  },
+  {
+    "p0": [
+      9.25,
+      4.25
+    ],
+    "p1": [
+      8.75,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      209
+    ]
+  },
+  {
+    "p0": [
+      8.75,
+      4.25
+    ],
+    "p1": [
+      8.25,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      208
+    ]
+  },
+  {
+    "p0": [
+      8.25,
+      4.25
+    ],
+    "p1": [
+      7.75,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      207
+    ]
+  },
+  {
+    "p0": [
+      7.75,
+      4.25
+    ],
+    "p1": [
+      8.25,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      232
+    ]
+  },
+  {
+    "p0": [
+      8.25,
+      4.75
+    ],
+    "p1": [
+      8.75,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      233,
+      234,
+      235,
+      236,
+      237
+    ]
+  },
+  {
+    "p0": [
+      8.75,
+      4.75
+    ],
+    "p1": [
+      9.25,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      234
+    ]
+  },
+  {
+    "p0": [
+      9.25,
+      4.75
+    ],
+    "p1": [
+      9.75,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      235
+    ]
+  },
+  {
+    "p0": [
+      9.75,
+      4.75
+    ],
+    "p1": [
+      10.25,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      236
+    ]
+  },
+  {
+    "p0": [
+      10.25,
+      4.75
+    ],
+    "p1": [
+      10.75,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      237
+    ]
+  },
+  {
+    "p0": [
+      10.75,
+      4.75
+    ],
+    "p1": [
+      10.75,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      261
+    ]
+  },
+  {
+    "p0": [
+      10.75,
+      5.25
+    ],
+    "p1": [
+      10.25,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      260,
+      259,
+      258
+    ]
+  },
+  {
+    "p0": [
+      10.25,
+      5.25
+    ],
+    "p1": [
+      9.75,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      259
+    ]
+  },
+  {
+    "p0": [
+      9.75,
+      5.25
+    ],
+    "p1": [
+      9.25,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      258
+    ]
+  },
+  {
+    "p0": [
+      9.25,
+      5.25
+    ],
+    "p1": [
+      10.75,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 4,
+    "reason": "first_service_arrival",
+    "tasks": [
+      141
+    ]
+  },
+  {
+    "p0": [
+      10.75,
+      2.75
+    ],
+    "p1": [
+      10.75,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      117
+    ]
+  },
+  {
+    "p0": [
+      10.75,
+      2.25
+    ],
+    "p1": [
+      10.25,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      140
+    ]
+  },
+  {
+    "p0": [
+      10.25,
+      2.75
+    ],
+    "p1": [
+      9.75,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      139,
+      138,
+      137,
+      136,
+      135,
+      134
+    ]
+  },
+  {
+    "p0": [
+      9.75,
+      2.75
+    ],
+    "p1": [
+      9.25,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      138
+    ]
+  },
+  {
+    "p0": [
+      9.25,
+      2.75
+    ],
+    "p1": [
+      8.75,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      137
+    ]
+  },
+  {
+    "p0": [
+      8.75,
+      2.75
+    ],
+    "p1": [
+      8.25,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      136
+    ]
+  },
+  {
+    "p0": [
+      8.25,
+      2.75
+    ],
+    "p1": [
+      7.75,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      135
+    ]
+  },
+  {
+    "p0": [
+      7.75,
+      2.75
+    ],
+    "p1": [
+      7.25,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      134
+    ]
+  },
+  {
+    "p0": [
+      7.25,
+      2.75
+    ],
+    "p1": [
+      8.25,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      160
+    ]
+  },
+  {
+    "p0": [
+      8.25,
+      3.25
+    ],
+    "p1": [
+      8.75,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      161,
+      162,
+      163
+    ]
+  },
+  {
+    "p0": [
+      8.75,
+      3.25
+    ],
+    "p1": [
+      9.25,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      162
+    ]
+  },
+  {
+    "p0": [
+      9.25,
+      3.25
+    ],
+    "p1": [
+      9.75,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      163
+    ]
+  },
+  {
+    "p0": [
+      9.75,
+      3.25
+    ],
+    "p1": [
+      9.25,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      186
+    ]
+  },
+  {
+    "p0": [
+      9.25,
+      3.75
+    ],
+    "p1": [
+      8.75,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      185
+    ]
+  },
+  {
+    "p0": [
+      8.75,
+      3.75
+    ],
+    "p1": [
+      8.75,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      65
+    ]
+  },
+  {
+    "p0": [
+      8.75,
+      1.25
+    ],
+    "p1": [
+      9.25,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      66,
+      67,
+      68,
+      69
+    ]
+  },
+  {
+    "p0": [
+      9.25,
+      1.25
+    ],
+    "p1": [
+      9.75,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      67
+    ]
+  },
+  {
+    "p0": [
+      9.75,
+      1.25
+    ],
+    "p1": [
+      10.25,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      68
+    ]
+  },
+  {
+    "p0": [
+      10.25,
+      1.25
+    ],
+    "p1": [
+      10.75,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      69
+    ]
+  },
+  {
+    "p0": [
+      10.75,
+      1.25
+    ],
+    "p1": [
+      10.75,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      93
+    ]
+  },
+  {
+    "p0": [
+      10.75,
+      1.75
+    ],
+    "p1": [
+      10.25,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      92,
+      91,
+      90,
+      89,
+      88
+    ]
+  },
+  {
+    "p0": [
+      10.25,
+      1.75
+    ],
+    "p1": [
+      9.75,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      91
+    ]
+  },
+  {
+    "p0": [
+      9.75,
+      1.75
+    ],
+    "p1": [
+      9.25,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      90
+    ]
+  },
+  {
+    "p0": [
+      9.25,
+      1.75
+    ],
+    "p1": [
+      8.75,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      89
+    ]
+  },
+  {
+    "p0": [
+      8.75,
+      1.75
+    ],
+    "p1": [
+      8.25,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      88
+    ]
+  },
+  {
+    "p0": [
+      8.25,
+      1.75
+    ],
+    "p1": [
+      7.75,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      111
+    ]
+  },
+  {
+    "p0": [
+      7.75,
+      2.25
+    ],
+    "p1": [
+      8.25,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      112,
+      113,
+      114,
+      115,
+      116
+    ]
+  },
+  {
+    "p0": [
+      8.25,
+      2.25
+    ],
+    "p1": [
+      8.75,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      113
+    ]
+  },
+  {
+    "p0": [
+      8.75,
+      2.25
+    ],
+    "p1": [
+      9.25,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      114
+    ]
+  },
+  {
+    "p0": [
+      9.25,
+      2.25
+    ],
+    "p1": [
+      9.75,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      115
+    ]
+  },
+  {
+    "p0": [
+      9.75,
+      2.25
+    ],
+    "p1": [
+      10.25,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      116
+    ]
+  },
+  {
+    "p0": [
+      10.25,
+      2.25
+    ],
+    "p1": [
+      7.75,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 2,
+    "reason": "first_service_arrival",
+    "tasks": [
+      159
+    ]
+  },
+  {
+    "p0": [
+      7.75,
+      3.25
+    ],
+    "p1": [
+      7.75,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      183
+    ]
+  },
+  {
+    "p0": [
+      7.75,
+      3.75
+    ],
+    "p1": [
+      7.25,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      182,
+      181,
+      180,
+      179
+    ]
+  },
+  {
+    "p0": [
+      7.25,
+      3.75
+    ],
+    "p1": [
+      6.75,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      181
+    ]
+  },
+  {
+    "p0": [
+      6.75,
+      3.75
+    ],
+    "p1": [
+      6.25,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      180
+    ]
+  },
+  {
+    "p0": [
+      6.25,
+      3.75
+    ],
+    "p1": [
+      5.75,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      179
+    ]
+  },
+  {
+    "p0": [
+      5.75,
+      3.75
+    ],
+    "p1": [
+      6.25,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      204
+    ]
+  },
+  {
+    "p0": [
+      6.25,
+      4.25
+    ],
+    "p1": [
+      6.75,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      205,
+      206
+    ]
+  },
+  {
+    "p0": [
+      6.75,
+      4.25
+    ],
+    "p1": [
+      7.25,
+      4.25
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      206
+    ]
+  },
+  {
+    "p0": [
+      7.25,
+      4.25
+    ],
+    "p1": [
+      7.75,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      231
+    ]
+  },
+  {
+    "p0": [
+      7.75,
+      4.75
+    ],
+    "p1": [
+      7.25,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      230,
+      229,
+      228,
+      227,
+      226
+    ]
+  },
+  {
+    "p0": [
+      7.25,
+      4.75
+    ],
+    "p1": [
+      6.75,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      229
+    ]
+  },
+  {
+    "p0": [
+      6.75,
+      4.75
+    ],
+    "p1": [
+      6.25,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      228
+    ]
+  },
+  {
+    "p0": [
+      6.25,
+      4.75
+    ],
+    "p1": [
+      5.75,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      227
+    ]
+  },
+  {
+    "p0": [
+      5.75,
+      4.75
+    ],
+    "p1": [
+      5.25,
+      4.75
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      226
+    ]
+  },
+  {
+    "p0": [
+      5.25,
+      4.75
+    ],
+    "p1": [
+      4.75,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      249
+    ]
+  },
+  {
+    "p0": [
+      4.75,
+      5.25
+    ],
+    "p1": [
+      5.25,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256
+    ]
+  },
+  {
+    "p0": [
+      5.25,
+      5.25
+    ],
+    "p1": [
+      5.75,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      251
+    ]
+  },
+  {
+    "p0": [
+      5.75,
+      5.25
+    ],
+    "p1": [
+      6.25,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      252
+    ]
+  },
+  {
+    "p0": [
+      6.25,
+      5.25
+    ],
+    "p1": [
+      6.75,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      253
+    ]
+  },
+  {
+    "p0": [
+      6.75,
+      5.25
+    ],
+    "p1": [
+      7.25,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      254
+    ]
+  },
+  {
+    "p0": [
+      7.25,
+      5.25
+    ],
+    "p1": [
+      7.75,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      255
+    ]
+  },
+  {
+    "p0": [
+      7.75,
+      5.25
+    ],
+    "p1": [
+      8.25,
+      5.25
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      256
+    ]
+  },
+  {
+    "p0": [
+      8.25,
+      5.25
+    ],
+    "p1": [
+      8.25,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      280
+    ]
+  },
+  {
+    "p0": [
+      8.25,
+      5.75
+    ],
+    "p1": [
+      7.75,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      279,
+      278,
+      277,
+      276,
+      275,
+      274
+    ]
+  },
+  {
+    "p0": [
+      7.75,
+      5.75
+    ],
+    "p1": [
+      7.25,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      278
+    ]
+  },
+  {
+    "p0": [
+      7.25,
+      5.75
+    ],
+    "p1": [
+      6.75,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      277
+    ]
+  },
+  {
+    "p0": [
+      6.75,
+      5.75
+    ],
+    "p1": [
+      6.25,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      276
+    ]
+  },
+  {
+    "p0": [
+      6.25,
+      5.75
+    ],
+    "p1": [
+      5.75,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      275
+    ]
+  },
+  {
+    "p0": [
+      5.75,
+      5.75
+    ],
+    "p1": [
+      5.25,
+      5.75
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      274
+    ]
+  },
+  {
+    "p0": [
+      5.25,
+      5.75
+    ],
+    "p1": [
+      5.75,
+      6.25
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      299
+    ]
+  },
+  {
+    "p0": [
+      5.75,
+      6.25
+    ],
+    "p1": [
+      7.25,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      158
+    ]
+  },
+  {
+    "p0": [
+      7.25,
+      3.25
+    ],
+    "p1": [
+      6.75,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 5,
+    "reason": "first_service_arrival",
+    "tasks": [
+      157
+    ]
+  },
+  {
+    "p0": [
+      6.75,
+      3.25
+    ],
+    "p1": [
+      6.75,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      133
+    ]
+  },
+  {
+    "p0": [
+      6.75,
+      2.75
+    ],
+    "p1": [
+      6.25,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      132,
+      131,
+      130,
+      129,
+      128
+    ]
+  },
+  {
+    "p0": [
+      6.25,
+      2.75
+    ],
+    "p1": [
+      5.75,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      131
+    ]
+  },
+  {
+    "p0": [
+      5.75,
+      2.75
+    ],
+    "p1": [
+      5.25,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      130
+    ]
+  },
+  {
+    "p0": [
+      5.25,
+      2.75
+    ],
+    "p1": [
+      4.75,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      129
+    ]
+  },
+  {
+    "p0": [
+      4.75,
+      2.75
+    ],
+    "p1": [
+      4.25,
+      2.75
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      128
+    ]
+  },
+  {
+    "p0": [
+      4.25,
+      2.75
+    ],
+    "p1": [
+      4.75,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      153
+    ]
+  },
+  {
+    "p0": [
+      4.75,
+      3.25
+    ],
+    "p1": [
+      5.25,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "p0": [
+      5.25,
+      3.25
+    ],
+    "p1": [
+      5.75,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      155
+    ]
+  },
+  {
+    "p0": [
+      5.75,
+      3.25
+    ],
+    "p1": [
+      6.25,
+      3.25
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      156
+    ]
+  },
+  {
+    "p0": [
+      6.25,
+      3.25
+    ],
+    "p1": [
+      5.25,
+      3.75
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      178
+    ]
+  },
+  {
+    "p0": [
+      5.25,
+      3.75
+    ],
+    "p1": [
+      5.25,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      58
+    ]
+  },
+  {
+    "p0": [
+      5.25,
+      1.25
+    ],
+    "p1": [
+      5.75,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  {
+    "p0": [
+      5.75,
+      1.25
+    ],
+    "p1": [
+      6.25,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      60
+    ]
+  },
+  {
+    "p0": [
+      6.25,
+      1.25
+    ],
+    "p1": [
+      6.75,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      61
+    ]
+  },
+  {
+    "p0": [
+      6.75,
+      1.25
+    ],
+    "p1": [
+      7.25,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      62
+    ]
+  },
+  {
+    "p0": [
+      7.25,
+      1.25
+    ],
+    "p1": [
+      7.75,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      63
+    ]
+  },
+  {
+    "p0": [
+      7.75,
+      1.25
+    ],
+    "p1": [
+      8.25,
+      1.25
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      64
+    ]
+  },
+  {
+    "p0": [
+      8.25,
+      1.25
+    ],
+    "p1": [
+      7.75,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      87
+    ]
+  },
+  {
+    "p0": [
+      7.75,
+      1.75
+    ],
+    "p1": [
+      7.25,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      86,
+      85,
+      84,
+      83,
+      82,
+      81
+    ]
+  },
+  {
+    "p0": [
+      7.25,
+      1.75
+    ],
+    "p1": [
+      6.75,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      85
+    ]
+  },
+  {
+    "p0": [
+      6.75,
+      1.75
+    ],
+    "p1": [
+      6.25,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      84
+    ]
+  },
+  {
+    "p0": [
+      6.25,
+      1.75
+    ],
+    "p1": [
+      5.75,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      83
+    ]
+  },
+  {
+    "p0": [
+      5.75,
+      1.75
+    ],
+    "p1": [
+      5.25,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      82
+    ]
+  },
+  {
+    "p0": [
+      5.25,
+      1.75
+    ],
+    "p1": [
+      4.75,
+      1.75
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      81
+    ]
+  },
+  {
+    "p0": [
+      4.75,
+      1.75
+    ],
+    "p1": [
+      4.25,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      104
+    ]
+  },
+  {
+    "p0": [
+      4.25,
+      2.25
+    ],
+    "p1": [
+      4.75,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ]
+  },
+  {
+    "p0": [
+      4.75,
+      2.25
+    ],
+    "p1": [
+      5.25,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      106
+    ]
+  },
+  {
+    "p0": [
+      5.25,
+      2.25
+    ],
+    "p1": [
+      5.75,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      107
+    ]
+  },
+  {
+    "p0": [
+      5.75,
+      2.25
+    ],
+    "p1": [
+      6.25,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      108
+    ]
+  },
+  {
+    "p0": [
+      6.25,
+      2.25
+    ],
+    "p1": [
+      6.75,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      109
+    ]
+  },
+  {
+    "p0": [
+      6.75,
+      2.25
+    ],
+    "p1": [
+      7.25,
+      2.25
+    ],
+    "kind": "WORK",
+    "cluster": 1,
+    "reason": "first_service_arrival",
+    "tasks": [
+      110
+    ]
+  },
+  {
+    "p0": [
+      7.25,
+      2.25
+    ],
+    "p1": [
+      1.25,
+      1.25
+    ],
+    "kind": "TRANSIT",
+    "cluster": 0,
+    "reason": "cluster_transition",
+    "tasks": [
+      50
+    ]
+  }
+]

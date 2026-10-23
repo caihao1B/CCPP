@@ -1,0 +1,15 @@
+{
+  "version": "2.1.0",
+  "pytest": 214,
+  "gui_legacy": 28,
+  "gui_new": 17,
+  "browser": 118,
+  "cases": 10,
+  "pivot_events": 0,
+  "js_python_samples": 1943,
+  "js_python_max_difference": 7.105427357601002e-15,
+  "event_boundaries": 3463,
+  "law_samples": 35711,
+  "windows_tested": false,
+  "github_published": false
+}

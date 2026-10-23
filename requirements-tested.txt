@@ -1,0 +1,7 @@
+# Observed Linux/Python 3.13.5; not a universal cross-platform lock.
+numpy==2.3.5
+scipy==1.17.0
+shapely==2.1.2
+networkx==3.6.1
+matplotlib==3.10.8
+Pillow==12.3.0

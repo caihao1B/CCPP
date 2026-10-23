@@ -1,0 +1,4 @@
+﻿id,reason,area_m2,xmin,ymin,xmax,ymax
+0,predeclared_boundary_or_obstacle_finishing,72.0,0.0,0.0,12.0,10.0
+1,declared_task_not_covered,14.05631745295807,2.0,2.0,10.0,8.0
+2,declared_task_not_covered,1.8548183755890602,2.853777373413383,6.844586477716255,9.151049780069874,7.151748936474526

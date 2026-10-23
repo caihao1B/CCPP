@@ -1,0 +1,21 @@
+{
+  "modified_python_files": [
+    "ccpp_mowing/curve_validation.py",
+    "ccpp_mowing/cli.py",
+    "ccpp_mowing/models.py",
+    "ccpp_mowing/snapshot.py",
+    "ccpp_mowing/__init__.py",
+    "ccpp_mowing/validation.py",
+    "ccpp_mowing/gui.py",
+    "ccpp_mowing/pipeline.py"
+  ],
+  "new_python_files": [
+    "tests/test_release_audit.py",
+    "tools/export_portfolio_assets.py",
+    "tools/build_portfolio_cases.py",
+    "tools/audit_extended.py"
+  ],
+  "removed_python_files": [],
+  "unchanged_python_files": 36,
+  "basis": "uploaded v2.0.0 source hashes; all algorithm baselines kept"
+}

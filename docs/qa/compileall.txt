@@ -1,0 +1,2 @@
+python -m compileall -q ccpp_mowing tools tests
+Exit code: 0

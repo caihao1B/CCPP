@@ -1,0 +1,48 @@
+"""Render a compact analytical turn GIF (no image generation, no FFmpeg)."""
+from pathlib import Path
+import sys
+import numpy as np
+from PIL import Image
+from matplotlib.figure import Figure
+from matplotlib.backends.backend_agg import FigureCanvasAgg
+from matplotlib.patches import Polygon, Circle
+ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT))
+from ccpp_mowing.snapshot import load_view
+from ccpp_mowing.visualization import draw_scene
+from ccpp_mowing.motion import evaluate_events
+from ccpp_mowing.geometry import rectangle
+
+
+def render(folder=None,out=None):
+    folder=Path(folder) if folder else ROOT/'examples/square_default'
+    out=Path(out) if out else ROOT/'docs/assets/turn_demo.gif'
+    result=load_view(folder)
+    turn=next(e for e in result.events if e['kind']=='TURN')
+    t0=max(0.,turn['t0']-3);t1=min(result.events[-1]['t1'],turn['t1']+7)
+    times=np.linspace(t0,t1,108)
+    values=evaluate_events(result.events,times,result.robot)
+    fig=Figure(figsize=(8,6),dpi=95);canvas=FigureCanvasAgg(fig);ax=fig.add_subplot(111)
+    fig.subplots_adjust(left=.09,right=.96,top=.81,bottom=.22)
+    draw_scene(ax,result,show_clusters=False)
+    p=turn['p0'];ax.set_xlim(p[0]-2.6,p[0]+2.6);ax.set_ylim(p[1]-2,p[1]+2)
+    ax.set_title('Actual saved trajectory • Agria 9500-70 dimensional model\nFinite-rate pivot; simulated, not measured',fontsize=12)
+    body=Polygon(np.zeros((4,2)),closed=True,fill=False,linewidth=2.3,zorder=20);ax.add_patch(body)
+    cutter=Circle((0,0),result.robot.cutter_radius,fill=False,linestyle=':',linewidth=1.6,zorder=21);ax.add_patch(cutter)
+    heading,=ax.plot([],[],linewidth=2.0,zorder=22)
+    text=fig.text(.5,.945,'',ha='center',va='top',fontsize=10)
+    frames=[]
+    duration_ms=max(25,round((t1-t0)/len(times)*1000))
+    for a in values:
+        body.set_xy(np.asarray(rectangle(a[1:3],a[3],result.robot.length_m,result.robot.width_m).exterior.coords))
+        cutter.center=a[1:3];cutter.set_visible(bool(a[12]))
+        heading.set_data([a[1],a[1]+.7*np.cos(a[3])],[a[2],a[2]+.7*np.sin(a[3])])
+        e=result.events[int(a[13])]
+        text.set_text(f"t={a[0]:.2f} s | {e['kind']} | chassis {a[4]:.3f} m/s | yaw {a[5]:.3f} rad/s\n"
+                      f"Left / right: {a[8]:.3f} / {a[9]:.3f} m/s | body 1.10 x 1.05 m")
+        canvas.draw();frames.append(Image.fromarray(np.asarray(canvas.buffer_rgba())[:,:,:3].copy()))
+    out.parent.mkdir(parents=True,exist_ok=True)
+    frames[0].save(out,save_all=True,append_images=frames[1:],duration=duration_ms,loop=0,optimize=True,disposal=2)
+    return str(out)
+
+if __name__=='__main__':print(render())

@@ -1,0 +1,76 @@
+{
+  "platform": "linux",
+  "checks": [
+    {
+      "name": "default_reproducible_preset_08",
+      "passed": true
+    },
+    {
+      "name": "loops_only_is_selected",
+      "passed": true
+    },
+    {
+      "name": "pivot_disabled",
+      "passed": true
+    },
+    {
+      "name": "custom_vehicle_selected",
+      "passed": true
+    },
+    {
+      "name": "GUI_launches_actual_planner",
+      "passed": true
+    },
+    {
+      "name": "worker_finished",
+      "passed": true
+    },
+    {
+      "name": "result_valid",
+      "passed": true
+    },
+    {
+      "name": "selected_vehicle_used",
+      "passed": true
+    },
+    {
+      "name": "no_chassis_pivot",
+      "passed": true
+    },
+    {
+      "name": "real_heading_loops",
+      "passed": true
+    },
+    {
+      "name": "heading_loop_button_slow_follow",
+      "passed": true
+    },
+    {
+      "name": "loop_leaves_turning_point",
+      "passed": true
+    },
+    {
+      "name": "forward_speed_nonnegative",
+      "passed": true
+    },
+    {
+      "name": "body_and_heading_match_analytic_loop",
+      "passed": true
+    },
+    {
+      "name": "triangle_preset_keeps_vehicle_and_no_pivot",
+      "passed": true
+    },
+    {
+      "name": "saved_car_radius_restored",
+      "passed": true
+    },
+    {
+      "name": "car_model_disallows_pivot",
+      "passed": true
+    }
+  ],
+  "passed": 17,
+  "total": 17,
+  "messages": []
+}

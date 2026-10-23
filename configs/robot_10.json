@@ -1,0 +1,39 @@
+{
+  "reference": "Custom research vehicle; dimensions and dynamics are simulation assumptions",
+  "manufacturer_facts_for_reference_model_only": {
+    "length_m": 1.1,
+    "width_m": 1.05,
+    "cutting_width_m": 0.7,
+    "maximum_published_speed_kmh": 5.8,
+    "zero_turn_supported": true,
+    "source": "https://agria.de/en/products/remote-controlled-devices/agria-9500-70",
+    "verified_date": "2026-09-14"
+  },
+  "simulation_parameters": {
+    "length_m": 0.65,
+    "width_m": 0.48,
+    "cutting_width_m": 0.7,
+    "track_spacing_m": 0.3,
+    "clearance_m": 0.1,
+    "geometry_reserve_m": 0.01,
+    "work_speed_mps": 0.45,
+    "transit_speed_mps": 0.65,
+    "linear_acceleration_mps2": 0.3,
+    "linear_jerk_mps3": 0.6,
+    "yaw_rate_radps": 0.6,
+    "yaw_acceleration_radps2": 0.4,
+    "yaw_jerk_radps3": 0.8,
+    "track_speed_mps": 1.0,
+    "track_acceleration_mps2": 0.4,
+    "track_jerk_mps3": 0.7,
+    "tool_spinup_s": 2.0,
+    "tool_spindown_s": 3.0
+  },
+  "assumptions": [
+    "centred rectangular body and circular cutter",
+    "0.30 m effective track spacing is NOT manufacturer verified",
+    "speed/acceleration/jerk bounds and tool delays are research settings",
+    "tool OFF means no coverage credit; no physical blade-stop certification",
+    "flat rigid map, no slip, no crop discrimination, no people, no hardware commands"
+  ]
+}

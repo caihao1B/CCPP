@@ -1,0 +1,6241 @@
+[
+  {
+    "id": 0,
+    "kind": "WAIT",
+    "t0": 0.0,
+    "t1": 2.0,
+    "duration": 2.0,
+    "p0": [
+      0.8999999999999999,
+      0.8999999999999999
+    ],
+    "p1": [
+      0.8999999999999999,
+      0.8999999999999999
+    ],
+    "yaw0": 0.0,
+    "yaw1": 0.0,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 1,
+    "kind": "SERVICE",
+    "t0": 2.0,
+    "t1": 3.0,
+    "duration": 1.0,
+    "p0": [
+      0.8999999999999999,
+      0.8999999999999999
+    ],
+    "p1": [
+      0.8999999999999999,
+      0.8999999999999999
+    ],
+    "yaw0": 0.0,
+    "yaw1": 0.0,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "reason": "initial_stationary_service_assumed_1s",
+    "cluster": -1
+  },
+  {
+    "id": 2,
+    "kind": "WORK",
+    "t0": 3.0,
+    "t1": 21.36996428555775,
+    "duration": 18.36996428555775,
+    "p0": [
+      0.8999999999999999,
+      0.8999999999999999
+    ],
+    "p1": [
+      8.7,
+      0.8999999999999999
+    ],
+    "yaw0": 0.0,
+    "yaw1": 0.0,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.06378364587391429,
+      "ramp": 2.691964285733788,
+      "cruise": 12.986035714090173
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        0.8999999999999999,
+        0.8999999999999999
+      ],
+      "p1": [
+        8.7,
+        0.8999999999999999
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 7.799999999999999,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 7.799999999999999,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 32.49999999999999,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 3,
+    "kind": "WORK",
+    "t0": 21.36996428555775,
+    "t1": 26.824108741681183,
+    "duration": 5.454144456123433,
+    "p0": [
+      8.7,
+      0.8999999999999999
+    ],
+    "p1": [
+      8.799999999999999,
+      0.9999999999999999
+    ],
+    "yaw0": 0.0,
+    "yaw1": 1.5707963267948966,
+    "steer0": 1.4181469983996315,
+    "steer1": 1.4181469983996315,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.3666936246535561,
+      "ramp": 2.7270722280617163,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        8.7,
+        0.9999999999999999
+      ],
+      "radius": 0.1,
+      "angle0": -1.5707963267948966,
+      "sweep": 1.5707963267948966
+    },
+    "curve_bounds": {
+      "speed_u": 0.15707963267948966,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 1.5707963267948966,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 10.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.15707963267948966,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.923647855099672,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0
+  },
+  {
+    "id": 4,
+    "kind": "WORK",
+    "t0": 26.824108741681183,
+    "t1": 29.816349254802525,
+    "duration": 2.992240513121343,
+    "p0": [
+      8.799999999999999,
+      0.9999999999999999
+    ],
+    "p1": [
+      8.799999999999999,
+      1.4
+    ],
+    "yaw0": 1.5707963267948966,
+    "yaw1": 1.5707963267948966,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.6683954686228443,
+      "ramp": 1.4961202565606713,
+      "cruise": 3.322054312883508e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        8.799999999999999,
+        0.9999999999999999
+      ],
+      "p1": [
+        8.799999999999999,
+        1.4
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.4,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.063996980927259,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0
+  },
+  {
+    "id": 5,
+    "kind": "WORK",
+    "t0": 29.816349254802525,
+    "t1": 35.270493710925955,
+    "duration": 5.454144456123433,
+    "p0": [
+      8.799999999999999,
+      1.4
+    ],
+    "p1": [
+      8.7,
+      1.5
+    ],
+    "yaw0": 1.5707963267948966,
+    "yaw1": 3.141592653589793,
+    "steer0": 1.4181469983996315,
+    "steer1": 1.4181469983996315,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.3666936246535561,
+      "ramp": 2.7270722280617163,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        8.7,
+        1.4
+      ],
+      "radius": 0.1,
+      "angle0": 0.0,
+      "sweep": 1.5707963267948966
+    },
+    "curve_bounds": {
+      "speed_u": 0.15707963267948966,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 1.5707963267948966,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 10.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.15707963267948966,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.923647855099672,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0
+  },
+  {
+    "id": 6,
+    "kind": "WORK",
+    "t0": 35.270493710925955,
+    "t1": 53.109817996537565,
+    "duration": 17.83932428561161,
+    "p0": [
+      8.7,
+      1.5
+    ],
+    "p1": [
+      1.1639999999999997,
+      1.5
+    ],
+    "yaw0": 3.141592653589793,
+    "yaw1": 3.141592653589793,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.06601810480534406,
+      "ramp": 2.69196428567639,
+      "cruise": 12.455395714258831
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        8.7,
+        1.5
+      ],
+      "p1": [
+        1.1639999999999997,
+        1.5
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 7.536,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 7.536,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 31.400000000000006,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 7,
+    "kind": "WORK",
+    "t0": 53.109817996537565,
+    "t1": 65.99779440067367,
+    "duration": 12.887976404136108,
+    "p0": [
+      1.1639999999999997,
+      1.5
+    ],
+    "p1": [
+      0.8999999999999999,
+      1.7639999999999998
+    ],
+    "yaw0": 3.141592653589793,
+    "yaw1": 1.5707963267948966,
+    "steer0": -0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10664258083377796,
+      "ramp": 3.510859007111708,
+      "cruise": 5.866258389912691
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          1.1639999999999997,
+          1.5
+        ],
+        [
+          1.0951189000130641,
+          1.5
+        ],
+        [
+          1.0262378000261285,
+          1.5
+        ],
+        [
+          0.8999999999999999,
+          1.6262377193693398
+        ],
+        [
+          0.8999999999999999,
+          1.6951188596846698
+        ],
+        [
+          0.8999999999999999,
+          1.7639999999999998
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.4870795086245132,
+      "speed_du": 0.5715404698471176,
+      "speed_ddu": 5.8078748215609455,
+      "yaw_u": 2.2131008597335624,
+      "yaw_uu": 23.214523820267118,
+      "yaw_uuu": 209.9117131715905,
+      "curvature": 6.05198540889016,
+      "curvature_u": 69.17904075741129,
+      "minimum_parameter_speed": 0.34440549993467795,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 17.87266580654434,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 8,
+    "kind": "WORK",
+    "t0": 65.99779440067367,
+    "t1": 67.68727807867828,
+    "duration": 1.6894836780046074,
+    "p0": [
+      0.8999999999999999,
+      1.7639999999999998
+    ],
+    "p1": [
+      0.8999999999999999,
+      1.8359999999999999
+    ],
+    "yaw0": 1.5707963267948966,
+    "yaw1": 1.5707963267948966,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 1.1837936205232436,
+      "ramp": 0.8447418390023037,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        0.8999999999999999,
+        1.7639999999999998
+      ],
+      "p1": [
+        0.8999999999999999,
+        1.8359999999999999
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.07200000000000006,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.07200000000000006,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 2.2946205481897666,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 9,
+    "kind": "WORK",
+    "t0": 67.68727807867828,
+    "t1": 80.57525448281439,
+    "duration": 12.887976404136108,
+    "p0": [
+      0.8999999999999999,
+      1.8359999999999999
+    ],
+    "p1": [
+      1.1639999999999997,
+      2.0999999999999996
+    ],
+    "yaw0": 1.5707963267948966,
+    "yaw1": 0.0,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10664258083377796,
+      "ramp": 3.510859007111708,
+      "cruise": 5.866258389912691
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          0.8999999999999999,
+          1.8359999999999999
+        ],
+        [
+          0.8999999999999999,
+          1.9048810999869354
+        ],
+        [
+          0.8999999999999999,
+          1.973762199973871
+        ],
+        [
+          1.0262377193693397,
+          2.0999999999999996
+        ],
+        [
+          1.0951188596846697,
+          2.0999999999999996
+        ],
+        [
+          1.1639999999999997,
+          2.0999999999999996
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.4870795086245132,
+      "speed_du": 0.5715404698471177,
+      "speed_ddu": 5.8078748215609455,
+      "yaw_u": 2.2131008597335624,
+      "yaw_uu": 23.214523820267118,
+      "yaw_uuu": 209.9117131715905,
+      "curvature": 6.05198540889016,
+      "curvature_u": 69.17904075741129,
+      "minimum_parameter_speed": 0.34440549993467795,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 17.87266580654434,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 10,
+    "kind": "WORK",
+    "t0": 80.57525448281439,
+    "t1": 87.56057876840183,
+    "duration": 6.985324285587431,
+    "p0": [
+      1.1639999999999997,
+      2.0999999999999996
+    ],
+    "p1": [
+      3.3,
+      2.0999999999999996
+    ],
+    "yaw0": 0.0,
+    "yaw1": 0.0,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.23291780796566663,
+      "ramp": 2.691964285619522,
+      "cruise": 1.601395714348388
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        1.1639999999999997,
+        2.0999999999999996
+      ],
+      "p1": [
+        3.3,
+        2.0999999999999996
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 2.136,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 2.136,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 8.900000000000002,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 11,
+    "kind": "WAIT",
+    "t0": 87.56057876840183,
+    "t1": 90.56057876840183,
+    "duration": 3.0,
+    "p0": [
+      3.3,
+      2.0999999999999996
+    ],
+    "p1": [
+      3.3,
+      2.0999999999999996
+    ],
+    "yaw0": 0.0,
+    "yaw1": 0.0,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 12,
+    "kind": "TURN",
+    "t0": 90.56057876840183,
+    "t1": 93.07288751130062,
+    "duration": 2.5123087428988002,
+    "p0": [
+      3.3,
+      2.0999999999999996
+    ],
+    "p1": [
+      3.3,
+      2.0999999999999996
+    ],
+    "yaw0": 0.0,
+    "yaw1": -0.27300870308671055,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 0.27300870308671055,
+      "peak": 0.2173369048357556,
+      "ramp": 1.2561543714494001,
+      "cruise": 0.0
+    },
+    "baseline_seconds": 2.7658460647147396,
+    "reason": "reported_differential_pivot_fallback",
+    "cluster": 0
+  },
+  {
+    "id": 13,
+    "kind": "TRANSIT",
+    "t0": 93.07288751130062,
+    "t1": 99.68899830057234,
+    "duration": 6.616110789271716,
+    "p0": [
+      3.3,
+      2.0999999999999996
+    ],
+    "p1": [
+      5.247557352896902,
+      1.5546839411888675
+    ],
+    "yaw0": -0.27300870308671055,
+    "yaw1": -0.27300870308671055,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.3022923986162805,
+      "ramp": 3.308055394635858,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        3.3,
+        2.0999999999999996
+      ],
+      "p1": [
+        5.247557352896902,
+        1.5546839411888675
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 2.022461185491602,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 2.022461185491602,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 8.398681340919458,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 14,
+    "kind": "WAIT",
+    "t0": 99.68899830057234,
+    "t1": 101.68899830057234,
+    "duration": 2.0,
+    "p0": [
+      5.247557352896902,
+      1.5546839411888675
+    ],
+    "p1": [
+      5.247557352896902,
+      1.5546839411888675
+    ],
+    "yaw0": -0.27300870308671055,
+    "yaw1": -0.27300870308671055,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 15,
+    "kind": "WORK",
+    "t0": 101.68899830057234,
+    "t1": 113.47869506044022,
+    "duration": 11.789696759867875,
+    "p0": [
+      5.247557352896902,
+      1.5546839411888675
+    ],
+    "p1": [
+      6.284,
+      1.708
+    ],
+    "yaw0": -0.27300870308671055,
+    "yaw1": 0.5667292175235055,
+    "steer0": 0.0,
+    "steer1": -3.864027371550962e-15,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.11308618258558518,
+      "ramp": 2.9468834546863487,
+      "cruise": 5.895929850495177
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          5.247557352896902,
+          1.5546839411888675
+        ],
+        [
+          5.400453272299169,
+          1.511873083756233
+        ],
+        [
+          5.553349191701435,
+          1.4690622263235986
+        ],
+        [
+          6.016093025517189,
+          1.5375137435109383
+        ],
+        [
+          6.150046512758594,
+          1.6227568717554692
+        ],
+        [
+          6.284,
+          1.708
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.3302523513333528,
+      "speed_du": 1.8857533700001534,
+      "speed_ddu": 19.182725680327042,
+      "yaw_u": 1.3198289342630694,
+      "yaw_uu": 16.079970922623765,
+      "yaw_uuu": 204.92839028922307,
+      "curvature": 1.4917132420893775,
+      "curvature_u": 21.305596954873607,
+      "minimum_parameter_speed": 0.7938817238267788,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 15.931424012898713,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 16,
+    "kind": "WORK",
+    "t0": 113.47869506044022,
+    "t1": 115.66701963371806,
+    "duration": 2.188324573277841,
+    "p0": [
+      6.284,
+      1.708
+    ],
+    "p1": [
+      6.416,
+      1.7919999999999998
+    ],
+    "yaw0": 0.5667292175235055,
+    "yaw1": 0.5667292175235055,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.9139412061731982,
+      "ramp": 1.09416228663892,
+      "cruise": 9.718113306424318e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        6.284,
+        1.708
+      ],
+      "p1": [
+        6.416,
+        1.7919999999999998
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.15646085772486396,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.15646085772486396,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 2.9721355687123676,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 17,
+    "kind": "WORK",
+    "t0": 115.66701963371806,
+    "t1": 126.26948000943545,
+    "duration": 10.602460375717406,
+    "p0": [
+      6.416,
+      1.7919999999999998
+    ],
+    "p1": [
+      7.473689811657832,
+      2.0999999999999996
+    ],
+    "yaw0": 0.5667292175235055,
+    "yaw1": 0.0,
+    "steer0": 9.613535759225227e-15,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.12499239917825103,
+      "ramp": 2.601973893544157,
+      "cruise": 5.398512588629092
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          6.416,
+          1.7919999999999998
+        ],
+        [
+          6.551492489144827,
+          1.8782224930921623
+        ],
+        [
+          6.6869849782896535,
+          1.9644449861843247
+        ],
+        [
+          7.15248876223908,
+          2.0999999999999996
+        ],
+        [
+          7.313089286948456,
+          2.0999999999999996
+        ],
+        [
+          7.473689811657832,
+          2.0999999999999996
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.3909752744186599,
+      "speed_du": 2.049580779289873,
+      "speed_ddu": 21.65941489046742,
+      "yaw_u": 0.9078111168054549,
+      "yaw_uu": 11.449960623623546,
+      "yaw_uuu": 156.00438054063844,
+      "curvature": 1.0260919169588658,
+      "curvature_u": 15.081687440408043,
+      "minimum_parameter_speed": 0.8030026235468846,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 14.404095695688941,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 18,
+    "kind": "WORK",
+    "t0": 126.26948000943545,
+    "t1": 131.42132561760977,
+    "duration": 5.1518456081743,
+    "p0": [
+      7.473689811657832,
+      2.0999999999999996
+    ],
+    "p1": [
+      8.7,
+      2.0999999999999996
+    ],
+    "yaw0": 0.0,
+    "yaw1": 0.0,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.38821039140354896,
+      "ramp": 2.57592280408715,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        7.473689811657832,
+        2.0999999999999996
+      ],
+      "p1": [
+        8.7,
+        2.0999999999999996
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.2263101883421674,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 1.2263101883421674,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.53990100215291,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 19,
+    "kind": "WORK",
+    "t0": 131.42132561760977,
+    "t1": 136.8754700737332,
+    "duration": 5.454144456123433,
+    "p0": [
+      8.7,
+      2.0999999999999996
+    ],
+    "p1": [
+      8.799999999999999,
+      2.1999999999999997
+    ],
+    "yaw0": 0.0,
+    "yaw1": 1.5707963267948966,
+    "steer0": 1.4181469983996315,
+    "steer1": 1.4181469983996315,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.3666936246535561,
+      "ramp": 2.7270722280617163,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        8.7,
+        2.1999999999999997
+      ],
+      "radius": 0.1,
+      "angle0": -1.5707963267948966,
+      "sweep": 1.5707963267948966
+    },
+    "curve_bounds": {
+      "speed_u": 0.15707963267948966,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 1.5707963267948966,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 10.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.15707963267948966,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.923647855099672,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0
+  },
+  {
+    "id": 20,
+    "kind": "WORK",
+    "t0": 136.8754700737332,
+    "t1": 139.86771058674887,
+    "duration": 2.992240513015683,
+    "p0": [
+      8.799999999999999,
+      2.1999999999999997
+    ],
+    "p1": [
+      8.799999999999999,
+      2.6000000000000005
+    ],
+    "yaw0": 1.5707963267948966,
+    "yaw1": 1.5707963267948966,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.6683954686464462,
+      "ramp": 1.4961202565078415,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        8.799999999999999,
+        2.1999999999999997
+      ],
+      "p1": [
+        8.799999999999999,
+        2.6000000000000005
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.4000000000000008,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.4000000000000008,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.063996980927262,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0
+  },
+  {
+    "id": 21,
+    "kind": "WORK",
+    "t0": 139.86771058674887,
+    "t1": 145.3218550428723,
+    "duration": 5.454144456123433,
+    "p0": [
+      8.799999999999999,
+      2.6000000000000005
+    ],
+    "p1": [
+      8.7,
+      2.7000000000000006
+    ],
+    "yaw0": 1.5707963267948966,
+    "yaw1": 3.141592653589793,
+    "steer0": 1.4181469983996315,
+    "steer1": 1.4181469983996315,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.3666936246535561,
+      "ramp": 2.7270722280617163,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        8.7,
+        2.6000000000000005
+      ],
+      "radius": 0.1,
+      "angle0": 0.0,
+      "sweep": 1.5707963267948966
+    },
+    "curve_bounds": {
+      "speed_u": 0.15707963267948966,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 1.5707963267948966,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 10.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.15707963267948966,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.923647855099672,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0
+  },
+  {
+    "id": 22,
+    "kind": "WORK",
+    "t0": 145.3218550428723,
+    "t1": 151.22981932858082,
+    "duration": 5.907964285708515,
+    "p0": [
+      8.7,
+      2.7000000000000006
+    ],
+    "p1": [
+      7.1,
+      2.7
+    ],
+    "yaw0": 3.141592653589793,
+    "yaw1": 3.141592653589793,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.3109452736320109,
+      "ramp": 2.691964285710275,
+      "cruise": 0.5240357142879655
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        8.7,
+        2.7
+      ],
+      "p1": [
+        7.1,
+        2.7
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.5999999999999996,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 1.5999999999999996,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 7.47017880833996,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 23,
+    "kind": "WORK",
+    "t0": 151.22981932858082,
+    "t1": 163.1143360868762,
+    "duration": 11.884516758295376,
+    "p0": [
+      7.1,
+      2.7
+    ],
+    "p1": [
+      6.770811551706765,
+      2.5473227429261773
+    ],
+    "yaw0": 3.141592653589793,
+    "yaw1": 4.010132048875684,
+    "steer0": -0.0,
+    "steer1": 4.8829627818418964e-14,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.11227269677534119,
+      "ramp": 2.977631747765968,
+      "cruise": 5.929253262763441
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          7.1,
+          2.7
+        ],
+        [
+          7.044729687710618,
+          2.7
+        ],
+        [
+          6.9894593754212355,
+          2.7
+        ],
+        [
+          6.842214410520243,
+          2.631707939705742
+        ],
+        [
+          6.806512981113504,
+          2.58951534131596
+        ],
+        [
+          6.770811551706765,
+          2.5473227429261773
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.46105303458576,
+      "speed_du": 0.6501173916434501,
+      "speed_ddu": 6.580476457363616,
+      "yaw_u": 1.3616196200872086,
+      "yaw_uu": 16.516280334649117,
+      "yaw_uuu": 208.6487924319385,
+      "curvature": 4.414436825666798,
+      "curvature_u": 62.82147331161569,
+      "minimum_parameter_speed": 0.2763515614469103,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 16.048493208793168,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 24,
+    "kind": "WAIT",
+    "t0": 163.1143360868762,
+    "t1": 166.1143360868762,
+    "duration": 3.0,
+    "p0": [
+      6.770811551706765,
+      2.5473227429261773
+    ],
+    "p1": [
+      6.770811551706765,
+      2.5473227429261773
+    ],
+    "yaw0": 4.010132048875684,
+    "yaw1": 4.010132048875684,
+    "steer0": 4.8829627818418964e-14,
+    "steer1": 4.8829627818418964e-14,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 25,
+    "kind": "TRANSIT",
+    "t0": 166.1143360868762,
+    "t1": 171.21685247531954,
+    "duration": 5.102516388443342,
+    "p0": [
+      6.770811551706765,
+      2.5473227429261773
+    ],
+    "p1": [
+      5.993782672439853,
+      1.6290158856107346
+    ],
+    "yaw0": 4.010132048875684,
+    "yaw1": 4.010132048875684,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.3919634642486965,
+      "ramp": 2.551258194221671,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        6.770811551706765,
+        2.5473227429261773
+      ],
+      "p1": [
+        5.993782672439853,
+        1.6290158856107346
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.2029386365926396,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 1.2029386365926396,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.477281071719334,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 26,
+    "kind": "TRANSIT",
+    "t0": 171.21685247531954,
+    "t1": 183.5530622977354,
+    "duration": 12.336209822415878,
+    "p0": [
+      5.993782672439853,
+      1.6290158856107346
+    ],
+    "p1": [
+      5.504081822850358,
+      1.4493196961916073
+    ],
+    "yaw0": 4.010132048875684,
+    "yaw1": 2.9764439761751706,
+    "steer0": 5.230501570108884e-14,
+    "steer1": 5.632071026043649e-15,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10871703004270478,
+      "ramp": 3.138018889429634,
+      "cruise": 6.0601720435566095
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          5.993782672439853,
+          1.6290158856107346
+        ],
+        [
+          5.9407496993679345,
+          1.566340553798468
+        ],
+        [
+          5.887716726296017,
+          1.5036652219862015
+        ],
+        [
+          5.666051111138704,
+          1.4223248148102163
+        ],
+        [
+          5.5850664669945305,
+          1.435822255500912
+        ],
+        [
+          5.504081822850358,
+          1.4493196961916073
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.6658458245707106,
+      "speed_du": 0.9057643843898742,
+      "speed_ddu": 8.876801078561838,
+      "yaw_u": 1.5934530426318212,
+      "yaw_uu": 18.7992343292034,
+      "yaw_uuu": 224.3294395689816,
+      "curvature": 3.4985439537897682,
+      "curvature_u": 47.92155417200916,
+      "minimum_parameter_speed": 0.4105086311706644,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 16.585536999828413,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 27,
+    "kind": "TRANSIT",
+    "t0": 183.5530622977354,
+    "t1": 189.4952532516212,
+    "duration": 5.942190953885779,
+    "p0": [
+      5.504081822850358,
+      1.4493196961916073
+    ],
+    "p1": [
+      3.89485132902503,
+      1.7175247784958285
+    ],
+    "yaw0": 2.9764439761751706,
+    "yaw1": 2.9764439761751706,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.33657619142854023,
+      "ramp": 2.9710954769428897,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        5.504081822850358,
+        1.4493196961916073
+      ],
+      "p1": [
+        3.89485132902503,
+        1.7175247784958285
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.6314278250756675,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 1.6314278250756675,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 7.543188117731162,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 28,
+    "kind": "WAIT",
+    "t0": 189.4952532516212,
+    "t1": 191.4952532516212,
+    "duration": 2.0,
+    "p0": [
+      3.89485132902503,
+      1.7175247784958285
+    ],
+    "p1": [
+      3.89485132902503,
+      1.7175247784958285
+    ],
+    "yaw0": 2.9764439761751706,
+    "yaw1": 2.9764439761751706,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 29,
+    "kind": "WORK",
+    "t0": 191.4952532516212,
+    "t1": 202.9324623554241,
+    "duration": 11.437209103802886,
+    "p0": [
+      3.89485132902503,
+      1.7175247784958285
+    ],
+    "p1": [
+      3.092,
+      2.196
+    ],
+    "yaw0": 2.9764439761751706,
+    "yaw1": 2.231839495645587,
+    "steer0": -5.853395909919167e-15,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.11629523608574846,
+      "ramp": 2.8384045984948116,
+      "cruise": 5.760399906813263
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          3.89485132902503,
+          1.7175247784958285
+        ],
+        [
+          3.7572592549813755,
+          1.7404567908364375
+        ],
+        [
+          3.619667180937721,
+          1.7633888031770466
+        ],
+        [
+          3.26327713742589,
+          1.9757865375952846
+        ],
+        [
+          3.177638568712945,
+          2.0858932687976424
+        ],
+        [
+          3.092,
+          2.196
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.1840060781203006,
+      "speed_du": 1.7046858493551638,
+      "speed_ddu": 17.604432793495498,
+      "yaw_u": 1.1791515935460732,
+      "yaw_uu": 14.559518431224193,
+      "yaw_uuu": 190.49570041195565,
+      "curvature": 1.5237633160138515,
+      "curvature_u": 22.00549033650186,
+      "minimum_parameter_speed": 0.6974499270489662,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 15.487360010223032,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 30,
+    "kind": "WORK",
+    "t0": 202.9324623554241,
+    "t1": 205.0251005240644,
+    "duration": 2.092638168640308,
+    "p0": [
+      3.092,
+      2.196
+    ],
+    "p1": [
+      3.0080000000000005,
+      2.3040000000000003
+    ],
+    "yaw0": 2.231839495645587,
+    "yaw1": 2.231839495645587,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.9557313968422455,
+      "ramp": 1.046319084320154,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        3.092,
+        2.196
+      ],
+      "p1": [
+        3.0080000000000005,
+        2.3040000000000003
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.1368210510118964,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.1368210510118964,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 2.8421763431059044,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 31,
+    "kind": "WORK",
+    "t0": 205.0251005240644,
+    "t1": 217.03651291205418,
+    "duration": 12.011412387989761,
+    "p0": [
+      3.0080000000000005,
+      2.3040000000000003
+    ],
+    "p1": [
+      2.198322812956379,
+      2.7
+    ],
+    "yaw0": 2.231839495645587,
+    "yaw1": 3.1415926535897962,
+    "steer0": -2.116859784271779e-15,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.11121847520811563,
+      "ramp": 3.0201004847401673,
+      "cruise": 5.9712114185094265
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          3.0080000000000005,
+          2.3040000000000003
+        ],
+        [
+          2.923072906782444,
+          2.413191976994001
+        ],
+        [
+          2.8381458135648883,
+          2.5223839539880015
+        ],
+        [
+          2.474985054625867,
+          2.7
+        ],
+        [
+          2.336653933791123,
+          2.7
+        ],
+        [
+          2.198322812956379,
+          2.7
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.1464205634438918,
+      "speed_du": 1.6034945812954018,
+      "speed_ddu": 16.110079699839037,
+      "yaw_u": 1.4207430602276185,
+      "yaw_uu": 17.12101306236781,
+      "yaw_uuu": 213.45534771361824,
+      "curvature": 1.8369756007299651,
+      "curvature_u": 25.99207788646286,
+      "minimum_parameter_speed": 0.6916556041737199,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 16.203185003240403,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 32,
+    "kind": "WORK",
+    "t0": 217.03651291205418,
+    "t1": 221.76792443312735,
+    "duration": 4.731411521073175,
+    "p0": [
+      2.198322812956379,
+      2.7
+    ],
+    "p1": [
+      1.1639999999999997,
+      2.7
+    ],
+    "yaw0": 3.1415926535897962,
+    "yaw1": 3.1415926535897962,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.422706837292048,
+      "ramp": 2.3657057605365877,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        2.198322812956379,
+        2.7
+      ],
+      "p1": [
+        1.1639999999999997,
+        2.7
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.0343228129563795,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 1.0343228129563795,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.006189878627936,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 33,
+    "kind": "WORK",
+    "t0": 221.76792443312735,
+    "t1": 234.65590083726346,
+    "duration": 12.887976404136108,
+    "p0": [
+      1.1639999999999997,
+      2.7
+    ],
+    "p1": [
+      0.8999999999999999,
+      2.964
+    ],
+    "yaw0": 3.1415926535897962,
+    "yaw1": 1.5707963267948997,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10664258083377796,
+      "ramp": 3.510859007111708,
+      "cruise": 5.866258389912691
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          1.1639999999999997,
+          2.7
+        ],
+        [
+          1.0951189000130641,
+          2.7
+        ],
+        [
+          1.0262378000261285,
+          2.7
+        ],
+        [
+          0.8999999999999999,
+          2.82623771936934
+        ],
+        [
+          0.8999999999999999,
+          2.89511885968467
+        ],
+        [
+          0.8999999999999999,
+          2.964
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.4870795086245132,
+      "speed_du": 0.5715404698471086,
+      "speed_ddu": 5.807874821561856,
+      "yaw_u": 2.2131008597335624,
+      "yaw_uu": 23.214523820267118,
+      "yaw_uuu": 209.9117131715905,
+      "curvature": 6.0519854088901255,
+      "curvature_u": 69.17904075741129,
+      "minimum_parameter_speed": 0.34440549993467795,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 17.87266580654434,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 34,
+    "kind": "WORK",
+    "t0": 234.65590083726346,
+    "t1": 236.34538451526808,
+    "duration": 1.6894836780046074,
+    "p0": [
+      0.8999999999999999,
+      2.964
+    ],
+    "p1": [
+      0.8999999999999999,
+      3.036
+    ],
+    "yaw0": 1.5707963267948997,
+    "yaw1": 1.5707963267948997,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 1.1837936205232436,
+      "ramp": 0.8447418390023037,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        0.8999999999999999,
+        2.964
+      ],
+      "p1": [
+        0.8999999999999999,
+        3.036
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.07200000000000006,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.07200000000000006,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 2.2946205481897666,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 35,
+    "kind": "WORK",
+    "t0": 236.34538451526808,
+    "t1": 249.23336091940374,
+    "duration": 12.887976404135653,
+    "p0": [
+      0.8999999999999999,
+      3.036
+    ],
+    "p1": [
+      1.1639999999999997,
+      3.3
+    ],
+    "yaw0": 1.5707963267948997,
+    "yaw1": 3.1086244689504383e-15,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10664258071369505,
+      "ramp": 3.5108589965523227,
+      "cruise": 5.866258411031008
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          0.8999999999999999,
+          3.036
+        ],
+        [
+          0.8999999999999999,
+          3.1048810999869354
+        ],
+        [
+          0.8999999999999999,
+          3.173762199973871
+        ],
+        [
+          1.0262377193693397,
+          3.3
+        ],
+        [
+          1.0951188596846697,
+          3.3
+        ],
+        [
+          1.1639999999999997,
+          3.3
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.4870795086245117,
+      "speed_du": 0.5715404698470493,
+      "speed_ddu": 5.8078748215432565,
+      "yaw_u": 2.2131008597335624,
+      "yaw_uu": 23.214523820267335,
+      "yaw_uuu": 209.9117131715925,
+      "curvature": 6.05198540889016,
+      "curvature_u": 69.17904075741234,
+      "minimum_parameter_speed": 0.34440549993467684,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 17.872665806544408,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 36,
+    "kind": "WORK",
+    "t0": 249.23336091940374,
+    "t1": 253.2461759270616,
+    "duration": 4.012815007657885,
+    "p0": [
+      1.1639999999999997,
+      3.3
+    ],
+    "p1": [
+      1.908,
+      3.3
+    ],
+    "yaw0": 3.1086244689504383e-15,
+    "yaw1": 3.1086244689504383e-15,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.4984032396667391,
+      "ramp": 2.0064075038289424,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        1.1639999999999997,
+        3.3
+      ],
+      "p1": [
+        1.908,
+        3.3
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.7440000000000002,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.7440000000000002,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 5.093982794855684,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 37,
+    "kind": "WORK",
+    "t0": 253.2461759270616,
+    "t1": 265.23601383490785,
+    "duration": 11.989837907846228,
+    "p0": [
+      1.908,
+      3.3
+    ],
+    "p1": [
+      3.1907582765545848,
+      2.678372849697526
+    ],
+    "yaw0": 3.1086244689504383e-15,
+    "yaw1": -0.9025069079643098,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.11139482504645291,
+      "ramp": 3.0127602062295815,
+      "cruise": 5.964317495387065
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          1.908,
+          3.3
+        ],
+        [
+          2.1264711463360357,
+          3.3
+        ],
+        [
+          2.3449422926720715,
+          3.3
+        ],
+        [
+          2.920009486935523,
+          3.021321316548338
+        ],
+        [
+          3.055383881745054,
+          2.849847083122932
+        ],
+        [
+          3.1907582765545848,
+          2.678372849697526
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.8127087443272292,
+      "speed_du": 2.5391526120868906,
+      "speed_ddu": 25.544672005812167,
+      "yaw_u": 1.4104079472141609,
+      "yaw_uu": 17.01639975061013,
+      "yaw_uuu": 212.654941224927,
+      "curvature": 1.1547164654739266,
+      "curvature_u": 16.360132033477893,
+      "minimum_parameter_speed": 1.092355705561119,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 16.17706336645704,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 38,
+    "kind": "WAIT",
+    "t0": 265.23601383490785,
+    "t1": 268.23601383490785,
+    "duration": 3.0,
+    "p0": [
+      3.1907582765545848,
+      2.678372849697526
+    ],
+    "p1": [
+      3.1907582765545848,
+      2.678372849697526
+    ],
+    "yaw0": -0.9025069079643098,
+    "yaw1": -0.9025069079643098,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 39,
+    "kind": "TRANSIT",
+    "t0": 268.23601383490785,
+    "t1": 273.5987110696511,
+    "duration": 5.362697234743236,
+    "p0": [
+      3.1907582765545848,
+      2.678372849697526
+    ],
+    "p1": [
+      4.014106713426294,
+      1.635464829660028
+    ],
+    "yaw0": -0.9025069079643098,
+    "yaw1": -0.9025069079643098,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.3729466558437471,
+      "ramp": 2.681348617371618,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        3.1907582765545848,
+        2.678372849697526
+      ],
+      "p1": [
+        4.014106713426294,
+        1.635464829660028
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.3287436873820404,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 1.3287436873820404,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.807562121874425,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 40,
+    "kind": "TRANSIT",
+    "t0": 273.5987110696511,
+    "t1": 286.2161863993189,
+    "duration": 12.617475329667803,
+    "p0": [
+      4.014106713426294,
+      1.635464829660028
+    ],
+    "p1": [
+      4.488457184292248,
+      1.4824163383692135
+    ],
+    "yaw0": -0.9025069079643098,
+    "yaw1": 0.27829965900511144,
+    "steer0": 1.0837656922633923e-14,
+    "steer1": -1.92196320187906e-14,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10687631820093071,
+      "ramp": 3.260865588303306,
+      "cruise": 6.095744153061191
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          4.014106713426294,
+          1.635464829660028
+        ],
+        [
+          4.064453036886823,
+          1.5716928199433584
+        ],
+        [
+          4.114799360347352,
+          1.507920810226689
+        ],
+        [
+          4.332208856776584,
+          1.437773959079024
+        ],
+        [
+          4.410333020534416,
+          1.4600951487241187
+        ],
+        [
+          4.488457184292248,
+          1.4824163383692135
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.6393488235272735,
+      "speed_du": 0.8399411092339134,
+      "speed_ddu": 7.897954748973403,
+      "yaw_u": 1.7865217874591146,
+      "yaw_uu": 20.48833823553346,
+      "yaw_uuu": 229.9689178546507,
+      "curvature": 4.005298845193509,
+      "curvature_u": 52.531886234272804,
+      "minimum_parameter_speed": 0.40625178368940223,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 16.886820750935403,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 41,
+    "kind": "TRANSIT",
+    "t0": 286.2161863993189,
+    "t1": 293.29011569190175,
+    "duration": 7.0739292925828625,
+    "p0": [
+      4.488457184292248,
+      1.4824163383692135
+    ],
+    "p1": [
+      6.7115428157077535,
+      2.117583661630787
+    ],
+    "yaw0": 0.27829965900511144,
+    "yaw1": 0.27829965900511144,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.2827282995459164,
+      "ramp": 3.5369646462914313,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        4.488457184292248,
+        1.4824163383692135
+      ],
+      "p1": [
+        6.7115428157077535,
+        2.117583661630787
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 2.312043955712207,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 2.312043955712207,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 8.979849317659198,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 42,
+    "kind": "WAIT",
+    "t0": 293.29011569190175,
+    "t1": 295.29011569190175,
+    "duration": 2.0,
+    "p0": [
+      6.7115428157077535,
+      2.117583661630787
+    ],
+    "p1": [
+      6.7115428157077535,
+      2.117583661630787
+    ],
+    "yaw0": 0.27829965900511144,
+    "yaw1": 0.27829965900511144,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 43,
+    "kind": "WORK",
+    "t0": 295.29011569190175,
+    "t1": 308.1286076907943,
+    "duration": 12.838491998892533,
+    "p0": [
+      6.7115428157077535,
+      2.117583661630787
+    ],
+    "p1": [
+      6.972839276187244,
+      2.4987679619403114
+    ],
+    "yaw0": 0.27829965900511144,
+    "yaw1": 1.661456213995642,
+    "steer0": 3.4825544107181164e-14,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10598774689175047,
+      "ramp": 3.40343908639558,
+      "cruise": 6.031613826101371
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          6.7115428157077535,
+          2.117583661630787
+        ],
+        [
+          6.788319258228031,
+          2.1395197880651518
+        ],
+        [
+          6.865095700748309,
+          2.161455914499517
+        ],
+        [
+          6.987297598920918,
+          2.3397264118698953
+        ],
+        [
+          6.980068437554081,
+          2.4192471869051033
+        ],
+        [
+          6.972839276187244,
+          2.4987679619403114
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.5975654984037448,
+      "speed_du": 0.7478797758119579,
+      "speed_ddu": 6.72062934855768,
+      "yaw_u": 2.0257242380946194,
+      "yaw_uu": 22.23191280800786,
+      "yaw_uuu": 225.38996222556995,
+      "curvature": 4.697768976810074,
+      "curvature_u": 57.58462408478368,
+      "minimum_parameter_speed": 0.39924348574109303,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 17.40838563712853,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 44,
+    "kind": "WORK",
+    "t0": 308.1286076907943,
+    "t1": 310.902127415166,
+    "duration": 2.773519724371663,
+    "p0": [
+      6.972839276187244,
+      2.4987679619403114
+    ],
+    "p1": [
+      6.944,
+      2.816
+    ],
+    "yaw0": 1.661456213995642,
+    "yaw1": 1.661456213995642,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.7211053818818964,
+      "ramp": 1.3867598621858315,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        6.972839276187244,
+        2.4987679619403114
+      ],
+      "p1": [
+        6.944,
+        2.816
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.3185402169624862,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.3185402169624862,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 3.7669350899791203,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 45,
+    "kind": "WORK",
+    "t0": 310.902127415166,
+    "t1": 323.7712880600854,
+    "duration": 12.869160644919427,
+    "p0": [
+      6.944,
+      2.816
+    ],
+    "p1": [
+      7.385995884756239,
+      3.3
+    ],
+    "yaw0": 1.661456213995642,
+    "yaw1": 3.1086244689504383e-15,
+    "steer0": 3.057665433634813e-14,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10585126198814723,
+      "ramp": 3.4219421496692193,
+      "cruise": 6.025276345580989
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          6.944,
+          2.816
+        ],
+        [
+          6.932646341019939,
+          2.9408902487806787
+        ],
+        [
+          6.921292682039876,
+          3.065780497561357
+        ],
+        [
+          7.135185360154616,
+          3.3
+        ],
+        [
+          7.260590622455427,
+          3.3
+        ],
+        [
+          7.385995884756239,
+          3.3
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.8592710677747436,
+      "speed_du": 0.967632301303234,
+      "speed_ddu": 10.569882182081313,
+      "yaw_u": 2.2962642738761363,
+      "yaw_uu": 23.459122805568366,
+      "yaw_uuu": 199.16082388386516,
+      "curvature": 3.4685476915530087,
+      "curvature_u": 38.247960297354126,
+      "minimum_parameter_speed": 0.6270263115040586,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 18.01733048682801,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 46,
+    "kind": "WORK",
+    "t0": 323.7712880600854,
+    "t1": 329.10415851428206,
+    "duration": 5.332870454196654,
+    "p0": [
+      7.385995884756239,
+      3.3
+    ],
+    "p1": [
+      8.7,
+      3.3
+    ],
+    "yaw0": 3.1086244689504383e-15,
+    "yaw1": 3.1086244689504383e-15,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.37503254901422145,
+      "ramp": 2.666435227098327,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        7.385995884756239,
+        3.3
+      ],
+      "p1": [
+        8.7,
+        3.3
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.31400411524376,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 1.31400411524376,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.7696991487086215,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 47,
+    "kind": "WORK",
+    "t0": 329.10415851428206,
+    "t1": 334.5583029704055,
+    "duration": 5.454144456123433,
+    "p0": [
+      8.7,
+      3.3
+    ],
+    "p1": [
+      8.799999999999999,
+      3.4
+    ],
+    "yaw0": 3.1086244689504383e-15,
+    "yaw1": 1.5707963267948997,
+    "steer0": 1.4181469983996315,
+    "steer1": 1.4181469983996315,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.3666936246535561,
+      "ramp": 2.7270722280617163,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        8.7,
+        3.4
+      ],
+      "radius": 0.1,
+      "angle0": -1.5707963267948966,
+      "sweep": 1.5707963267948966
+    },
+    "curve_bounds": {
+      "speed_u": 0.15707963267948966,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 1.5707963267948966,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 10.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.15707963267948966,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.923647855099672,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0
+  },
+  {
+    "id": 48,
+    "kind": "WORK",
+    "t0": 334.5583029704055,
+    "t1": 337.55054348352684,
+    "duration": 2.9922405131213425,
+    "p0": [
+      8.799999999999999,
+      3.4
+    ],
+    "p1": [
+      8.799999999999999,
+      3.8
+    ],
+    "yaw0": 1.5707963267948997,
+    "yaw1": 1.5707963267948997,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.6683954686228444,
+      "ramp": 1.496120256560671,
+      "cruise": 3.3220543128835073e-16
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        8.799999999999999,
+        3.4
+      ],
+      "p1": [
+        8.799999999999999,
+        3.8
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.3999999999999999,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.3999999999999999,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.063996980927259,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0
+  },
+  {
+    "id": 49,
+    "kind": "WORK",
+    "t0": 337.55054348352684,
+    "t1": 343.0046879396503,
+    "duration": 5.454144456123433,
+    "p0": [
+      8.799999999999999,
+      3.8
+    ],
+    "p1": [
+      8.7,
+      3.9
+    ],
+    "yaw0": 1.5707963267948997,
+    "yaw1": 3.1415926535897962,
+    "steer0": 1.4181469983996315,
+    "steer1": 1.4181469983996315,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.3666936246535561,
+      "ramp": 2.7270722280617163,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        8.7,
+        3.8
+      ],
+      "radius": 0.1,
+      "angle0": 0.0,
+      "sweep": 1.5707963267948966
+    },
+    "curve_bounds": {
+      "speed_u": 0.15707963267948966,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 1.5707963267948966,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 10.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.15707963267948966,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.923647855099672,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0
+  },
+  {
+    "id": 50,
+    "kind": "WORK",
+    "t0": 343.0046879396503,
+    "t1": 347.6755058551607,
+    "duration": 4.6708179155103595,
+    "p0": [
+      8.7,
+      3.9
+    ],
+    "p1": [
+      7.691999999999999,
+      3.9
+    ],
+    "yaw0": 3.1415926535897962,
+    "yaw1": 3.1415926535897962,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.42819053026207915,
+      "ramp": 2.3354089577551798,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        8.7,
+        3.9
+      ],
+      "p1": [
+        7.691999999999999,
+        3.9
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.008,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 1.008,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 5.929270612815712,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 51,
+    "kind": "WORK",
+    "t0": 347.6755058551607,
+    "t1": 360.53926088774426,
+    "duration": 12.863755032583612,
+    "p0": [
+      7.691999999999999,
+      3.9
+    ],
+    "p1": [
+      6.787994285860051,
+      3.115960001020356
+    ],
+    "yaw0": 3.1415926535897962,
+    "yaw1": 4.5704919257805265,
+    "steer0": -0.0,
+    "steer1": -9.64021702157039e-15,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10602212830362778,
+      "ramp": 3.4317617685341966,
+      "cruise": 6.000231495515218
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          7.691999999999999,
+          3.9
+        ],
+        [
+          7.482143437120857,
+          3.9
+        ],
+        [
+          7.272286874241714,
+          3.9
+        ],
+        [
+          6.84735068485487,
+          3.5314547939840946
+        ],
+        [
+          6.817672485357461,
+          3.3237073975022255
+        ],
+        [
+          6.787994285860051,
+          3.115960001020356
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.5504342648959444,
+      "speed_du": 1.9140878773651657,
+      "speed_ddu": 17.67442964084084,
+      "yaw_u": 2.0747751059916433,
+      "yaw_uu": 22.528617401611,
+      "yaw_uuu": 222.52738147062618,
+      "curvature": 1.838097968852311,
+      "curvature_u": 22.163580377587216,
+      "minimum_parameter_speed": 1.0492828059012846,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 17.543325085900335,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 52,
+    "kind": "WAIT",
+    "t0": 360.53926088774426,
+    "t1": 363.53926088774426,
+    "duration": 3.0,
+    "p0": [
+      6.787994285860051,
+      3.115960001020356
+    ],
+    "p1": [
+      6.787994285860051,
+      3.115960001020356
+    ],
+    "yaw0": 4.5704919257805265,
+    "yaw1": 4.5704919257805265,
+    "steer0": -9.64021702157039e-15,
+    "steer1": -9.64021702157039e-15,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 53,
+    "kind": "TRANSIT",
+    "t0": 363.53926088774426,
+    "t1": 368.25921688026597,
+    "duration": 4.719955992521683,
+    "p0": [
+      6.787994285860051,
+      3.115960001020356
+    ],
+    "p1": [
+      6.642426406871193,
+      2.09698484809835
+    ],
+    "yaw0": 4.5704919257805265,
+    "yaw1": 4.5704919257805265,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.4237327642818721,
+      "ramp": 2.3599779962608416,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        6.787994285860051,
+        3.115960001020356
+      ],
+      "p1": [
+        6.642426406871193,
+        2.09698484809835
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.0293203435596423,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 1.0293203435596423,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 5.991647901178365,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 54,
+    "kind": "TRANSIT",
+    "t0": 368.25921688026597,
+    "t1": 381.1229719128703,
+    "duration": 12.863755032604335,
+    "p0": [
+      6.642426406871193,
+      2.09698484809835
+    ],
+    "p1": [
+      6.300000000000001,
+      1.8
+    ],
+    "yaw0": 4.5704919257805265,
+    "yaw1": 3.141592653589795,
+    "steer0": 2.5841713640651834e-15,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.1060221282143197,
+      "ramp": 3.431761760609849,
+      "cruise": 6.000231511384636
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          6.642426406871193,
+          2.09698484809835
+        ],
+        [
+          6.631184664546319,
+          2.018292651824229
+        ],
+        [
+          6.619942922221444,
+          1.9396004555501076
+        ],
+        [
+          6.458982243318378,
+          1.8
+        ],
+        [
+          6.379491121659189,
+          1.8
+        ],
+        [
+          6.300000000000001,
+          1.8
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.5872857064005986,
+      "speed_du": 0.725033286881353,
+      "speed_ddu": 6.694859712479628,
+      "yaw_u": 2.0747751059916264,
+      "yaw_uu": 22.528617401589454,
+      "yaw_uuu": 222.52738147416974,
+      "curvature": 4.852578637769449,
+      "curvature_u": 58.51185219677488,
+      "minimum_parameter_speed": 0.3974556082959424,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 17.543325085893656,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 55,
+    "kind": "TRANSIT",
+    "t0": 381.1229719128703,
+    "t1": 388.6244931871567,
+    "duration": 7.5015212742863975,
+    "p0": [
+      6.300000000000001,
+      1.8
+    ],
+    "p1": [
+      3.7,
+      1.8
+    ],
+    "yaw0": 3.141592653589795,
+    "yaw1": 3.141592653589795,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.2666125878834164,
+      "ramp": 3.7507606371431987,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        6.300000000000001,
+        1.8
+      ],
+      "p1": [
+        3.7,
+        1.8
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 2.6000000000000005,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 2.6000000000000005,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 9.52264687843819,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 56,
+    "kind": "WAIT",
+    "t0": 388.6244931871567,
+    "t1": 390.6244931871567,
+    "duration": 2.0,
+    "p0": [
+      3.7,
+      1.8
+    ],
+    "p1": [
+      3.7,
+      1.8
+    ],
+    "yaw0": 3.141592653589795,
+    "yaw1": 3.141592653589795,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 57,
+    "kind": "WORK",
+    "t0": 390.6244931871567,
+    "t1": 403.3370590809333,
+    "duration": 12.712565893776553,
+    "p0": [
+      3.7,
+      1.8
+    ],
+    "p1": [
+      3.305131670194949,
+      2.0846049894151544
+    ],
+    "yaw0": 3.141592653589795,
+    "yaw1": 1.892546881191539,
+    "steer0": -0.0,
+    "steer1": -1.1182890846137535e-14,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.1063787416649726,
+      "ramp": 3.312191492381742,
+      "cruise": 6.088182909013069
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          3.7,
+          1.8
+        ],
+        [
+          3.6191909866355614,
+          1.8
+        ],
+        [
+          3.5383819732711226,
+          1.8
+        ],
+        [
+          3.3562397701055455,
+          1.9312806896833647
+        ],
+        [
+          3.3306857201502473,
+          2.0079428395492593
+        ],
+        [
+          3.305131670194949,
+          2.0846049894151544
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.6259394737391679,
+      "speed_du": 0.81054246585269,
+      "speed_ddu": 7.419807530905077,
+      "yaw_u": 1.8709326798594452,
+      "yaw_uu": 21.153519095560934,
+      "yaw_uuu": 229.96674421542536,
+      "curvature": 4.2398006091196425,
+      "curvature_u": 54.406805838648054,
+      "minimum_parameter_speed": 0.40404500650233127,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 16.974970447491845,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 58,
+    "kind": "WORK",
+    "t0": 403.3370590809333,
+    "t1": 408.26403659309807,
+    "duration": 4.926977512164785,
+    "p0": [
+      3.305131670194949,
+      2.0846049894151544
+    ],
+    "p1": [
+      2.950452390685336,
+      3.148642827943993
+    ],
+    "yaw0": 1.892546881191539,
+    "yaw1": 1.892546881191539,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.4059283800386685,
+      "ramp": 2.4634887560823926,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        3.305131670194949,
+        2.0846049894151544
+      ],
+      "p1": [
+        2.950452390685336,
+        3.148642827943993
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.1215943621178655,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 1.1215943621178655,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.254446972970877,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 59,
+    "kind": "WORK",
+    "t0": 408.26403659309807,
+    "t1": 420.97660224663446,
+    "duration": 12.712565653536366,
+    "p0": [
+      2.950452390685336,
+      3.148642827943993
+    ],
+    "p1": [
+      1.908,
+      3.9
+    ],
+    "yaw0": 1.892546881191539,
+    "yaw1": 3.141592653589793,
+    "steer0": 4.813571153960856e-15,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10637874460774709,
+      "ramp": 3.3121915121858136,
+      "cruise": 6.088182629164738
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          2.950452390685336,
+          3.148642827943993
+        ],
+        [
+          2.8829896917413356,
+          3.3510309247759946
+        ],
+        [
+          2.8155269927973348,
+          3.553419021607996
+        ],
+        [
+          2.334671551463825,
+          3.9
+        ],
+        [
+          2.1213357757319127,
+          3.9
+        ],
+        [
+          1.908,
+          3.9
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.6524802041573232,
+      "speed_du": 2.1398319283436993,
+      "speed_ddu": 19.588289604123318,
+      "yaw_u": 1.8709326383675795,
+      "yaw_uu": 21.153518675048733,
+      "yaw_uuu": 229.9667157422467,
+      "curvature": 1.6059850208139266,
+      "curvature_u": 20.608636846550155,
+      "minimum_parameter_speed": 1.066678878659566,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 16.974970021761433,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 60,
+    "kind": "WORK",
+    "t0": 420.97660224663446,
+    "t1": 424.98941725429216,
+    "duration": 4.012815007657693,
+    "p0": [
+      1.908,
+      3.9
+    ],
+    "p1": [
+      1.164,
+      3.9
+    ],
+    "yaw0": 3.141592653589793,
+    "yaw1": 3.141592653589793,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.49840323966676287,
+      "ramp": 2.0064075038288465,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        1.908,
+        3.9
+      ],
+      "p1": [
+        1.164,
+        3.9
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.744,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.744,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 5.093982794855682,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 61,
+    "kind": "WORK",
+    "t0": 424.98941725429216,
+    "t1": 437.87739361660607,
+    "duration": 12.8879763623139,
+    "p0": [
+      1.164,
+      3.9
+    ],
+    "p1": [
+      0.8999999999999999,
+      4.164
+    ],
+    "yaw0": 3.141592653589793,
+    "yaw1": 1.5707963267948966,
+    "steer0": -0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10664258122258205,
+      "ramp": 3.5108589994771746,
+      "cruise": 5.8662583633595515
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          1.164,
+          3.9
+        ],
+        [
+          1.0951188997970536,
+          3.9
+        ],
+        [
+          1.0262377995941074,
+          3.9
+        ],
+        [
+          0.8999999999999999,
+          4.026237718937322
+        ],
+        [
+          0.8999999999999999,
+          4.095118859468661
+        ],
+        [
+          0.8999999999999999,
+          4.164
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.4870795079572895,
+      "speed_du": 0.5715404636382736,
+      "speed_ddu": 5.807874784903625,
+      "yaw_u": 2.213100851122622,
+      "yaw_uu": 23.214523649076074,
+      "yaw_uuu": 209.91170977196614,
+      "curvature": 6.0519853718778664,
+      "curvature_u": 69.17904000426356,
+      "minimum_parameter_speed": 0.3444055010147318,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 17.87266574722676,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 62,
+    "kind": "WORK",
+    "t0": 437.87739361660607,
+    "t1": 439.56687729461066,
+    "duration": 1.6894836780046074,
+    "p0": [
+      0.8999999999999999,
+      4.164
+    ],
+    "p1": [
+      0.8999999999999999,
+      4.236
+    ],
+    "yaw0": 1.5707963267948966,
+    "yaw1": 1.5707963267948966,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 1.1837936205232436,
+      "ramp": 0.8447418390023037,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        0.8999999999999999,
+        4.164
+      ],
+      "p1": [
+        0.8999999999999999,
+        4.236
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.07200000000000006,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.07200000000000006,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 2.2946205481897666,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 63,
+    "kind": "WORK",
+    "t0": 439.56687729461066,
+    "t1": 452.45485365692406,
+    "duration": 12.887976362313395,
+    "p0": [
+      0.8999999999999999,
+      4.236
+    ],
+    "p1": [
+      1.164,
+      4.5
+    ],
+    "yaw0": 1.5707963267948966,
+    "yaw1": 0.0,
+    "steer0": -0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10664258105159187,
+      "ramp": 3.510858984441447,
+      "cruise": 5.866258393430503
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          0.8999999999999999,
+          4.236
+        ],
+        [
+          0.8999999999999999,
+          4.304881100202946
+        ],
+        [
+          0.8999999999999999,
+          4.373762200405892
+        ],
+        [
+          1.0262377189373222,
+          4.5
+        ],
+        [
+          1.095118859468661,
+          4.5
+        ],
+        [
+          1.164,
+          4.5
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.48707950795729027,
+      "speed_du": 0.5715404636382736,
+      "speed_ddu": 5.807874784903625,
+      "yaw_u": 2.213100851122622,
+      "yaw_uu": 23.214523649076227,
+      "yaw_uuu": 209.9117097719485,
+      "curvature": 6.051985371877894,
+      "curvature_u": 69.17904000426411,
+      "minimum_parameter_speed": 0.3444055010147326,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 17.872665747226804,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 64,
+    "kind": "WORK",
+    "t0": 452.45485365692406,
+    "t1": 456.46766866458177,
+    "duration": 4.012815007657693,
+    "p0": [
+      1.164,
+      4.5
+    ],
+    "p1": [
+      1.908,
+      4.5
+    ],
+    "yaw0": 0.0,
+    "yaw1": 0.0,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.49840323966676287,
+      "ramp": 2.0064075038288465,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        1.164,
+        4.5
+      ],
+      "p1": [
+        1.908,
+        4.5
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.744,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.744,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 5.093982794855682,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 65,
+    "kind": "WORK",
+    "t0": 456.46766866458177,
+    "t1": 468.920844669637,
+    "duration": 12.453176005055232,
+    "p0": [
+      1.908,
+      4.5
+    ],
+    "p1": [
+      3.0674935397790817,
+      5.201578575941883
+    ],
+    "yaw0": 0.0,
+    "yaw1": 1.08828303177242,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10790355579828528,
+      "ramp": 3.1856408195660877,
+      "cruise": 6.081894365923056
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          1.908,
+          4.5
+        ],
+        [
+          2.1239552123146295,
+          4.5
+        ],
+        [
+          2.3399104246292595,
+          4.5
+        ],
+        [
+          2.8670840762162557,
+          4.818978690958306
+        ],
+        [
+          2.9672888079976687,
+          5.010278633450095
+        ],
+        [
+          3.0674935397790817,
+          5.201578575941883
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.7328994487985767,
+      "speed_du": 2.323954326599583,
+      "speed_ddu": 22.499991577594294,
+      "yaw_u": 1.6667396828127443,
+      "yaw_uu": 19.465670551487634,
+      "yaw_uuu": 227.33596191818708,
+      "curvature": 1.3964611798395072,
+      "curvature_u": 18.833671139790518,
+      "minimum_parameter_speed": 1.0797760615731478,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 16.715745374011554,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 66,
+    "kind": "WAIT",
+    "t0": 468.920844669637,
+    "t1": 471.920844669637,
+    "duration": 3.0,
+    "p0": [
+      3.0674935397790817,
+      5.201578575941883
+    ],
+    "p1": [
+      3.0674935397790817,
+      5.201578575941883
+    ],
+    "yaw0": 1.08828303177242,
+    "yaw1": 1.08828303177242,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 67,
+    "kind": "TRANSIT",
+    "t0": 471.920844669637,
+    "t1": 477.18149188074807,
+    "duration": 5.260647211111075,
+    "p0": [
+      3.0674935397790817,
+      5.201578575941883
+    ],
+    "p1": [
+      3.660797901598833,
+      6.334250539415954
+    ],
+    "yaw0": 1.08828303177242,
+    "yaw1": 1.08828303177242,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.3801813578709054,
+      "ramp": 2.6303236055555375,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        3.0674935397790817,
+        5.201578575941883
+      ],
+      "p1": [
+        3.660797901598833,
+        6.334250539415954
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.2786539182259398,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 1.2786539182259398,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.678016886497067,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 68,
+    "kind": "TRANSIT",
+    "t0": 477.18149188074807,
+    "t1": 489.98231411217915,
+    "duration": 12.800822231431072,
+    "p0": [
+      3.660797901598833,
+      6.334250539415954
+    ],
+    "p1": [
+      4.0910427500435995,
+      6.527239312489101
+    ],
+    "yaw0": 1.08828303177242,
+    "yaw1": -0.2449786631268549,
+    "steer0": 3.330065076301199e-14,
+    "steer1": 7.832786679129853e-14,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10604586623472978,
+      "ramp": 3.370940280289989,
+      "cruise": 6.058941670851094
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          3.660797901598833,
+          6.334250539415954
+        ],
+        [
+          3.6980209734804523,
+          6.40531276755359
+        ],
+        [
+          3.7352440453620717,
+          6.476374995691227
+        ],
+        [
+          3.9353912954603536,
+          6.566152176134913
+        ],
+        [
+          4.013217022751976,
+          6.546695744312006
+        ],
+        [
+          4.0910427500435995,
+          6.527239312489101
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.6084313774938943,
+      "speed_du": 0.7719470840945455,
+      "speed_ddu": 6.812903647314496,
+      "yaw_u": 1.9699705953687872,
+      "yaw_uu": 21.866723469327937,
+      "yaw_uuu": 227.7760919165613,
+      "curvature": 4.527986475327013,
+      "curvature_u": 56.48186445063328,
+      "minimum_parameter_speed": 0.4011046175173463,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 17.244937414063273,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 69,
+    "kind": "TRANSIT",
+    "t0": 489.98231411217915,
+    "t1": 497.62458865338124,
+    "duration": 7.642274541202074,
+    "p0": [
+      4.0910427500435995,
+      6.527239312489101
+    ],
+    "p1": [
+      6.7089572499564,
+      5.8727606875109
+    ],
+    "yaw0": -0.2449786631268549,
+    "yaw1": -0.2449786631268549,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.2617021920918081,
+      "ramp": 3.821137270601037,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        4.0910427500435995,
+        6.527239312489101
+      ],
+      "p1": [
+        6.7089572499564,
+        5.8727606875109
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 2.6984845004941285,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 2.6984845004941285,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 9.701323124071047,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 70,
+    "kind": "WAIT",
+    "t0": 497.62458865338124,
+    "t1": 499.62458865338124,
+    "duration": 2.0,
+    "p0": [
+      6.7089572499564,
+      5.8727606875109
+    ],
+    "p1": [
+      6.7089572499564,
+      5.8727606875109
+    ],
+    "yaw0": -0.2449786631268549,
+    "yaw1": -0.2449786631268549,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 71,
+    "kind": "WORK",
+    "t0": 499.62458865338124,
+    "t1": 512.4748841866933,
+    "duration": 12.850295533312064,
+    "p0": [
+      6.7089572499564,
+      5.8727606875109
+    ],
+    "p1": [
+      6.976991050334579,
+      5.5008836543495265
+    ],
+    "yaw0": -0.2449786631268549,
+    "yaw1": -1.6475682180646636,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10599223395088726,
+      "ramp": 3.4156420429123657,
+      "cruise": 6.019011447487333
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          6.7089572499564,
+          5.8727606875109
+        ],
+        [
+          6.786276394380704,
+          5.853430901404824
+        ],
+        [
+          6.863595538805008,
+          5.834101115298748
+        ],
+        [
+          6.989216277413572,
+          5.659811606376432
+        ],
+        [
+          6.9831036638740756,
+          5.580347630362979
+        ],
+        [
+          6.976991050334579,
+          5.5008836543495265
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.5932352853003556,
+      "speed_du": 0.738265021916145,
+      "speed_ddu": 6.709956909331465,
+      "yaw_u": 2.0468107953502868,
+      "yaw_uu": 22.362435499918128,
+      "yaw_uuu": 224.25089278255794,
+      "curvature": 4.763646226454316,
+      "curvature_u": 57.98835969429994,
+      "minimum_parameter_speed": 0.39849364888759004,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 17.46744580633942,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 72,
+    "kind": "WORK",
+    "t0": 512.4748841866933,
+    "t1": 515.5404927648029,
+    "duration": 3.065608578109622,
+    "p0": [
+      6.976991050334579,
+      5.5008836543495265
+    ],
+    "p1": [
+      6.944,
+      5.072
+    ],
+    "yaw0": -1.6475682180646636,
+    "yaw1": -1.6475682180646636,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.65239900954129,
+      "ramp": 1.532804289054811,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        6.976991050334579,
+        5.5008836543495265
+      ],
+      "p1": [
+        6.944,
+        5.072
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.43015066938269764,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.43015066938269764,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.163643915557271,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 73,
+    "kind": "WORK",
+    "t0": 515.5404927648029,
+    "t1": 528.4106549167883,
+    "duration": 12.870162151985346,
+    "p0": [
+      6.944,
+      5.072
+    ],
+    "p1": [
+      7.473689811657833,
+      4.5
+    ],
+    "yaw0": -1.6475682180646636,
+    "yaw1": 1.354472090042691e-14,
+    "steer0": 2.2549612486045602e-14,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10630269627654237,
+      "ramp": 3.46306303759846,
+      "cruise": 5.944036076788426
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          6.944,
+          5.072
+        ],
+        [
+          6.932626095810789,
+          4.924139245540257
+        ],
+        [
+          6.921252191621578,
+          4.776278491080513
+        ],
+        [
+          7.177095112559507,
+          4.5
+        ],
+        [
+          7.32539246210867,
+          4.5
+        ],
+        [
+          7.473689811657833,
+          4.5
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.021215763021429,
+      "speed_du": 1.1578250316577967,
+      "speed_ddu": 12.50027295134824,
+      "yaw_u": 2.2805359270485908,
+      "yaw_uu": 23.43068623056101,
+      "yaw_uuu": 200.91152051374152,
+      "curvature": 2.915069559465463,
+      "curvature_u": 32.32425365038094,
+      "minimum_parameter_speed": 0.741486747745812,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 17.99543414958483,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 74,
+    "kind": "WORK",
+    "t0": 528.4106549167883,
+    "t1": 533.5625005249626,
+    "duration": 5.151845608174299,
+    "p0": [
+      7.473689811657833,
+      4.5
+    ],
+    "p1": [
+      8.7,
+      4.5
+    ],
+    "yaw0": 1.354472090042691e-14,
+    "yaw1": 1.354472090042691e-14,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.38821039140354907,
+      "ramp": 2.5759228040871496,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        7.473689811657833,
+        4.5
+      ],
+      "p1": [
+        8.7,
+        4.5
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.2263101883421665,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 1.2263101883421665,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.539901002152908,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 75,
+    "kind": "WORK",
+    "t0": 533.5625005249626,
+    "t1": 539.0166449810861,
+    "duration": 5.454144456123433,
+    "p0": [
+      8.7,
+      4.5
+    ],
+    "p1": [
+      8.799999999999999,
+      4.6
+    ],
+    "yaw0": 1.354472090042691e-14,
+    "yaw1": 1.57079632679491,
+    "steer0": 1.4181469983996315,
+    "steer1": 1.4181469983996315,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.3666936246535561,
+      "ramp": 2.7270722280617163,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        8.7,
+        4.6
+      ],
+      "radius": 0.1,
+      "angle0": -1.5707963267948966,
+      "sweep": 1.5707963267948966
+    },
+    "curve_bounds": {
+      "speed_u": 0.15707963267948966,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 1.5707963267948966,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 10.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.15707963267948966,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.923647855099672,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0
+  },
+  {
+    "id": 76,
+    "kind": "WORK",
+    "t0": 539.0166449810861,
+    "t1": 542.0088854942072,
+    "duration": 2.9922405131211707,
+    "p0": [
+      8.799999999999999,
+      4.6
+    ],
+    "p1": [
+      8.799999999999999,
+      4.999999999999999
+    ],
+    "yaw0": 1.57079632679491,
+    "yaw1": 1.57079632679491,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.6683954686228827,
+      "ramp": 1.4961202565605853,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        8.799999999999999,
+        4.6
+      ],
+      "p1": [
+        8.799999999999999,
+        4.999999999999999
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.39999999999999947,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.39999999999999947,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.063996980927257,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0
+  },
+  {
+    "id": 77,
+    "kind": "WORK",
+    "t0": 542.0088854942072,
+    "t1": 547.4630299503307,
+    "duration": 5.454144456123433,
+    "p0": [
+      8.799999999999999,
+      4.999999999999999
+    ],
+    "p1": [
+      8.7,
+      5.099999999999999
+    ],
+    "yaw0": 1.57079632679491,
+    "yaw1": 3.1415926535898064,
+    "steer0": 1.4181469983996315,
+    "steer1": 1.4181469983996315,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.3666936246535561,
+      "ramp": 2.7270722280617163,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        8.7,
+        4.999999999999999
+      ],
+      "radius": 0.1,
+      "angle0": 0.0,
+      "sweep": 1.5707963267948966
+    },
+    "curve_bounds": {
+      "speed_u": 0.15707963267948966,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 1.5707963267948966,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 10.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.15707963267948966,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.923647855099672,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0
+  },
+  {
+    "id": 78,
+    "kind": "WORK",
+    "t0": 547.4630299503307,
+    "t1": 553.1699942360093,
+    "duration": 5.7069642856786125,
+    "p0": [
+      8.7,
+      5.099999999999999
+    ],
+    "p1": [
+      7.199999999999999,
+      5.1
+    ],
+    "yaw0": 3.1415926535898064,
+    "yaw1": 3.1415926535898064,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.33167495854180884,
+      "ramp": 2.691964285689326,
+      "cruise": 0.3230357142999601
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        8.7,
+        5.1
+      ],
+      "p1": [
+        7.199999999999999,
+        5.1
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.5,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 1.5,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 7.232969529473059,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 79,
+    "kind": "WORK",
+    "t0": 553.1699942360093,
+    "t1": 565.7098615270484,
+    "duration": 12.539867291039009,
+    "p0": [
+      7.199999999999999,
+      5.1
+    ],
+    "p1": [
+      6.773134360400663,
+      5.3718549419985795
+    ],
+    "yaw0": 3.1415926535898064,
+    "yaw1": 2.0074234866084493,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10734123606858904,
+      "ramp": 3.223783029059588,
+      "cruise": 6.092301232919833
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          7.199999999999999,
+          5.1
+        ],
+        [
+          7.11846528321696,
+          5.1
+        ],
+        [
+          7.03693056643392,
+          5.1
+        ],
+        [
+          6.84209405716185,
+          5.224084163224607
+        ],
+        [
+          6.807614208781256,
+          5.297969552611593
+        ],
+        [
+          6.773134360400663,
+          5.3718549419985795
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.6481077863837448,
+      "speed_du": 0.8590652505423957,
+      "speed_ddu": 8.216524282656113,
+      "yaw_u": 1.7268714331767139,
+      "yaw_uu": 19.98991479879604,
+      "yaw_uuu": 229.02577788350897,
+      "curvature": 3.844739360385937,
+      "curvature_u": 51.15300669679069,
+      "minimum_parameter_speed": 0.4076735839151979,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 16.80819423559786,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 80,
+    "kind": "WAIT",
+    "t0": 565.7098615270484,
+    "t1": 568.7098615270484,
+    "duration": 3.0,
+    "p0": [
+      6.773134360400663,
+      5.3718549419985795
+    ],
+    "p1": [
+      6.773134360400663,
+      5.3718549419985795
+    ],
+    "yaw0": 2.0074234866084493,
+    "yaw1": 2.0074234866084493,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 81,
+    "kind": "TRANSIT",
+    "t0": 568.7098615270484,
+    "t1": 573.4889989195584,
+    "duration": 4.7791373925100515,
+    "p0": [
+      6.773134360400663,
+      5.3718549419985795
+    ],
+    "p1": [
+      6.326865639599337,
+      6.328145058001421
+    ],
+    "yaw0": 2.0074234866084493,
+    "yaw1": 2.0074234866084493,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.41848556250641283,
+      "ramp": 2.3895686962550258,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        6.773134360400663,
+        5.3718549419985795
+      ],
+      "p1": [
+        6.326865639599337,
+        6.328145058001421
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.0552945357246855,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 1.0552945357246855,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.066774472613804,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 82,
+    "kind": "TRANSIT",
+    "t0": 573.4889989195584,
+    "t1": 586.3248576477413,
+    "duration": 12.835858728182817,
+    "p0": [
+      6.326865639599337,
+      6.328145058001421
+    ],
+    "p1": [
+      5.9089572499564005,
+      6.527239312489101
+    ],
+    "yaw0": 2.0074234866084493,
+    "yaw1": 3.3865713167166622,
+    "steer0": -3.0609620688080814e-14,
+    "steer1": -7.02216170779506e-14,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.1059886958257064,
+      "ramp": 3.40089028924236,
+      "cruise": 6.034078149698097
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          6.326865639599337,
+          6.328145058001421
+        ],
+        [
+          6.293085849690357,
+          6.4005303220920915
+        ],
+        [
+          6.259306059781377,
+          6.472915586182763
+        ],
+        [
+          6.0639458154713575,
+          6.565986453867841
+        ],
+        [
+          5.986451532713879,
+          6.5466128831784705
+        ],
+        [
+          5.9089572499564005,
+          6.527239312489101
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.5984519307373769,
+      "speed_du": 0.7498463925909603,
+      "speed_ddu": 6.722781244660354,
+      "yaw_u": 2.021329756909625,
+      "yaw_uu": 22.204168604323165,
+      "yaw_uuu": 225.61053687782743,
+      "curvature": 4.684160963469643,
+      "curvature_u": 57.499540763644994,
+      "minimum_parameter_speed": 0.3993963914882063,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 17.395882779879667,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 83,
+    "kind": "TRANSIT",
+    "t0": 586.3248576477413,
+    "t1": 593.9172753505314,
+    "duration": 7.592417702790123,
+    "p0": [
+      5.9089572499564005,
+      6.527239312489101
+    ],
+    "p1": [
+      3.3250889471043457,
+      5.881272236776087
+    ],
+    "yaw0": 3.3865713167166622,
+    "yaw1": 3.3865713167166622,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.2634207018490334,
+      "ramp": 3.7962088513950616,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        5.9089572499564005,
+        6.527239312489101
+      ],
+      "p1": [
+        3.3250889471043457,
+        5.881272236776087
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 2.663390483836116,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 2.663390483836116,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 9.638033419314795,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 84,
+    "kind": "WAIT",
+    "t0": 593.9172753505314,
+    "t1": 595.9172753505314,
+    "duration": 2.0,
+    "p0": [
+      3.3250889471043457,
+      5.881272236776087
+    ],
+    "p1": [
+      3.3250889471043457,
+      5.881272236776087
+    ],
+    "yaw0": 3.3865713167166622,
+    "yaw1": 3.3865713167166622,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 85,
+    "kind": "WORK",
+    "t0": 595.9172753505314,
+    "t1": 607.9613453713783,
+    "duration": 12.044070020846947,
+    "p0": [
+      3.3250889471043457,
+      5.881272236776087
+    ],
+    "p1": [
+      2.868,
+      5.492
+    ],
+    "yaw0": 3.3865713167166622,
+    "yaw1": 4.307497194099609,
+    "steer0": 6.568481247319876e-15,
+    "steer1": -2.1336671540350674e-14,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.11095385076810103,
+      "ramp": 3.0313138787455896,
+      "cruise": 5.981442263355768
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          3.3250889471043457,
+          5.881272236776087
+        ],
+        [
+          3.235505534913605,
+          5.8588763837284015
+        ],
+        [
+          3.1459221227228644,
+          5.836480530680716
+        ],
+        [
+          2.940749385111174,
+          5.661748565259407
+        ],
+        [
+          2.904374692555587,
+          5.576874282629703
+        ],
+        [
+          2.868,
+          5.492
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.763871403513886,
+      "speed_du": 1.0659699891075667,
+      "speed_ddu": 10.687306978866388,
+      "yaw_u": 1.4366265697101404,
+      "yaw_uu": 17.28085414171421,
+      "yaw_uuu": 214.65173575857972,
+      "curvature": 2.7845194064377523,
+      "curvature_u": 39.28956492617083,
+      "minimum_parameter_speed": 0.46170233845708664,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 16.242572606994873,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 86,
+    "kind": "WORK",
+    "t0": 607.9613453713783,
+    "t1": 609.7906031728686,
+    "duration": 1.8292578014902894,
+    "p0": [
+      2.868,
+      5.492
+    ],
+    "p1": [
+      2.8320000000000003,
+      5.408
+    ],
+    "yaw0": 4.307497194099609,
+    "yaw1": 4.307497194099609,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 1.0933396038385665,
+      "ramp": 0.9146289007451447,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        2.868,
+        5.492
+      ],
+      "p1": [
+        2.8320000000000003,
+        5.408
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.0913892772703664,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.0913892772703664,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 2.4844587691983633,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 87,
+    "kind": "WORK",
+    "t0": 609.7906031728686,
+    "t1": 622.3844128339276,
+    "duration": 12.593809661059005,
+    "p0": [
+      2.8320000000000003,
+      5.408
+    ],
+    "p1": [
+      2.3649059833419876,
+      5.1
+    ],
+    "yaw0": 4.307497194099609,
+    "yaw1": 3.141592653589795,
+    "steer0": 2.2038526895727328e-14,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10701353404568625,
+      "ramp": 3.2491972349982077,
+      "cruise": 6.095415191062591
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          2.8320000000000003,
+          5.408
+        ],
+        [
+          2.7962092016269513,
+          5.324488137129553
+        ],
+        [
+          2.7604184032539023,
+          5.240976274259104
+        ],
+        [
+          2.546622372371746,
+          5.1
+        ],
+        [
+          2.455764177856867,
+          5.1
+        ],
+        [
+          2.3649059833419876,
+          5.1
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.7173062101895282,
+      "speed_du": 0.9451184512170689,
+      "speed_ddu": 8.93641539196073,
+      "yaw_u": 1.7676282645852233,
+      "yaw_uu": 20.332896611113036,
+      "yaw_uuu": 229.7518219000993,
+      "curvature": 3.5399142927509195,
+      "curvature_u": 46.643446890218584,
+      "minimum_parameter_speed": 0.45429097257439377,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 16.863349108488027,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 88,
+    "kind": "WORK",
+    "t0": 622.3844128339276,
+    "t1": 627.4826164373048,
+    "duration": 5.0982036033772555,
+    "p0": [
+      2.3649059833419876,
+      5.1
+    ],
+    "p1": [
+      1.1639999999999997,
+      5.1
+    ],
+    "yaw0": 3.141592653589795,
+    "yaw1": 3.141592653589795,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.3922950426450445,
+      "ramp": 2.5491018016886278,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        2.3649059833419876,
+        5.1
+      ],
+      "p1": [
+        1.1639999999999997,
+        5.1
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.200905983341988,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 1.200905983341988,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.471806298303793,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 89,
+    "kind": "WORK",
+    "t0": 627.4826164373048,
+    "t1": 640.3705928414407,
+    "duration": 12.887976404135916,
+    "p0": [
+      1.1639999999999997,
+      5.1
+    ],
+    "p1": [
+      0.8999999999999999,
+      5.364
+    ],
+    "yaw0": 3.141592653589795,
+    "yaw1": 1.5707963267948983,
+    "steer0": -0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10664258083290427,
+      "ramp": 3.5108590070346937,
+      "cruise": 5.8662583900665295
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          1.1639999999999997,
+          5.1
+        ],
+        [
+          1.0951189000130641,
+          5.1
+        ],
+        [
+          1.0262378000261285,
+          5.1
+        ],
+        [
+          0.8999999999999999,
+          5.22623771936934
+        ],
+        [
+          0.8999999999999999,
+          5.29511885968467
+        ],
+        [
+          0.8999999999999999,
+          5.364
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.4870795086245132,
+      "speed_du": 0.5715404698471145,
+      "speed_ddu": 5.807874821560946,
+      "yaw_u": 2.2131008597335624,
+      "yaw_uu": 23.214523820267285,
+      "yaw_uuu": 209.9117131715952,
+      "curvature": 6.051985408890223,
+      "curvature_u": 69.17904075741177,
+      "minimum_parameter_speed": 0.34440549993467795,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 17.87266580654439,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 90,
+    "kind": "WORK",
+    "t0": 640.3705928414407,
+    "t1": 642.0600765194454,
+    "duration": 1.6894836780046005,
+    "p0": [
+      0.8999999999999999,
+      5.364
+    ],
+    "p1": [
+      0.8999999999999999,
+      5.435999999999999
+    ],
+    "yaw0": 1.5707963267948983,
+    "yaw1": 1.5707963267948983,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 1.1837936205232467,
+      "ramp": 0.8447418390022993,
+      "cruise": 2.0632740469540118e-15
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        0.8999999999999999,
+        5.364
+      ],
+      "p1": [
+        0.8999999999999999,
+        5.435999999999999
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.07199999999999918,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.07199999999999918,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 2.2946205481897572,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 91,
+    "kind": "WORK",
+    "t0": 642.0600765194454,
+    "t1": 654.9480529235813,
+    "duration": 12.887976404135884,
+    "p0": [
+      0.8999999999999999,
+      5.435999999999999
+    ],
+    "p1": [
+      1.1639999999999997,
+      5.699999999999999
+    ],
+    "yaw0": 1.5707963267948983,
+    "yaw1": 1.7763568394002505e-15,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10664258084004444,
+      "ramp": 3.510859007662497,
+      "cruise": 5.8662583888108895
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          0.8999999999999999,
+          5.435999999999999
+        ],
+        [
+          0.8999999999999999,
+          5.504881099986934
+        ],
+        [
+          0.8999999999999999,
+          5.57376219997387
+        ],
+        [
+          1.0262377193693397,
+          5.699999999999999
+        ],
+        [
+          1.0951188596846697,
+          5.699999999999999
+        ],
+        [
+          1.1639999999999997,
+          5.699999999999999
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.4870795086245132,
+      "speed_du": 0.5715404698470493,
+      "speed_ddu": 5.807874821555005,
+      "yaw_u": 2.2131008597335624,
+      "yaw_uu": 23.21452382026732,
+      "yaw_uuu": 209.91171317158793,
+      "curvature": 6.051985408890055,
+      "curvature_u": 69.17904075741228,
+      "minimum_parameter_speed": 0.34440549993467684,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 17.872665806544404,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 92,
+    "kind": "WORK",
+    "t0": 654.9480529235813,
+    "t1": 660.1202123923965,
+    "duration": 5.1721594688152495,
+    "p0": [
+      1.1639999999999997,
+      5.699999999999999
+    ],
+    "p1": [
+      2.4000000000000004,
+      5.699999999999999
+    ],
+    "yaw0": 1.7763568394002505e-15,
+    "yaw1": 1.7763568394002505e-15,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.3866856797549837,
+      "ramp": 2.5860797344076247,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        1.1639999999999997,
+        5.699999999999999
+      ],
+      "p1": [
+        2.4000000000000004,
+        5.699999999999999
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.2360000000000007,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 1.2360000000000007,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.565688001159623,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 93,
+    "kind": "WORK",
+    "t0": 660.1202123923965,
+    "t1": 668.343180830333,
+    "duration": 8.222968437936485,
+    "p0": [
+      2.4000000000000004,
+      5.699999999999999
+    ],
+    "p1": [
+      2.9905478797790552,
+      5.774712311943185
+    ],
+    "yaw0": 1.7763568394002505e-15,
+    "yaw1": 0.25168997175818486,
+    "steer0": 0.0,
+    "steer1": -6.247107671790704e-14,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.1605330926810718,
+      "ramp": 1.9937232194027474,
+      "cruise": 4.235521999130991
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          2.4000000000000004,
+          5.699999999999999
+        ],
+        [
+          2.4846175589631807,
+          5.699999999999999
+        ],
+        [
+          2.569235117926361,
+          5.699999999999999
+        ],
+        [
+          2.8266448566412095,
+          5.732565820279167
+        ],
+        [
+          2.9085963682101323,
+          5.753639066111177
+        ],
+        [
+          2.9905478797790552,
+          5.774712311943185
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.7488334878846866,
+      "speed_du": 1.1294242233063068,
+      "speed_ddu": 12.23731093706942,
+      "yaw_u": 0.40796730786872454,
+      "yaw_uu": 5.267656028625546,
+      "yaw_uuu": 74.92924483028314,
+      "curvature": 0.8818752069619138,
+      "curvature_u": 13.217895313160025,
+      "minimum_parameter_speed": 0.42308779481590175,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 11.21127299863404,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 94,
+    "kind": "WAIT",
+    "t0": 668.343180830333,
+    "t1": 671.343180830333,
+    "duration": 3.0,
+    "p0": [
+      2.9905478797790552,
+      5.774712311943185
+    ],
+    "p1": [
+      2.9905478797790552,
+      5.774712311943185
+    ],
+    "yaw0": 0.25168997175818486,
+    "yaw1": 0.25168997175818486,
+    "steer0": -6.247107671790704e-14,
+    "steer1": -6.247107671790704e-14,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 95,
+    "kind": "TRANSIT",
+    "t0": 671.343180830333,
+    "t1": 679.1447976512633,
+    "duration": 7.801616820930194,
+    "p0": [
+      2.9905478797790552,
+      5.774712311943185
+    ],
+    "p1": [
+      5.714129189903185,
+      6.475061791689391
+    ],
+    "yaw0": 0.25168997175818486,
+    "yaw1": 0.25168997175818486,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.2563571174931837,
+      "ramp": 3.900808410465097,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        2.9905478797790552,
+        5.774712311943185
+      ],
+      "p1": [
+        5.714129189903185,
+        6.475061791689391
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 2.8121850128749095,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 2.8121850128749095,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 9.903596797260173,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 96,
+    "kind": "WAIT",
+    "t0": 679.1447976512633,
+    "t1": 681.1447976512633,
+    "duration": 2.0,
+    "p0": [
+      5.714129189903185,
+      6.475061791689391
+    ],
+    "p1": [
+      5.714129189903185,
+      6.475061791689391
+    ],
+    "yaw0": 0.25168997175818486,
+    "yaw1": 0.25168997175818486,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spinup"
+  },
+  {
+    "id": 97,
+    "kind": "WORK",
+    "t0": 681.1447976512633,
+    "t1": 693.731316252378,
+    "duration": 12.58651860111468,
+    "p0": [
+      5.714129189903185,
+      6.475061791689391
+    ],
+    "p1": [
+      6.508,
+      6.204
+    ],
+    "yaw0": 0.25168997175818486,
+    "yaw1": -0.9097531579442142,
+    "steer0": -1.7946074343426252e-14,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.1070566676895909,
+      "ramp": 3.24567116413407,
+      "cruise": 6.0951762728465395
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          5.714129189903185,
+          6.475061791689391
+        ],
+        [
+          5.845913705505267,
+          6.508949238558498
+        ],
+        [
+          5.977698221107348,
+          6.542836685427604
+        ],
+        [
+          6.340920059809121,
+          6.4188170659597015
+        ],
+        [
+          6.42446002990456,
+          6.311408532979851
+        ],
+        [
+          6.508,
+          6.204
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.075304320493235,
+      "speed_du": 1.4180351081346043,
+      "speed_ddu": 13.430034125857656,
+      "yaw_u": 1.7619410266166433,
+      "yaw_uu": 20.28565840541177,
+      "yaw_uuu": 229.67145618722375,
+      "curvature": 2.3552929828620397,
+      "curvature_u": 31.07708199154738,
+      "minimum_parameter_speed": 0.6803586849556237,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 16.856021742948197,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 98,
+    "kind": "WORK",
+    "t0": 693.731316252378,
+    "t1": 695.8239544210182,
+    "duration": 2.092638168640306,
+    "p0": [
+      6.508,
+      6.204
+    ],
+    "p1": [
+      6.592,
+      6.096
+    ],
+    "yaw0": -0.9097531579442142,
+    "yaw1": -0.9097531579442142,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.9557313968422463,
+      "ramp": 1.046319084320153,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        6.508,
+        6.204
+      ],
+      "p1": [
+        6.592,
+        6.096
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.13682105101189607,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.13682105101189607,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 2.842176343105902,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 99,
+    "kind": "WORK",
+    "t0": 695.8239544210182,
+    "t1": 707.8353667245208,
+    "duration": 12.011412303502565,
+    "p0": [
+      6.592,
+      6.096
+    ],
+    "p1": [
+      7.401677187043621,
+      5.699999999999999
+    ],
+    "yaw0": -0.9097531579442142,
+    "yaw1": -2.4424906541753444e-15,
+    "steer0": 1.481801832102755e-14,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.11121847615390752,
+      "ramp": 3.020100476714276,
+      "cruise": 5.971211350074014
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          6.592,
+          6.096
+        ],
+        [
+          6.6769270937014955,
+          5.986808022383791
+        ],
+        [
+          6.761854187402991,
+          5.877616044767582
+        ],
+        [
+          7.125014943562401,
+          5.699999999999999
+        ],
+        [
+          7.263346065303011,
+          5.699999999999999
+        ],
+        [
+          7.401677187043621,
+          5.699999999999999
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.1464205601198418,
+      "speed_du": 1.6034945526553472,
+      "speed_ddu": 16.110079399318195,
+      "yaw_u": 1.4207430504472993,
+      "yaw_uu": 17.1210127898276,
+      "yaw_uuu": 213.45534068946398,
+      "curvature": 1.8369755812776007,
+      "curvature_u": 25.992077292357727,
+      "minimum_parameter_speed": 0.6916556083109826,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 16.2031848676181,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 100,
+    "kind": "WORK",
+    "t0": 707.8353667245208,
+    "t1": 713.1363204778945,
+    "duration": 5.300953753373711,
+    "p0": [
+      7.401677187043621,
+      5.699999999999999
+    ],
+    "p1": [
+      8.7,
+      5.699999999999999
+    ],
+    "yaw0": -2.4424906541753444e-15,
+    "yaw1": -2.4424906541753444e-15,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.3772905958153531,
+      "ramp": 2.6504768766868554,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        7.401677187043621,
+        5.699999999999999
+      ],
+      "p1": [
+        8.7,
+        5.699999999999999
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 1.2983228129563784,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 1.2983228129563784,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.729183170626797,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 101,
+    "kind": "WORK",
+    "t0": 713.1363204778945,
+    "t1": 718.590464934018,
+    "duration": 5.454144456123433,
+    "p0": [
+      8.7,
+      5.699999999999999
+    ],
+    "p1": [
+      8.799999999999999,
+      5.799999999999999
+    ],
+    "yaw0": -2.4424906541753444e-15,
+    "yaw1": 1.5707963267948941,
+    "steer0": 1.4181469983996315,
+    "steer1": 1.4181469983996315,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.3666936246535561,
+      "ramp": 2.7270722280617163,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        8.7,
+        5.799999999999999
+      ],
+      "radius": 0.1,
+      "angle0": -1.5707963267948966,
+      "sweep": 1.5707963267948966
+    },
+    "curve_bounds": {
+      "speed_u": 0.15707963267948966,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 1.5707963267948966,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 10.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.15707963267948966,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.923647855099672,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0
+  },
+  {
+    "id": 102,
+    "kind": "WORK",
+    "t0": 718.590464934018,
+    "t1": 721.5827054471393,
+    "duration": 2.9922405131213434,
+    "p0": [
+      8.799999999999999,
+      5.799999999999999
+    ],
+    "p1": [
+      8.799999999999999,
+      6.199999999999999
+    ],
+    "yaw0": 1.5707963267948941,
+    "yaw1": 1.5707963267948941,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.6683954686228442,
+      "ramp": 1.4961202565606717,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        8.799999999999999,
+        5.799999999999999
+      ],
+      "p1": [
+        8.799999999999999,
+        6.199999999999999
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.40000000000000036,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.40000000000000036,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 4.063996980927261,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0
+  },
+  {
+    "id": 103,
+    "kind": "WORK",
+    "t0": 721.5827054471393,
+    "t1": 727.0368499032628,
+    "duration": 5.454144456123433,
+    "p0": [
+      8.799999999999999,
+      6.199999999999999
+    ],
+    "p1": [
+      8.7,
+      6.299999999999999
+    ],
+    "yaw0": 1.5707963267948941,
+    "yaw1": 3.1415926535897905,
+    "steer0": 1.4181469983996315,
+    "steer1": 1.4181469983996315,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.3666936246535561,
+      "ramp": 2.7270722280617163,
+      "cruise": 0.0
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "ARC",
+      "center": [
+        8.7,
+        6.199999999999999
+      ],
+      "radius": 0.1,
+      "angle0": 0.0,
+      "sweep": 1.5707963267948966
+    },
+    "curve_bounds": {
+      "speed_u": 0.15707963267948966,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 1.5707963267948966,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 10.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.15707963267948966,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 6.923647855099672,
+    "reason": "certified_dubins_cross_row",
+    "cluster": 0
+  },
+  {
+    "id": 104,
+    "kind": "WORK",
+    "t0": 727.0368499032628,
+    "t1": 744.8761741888744,
+    "duration": 17.83932428561161,
+    "p0": [
+      8.7,
+      6.299999999999999
+    ],
+    "p1": [
+      1.1639999999999997,
+      6.3
+    ],
+    "yaw0": 3.1415926535897905,
+    "yaw1": 3.1415926535897905,
+    "steer0": -0.0,
+    "steer1": -0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.06601810480534406,
+      "ramp": 2.69196428567639,
+      "cruise": 12.455395714258831
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        8.7,
+        6.3
+      ],
+      "p1": [
+        1.1639999999999997,
+        6.3
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 7.536,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 7.536,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 31.400000000000006,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 105,
+    "kind": "WORK",
+    "t0": 744.8761741888744,
+    "t1": 757.7641505930103,
+    "duration": 12.887976404135916,
+    "p0": [
+      1.1639999999999997,
+      6.3
+    ],
+    "p1": [
+      0.8999999999999999,
+      6.564
+    ],
+    "yaw0": 3.1415926535897905,
+    "yaw1": 1.570796326794894,
+    "steer0": -0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10664258083290427,
+      "ramp": 3.5108590070346937,
+      "cruise": 5.8662583900665295
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          1.1639999999999997,
+          6.3
+        ],
+        [
+          1.0951189000130641,
+          6.3
+        ],
+        [
+          1.0262378000261285,
+          6.3
+        ],
+        [
+          0.8999999999999999,
+          6.4262377193693405
+        ],
+        [
+          0.8999999999999999,
+          6.49511885968467
+        ],
+        [
+          0.8999999999999999,
+          6.564
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.4870795086245132,
+      "speed_du": 0.5715404698471145,
+      "speed_ddu": 5.807874821560946,
+      "yaw_u": 2.2131008597335624,
+      "yaw_uu": 23.214523820267285,
+      "yaw_uuu": 209.9117131715952,
+      "curvature": 6.051985408890223,
+      "curvature_u": 69.17904075741177,
+      "minimum_parameter_speed": 0.34440549993467795,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 17.87266580654439,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 106,
+    "kind": "WORK",
+    "t0": 757.7641505930103,
+    "t1": 759.453634271015,
+    "duration": 1.6894836780046005,
+    "p0": [
+      0.8999999999999999,
+      6.564
+    ],
+    "p1": [
+      0.8999999999999999,
+      6.635999999999999
+    ],
+    "yaw0": 1.570796326794894,
+    "yaw1": 1.570796326794894,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 1.1837936205232467,
+      "ramp": 0.8447418390022993,
+      "cruise": 2.0632740469540118e-15
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        0.8999999999999999,
+        6.564
+      ],
+      "p1": [
+        0.8999999999999999,
+        6.635999999999999
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.07199999999999918,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 0.07199999999999918,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 2.2946205481897572,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 107,
+    "kind": "WORK",
+    "t0": 759.453634271015,
+    "t1": 772.3416106751508,
+    "duration": 12.887976404135884,
+    "p0": [
+      0.8999999999999999,
+      6.635999999999999
+    ],
+    "p1": [
+      1.1639999999999997,
+      6.8999999999999995
+    ],
+    "yaw0": 1.570796326794894,
+    "yaw1": -2.6645352591003757e-15,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10664258084004444,
+      "ramp": 3.510859007662497,
+      "cruise": 5.8662583888108895
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          0.8999999999999999,
+          6.635999999999999
+        ],
+        [
+          0.8999999999999999,
+          6.704881099986935
+        ],
+        [
+          0.8999999999999999,
+          6.77376219997387
+        ],
+        [
+          1.0262377193693397,
+          6.8999999999999995
+        ],
+        [
+          1.0951188596846697,
+          6.8999999999999995
+        ],
+        [
+          1.1639999999999997,
+          6.8999999999999995
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.4870795086245132,
+      "speed_du": 0.5715404698470493,
+      "speed_ddu": 5.807874821555005,
+      "yaw_u": 2.2131008597335624,
+      "yaw_uu": 23.21452382026732,
+      "yaw_uuu": 209.91171317158793,
+      "curvature": 6.051985408890055,
+      "curvature_u": 69.17904075741228,
+      "minimum_parameter_speed": 0.34440549993467684,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 17.872665806544404,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 108,
+    "kind": "WORK",
+    "t0": 772.3416106751508,
+    "t1": 790.1809349607624,
+    "duration": 17.83932428561161,
+    "p0": [
+      1.1639999999999997,
+      6.8999999999999995
+    ],
+    "p1": [
+      8.7,
+      6.8999999999999995
+    ],
+    "yaw0": -2.6645352591003757e-15,
+    "yaw1": -2.6645352591003757e-15,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": true,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.06601810480534406,
+      "ramp": 2.69196428567639,
+      "cruise": 12.455395714258831
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        1.1639999999999997,
+        6.8999999999999995
+      ],
+      "p1": [
+        8.7,
+        6.8999999999999995
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 7.536,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 7.536,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 31.400000000000006,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 109,
+    "kind": "WAIT",
+    "t0": 790.1809349607624,
+    "t1": 793.1809349607624,
+    "duration": 3.0,
+    "p0": [
+      8.7,
+      6.8999999999999995
+    ],
+    "p1": [
+      8.7,
+      6.8999999999999995
+    ],
+    "yaw0": -2.6645352591003757e-15,
+    "yaw1": -2.6645352591003757e-15,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "reason": "assumed_tool_spindown"
+  },
+  {
+    "id": 110,
+    "kind": "TURN",
+    "t0": 793.1809349607624,
+    "t1": 801.0262229091663,
+    "duration": 7.845287948403914,
+    "p0": [
+      8.7,
+      6.8999999999999995
+    ],
+    "p1": [
+      8.7,
+      6.8999999999999995
+    ],
+    "yaw0": -2.6645352591003757e-15,
+    "yaw1": -3.010277214606705,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 3.010277214606705,
+      "peak": 0.5988023952082786,
+      "ramp": 2.818124999999784,
+      "cruise": 2.2090379484043465
+    },
+    "baseline_seconds": 10.181771307364206,
+    "reason": "reported_differential_pivot_fallback",
+    "cluster": 0
+  },
+  {
+    "id": 111,
+    "kind": "TRANSIT",
+    "t0": 801.0262229091663,
+    "t1": 811.6724366346326,
+    "duration": 10.646213725466307,
+    "p0": [
+      8.7,
+      6.8999999999999995
+    ],
+    "p1": [
+      3.697417153021017,
+      6.239281510776361
+    ],
+    "yaw0": -3.010277214606705,
+    "yaw1": -3.010277214606705,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.15775182527095952,
+      "ramp": 4.307142857142796,
+      "cruise": 2.0319280111807148
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        8.7,
+        6.8999999999999995
+      ],
+      "p1": [
+        3.697417153021017,
+        6.239281510776361
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 5.046026561849462,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 5.046026561849462,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 13.266176532695733,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  },
+  {
+    "id": 112,
+    "kind": "TRANSIT",
+    "t0": 811.6724366346326,
+    "t1": 823.9256215585647,
+    "duration": 12.253184923932011,
+    "p0": [
+      3.697417153021017,
+      6.239281510776361
+    ],
+    "p1": [
+      3.2720143972861075,
+      5.928670522246547
+    ],
+    "yaw0": -3.010277214606705,
+    "yaw1": -2.0115471745743143,
+    "steer0": 6.762528650662417e-14,
+    "steer1": 2.910075378130786e-14,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.10932551419358866,
+      "ramp": 3.1061892992030447,
+      "cruise": 6.040806325525923
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "BEZIER5",
+      "control": [
+        [
+          3.697417153021017,
+          6.239281510776361
+        ],
+        [
+          3.615840786563903,
+          6.22850727369712
+        ],
+        [
+          3.5342644201067888,
+          6.217733036617878
+        ],
+        [
+          3.3422228580179363,
+          6.077512458998023
+        ],
+        [
+          3.307118627652022,
+          6.003091490622285
+        ],
+        [
+          3.2720143972861075,
+          5.928670522246547
+        ]
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 0.6716505670462974,
+      "speed_du": 0.9214264753628064,
+      "speed_ddu": 9.097289032351433,
+      "yaw_u": 1.5455970832310302,
+      "yaw_uu": 18.348843690344893,
+      "yaw_uuu": 221.83543774895315,
+      "curvature": 3.378139464315523,
+      "curvature_u": 46.716565655369884,
+      "minimum_parameter_speed": 0.41142397607473835,
+      "bound_method": "subdivided Bernstein derivative convex-hull bounds",
+      "subdivision_depth": 4
+    },
+    "baseline_seconds": 16.490268811691227,
+    "reason": "certified_coverage_preserving_blend",
+    "cluster": 0
+  },
+  {
+    "id": 113,
+    "kind": "TRANSIT",
+    "t0": 823.9256215585647,
+    "t1": 835.2175572905746,
+    "duration": 11.291935732010007,
+    "p0": [
+      3.2720143972861075,
+      5.928670522246547
+    ],
+    "p1": [
+      0.8999999999999999,
+      0.9000000000000004
+    ],
+    "yaw0": -2.0115471745743143,
+    "yaw1": -2.0115471745743143,
+    "steer0": 0.0,
+    "steer1": 0.0,
+    "tool_on": false,
+    "trajectory_v2": true,
+    "profile": {
+      "distance": 1.0,
+      "peak": 0.14316816802845903,
+      "ramp": 4.307142856814317,
+      "cruise": 2.6776500183813723
+    },
+    "parameter": "u",
+    "curve": {
+      "type": "LINE",
+      "p0": [
+        3.2720143972861075,
+        5.928670522246547
+      ],
+      "p1": [
+        0.8999999999999999,
+        0.8999999999999999
+      ]
+    },
+    "curve_bounds": {
+      "speed_u": 5.560034129593444,
+      "speed_du": 0.0,
+      "speed_ddu": 0.0,
+      "yaw_u": 0.0,
+      "yaw_uu": 0.0,
+      "yaw_uuu": 0.0,
+      "curvature": 0.0,
+      "curvature_u": 0.0,
+      "minimum_parameter_speed": 5.560034129593444,
+      "bound_method": "analytic line/constant-curvature arc"
+    },
+    "baseline_seconds": 14.479255545816262,
+    "reason": "retained_certified_straight",
+    "cluster": 0
+  }
+]

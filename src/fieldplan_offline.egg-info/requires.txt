@@ -1,9 +1,0 @@
-shapely>=2.0
-networkx>=3.0
-numpy>=1.24
-
-[metis]
-pymetis>=2023.1
-
-[ml]
-scikit-learn>=1.3
